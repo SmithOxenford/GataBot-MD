@@ -4,7 +4,7 @@ let handler = async (m, { conn }) => {
 let grupos = [nna, nn, nnn, nnnt]
 let gata = [img5, img6, img7, img8, img9]
 let enlace = { contextInfo: { externalAdReply: {title: wm + ' 🐈', body: 'support group' , sourceUrl: grupos.getRandom(), thumbnail: await(await fetch(gata.getRandom())).buffer() }}}
-let enlace2 = { contextInfo: { externalAdReply: { showAdAttribution: true, mediaUrl: yt, mediaType: 'VIDEO', description: '', title: wm, body: '😻 𝗦𝘂𝗽𝗲𝗿 𝗚𝗮𝘁𝗮𝗕𝗼𝘁-𝗠𝗗 - 𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽 ', thumbnailUrl: await(await fetch(img)).buffer(), sourceUrl: yt }}}
+let enlace2 = { contextInfo: { externalAdReply: { showAdAttribution: true, mediaUrl: yt, mediaType: 'VIDEO', description: '', title: wm, body: '😻 𝗦𝘂𝗽𝗲𝗿 𝗠𝗮𝗸𝗮𝗻𝗮𝗸𝘆𝗕𝗼𝘁-𝗠𝗗 - 𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽 ', thumbnailUrl: await(await fetch(img)).buffer(), sourceUrl: yt }}}
 let dos = [enlace, enlace2]  
 
 let name = global.db.data.users[m.sender].name
@@ -28,23 +28,23 @@ let peces = `🌊🌊 𝗣𝗜𝗦𝗖𝗜𝗡𝗔 𝗗𝗘 𝗣𝗘𝗖𝗘𝗦
 👤» *${name}*
 
 ╭━━━━━━━━━⬣ 
-┃ *𝗣𝗜𝗦𝗖𝗜𝗡𝗔 𝗗𝗘 𝗣𝗘𝗖𝗘𝗦 : 𝗙𝗜𝗦𝗛 𝗣𝗢𝗢𝗟*
+┃ *𝗣𝗜𝗦𝗖𝗜𝗡𝗔 𝗗𝗘 𝗣𝗘𝗖𝗘𝗦 :*
 ┃ *╸╸╸╸╸╸╸╸╸╸╸╸╸╸*
-┃ 🦈 *Tiburón : Shark » ${hiu}*
-┃ 🐟 *Pez : Fish » ${ikan}*
-┃ 🐠 *Dory : Surgeonfish » ${dory}*
-┃ 🐋 *Orca : Killer whale » ${orca}*
-┃ 🐳 *Ballena : Whale » ${paus}*
-┃ 🦑 *Calamar : Squid » ${cumi}*
-┃ 🐙 *Pulpo : Octopus » ${gurita}*
-┃ 🐡 *Pez Globo : Blowfish » ${buntal}*
-┃ 🦐 *Camarón : Shrimp » ${udang}*
-┃ 🐬 *Delfín : Dolphin » ${lumba}*
-┃ 🦞 *Langosta : Lobster » ${lobster}*
-┃ 🦀 *Cangrejo : Crab » ${kepiting}*
+┃ 🦈 *Tiburón : » ${hiu}*
+┃ 🐟 *Pez : » ${ikan}*
+┃ 🐠 *Dory : » ${dory}*
+┃ 🐋 *Orca : » ${orca}*
+┃ 🐳 *Ballena : » ${paus}*
+┃ 🦑 *Calamar : » ${cumi}*
+┃ 🐙 *Pulpo : » ${gurita}*
+┃ 🐡 *Pez Globo : » ${buntal}*
+┃ 🦐 *Camarón : » ${udang}*
+┃ 🐬 *Delfín : » ${lumba}*
+┃ 🦞 *Langosta : » ${lobster}*
+┃ 🦀 *Cangrejo : » ${kepiting}*
 ╰━━━━━━━━━⬣
 🎏 *Total: ${paus + kepiting + gurita + cumi + buntal + dory + lumba + lobster + hiu + udang + ikan + orca}*`.trim()
-await conn.sendButton(m.chat, wm, peces, img5, [['𝙑𝙤𝙡𝙫𝙚𝙧 𝙖𝙡 𝙈𝙚𝙣𝙪́ | 𝘽𝙖𝙘𝙠 𝙩𝙤 𝙈𝙚𝙣𝙪 ☘️', '/menu']], m, dos.getRandom())
+await conn.sendButton(m.chat, wm, peces, img5, [['𝙑𝙤𝙡𝙫𝙚𝙧 𝙖𝙡 𝙈𝙚𝙣𝙪́ ☘️', '/menu']], m, dos.getRandom())
 //conn.sendButton(m.chat, peces, `${wm}`, [['Pasar', '#pasar']], m)
 }
 handler.help = ['kotakikan', 'kolam', 'kolamikan']

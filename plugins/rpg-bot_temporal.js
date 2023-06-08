@@ -6,25 +6,25 @@ try {
 let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
 
 let grupos = [nna, nn, nnn, nnnt, nnntt, nnnttt]
-let gata = [img5, img6, img7, img8, img9]
-let enlace = { contextInfo: { externalAdReply: {title: wm + ' 🐈', body: 'support group' , sourceUrl: grupos.getRandom(), thumbnail: await(await fetch(gata.getRandom())).buffer() }}}
+let MAKANAKY = [img5, img6, img7, img8, img9]
+let enlace = { contextInfo: { externalAdReply: {title: wm + ' 🐈', body: 'support group' , sourceUrl: grupos.getRandom(), thumbnail: await(await fetch(MAKANAKY.getRandom())).buffer() }}}
 let enlace2 = { contextInfo: { externalAdReply: { showAdAttribution: true, mediaUrl: yt, mediaType: 'VIDEO', description: '', title: wm, body: '😻 𝗦𝘂𝗽𝗲𝗿 𝗚𝗮𝘁𝗮𝗕𝗼𝘁-𝗠𝗗 - 𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽 ', thumbnailUrl: await(await fetch(img)).buffer(), sourceUrl: yt }}}
 let dos = [enlace, enlace2]  
 
-let texto0 = `${ag}𝙈𝙄 𝘾𝙍𝙀𝘼𝘿𝙊𝙍(𝘼) 𝙃𝘼 𝙍𝙀𝙎𝙏𝙍𝙄𝙉𝙂𝙄𝘿𝙊 𝙀𝙎𝙏𝘼 𝙁𝙐𝙉𝘾𝙄𝙊𝙉 𝘿𝙀 𝙄𝙉𝙂𝙍𝙀𝙎𝘼𝙍 𝙀𝙇 𝘽𝙊𝙏 𝙏𝙀𝙈𝙋𝙊𝙍𝘼𝙇𝙈𝙀𝙉𝙏𝙀 𝘼 𝙂𝙍𝙐𝙋𝙊𝙎 𝙑𝙐𝙀𝙇𝙑𝘼 𝙈𝘼𝙎 𝙏𝘼𝙍𝘿𝙀 𝙊 𝙐𝙎𝙀 𝙇𝘼 𝙁𝙐𝙉𝘾𝙄𝙊𝙉 *${usedPrefix}serbot*\n\n𝙈𝙔 𝘾𝙍𝙀𝘼𝙏𝙊𝙍 𝙃𝘼𝙎 𝙍𝙀𝙎𝙏𝙍𝙄𝘾𝙏𝙀𝘿 𝙏𝙃𝙄𝙎 𝙁𝙐𝙉𝘾𝙏𝙄𝙊𝙉 𝙊𝙁 𝙀𝙉𝙏𝙀𝙍𝙄𝙉𝙂 𝙏𝙃𝙀 𝘽𝙊𝙏 𝙏𝙀𝙈𝙋𝙊𝙍𝘼𝙍𝙄𝙇𝙔 𝙏𝙊 𝙂𝙍𝙊𝙐𝙋𝙎 𝘾𝙊𝙈𝙀 𝘽𝘼𝘾𝙆 𝙇𝘼𝙏𝙀𝙍 𝙊𝙍 𝙐𝙎𝙀 𝙏𝙃𝙀 𝙁𝙐𝙉𝘾𝙏𝙄𝙊𝙉 *${usedPrefix}jadibot*`
-let texto1 = `${mg}𝙐𝙎𝙀 𝙀𝙇 𝘾𝙊𝙈𝘼𝙉𝘿𝙊 𝘾𝙊𝙈𝙊 𝙀𝙎𝙏𝙀 𝙀𝙅𝙀𝙈𝙋𝙇𝙊\n*${usedPrefix + command} enlace de Grupo y Número de Token(s)*\n*${usedPrefix + command} ${grupos.getRandom()} 3*\n\n*3* 𝙏𝙊𝙆𝙀𝙉 🪙 = *30* 𝙈𝙄𝙉𝙐𝙏𝙊𝙎\n\n𝙐𝙎𝙀 𝙏𝙃𝙀 𝘾𝙊𝙈𝙈𝘼𝙉𝘿 𝙇𝙄𝙆𝙀 𝙏𝙃𝙄𝙎 𝙀𝙓𝘼𝙈𝙋𝙇𝙀\n*${usedPrefix + command} ${grupos.getRandom()} 3*\n\n*3* 𝙏𝙊𝙆𝙀𝙉𝙎 🪙 = *30* 𝙈𝙄𝙉𝙐𝙏𝙀𝙎`
-let texto2 = `${ag}¡𝙔𝘼 𝙉𝙊 𝙏𝙄𝙀𝙉𝙀𝙎 𝙏𝙊𝙆𝙀𝙉𝙎! 🪙\n\n𝘾𝙊𝙈𝙋𝙍𝘼 𝙏𝙊𝙆𝙀𝙉𝙎 𝙋𝘼𝙍𝘼 𝙋𝙊𝘿𝙀𝙍 𝙐𝙉𝙄𝙍 𝙂𝘼𝙏𝘼𝘽𝙊𝙏 𝘼 𝙏𝙐 𝙂𝙍𝙐𝙋𝙊 𝘾𝙊𝙉 𝙀𝙇 𝘾𝙊𝙈𝘼𝙉𝘿𝙊:\n*${usedPrefix}buy joincount 3*\n\n𝙔𝙊𝙐 𝙉𝙊 𝙇𝙊𝙉𝙂𝙀𝙍 𝙃𝘼𝙑𝙀 𝙏𝙊𝙆𝙀𝙉𝙎! 🪙\n\n𝘽𝙐𝙔 𝙏𝙊𝙆𝙀𝙉𝙎 𝙏𝙊 𝘽𝙀 𝘼𝘽𝙇𝙀 𝙏𝙊 𝙄𝙉𝙑𝙄𝙏𝙀 𝙂𝘼𝙏𝘼𝘽𝙊𝙏 𝙏𝙊 𝙔𝙊𝙐𝙍 𝙂𝙍𝙊𝙐𝙋 𝙒𝙄𝙏𝙃 𝙏𝙃𝙀 𝘾𝙊𝙈𝙈𝘼𝙉𝘿 *${usedPrefix}buy joincount 3*`
-let texto3 = `${fg}𝙀𝙉𝙇𝘼𝘾𝙀 𝙉𝙊 𝙑𝘼𝙇𝙄𝘿𝙊. 𝘿𝙀𝘽𝙀 𝙎𝙀𝙍 𝙀𝙉𝙇𝘼𝘾𝙀 𝘿𝙀 𝙂𝙍𝙐𝙋𝙊 𝘿𝙀 𝙒𝙃𝘼𝙏𝙎𝘼𝙋𝙋\n*${usedPrefix + command} ${grupos.getRandom()} 3*\n\n𝙄𝙉𝙑𝘼𝙇𝙄𝘿 𝙇𝙄𝙉𝙆. 𝙈𝙐𝙎𝙏 𝘽𝙀 𝙒𝙃𝘼𝙏𝙎𝘼𝙋𝙋 𝙂𝙍𝙊𝙐𝙋 𝙇𝙄𝙉𝙆\n*${usedPrefix + command} ${grupos.getRandom()} 3*`
-let texto4 = `${mg}𝙄𝙉𝙂𝙍𝙀𝙎𝙀 𝙀𝙇 𝙉𝙐𝙈𝙀𝙍𝙊 𝘿𝙀 𝙏𝙊𝙆𝙀𝙉(𝙎)\n*3* 𝙏𝙊𝙆𝙀𝙉 🪙 = *30* 𝙈𝙄𝙉𝙐𝙏𝙊𝙎\n\n𝙀𝙉𝙏𝙀𝙍 𝙏𝙃𝙀 𝙉𝙐𝙈𝘽𝙀𝙍 𝙊𝙁 𝙏𝙊𝙆𝙀𝙉𝙎\n*3* 𝙏𝙊𝙆𝙀𝙉𝙎 🪙 = *30* 𝙈𝙄𝙉𝙐𝙏𝙀𝙎`
-let texto5 = `${fg}𝙈𝙄𝙉𝙄𝙈𝙊 *3* 𝙏𝙊𝙆𝙀𝙉(𝙎) 𝙋𝘼𝙍𝘼 𝙋𝙊𝘿𝙀𝙍 𝙐𝙉𝙄𝙍 𝘼 𝙂𝘼𝙏𝘼𝘽𝙊𝙏\n\n𝙈𝙄𝙉𝙄𝙈𝙐𝙈 *3* 𝙏𝙊𝙆𝙀𝙉𝙎 𝙏𝙊 𝘽𝙀 𝘼𝘽𝙇𝙀 𝙏𝙊 𝙅𝙊𝙄𝙉 𝙂𝘼𝙏𝘼𝘽𝙊𝙏`
-let texto6 = `${fg}𝙈𝘼𝙓𝙄𝙈𝙊 *3* 𝙏𝙊𝙆𝙀𝙉(𝙎) 𝙋𝘼𝙍𝘼 𝙋𝙊𝘿𝙀𝙍 𝙐𝙉𝙄𝙍 𝘼 𝙂𝘼𝙏𝘼𝘽𝙊𝙏\n\n𝙈𝘼𝙓𝙄𝙈𝙐𝙈 *3* 𝙏𝙊𝙆𝙀𝙉𝙎 𝙏𝙊 𝘽𝙀 𝘼𝘽𝙇𝙀 𝙏𝙊 𝙅𝙊𝙄𝙉 𝙂𝘼𝙏𝘼𝘽𝙊𝙏`
-let texto7 = `${eg}😻 𝙎𝙀 𝙃𝘼 𝙐𝙉𝙄𝘿𝙊 𝙂𝘼𝙏𝘼𝘽𝙊𝙏 𝘼𝙇 𝙂𝙍𝙐𝙋𝙊!!!\n\n𝙂𝘼𝙏𝘼𝘽𝙊𝙏 𝙃𝘼𝙎 𝙅𝙊𝙄𝙉𝙀𝘿 𝙏𝙃𝙀 𝙂𝙍𝙊𝙐𝙋!!!`
+let texto0 = `${ag}𝙈𝙄 𝘾𝙍𝙀𝘼𝘿𝙊𝙍 𝘼𝘿𝙍𝙄𝘼𝙉𝙊 𝙎𝘼́𝙉𝘾𝙃𝙀𝙕 𝙃𝘼 𝙍𝙀𝙎𝙏𝙍𝙄𝙉𝙂𝙄𝘿𝙊 𝙀𝙎𝙏𝘼 𝙁𝙐𝙉𝘾𝙄𝙊𝙉 𝘿𝙀 𝙄𝙉𝙂𝙍𝙀𝙎𝘼𝙍 𝙀𝙇 𝘽𝙊𝙏 𝙏𝙀𝙈𝙋𝙊𝙍𝘼𝙇𝙈𝙀𝙉𝙏𝙀 𝘼 𝙂𝙍𝙐𝙋𝙊𝙎 𝙑𝙐𝙀𝙇𝙑𝘼 𝙈𝘼𝙎 𝙏𝘼𝙍𝘿𝙀 𝙊 𝙐𝙎𝙀 𝙇𝘼 𝙁𝙐𝙉𝘾𝙄𝙊𝙉 *${usedPrefix}serbot*`
+let texto1 = `${mg}𝙐𝙎𝙀 𝙀𝙇 𝘾𝙊𝙈𝘼𝙉𝘿𝙊 𝘾𝙊𝙈𝙊 𝙀𝙎𝙏𝙀 𝙀𝙅𝙀𝙈𝙋𝙇𝙊\n*${usedPrefix + command} enlace de Grupo y Número de Token(s)*\n*${usedPrefix + command} ${grupos.getRandom()} 3*`
+let texto2 = `${ag}¡𝙔𝘼 𝙉𝙊 𝙏𝙄𝙀𝙉𝙀𝙎 𝙏𝙊𝙆𝙀𝙉𝙎! 🪙\n\n𝘾𝙊𝙈𝙋𝙍𝘼 𝙏𝙊𝙆𝙀𝙉𝙎 𝙋𝘼𝙍𝘼 𝙋𝙊𝘿𝙀𝙍 𝙐𝙉𝙄𝙍 𝙈𝘼𝙆𝘼𝙉𝘼𝙆𝙔𝘽𝙊𝙏 𝘼 𝙏𝙐 𝙂𝙍𝙐𝙋𝙊 𝘾𝙊𝙉 𝙀𝙇 𝘾𝙊𝙈𝘼𝙉𝘿𝙊:`
+let texto3 = `${fg}𝙀𝙉𝙇𝘼𝘾𝙀 𝙉𝙊 𝙑𝘼𝙇𝙄𝘿𝙊. 𝘿𝙀𝘽𝙀 𝙎𝙀𝙍 𝙀𝙉𝙇𝘼𝘾𝙀 𝘿𝙀 𝙂𝙍𝙐𝙋𝙊 𝘿𝙀 𝙒𝙃𝘼𝙏𝙎𝘼𝙋𝙋\n*${usedPrefix + command} ${grupos.getRandom()} 3*`
+let texto4 = `${mg}𝙄𝙉𝙂𝙍𝙀𝙎𝙀 𝙀𝙇 𝙉𝙐𝙈𝙀𝙍𝙊 𝘿𝙀 𝙏𝙊𝙆𝙀𝙉(𝙎)\n*3* 𝙏𝙊𝙆𝙀𝙉 🪙 = *30* 𝙈𝙄𝙉𝙐𝙏𝙊𝙎`
+let texto5 = `${fg}𝙈𝙄𝙉𝙄𝙈𝙊 *3* 𝙏𝙊𝙆𝙀𝙉(𝙎) 𝙋𝘼𝙍𝘼 𝙋𝙊𝘿𝙀𝙍 𝙐𝙉𝙄𝙍 𝘼 𝙈𝘼𝙆𝘼𝙉𝘼𝙆𝙔𝘽𝙊𝙏`
+let texto6 = `${fg}𝙈𝘼𝙓𝙄𝙈𝙊 *3* 𝙏𝙊𝙆𝙀𝙉(𝙎) 𝙋𝘼𝙍𝘼 𝙋𝙊𝘿𝙀𝙍 𝙐𝙉𝙄𝙍 𝘼 𝙈𝘼𝙆𝘼𝙉𝘼𝙆𝙔𝘽𝙊𝙏`
+let texto7 = `${eg}😻 𝙎𝙀 𝙃𝘼 𝙐𝙉𝙄𝘿𝙊 𝙈𝘼𝙆𝘼𝙉𝘼𝙆𝙔𝘽𝙊𝙏 𝘼𝙇 𝙂𝙍𝙐𝙋𝙊!!!`
 
 let img1 = 'https://img.freepik.com/vector-premium/animacion-monedas-pixeles-imagenes-animacion-moneda-oro-ilustracion-vectorial_350225-3.jpg?w=2000'
 let img2 ='https://img.freepik.com/premium-vector/set-8bit-pixel-graphics-icons-game-art-coins-gold-animation_534389-12.jpg?w=2000'
 
 if (!global.db.data.settings[conn.user.jid].temporal) return await conn.reply(m.chat, texto0, fkontak, m)  
-//conn.sendButton( m.chat, wm, texto0, null, [[`🙌 𝙎𝙊𝙇𝙄𝘾𝙄𝙏𝘼𝙍 𝘾𝙊𝙈𝘼𝙉𝘿𝙊`, `.reporte *Quiero unir a GataBot en mí Grupo. Por favor Active la función #botemporal*`], [`🍀 𝙈 𝙀 𝙉 𝙐`, `.menu`]], fkontak, m) 
+//conn.sendButton( m.chat, wm, texto0, null, [[`🙌 𝙎𝙊𝙇𝙄𝘾𝙄𝙏𝘼𝙍 𝘾𝙊𝙈𝘼𝙉𝘿𝙊`, `.reporte *Quiero unir a MAKANAKYBot en mí Grupo. Por favor Active la función #botemporal*`], [`🍀 𝙈 𝙀 𝙉 𝙐`, `.menu`]], fkontak, m) 
 
 if (!args[0]) return await conn.reply(m.chat, texto1, fkontak, m)  
 let [_, code] = args[0].match(linkRegex) || []
@@ -67,13 +67,13 @@ let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? c
 let mentionedJid = [who]
 let username = conn.getName(who)
   
-if (user.joincount === 0 ) throw `${ag}*¡YA NO TIENES TOKENS! 🪙*\n\n*COMPRA TOKENS PARA PODER INVITAR A GATABOT A TÚ GRUPO CON EL COMANDO *${usedPrefix}buy joincount 3 o ${usedPrefix}buy Para ver la Tienda*`
+if (user.joincount === 0 ) throw `${ag}*¡YA NO TIENES TOKENS! 🪙*\n\n*COMPRA TOKENS PARA PODER INVITAR A MAKANAKYBOT A TÚ GRUPO CON EL COMANDO *${usedPrefix}buy joincount 3 o ${usedPrefix}buy Para ver la Tienda*`
  if (!args[1]) throw `${mg}*USE EL COMANDO COMO ESTE EJEMPLO*\n*${usedPrefix + command} enlace y Número de Token(s)*\n\n*EJEMPLO*\n*${usedPrefix + command} ${nn} 3*\n\n*3 TOKEN 🪙 = 30 MINUTOS*`
 if (!linkRegex.test(args[0])) throw `${fg}𝙀𝙉𝙇𝘼𝘾𝙀 𝙉𝙊 𝙑𝘼𝙇𝙄𝘿𝙊.` //Aquí 
 
 await delay(3 * 3000)
 let res = await conn.groupAcceptInvite(code) 
-conn.reply(m.chat, `${eg}😻 *SE HA UNIDO GATABOT AL GRUPO!!!*`, m).then(async() => { //Si el Owner se une al Grupo no habrá temporizador
+conn.reply(m.chat, `${eg}😻 *SE HA UNIDO MAKANAKYBOT AL GRUPO!!!*`, m).then(async() => { //Si el Owner se une al Grupo no habrá temporizador
 let img = 'https://i.imgur.com/8fK4h6F.jpg'
  var jumlahHari = 600000 * args[1] // 10 minutos | Owner
  var now = new Date() * 1
@@ -89,7 +89,7 @@ let data = (await conn.onWhatsApp(jid))[0] || {}
   if (data.exists) 
     conn.reply(m.chat, `@${m.sender.split`@`[0]} adicional ${conn.user.name} a ${await conn.getName(res)}\njid: ${res}, el bot se apagará a tiempo: ${msToDate(global.db.data.chats[res].expired - now)}`, data.jid, m)
                 
-} conn.sendButton(m.chat, '', wm, null, [['Creadora', `/creadora`], ['𝙑𝙤𝙡𝙫𝙚𝙧 𝙖𝙡 𝙈𝙚𝙣𝙪́ | 𝘽𝙖𝙘𝙠 𝙩𝙤 𝙈𝙚𝙣𝙪 ☘️', '/menu']], m, res) })}
+} conn.sendButton(m.chat, '', wm, null, [['Creador', `/creador`], ['𝙑𝙤𝙡𝙫𝙚𝙧 𝙖𝙡 𝙈𝙚𝙣𝙪́ ☘️', '/menu']], m, res) })}
 } catch (e) {
 await conn.reply(m.chat, `${fg}\`\`\`POSIBLES CAUSAS
 - El enlace esta incorrecto o caducado.
