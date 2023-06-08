@@ -9,7 +9,7 @@ contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: nul
 title: '𝙏𝙃𝙀 𝙈𝘼𝙆𝘼𝙉𝘼𝙆𝙔 - 𝘽𝙊𝙏 | 𝘼𝘿𝙍𝙄𝘼𝙉𝙊 𝙎𝘼𝙉𝘾𝙃𝙀𝙕',
 body: 'Super Bot WhatsApp',         
 previewType: 0, thumbnail: fs.readFileSync("./media/menus/Menu3.jpg"),
-sourceUrl: `https://github.com/SmithOxenford/MakanakyaBot-MD`}}}) 
+sourceUrl: `https://github.com/SmithOxenford/MakanakyBot-MD`}}}) 
   
 let res = await fetch("https://violetics.pw/api/media/youtube-play?apikey=beta&query="+text)
 //https://leyscoders-api.herokuapp.com/api/playmp3?q=lebih%20baik%20darinya&apikey=Your_Key
