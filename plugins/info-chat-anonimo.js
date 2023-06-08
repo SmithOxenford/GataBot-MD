@@ -65,7 +65,7 @@ let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? c
 let mentionedJid = [who]
 let username = conn.getName(who)
 
-let chat = `👤 *El chat Anónimo funciona solo al privado del Bot.*
+let chat = `👤 *El chat Anónimo funciona solo al privado del Bot Makanaky.*
 
 👥 Consiste en usar el número del Bot para hablar con otras personas, es decir las dos personas estarán a la vez escribiendo por el chat privado del Bot, de esa manera ninguna 🔒de las dos personas pueden ver su número, Foto, usuario, descripción etc... 🔒
 
