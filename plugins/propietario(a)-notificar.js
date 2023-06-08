@@ -1,4 +1,4 @@
-const linkRegex = /chat.whatsapp.com\/([0-9A-Za-z]{20,24})( [0-9]{1,3})?/i
+/*const linkRegex = /chat.whatsapp.com\/([0-9A-Za-z]{20,24})( [0-9]{1,3})?/i
 const grupo = nna
 let handler = async (m, { conn, text, usedPrefix, command, participants, groupMetadata }) => {
 let users = m.sender.split`@`[0]
@@ -20,4 +20,4 @@ await m.reply('```USTED NO TIENE AUTORIZACIÓN PARA USAR ESTE COMANDO.```')}
 }
 handler.command = ['mensajeoficial']
 handler.owner = true
-export default handler
+export default handler*/
