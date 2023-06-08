@@ -98,7 +98,7 @@ let menu = `${lenguajeGB['smsConfi2']()} *${user.genero === 0 ? '👤' : user.ge
 
 ⊜ *Experiencia ➟* ${exp} ⚡
 ⊜ *Diamantes ➟* ${limit} 💎
-⊜ *MakanakyCoins ➟* ${money} 🐈
+⊜ *MakanakyCoins ➟* ${money} 
 ⊜ *Tokens ➟* ${joincount} 🪙
 ${readMore}
 *╭━〔 INFORMACIÓN DE MAKANAKYBOT 〕⬣*
@@ -240,7 +240,7 @@ ${readMore}
 ┃🧾➺ _${usedPrefix}vergrupo_
 *╰━━━━━━━━━━━━⬣*
 
-*╭━[ DESCARGAS | DOWNLOADS ]━⬣*
+*╭━[ DESCARGAS ]━⬣*
 ┃🚀➺ _${usedPrefix}imagen | image *texto*_
 ┃🚀➺ _${usedPrefix}pinterest | dlpinterest *texto*_
 ┃🚀➺ _${usedPrefix}wallpaper|wp *texto*_
@@ -580,7 +580,10 @@ ${readMore}
 ┃💎 _${usedPrefix}unete *enlace*_
 ┃💎➺ _${usedPrefix}dardiamantes *cantidad*_
 ┃💎➺ _${usedPrefix}darxp *cantidad*_
-┃💎➺ _${usedPrefix}dargatacoins *cantidad*_
+┃💎➺ _${usedPrefix}dar
+
+
+coins *cantidad*_
 ┃💎➺ _${usedPrefix}addprem | userpremium *@tag* *cantidad*_
 ┃💎➺ _${usedPrefix}addprem2 | userpremium2 *@tag* *cantidad*_
 ┃💎➺ _${usedPrefix}addprem3 | userpremium3 *@tag* *cantidad*_
