@@ -9,7 +9,6 @@ let teks = `*⺀𝙸 𝙽 𝚅 𝙾 𝙲 𝙰 𝙽 𝙳 𝙾 - 𝙶 𝚁 𝚄 �
 for (let mem of participants) {
 teks += `┣➥ @${mem.id.split('@')[0]}\n`}
 teks += `┃\n`
-teks += `┃ ${wm}\n`
 teks += `*└* 𝚃𝙷𝙴 𝙼𝙰𝙺𝙰𝙽𝙰𝙺𝚈 - 𝙱𝙾𝚃\n\n<3`
 conn.sendMessage(m.chat, { text: teks, mentions: participants.map(a => a.id) }, )  
 }
