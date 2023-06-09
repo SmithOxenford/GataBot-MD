@@ -574,7 +574,7 @@ ${readMore}
 *╰━━━━━━━━━━━━⬣*
 
 *╭━[ MENU PARA PROPIETARIO/A ]━⬣*
-┃ *Comandos solo para Propietario/a!!*
+┃ *Comandos solo para Propietario Adriano Sánchez!!*
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ┃💎 _${usedPrefix}join *enlace*_
 ┃💎 _${usedPrefix}unete *enlace*_
@@ -597,7 +597,7 @@ coins *cantidad*_
 ┃💎➺ _${usedPrefix}comunicargrupos *texto*_
 ┃💎➺ _${usedPrefix}borrartmp | cleartmp_
 ┃💎➺ _${usedPrefix}delexp *@tag*_
-┃💎➺ _${usedPrefix}delgatacoins *@tag*_
+┃💎➺ _${usedPrefix}delmakanakycoins *@tag*_
 ┃💎➺ _${usedPrefix}deldiamantes *@tag*_
 ┃💎➺ _${usedPrefix}reiniciar | restart_
 ┃💎➺ _${usedPrefix}ctualizar | update_
@@ -606,7 +606,7 @@ coins *cantidad*_
 ┃💎➺ _${usedPrefix}listapremium | listprem_
 ┃💎➺ _${usedPrefix}añadirdiamantes *@tag cantidad*_
 ┃💎➺ _${usedPrefix}añadirxp *@tag cantidad*_
-┃💎➺ _${usedPrefix}añadirgatacoins *@tag cantidad*_
+┃💎➺ _${usedPrefix}añadirmakanakycoins *@tag cantidad*_
 *╰━━━━━━━━━━━━⬣*`.trim()
 await conn.sendFile(m.chat, gataVidMenu.getRandom(), 'gata.mp4', menu, fkontak)
 	
