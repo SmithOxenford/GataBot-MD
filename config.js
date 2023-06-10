@@ -12,7 +12,7 @@ import { en, es, id, ar, pt, fr } from './lib/idiomas/total-idiomas.js'
 //⊱ ━━━━━.⋅ Añada los numeros a ser Propietario/a | Add the numbers to be Owner ⋅.━━━━ ⊰  
 
 global.owner = [
-  ['51936933624', '𝙈𝙖𝙠𝙖𝙣𝙖𝙠𝙮𝘽𝙤𝙩-𝙈𝘿 💖', true],  
+  ['51936933624', '𝐓𝐇𝐄 𝐌𝐀𝐊𝐀𝐍𝐀𝐊𝐘 - 🤖', true],  
   ['51986206184', '𝙊𝙬𝙣𝙚𝙧 (1) 💻', true],
   ['51986206184', '𝘾𝙪𝙨𝙩𝙤𝙢𝙚𝙧 𝙎𝙪𝙥𝙥𝙤𝙧𝙩 🥏', true],
   ['51986206184', '𝘼𝙙𝙧𝙞𝙖𝙣𝙤 𝙎𝙖𝙣𝙘𝙝𝙚𝙯', true],
@@ -113,15 +113,15 @@ global.desc = '' //agrega una descripción corta
 global.desc2 = '' //agrega una descripción larga (Solo se aplicará si su whasapp no tiene descripción)
 global.country = '' //agrega tú país ejemplo: 🇪🇨
 
-global.packname = '𝙈𝙖𝙠𝙖𝙣𝙖𝙠𝙮𝘽𝙤𝙩-𝙈𝘿'
-global.author = '𝘼𝙙𝙧𝙞𝙖𝙣𝙤 𝙎𝙖́𝙣𝙘𝙝𝙚𝙯'
+global.packname = '𝐓𝐇𝐄 𝐌𝐀𝐊𝐀𝐍𝐀𝐊𝐘 - 🤖'
+global.author = '𝐀𝐃𝐑𝐈𝐀𝐍𝐎 𝐒𝐀𝐍𝐂𝐇𝐄𝐙'
 
 //⊱ ━━━━━.⋅ Versión | Nombre | cuentas ⋅.━━━━ ⊰
 
 global.vs = '1.4.9'
 global.vsJB = '2.0'
 
-global.gt = '𝙈𝙖𝙠𝙖𝙣𝙖𝙠𝙮𝘽𝙤𝙩-𝙈𝘿'
+global.gt = '𝐓𝐇𝐄 𝐌𝐀𝐊𝐀𝐍𝐀𝐊𝐘 - 🤖'
 global.yt = 'https://www.instagram.com/adri2.pc'
 global.yt2 = 'https://www.instagram.com/adri2.pc'
 global.ig = 'https://www.instagram.com/adri2.pc'
@@ -146,25 +146,25 @@ global.asistencia = 'Wa.me/51986206184' //Dudas? escríbeme...
 
 //⊱ ━━━━━━━━━━━━━.⋅ Datos ⋅.━━━━━━━━━━━━━━ ⊰
 
-global.rg = '╰⊱✅⊱ *𝙍𝙀𝙎𝙐𝙇𝙏𝘼𝘿𝙊* ⊱✅⊱╮\n\n'
+global.rg = '╰⊱✅⊱ 𝐑𝐄𝐒𝐔𝐋𝐓𝐀𝐃𝐎 ⊱✅⊱╮\n\n'
 global.resultado = rg
 
-global.ag = '╰⊱⚠️⊱ *𝘼𝘿𝙑𝙀𝙍𝙏𝙀𝙉𝘾𝙄𝘼* ⊱⚠️⊱╮\n\n'
+global.ag = '╰⊱⚠️⊱ 𝐀𝐃𝐕𝐄𝐑𝐓𝐄𝐍𝐂𝐈𝐀 ⊱⚠️⊱╮\n\n'
 global.advertencia = ag
 
-global.iig = '╰⊱❕⊱ *𝙄𝙉𝙁𝙊𝙍𝙈𝘼𝘾𝙄𝙊́𝙉* ⊱⊱╮\n\n'
+global.iig = '╰⊱❕⊱ 𝐈𝐍𝐅𝐎𝐑𝐌𝐀𝐂𝐈𝐎𝐍 ⊱⊱╮\n\n'
 global.informacion = iig
 
-global.fg = '╰⊱❌⊱ *𝙁𝘼𝙇𝙇𝙊́* ⊱❌⊱╮\n\n'
+global.fg = '╰⊱❌⊱ 𝐅𝐀𝐋𝐋𝐎 ⊱❌⊱╮\n\n'
 global.fallo = fg
 
-global.mg = '╰⊱❗️⊱ *𝙇𝙊 𝙐𝙎𝙊́ 𝙈𝘼𝙇* ⊱❗️⊱╮\n\n'
+global.mg = '╰⊱❗️⊱ 𝐋𝐀 𝐔𝐒𝐎 𝐌𝐀𝐋 ⊱❗️⊱╮\n\n'
 global.mal = mg
 
-global.eeg = '╰⊱📩⊱ *𝙍𝙀𝙋𝙊𝙍𝙏𝙀* ⊱📩⊱╮\n\n'
+global.eeg = '╰⊱📩⊱ 𝐑𝐄𝐏𝐎𝐑𝐓𝐄 ⊱📩⊱╮\n\n'
 global.envio = eeg
 
-global.eg = '╰⊱💚⊱ *𝙀́𝙓𝙄𝙏𝙊* ⊱💚⊱╮\n\n'
+global.eg = '╰⊱❤️⊱ 𝐄𝐗𝐈𝐓𝐎 ⊱❤️⊱╮\n\n'
 global.exito = eg
 
 //𝙀𝙅𝙀𝙈𝙋𝙇𝙊 | 𝙀𝙓𝘼𝙈𝙋𝙇𝙀
@@ -173,12 +173,12 @@ global.exito = eg
 
 //⊱ ━━━━━.⋅ Información | Information ⋅.━━━━ ⊰
 
-global.wm = '𝙈𝙖𝙠𝙖𝙣𝙖𝙠𝙮𝘽𝙤𝙩-𝙈𝘿 : 𝘼𝙙𝙧𝙞𝙖𝙣𝙤 𝙎𝙖́𝙣𝙘𝙝𝙚𝙯'
-global.igfg = '𝙈𝙖𝙠𝙖𝙣𝙖𝙠𝙮𝘽𝙤𝙩-𝙈𝘿'
-global.wait = '*⌛ _Cargando | Charging..._ ▬▭▭▭▭▭▭*'
-global.waitt = '*⌛ _Cargando | Charging..._ ▬▬▭▭▭*'
-global.waittt = '*⌛ _Cargando | Charging..._ ▬▬▬▬▭▭*'
-global.waitttt = '*⌛ _Cargando | Charging..._ ▬▬▬▬▬▬▭*'
+global.wm = '𝚃𝙷𝙴 𝙼𝙰𝙺𝙰𝙽𝙰𝙺𝚈 - 🤖 : 𝙰𝙳𝚁𝙸𝙰𝙽𝙾 𝚂𝙰𝙽𝙲𝙷𝙴𝚉'
+global.igfg = '𝐓𝐇𝐄 𝐌𝐀𝐊𝐀𝐍𝐀𝐊𝐘 - 🤖'
+global.wait = '*⌛ 𝙲𝙰𝚁𝙶𝙰𝙽𝙳𝙾... ▬▭▭▭▭▭▭*'
+global.waitt = '*⌛ 𝙲𝙰𝚁𝙶𝙰𝙽𝙳𝙾... ▬▬▭▭▭*'
+global.waittt = '*⌛ 𝙲𝙰𝚁𝙶𝙰𝙽𝙳𝙾... ▬▬▬▬▭▭*'
+global.waitttt = '*⌛ 𝙲𝙰𝚁𝙶𝙰𝙽𝙳𝙾... ▬▬▬▬▬▬▭*'
 global.nomorown = '51986206184'
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf']
 
@@ -267,8 +267,8 @@ global.htka = '*☪ ••••̩̩͙⊰•⭑*'
 global.comienzo = '• • ◕◕════'
 global.fin = '════◕◕ • •'
 
-global.botdate = `⫹⫺ Date :  ${moment.tz('America/Los_Angeles').format('DD/MM/YY')}` //Asia/Jakarta
-global.bottime = `𝗧 𝗜 𝗠 𝗘 : ${moment.tz('America/Los_Angeles').format('HH:mm:ss')}`//America/Los_Angeles
+global.botdate = `⫹⫺ 𝐃𝐀𝐓𝐄 :  ${moment.tz('America/Los_Angeles').format('DD/MM/YY')}` //Asia/Jakarta
+global.bottime = `🕜 𝐓𝐈𝐌𝐄 : ${moment.tz('America/Los_Angeles').format('HH:mm:ss')}`//America/Los_Angeles
 global.fgif = {
             key: {
                  participant : '0@s.whatsapp.net'},
