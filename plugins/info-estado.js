@@ -15,21 +15,21 @@ _muptime = await new Promise(resolve => { process.once('message', resolve)
 setTimeout(resolve, 1000) }) * 1000}
 let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
 let uptime = clockString(_uptime)
-let estado = `╭━━━━[ *𝙀𝙎𝙏𝘼𝘿𝙊* ]━━━━━⬣
-┃💗 *¡Hola | Hi!* ${name}
+let estado = `╭━━━━[ 𝐄𝐒𝐓𝐀𝐃𝐎 ]━━━━━⬣
+┃💗 ¡𝙷𝙾𝙻𝙰! 👋 ${name}
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈ 
-┃ღ *Versión de ${gt}*
+┃🤖 𝚅𝙴𝚁𝚂𝙸𝙾𝙽 𝙳𝙴 ${gt} 
 ┃➥ ${vs}
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-┃ღ ${global.opts['self'] ? '𝙋𝙍𝙄𝙑𝘼𝘿𝙊' : '𝙋𝙐𝘽𝙇𝙄𝘾𝙊'}
+┃🧐 ${global.opts['self'] ? '𝙿𝚁𝙸𝚅𝙰𝙳𝙾' : '𝙿𝚄𝙱𝙻𝙸𝙲𝙾'}
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-┃ღ *Activo Durante | Active During* 
+┃⏳ 𝙰𝙲𝚃𝙸𝚅𝙾 𝙳𝚄𝚁𝙰𝙽𝚃𝙴 
 ┃➥ ${uptime}
-┃ღ *Usuario(s) | Users* 
+┃👻 𝚄𝚂𝚄𝙰𝚁𝙸𝙾𝚂
 ┃➥ ${Object.keys(global.db.data.users).length} 
-┃ღ *Chat(s) Prohibido(s) | Forbidden Chats*
+┃👻 𝙲𝙷𝙰𝚃(𝚂) 𝙿𝚁𝙾𝙷𝙸𝙱𝙸𝙳𝙾(𝚂)
 ┃➥ ${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length} 
-┃ღ *Usuario(s) Prohibido(s) | Prohibited Urs*
+┃👻 𝚄𝚂𝚄𝙰𝚁𝙸𝙾(𝚂) 𝙿𝚁𝙾𝙷𝙸𝙱𝙸𝙳𝙾(𝚂)
 ┃➥ ${Object.entries(global.db.data.users).filter(user => user[1].banned).length} 
 ╰━━━━━━━━━━━━━━━━━━⬣`
 await conn.sendFile(m.chat, picture, 'gata.mp4', estado, fkontak)
