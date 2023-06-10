@@ -17,7 +17,7 @@ let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status
 let grupos = [nna, nn, nnn, nnnt, nnntt, nnnttt]
 let gata = [img5, img6, img7, img8, img9]
 let enlace = { contextInfo: { externalAdReply: {title: wm + ' 🐈', body: 'support group' , sourceUrl: grupos.getRandom(), thumbnail: await(await fetch(gata.getRandom())).buffer() }}}
-let enlace2 = { contextInfo: { externalAdReply: { showAdAttribution: true, mediaUrl: yt, mediaType: 'VIDEO', description: '', title: wm, body: '😻 𝗦𝘂𝗽𝗲𝗿 𝗠𝗮𝗸𝗮𝗻𝗮𝗸𝘆𝗕𝗼𝘁-𝗠𝗗 - 𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽 ', thumbnailUrl: await(await fetch(img)).buffer(), sourceUrl: yt }}}
+let enlace2 = { contextInfo: { externalAdReply: { showAdAttribution: true, mediaUrl: yt, mediaType: 'VIDEO', description: '', title: wm, body: '🤖 𝚂𝚄𝙿𝙴𝚁 𝙼𝙰𝙺𝙰𝙽𝙰𝙺𝚈 - 𝚆𝙷𝙰𝚃𝚂𝙰𝙿𝙿 🤖', thumbnailUrl: await(await fetch(img)).buffer(), sourceUrl: yt }}}
 let dos = [enlace, enlace2]
 
 let _muptime
@@ -59,33 +59,33 @@ irq: 0
 }})
 
 let old = performance.now()
-await conn.reply(m.chat, `${eg}🚀 𝙋𝙍𝙐𝙀𝘽𝘼 𝘿𝙀 𝙑𝙀𝙇𝙊𝘾𝙄𝘿𝘼𝘿...\n🚀 𝙎𝙋𝙀𝙀𝘿 𝙏𝙀𝙎𝙏...`, fkontak,  m)
-//await conn.sendButton(m.chat, wm, `${eg}🚀 𝙋𝙍𝙐𝙀𝘽𝘼 𝘿𝙀 𝙑𝙀𝙇𝙊𝘾𝙄𝘿𝘼𝘿...\n🚀 𝙎𝙋𝙀𝙀𝘿 𝙏𝙀𝙎𝙏...`, null, [['𝗠 𝗘 𝗡 𝗨 ☘️', '/menu']], fkontak, m)  
+await conn.reply(m.chat, `${eg}🚀 𝙿𝚁𝚄𝙴𝙱𝙰 𝙳𝙴 𝚅𝙴𝙻𝙾𝙲𝙸𝙳𝙰𝙳...`, fkontak,  m)
+//await conn.sendButton(m.chat, wm, `${eg}🚀 𝙿𝚁𝚄𝙴𝙱𝙰 𝙳𝙴 𝚅𝙴𝙻𝙾𝙲𝙸𝙳𝙰𝙳...\n🚀 𝙎𝙋𝙀𝙀𝘿 𝙏𝙀𝙎𝙏...`, null, [['𝗠 𝗘 𝗡 𝗨 ☘️', '/menu']], fkontak, m)  
 let neww = performance.now()
 let speed = neww - old
-let caption = `*${htki} 𝙑𝙀𝙇𝙊𝘾𝙄𝘿𝘼𝘿 : ${htka}*
+let caption = `*${htki} 𝐕𝐄𝐋𝐎𝐂𝐈𝐃𝐀𝐃 : ${htka}*
 
 🚄 *${Math.round(neww - old)}* ms
 🚄 *${speed}* ms
 
-*${htjava}* 𝙏𝙄𝙀𝙈𝙋𝙊 𝘿𝙀 𝙀𝙅𝙀𝘾𝙐𝘾𝙄𝙊𝙉 :
+*${htjava}* 𝐓𝐈𝐄𝐌𝐏𝐎 𝐃𝐄 𝐄𝐉𝐄𝐂𝐔𝐂𝐈𝐎𝐍 :
 ${muptime}
 ${readMore}
-*${htjava} C H A T S*
-• *${groupsIn.length}* \`\`\`Grupales : Groups\`\`\`
-• *${groupsIn.length}* \`\`\`Grupos Unidos : Join Groups\`\`\`
-• *${groupsIn.length - groupsIn.length}* \`\`\`Grupos Restantes : Groups Left\`\`\`
-• *${chats.length - groupsIn.length}* \`\`\`Chats Privados : Chats Private\`\`\`
-• *${chats.length}* \`\`\`Total Chats\`\`\`
+*${htjava}* 𝐂𝐇𝐀𝐓(𝐒) :
+• *${groupsIn.length}* \`\`\`𝙶𝚁𝚄𝙿𝙰𝙻𝙴𝚂\`\`\`
+• *${groupsIn.length}* \`\`\`𝙶𝚁𝚄𝙿𝙾𝚂 𝚄𝙽𝙸𝙳𝙾𝚂\`\`\`
+• *${groupsIn.length - groupsIn.length}* \`\`\`𝙶𝚁𝚄𝙿𝙾𝚂 𝚁𝙴𝚂𝚃𝙰𝙽𝚃𝙴𝚂\`\`\`
+• *${chats.length - groupsIn.length}* \`\`\`𝙲𝙷𝙰𝚃 𝙿𝚁𝙸𝚅𝙰𝙳𝙾𝚂\`\`\`
+• *${chats.length}* \`\`\`𝚃𝙾𝚃𝙰𝙻 𝙲𝙷𝙰𝚃(𝚂)\`\`\`
 
-*${htjava} S E R V I D O R : S E R V E R*
-*🟢 RAM:* ${format(totalmem() - freemem())} / ${format(totalmem())}
-*🔵 RAM Libre:* ${format(freemem())}
+*${htjava}* 𝐒𝐄𝐑𝐕𝐈𝐃𝐎𝐑 :
+🟢 𝚁𝙰𝙼: ${format(totalmem() - freemem())} / ${format(totalmem())}
+🔵 𝚁𝙰𝙼 𝙻𝙸𝙱𝚁𝙴: ${format(freemem())}
 
-*💻 Plataforma :* \`\`\`${os.platform()}\`\`\`
-*📡 Servidor :* _${os.hostname()}_
+💻 𝙿𝙻𝙰𝚃𝙰𝙵𝙾𝚁𝙼𝙰: \`\`\`${os.platform()}\`\`\`
+📡 𝚂𝙴𝚁𝚅𝙸𝙳𝙾𝚁: ${os.hostname()}
 ${readMore}
-*NodeJS Uso de memoria : Memory Usage*
+𝐔𝐒𝐎 𝐃𝐄 𝐌𝐄𝐌𝐎𝐑𝐈𝐀 :
 ${'```' + Object.keys(used).map((key, _, arr) => `${key.padEnd(Math.max(...arr.map(v => v.length)), ' ')}: ${format(used[key])}`).join('\n') + '```'}
 
 ${cpus[0] ? `*Uso total de la CPU*
@@ -97,7 +97,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
 await conn.sendFile(m.chat, gataImg.getRandom(), 'gata.jpg', caption, fkontak)
 //await conn.sendButton(m.chat, wm, caption, gata.getRandom(), [['𝗠 𝗘 𝗡 𝗨 ☘️', '/menu']], m, dos.getRandom())
 } catch (e) {
-await conn.reply(m.chat, `${fg}*ALGO SALIÓ MAL. ERRORS FOUND.*\n\n\`\`\`REPORTE ESTE COMANDO ${usedPrefix + command} CON EL COMANDO ${usedPrefix}reporte\`\`\``, m)
+await conn.reply(m.chat, `${fg}𝙰𝙻𝙶𝙾 𝚂𝙰𝙻𝙸𝙾 𝙼𝙰𝙻.\n\n\`\`\`REPORTE ESTE COMANDO ${usedPrefix + command} CON EL COMANDO ${usedPrefix}reporte\`\`\``, m)
 }}
 handler.help = ['ping', 'speed']
 handler.tags = ['info', 'tools']
@@ -112,5 +112,5 @@ function clockString(ms) {
   let h = isNaN(ms) ? '--' : Math.floor(ms / 3600000) % 24
   let m = isNaN(ms) ? '--' : Math.floor(ms / 60000) % 60
   let s = isNaN(ms) ? '--' : Math.floor(ms / 1000) % 60
-  return [' ' + d, ' *Días : Days ☀️*\n ', h, ' *Horas : Hours 🕐*\n ', m, ' *Minuto : Minute ⏰*\n ', s, ' *Segundo : Second ⏱️* '].map(v => v.toString().padStart(2, 0)).join('')
+  return [' ' + d, ' 𝙳𝙸𝙰𝚂 ☀️\n ', h, ' 𝙷𝙾𝚁𝙰𝚂 🕐\n ', m, ' 𝙼𝙸𝙽𝚄𝚃𝙾𝚂 ⏰\n ', s, ' 𝚂𝙴𝙶𝚄𝙽𝙳𝙾𝚂 ⏱️ '].map(v => v.toString().padStart(2, 0)).join('')
 }
