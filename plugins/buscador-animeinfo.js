@@ -2,38 +2,38 @@ import translate from '@vitalets/google-translate-api'
 import { Anime } from "@shineiichijo/marika"
 const client = new Anime();
 let handler = async(m, { conn, text, usedPrefix }) => {
-if (!text) throw `${lenguajeGB['smsAvisoMG']()}𝙀𝙎𝘾𝙍𝙄𝘽𝘼 𝙀𝙇 𝙉𝙊𝙈𝘽𝙍𝙀 𝘿𝙀 𝙐𝙉 𝘼𝙉𝙄𝙈𝙀`
+if (!text) throw `${lenguajeGB['smsAvisoMG']()}𝙴𝚂𝙲𝚁𝙸𝙱𝙰 𝙴𝙻 𝙽𝙾𝙼𝙱𝚁𝙴 𝙳𝙴 𝚄𝙽 𝙰𝙽𝙸𝙼𝙴 🤗`
 try {  
 let anime = await client.searchAnime(text)
 let result = anime.data[0];
 let resultes = await translate(`${result.background}`, { to: 'es', autoCorrect: true })   
 let resultes2 = await translate(`${result.synopsis}`, { to: 'es', autoCorrect: true })   
 let AnimeInfo = `
-𝙏𝙄𝙏𝙐𝙇𝙊 
+𝚃𝙸𝚃𝚄𝙻𝙾 
 ❣ ${title}
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-𝙀𝙋𝙄𝙎𝙊𝘿𝙄𝙊𝙎 
+𝙴𝙿𝙸𝚂𝙾𝙳𝙸𝙾𝚂  
 ❣ ${episodes}
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-𝙏𝙍𝘼𝙉𝙎𝙈𝙄𝙏𝙄𝘿𝙊 𝙋𝙊𝙍 
+𝚃𝚁𝙰𝙽𝚂𝙼𝙸𝚃𝙸𝙳𝙾 𝙿𝙾𝚁 
 ❣ ${type}
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-𝘾𝙇𝘼𝙎𝙄𝙁𝙄𝘾𝘼𝘾𝙄𝙊𝙉 
+𝙲𝙻𝙰𝚂𝙸𝙵𝙸𝙲𝙰𝙲𝙸𝙾𝙽  
 ❣ ${rated}
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-𝙋𝙐𝙉𝙏𝘼𝙅𝙀 
+𝙿𝚄𝙽𝚃𝙰𝙹𝙴  
 ❣ ${score}
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-𝙈𝙄𝙀𝙈𝘽𝙍𝙊𝙎 
+𝙼𝙸𝙴𝙼𝙱𝚁𝙾𝚂  
 ❣ ${members}
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-𝙎𝙄𝙉𝙊𝙋𝙎𝙄𝙎 
+𝚂𝙸𝙿𝙽𝙾𝚂𝙸𝚂  
 ❣ ${synopsis}
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-𝙀𝙉𝙇𝘼𝘾𝙀 
+𝙴𝙽𝙻𝙰𝙲𝙴 
 ❣ ${url}`
 conn.sendFile(m.chat, result.images.jpg.image_url, 'error.jpg', AnimeInfo, m)
-let info = `💖 *Infórmate sobre las Novedades y recuerda tener la última versión.* `
+let info = `💖 𝙸𝙽𝙵𝙾𝚁𝙼𝙰𝚃𝙴 𝚂𝙾𝙱𝚁𝙴 𝙻𝙰𝚂 𝙽𝙾𝚅𝙴𝙳𝙰𝙳𝙴𝚂 𝚈 𝚁𝙴𝙲𝚄𝙴𝚁𝙳𝙰 𝚃𝙴𝙽𝙴𝚁 𝙻𝙰 𝚄𝙻𝚃𝙸𝙼𝙰 𝚅𝙴𝚁𝚂𝙸𝙾𝙽`
 conn.sendButton(m.chat, info, [
 ['🔄 𝙎𝙞𝙜𝙪𝙞𝙚𝙣𝙩𝙚 ', `${usedPrefix + command} ${text}`],
 ['🔍 𝙋𝙞𝙣𝙩𝙚𝙧𝙚𝙨𝙩 ', `#pinterest ${text}`],
@@ -46,7 +46,7 @@ await conn.sendHydrated(m.chat, info, wm, null, ig, '𝙄𝙣𝙨𝙩𝙖𝙜�
 ['𝙑𝙤𝙡𝙫𝙚𝙧 𝙖𝙡 𝙈𝙚𝙣𝙪́ | 𝘽𝙖𝙘𝙠 𝙩𝙤 𝙈𝙚𝙣𝙪 ☘️', '/menu']
 ], m,)  */
 } catch {
-throw `*[❗] ERROR, INTENTELO DE NUEVO*`  
+throw `[❗] 𝙴𝚁𝚁𝙾𝚁, 𝙸𝙽𝚃𝙴𝙽𝚃𝙴𝙻𝙾 𝙳𝙴 𝙽𝚄𝙴𝚅𝙾`  
 }}
 handler.help = ['animeinfo <anime>']
 handler.tags = ['internet']
