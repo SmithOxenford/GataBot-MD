@@ -54,46 +54,46 @@ let old = performance.now()
   let speed = neww - old
 
 let info = `╭━━━━[ ${gt} ]━━━━━⬣
-┃➥ *CREADOR*
-┃ღ * 𝘼𝘿𝙍𝙄𝘼𝙉𝙊 𝙎𝘼𝙉𝘾𝙃𝙀𝙕 *
+┃➥ 𝙲𝚁𝙴𝙰𝙳𝙾𝚁
+┃👑 Adriano Sánchez
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-┃➥ *CONTACTO* 
-┃ღ *${ig}*
+┃➥ 𝙲𝙾𝙽𝚃𝙰𝙲𝚃𝙾
+┃😁 *${ig}*
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-┃➥ *VERSIÓN ACTUAL*
-┃ღ ${vs}
+┃➥ 𝚅𝙴𝚁𝚂𝙸𝙾́𝙽 𝙰𝙲𝚃𝚄𝙰
+┃🤖 ${vs}
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-┃➥ *PREFIJO*
-┃ღ *${usedPrefix}*
+┃➥ 𝙿𝚁𝙴𝙵𝙸𝙹𝙾
+┃⚡ *${usedPrefix}*
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-┃➥ *CHATS PRIVADOS*
-┃ღ *${chats.length - groups.length}*
+┃➥ 𝙲𝙷𝙰𝚃𝚂 𝙿𝚁𝙸𝚅𝙰𝙳𝙾𝚂
+┃👻 *${chats.length - groups.length}*
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-┃➥ *CHATS DE GRUPOS*
-┃ღ *${groups.length}* 
+┃➥ 𝙲𝙷𝙰𝚃𝚂 𝙳𝙴 𝙶𝚁𝚄𝙿𝙾𝚂
+┃👻 *${groups.length}* 
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-┃➥ *CHATS EN TOTAL*
-┃ღ *${chats.length}* 
+┃➥ 𝙲𝙷𝙰𝚃𝚂 𝙴𝙽 𝚃𝙾𝚃𝙰𝙻
+┃👻 *${chats.length}* 
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-┃➥ *ACTIVIDAD*
-┃ღ *${uptime}*
+┃➥ 𝙰𝙲𝚃𝙸𝚅𝙸𝙳𝙰𝙳
+┃📝 *${uptime}*
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-┃➥ *USUARIOS*
-┃ღ *${totalreg}* 
+┃➥ 𝚄𝚂𝚄𝙰𝚁𝙸𝙾𝚂
+┃😎 *${totalreg}* 
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-┃➥ *VELOCIDAD*
-┃ღ  *${speed}*
+┃➥ 𝚅𝙴𝙻𝙾𝙲𝙸𝙳𝙰𝙳
+┃🚀  *${speed}*
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-┃➥ *BOT SECUNDARIOS ACTIVOS*
-┃ღ *${totaljadibot.length}*
+┃➥ 𝙱𝙾𝚃 𝚂𝙴𝙲𝚄𝙽𝙳𝙰𝚁𝙸𝙾𝚂 𝙰𝙲𝚃𝙸𝚅𝙾
+┃🤖 *${totaljadibot.length}*
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-┃➥ *AUTOREAD*
-┃ღ ${autoread ? '*Activado ✔*' : '*Desactivado ✘*'}
+┃➥ 𝙻𝙴𝙲𝚃𝚄𝚁𝙰 𝙰𝚄𝚃𝙾𝙼𝙰́𝚃𝙸𝙲𝙰
+┃${autoread ? '✅ 𝙰𝙲𝚃𝙸𝚅𝙰𝙳𝙾' : '❌ 𝙳𝙴𝚂𝙰𝙲𝚃𝙸𝚅𝙰𝙳𝙾'}
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-┃➥ *RESTRICT* 
-┃ღ ${restrict ? '*Activado ✔*' : '*Desactivado ✘*'} 
+┃➥ 𝚁𝙴𝚂𝚃𝚁𝙸𝙽𝙶𝙸𝚁 
+┃${restrict ? '✅ 𝙰𝙲𝚃𝙸𝚅𝙰𝙳𝙾' : '❌ 𝙳𝙴𝚂𝙰𝙲𝚃𝙸𝚅𝙰𝙳𝙾'} 
 ┃
-╰━━━[ 𝙄𝙣𝙛𝙤𝙧𝙢𝙖𝙘𝙞ó𝙣 ]━━⬣`
+╰━━━[ 𝐈𝐍𝐅𝐎𝐑𝐌𝐀𝐂𝐈𝐎𝐍 ]━━⬣`
 await conn.sendFile(m.chat, pp, 'gata.mp4', info, fkontak)
 /*let info = `
 ╭━━━━[ ${gt} ]━━━━━⬣
