@@ -1,6 +1,6 @@
 import fetch from 'node-fetch'
 let handler = async (m, {conn, command, usedPrefix, text }) => { 
-if (!text) throw `${lenguajeGB['smsAvisoMG']()}𝙴𝚂𝙲𝚁𝙸𝙱𝙰 𝚂𝚄 𝙿𝚁𝙴𝙶𝚄𝙽𝚃𝙰 𝙿𝙰𝚁𝙰 𝚂𝙴𝚁 𝚁𝙴𝚂𝙿𝙾𝙽𝙳𝙸𝙳𝙰 😁\n𝙀𝙅𝙀𝙈𝙋𝙇𝙊\n${usedPrefix + command} 𝙴𝙻/𝙴𝙻𝙻𝙰 𝙼𝙴 𝚀𝚄𝙸𝙴𝚁𝙴?`   
+if (!text) throw `${lenguajeGB['smsAvisoMG']()}𝙴𝚂𝙲𝚁𝙸𝙱𝙰 𝚂𝚄 𝙿𝚁𝙴𝙶𝚄𝙽𝚃𝙰 𝙿𝙰𝚁𝙰 𝚂𝙴𝚁 𝚁𝙴𝚂𝙿𝙾𝙽𝙳𝙸𝙳𝙰 😁\n🤖 𝙴𝙹𝙴𝙼𝙿𝙻𝙾:\n${usedPrefix + command} 𝙴𝙻/𝙴𝙻𝙻𝙰 𝙼𝙴 𝚀𝚄𝙸𝙴𝚁𝙴?`   
 let res = await fetch(`https://api.simsimi.net/v2/?text=${text}&lc=es`)
 let json = await res.json()
 if (json.success)
