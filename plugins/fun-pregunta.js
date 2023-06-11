@@ -1,15 +1,15 @@
 import fetch from 'node-fetch'
 let handler = async (m, {conn, command, usedPrefix, text }) => { 
-if (!text) throw `${lenguajeGB['smsAvisoMG']()}𝙀𝙎𝘾𝙍𝙄𝘽𝘼 𝙎𝙐 𝙋𝙍𝙀𝙂𝙐𝙉𝙏𝘼 𝙋𝘼𝙍𝘼 𝙎𝙀𝙍 𝙍𝙀𝙎𝙋𝙊𝙉𝘿𝙄𝘿𝘼\n𝙀𝙅𝙀𝙈𝙋𝙇𝙊\n*${usedPrefix + command} Hoy va llover?*`   
+if (!text) throw `${lenguajeGB['smsAvisoMG']()}𝙴𝚂𝙲𝚁𝙸𝙱𝙰 𝚂𝚄 𝙿𝚁𝙴𝙶𝚄𝙽𝚃𝙰 𝙿𝙰𝚁𝙰 𝚂𝙴𝚁 𝚁𝙴𝚂𝙿𝙾𝙽𝙳𝙸𝙳𝙰 😁\n𝙀𝙅𝙀𝙈𝙋𝙇𝙊\n${usedPrefix + command} 𝙴𝙻/𝙴𝙻𝙻𝙰 𝙼𝙴 𝚀𝚄𝙸𝙴𝚁𝙴?`   
 let res = await fetch(`https://api.simsimi.net/v2/?text=${text}&lc=es`)
 let json = await res.json()
 if (json.success)
   
 m.reply(`╭━〔 𝙋𝙍𝙀𝙂𝙐𝙉𝙏𝘼 〕━⬣  
-⁉️ 𝙋𝙍𝙀𝙂𝙐𝙉𝙏𝘼: 
+⁉️ 𝙿𝚁𝙴𝙶𝚄𝙽𝚃𝙰: 
 🙀 ${text}
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-✅ 𝙍𝙀𝙎𝙋𝙐𝙀𝙎𝙏𝘼 
+✅ 𝚁𝙴𝚂𝙿𝚄𝙴𝚂𝚃𝙰:
 😼 : ${json.success.replace('simsimi', 'simsimi').replace('Simsimi', 'Simsimi').replace('sim simi', 'sim simi')}`) 
 
 //conn.sendHydrated(m.chat, pre, wm, null, md, '𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿', null, null, [
