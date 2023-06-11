@@ -16,7 +16,7 @@ try {
 let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
 let grupos = [nna, nn, nnn, nnnt, nnntt, nnnttt]
 let gata = [img5, img6, img7, img8, img9]
-let enlace = { contextInfo: { externalAdReply: {title: wm + ' 🐈', body: 'support group' , sourceUrl: grupos.getRandom(), thumbnail: await(await fetch(gata.getRandom())).buffer() }}}
+let enlace = { contextInfo: { externalAdReply: {title: wm + ' ', body: 'support group' , sourceUrl: grupos.getRandom(), thumbnail: await(await fetch(gata.getRandom())).buffer() }}}
 let enlace2 = { contextInfo: { externalAdReply: { showAdAttribution: true, mediaUrl: yt, mediaType: 'VIDEO', description: '', title: wm, body: '🤖 𝚂𝚄𝙿𝙴𝚁 𝙼𝙰𝙺𝙰𝙽𝙰𝙺𝚈 - 𝚆𝙷𝙰𝚃𝚂𝙰𝙿𝙿 🤖', thumbnailUrl: await(await fetch(img)).buffer(), sourceUrl: yt }}}
 let dos = [enlace, enlace2]
 
@@ -97,7 +97,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
 await conn.sendFile(m.chat, gataImg.getRandom(), 'gata.jpg', caption, fkontak)
 //await conn.sendButton(m.chat, wm, caption, gata.getRandom(), [['𝗠 𝗘 𝗡 𝗨 ☘️', '/menu']], m, dos.getRandom())
 } catch (e) {
-await conn.reply(m.chat, `${fg}𝙰𝙻𝙶𝙾 𝚂𝙰𝙻𝙸𝙾 𝙼𝙰𝙻.\n\n\`\`\`REPORTE ESTE COMANDO ${usedPrefix + command} CON EL COMANDO ${usedPrefix}reporte\`\`\``, m)
+await conn.reply(m.chat, `${fg}𝙰𝙻𝙶𝙾 𝚂𝙰𝙻𝙸𝙾 𝙼𝙰𝙻.\n\n\`\`\`𝚁𝙴𝙿𝙾𝚁𝚃𝙴 𝙴𝚂𝚃𝙴 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 ${usedPrefix + command} 𝙲𝙾𝙽 𝙴𝙻 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 ${usedPrefix}reporte\`\`\``, m)
 }}
 handler.help = ['ping', 'speed']
 handler.tags = ['info', 'tools']
