@@ -152,7 +152,7 @@ global.resultado = rg
 global.ag = '╰⊱⚠️⊱ 𝐀𝐃𝐕𝐄𝐑𝐓𝐄𝐍𝐂𝐈𝐀 ⊱⚠️⊱╮\n\n'
 global.advertencia = ag
 
-global.iig = '╰⊱❕⊱ 𝐈𝐍𝐅𝐎𝐑𝐌𝐀𝐂𝐈𝐎𝐍 ⊱⊱╮\n\n'
+global.iig = '╰⊱❕⊱ 𝐈𝐍𝐅𝐎𝐑𝐌𝐀𝐂𝐈𝐎𝐍 ⊱❕⊱╮\n\n'
 global.informacion = iig
 
 global.fg = '╰⊱❌⊱ 𝐅𝐀𝐋𝐋𝐎 ⊱❌⊱╮\n\n'
