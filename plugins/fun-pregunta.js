@@ -5,12 +5,12 @@ let res = await fetch(`https://api.simsimi.net/v2/?text=${text}&lc=es`)
 let json = await res.json()
 if (json.success)
   
-m.reply(`╭━〔 𝙋𝙍𝙀𝙂𝙐𝙉𝙏𝘼 〕━⬣  
-⁉️ 𝙿𝚁𝙴𝙶𝚄𝙽𝚃𝙰: 
-🙀 ${text}
+m.reply(`╭━〔 𝐏𝐑𝐄𝐆𝐔𝐍𝐓𝐀 〕━⬣  
+👻 𝙿𝚁𝙴𝙶𝚄𝙽𝚃𝙰: 
+🧐 ${text}
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ✅ 𝚁𝙴𝚂𝙿𝚄𝙴𝚂𝚃𝙰:
-😼 : ${json.success.replace('simsimi', 'simsimi').replace('Simsimi', 'Simsimi').replace('sim simi', 'sim simi')}`) 
+😏 : ${json.success.replace('simsimi', 'simsimi').replace('Simsimi', 'Simsimi').replace('sim simi', 'sim simi')}`) 
 
 //conn.sendHydrated(m.chat, pre, wm, null, md, '𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿', null, null, [
 //['𝙊𝙩𝙧𝙖 𝙫𝙚𝙯 | 𝘼𝙜𝙖𝙞𝙣 🔮', `${usedPrefix + command} ${text}`],
