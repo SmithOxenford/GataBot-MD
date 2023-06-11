@@ -14,7 +14,7 @@ function kyun(seconds){
   var seconds = Math.floor(seconds % 60);
 
   //return pad(hours) + ':' + pad(minutes) + ':' + pad(seconds)
-  return `🫶 ${md}\n\n*⏰ 𝙏𝙄𝙀𝙈𝙋𝙊 𝘼𝘾𝙏𝙄𝙑𝙊:*\n \t${pad(days)} Dias\t ${pad(hours)} Horas ${pad(minutes)} Minutos ${pad(seconds)} Segudos \t\n`
+  return `🫶 ${md}\n\n*⏰ 𝚃𝙸𝙴𝙼𝙿𝙾 𝙰𝙲𝚃𝙸𝚅𝙾:\n \t${pad(days)} 𝙳𝙸𝙰𝚂 \t ${pad(hours)} 𝙷𝙾𝚁𝙰𝚂 ${pad(minutes)} 𝙼𝙸𝙽𝚄𝚃𝙾𝚂 ${pad(seconds)} 𝚂𝙴𝙶𝚄𝙽𝙳𝙾𝚂 \t\n`
 }
 					const runtime = process.uptime()
 		            const teks = `${kyun(runtime)}`
