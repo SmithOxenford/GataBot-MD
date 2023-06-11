@@ -93,13 +93,13 @@ sopaDeLetrasConBordes += fila + "\n"
 //sopaDeLetrasConBordes += "   *╰" + "┄".repeat(LADO) + '┄┄' + "╯*"
 sopaDeLetrasConBordes = sopaDeLetrasConBordes.replace(/[a-zA-Z]/g, letra => LETRAS_POSIBLES[letra.charCodeAt() - 65] || letra)
 
-await m.reply(`🔠 *SOPA DE LETRAS* 🔠
-*PALABRA:* \`\`\`"${PALABRA}"\`\`\`
-*TIENE 3 MINUTOS PARA ENCONTRAR LA RESPUESTA CORRECTA!!*
+await m.reply(`🔠 𝐒𝐎𝐏𝐀 𝐃𝐄 𝐋𝐄𝐓𝐑𝐀𝐒 🔠
+𝙿𝙰𝙻𝙰𝙱𝚁𝙰: \`\`\`"${PALABRA}"\`\`\`
+𝚃𝙸𝙴𝙽𝙴 𝟹 𝙼𝙸𝙽𝚄𝚃𝙾𝚂 𝙿𝙰𝚁𝙰 𝙴𝙽𝙲𝙾𝙽𝚃𝚁𝙰𝚁 𝙻𝙰 𝚁𝙴𝚂𝙿𝚄𝙴𝚂𝚃𝙰 𝙲𝙾𝚁𝚁𝙴𝙲𝚃𝙰!!
 
 *ESCRIBA EL NÚMERO DE FILA Y COLUMNA DEL COMIENZO DE LA PRIMERA LETRA _"${PALABRA.charAt(0)}"_ DE LA PALABRA _"${PALABRA}"_ TIENE _${intentos}_ INTENTOS!!*
 
-*EJEMPLO:*
+𝙴𝙹𝙴𝙼𝙿𝙻𝙾:
 ❇️ \`\`\`${usedPrefix + command} 28\`\`\`
 ➡️ \`\`\`FILA 2\`\`\`    ⬇️ \`\`\`COLUMNA 8\`\`\``.trim())
 await m.reply(`🔠 *${PALABRA.split("").join(" ")}* 🔠\n\n` + sopaDeLetrasConBordes.trimEnd())
@@ -114,7 +114,7 @@ sopaDir = DIRECCION.replace(/([A-Z])/g, ' $1').toLowerCase().replace(/^./, str =
 cambioLetra = sopaDir
 let tagUser = userSP + '@s.whatsapp.net'
 if (userSP != m.sender.split("@")[0]) {
-await conn.reply(m.chat, `*@${tagUser.split("@")[0]} ESTA JUGANDO SOPA DE LETRAS 🔠 ACTUALEMENTE*`, m, { mentions: [tagUser] })
+await conn.reply(m.chat, `@${tagUser.split("@")[0]} 𝙴𝚂𝚃𝙰 𝙹𝚄𝙶𝙰𝙽𝙳𝙾 𝚂𝙾𝙿𝙰 𝙳𝙴 𝙻𝙴𝚃𝚁𝙰𝚂 🔠 𝙰𝙲𝚃𝚄𝙰𝙻𝙴𝙼𝙴𝙽𝚃𝙴`, m, { mentions: [tagUser] })
 return
 }
 if (intentos === 0) {
@@ -154,11 +154,11 @@ return
 if (intentos === 1) {
 fila = null, columna = null, sopaNube = null, sopaPalabra = null, sopaDir = null, userSP = null, cambioLetra = null
 intentos = 0
-await m.reply(`🫡 *AGOTASTE LOS INTENTOS!! LA PALABRA _"${sopaPalabra}"_ SE ENCONTRABA EN LA DIRECCIÓN _${cambioLetra}_ DE LA FILA _${fila}_ Y COLUMNA _${columna}_*`)
+await m.reply(`𝙰𝙶𝙾𝚃𝙰𝚂𝚃𝙴 𝙻𝙾𝚂 𝙸𝙽𝚃𝙴𝙽𝚃𝙾𝚂 𝙿𝙸𝙿𝙸𝙿𝙸 ☹️ 𝙻𝙰 𝙿𝙰𝙻𝙰𝙱𝚁𝙰 _"${sopaPalabra}"_ 𝚂𝙴 𝙴𝙽𝙲𝙾𝙽𝚃𝚁𝙰𝙱𝙰 𝙴𝙽 𝙻𝙰 𝙳𝙸𝚁𝙴𝙲𝙲𝙸𝙾𝙽 _${cambioLetra}_ 𝙳𝙴 𝙻𝙰 𝙵𝙸𝙻𝙰 _${fila}_ 𝚈 𝙲𝙾𝙻𝚄𝙼𝙽𝙰 _${columna}_*`)
 return  
 } else {
 intentos -= 1
-await m.reply(`😮‍💨 *INCORRECTO. TE QUEDAN _${intentos}_ INTENTOS!!*${intentos === 1 ? '' : `\n*PALABRA A ENCONTRAR:* \`\`\`${sopaPalabra}\`\`\``}\n\n${intentos === 1 ? `\`\`\`💡 PISTA!!\`\`\`\n*LA PALABRA _${sopaPalabra}_ SE ENCUENTRA EN LA DIRECCIÓN _"${cambioLetra}"_*\n\n` : ''}${sopaNube}`)
+await m.reply(`😮‍💨 𝙸𝙽𝙲𝙾𝚁𝚁𝙴𝙲𝚃𝙾. 𝚃𝙴 𝚀𝚄𝙴𝙳𝙰𝙽 _${intentos}_ 𝙸𝙽𝚃𝙴𝙽𝚃𝙾𝚂!!*${intentos === 1 ? '' : `\n𝙿𝙰𝙻𝙰𝙱𝚁𝙰 𝙰 𝙴𝙽𝙲𝙾𝙽𝚃𝚁𝙰𝚁: \`\`\`${sopaPalabra}\`\`\``}\n\n${intentos === 1 ? `\`\`\`💡 𝙿𝙸𝚂𝚃𝙰!!\`\`\`\n𝙻𝙰 𝙿𝙰𝙻𝙰𝙱𝚁𝙰 _${sopaPalabra}_ 𝚂𝙴 𝙴𝙽𝙲𝚄𝙴𝙽𝚃𝚁𝙰 𝙴𝙽 𝙻𝙰 𝙳𝙸𝚁𝙴𝙲𝙲𝙸𝙾𝙽 _"${cambioLetra}"_\n\n` : ''}${sopaNube}`)
 return
 }}
 }}
