@@ -13,7 +13,7 @@ throw `
 ${lenguajeGB['smsAvisoMG']()}*╭━[ ${wm} ]━⬣*
 *┃➥ ${usedPrefix + command} abrir*
 *┃➥ ${usedPrefix + command} cerrar*
-*╰━━━━━[ 𝙏𝙃𝙀 𝙈𝘼𝙆𝘼𝙉𝘼𝙆𝙔 - 𝘽𝙊𝙏 ]━━━━━⬣*
+*╰━━━━━[ 𝐓𝐇𝐄 𝐌𝐀𝐊𝐀𝐍𝐀𝐊𝐘 - 🤖 ]━━━━━⬣*
 `.trim()
 await conn.groupSettingUpdate(m.chat, isClose)
   
