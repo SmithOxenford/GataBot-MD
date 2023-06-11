@@ -7,7 +7,7 @@ let handler = async (m, { conn, usedPrefix }) => {
     conn.tekateki = conn.tekateki ? conn.tekateki : {}
     let id = m.chat
     if (id in conn.tekateki) {
-        conn.reply(m.chat, 'Todavía hay acertijos sin responder en este chat', conn.tekateki[id][0])
+        conn.reply(m.chat, '𝚃𝙾𝙳𝙰𝚅𝙸𝙰 𝙷𝙰𝚈 𝙰𝙲𝙴𝚁𝚃𝙸𝙹𝙾𝚂 𝚂𝙸𝙽 𝚁𝙴𝚂𝙿𝙾𝙽𝙳𝙴𝚁 𝙴𝙽 𝙴𝚂𝚃𝙴 𝙲𝙷𝙰𝚃', conn.tekateki[id][0])
         throw false
     }
     let tekateki = JSON.parse(fs.readFileSync(`./src/game/acertijo.json`))
@@ -17,14 +17,14 @@ let handler = async (m, { conn, usedPrefix }) => {
     let caption = `
 ⷮ *${json.question}*
 
-*• Tiempo:* ${(timeout / 1000).toFixed(2)} segundos
-*• Bono:* +${poin} Exp
+• 𝚃𝙸𝙴𝙼𝙿𝙾: ${(timeout / 1000).toFixed(2)} 𝚂𝙴𝙶𝚄𝙽𝙳𝙾𝚂
+• 𝙱𝙾𝙽𝙾: +${poin} Exp
 `.trim()
     conn.tekateki[id] = [
        await conn.reply(m.chat, caption, m),
         json, poin,
         setTimeout(async () => {
-            if (conn.tekateki[id]) await conn.reply(m.chat, `Se acabó el tiempo!\n*Respuesta:* ${json.response}`, conn.tekateki[id][0])
+            if (conn.tekateki[id]) await conn.reply(m.chat, `𝚂𝙴 𝙰𝙲𝙰𝙱𝙾 𝙴𝙻 𝚃𝙸𝙴𝙼𝙿𝙾 𝙿𝙸𝙿𝙸𝙿𝙸 😔\n𝚁𝙴𝚂𝙿𝚄𝙴𝚂𝚃𝙰: ${json.response}`, conn.tekateki[id][0])
             delete conn.tekateki[id]
         }, timeout)
     ]
