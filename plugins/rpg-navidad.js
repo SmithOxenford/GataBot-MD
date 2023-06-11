@@ -4,8 +4,8 @@ let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status
 }
 let grupos = [nna, nn, nnn, nnnt]
 let gata = [img5, img6, img7, img8, img9]
-let enlace = { contextInfo: { externalAdReply: {title: wm + ' 🐈', body: 'support group' , sourceUrl: grupos.getRandom(), thumbnail: await(await fetch(gata.getRandom())).buffer() }}}
-let enlace2 = { contextInfo: { externalAdReply: { showAdAttribution: true, mediaUrl: yt, mediaType: 'VIDEO', description: '', title: wm, body: '😻 𝗦𝘂𝗽𝗲𝗿 𝗚𝗮𝘁𝗮𝗕𝗼𝘁-𝗠𝗗 - 𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽 ', thumbnailUrl: await(await fetch(global.img)).buffer(), sourceUrl: yt }}}
+let enlace = { contextInfo: { externalAdReply: {title: wm + ' ', body: 'support group' , sourceUrl: grupos.getRandom(), thumbnail: await(await fetch(gata.getRandom())).buffer() }}}
+let enlace2 = { contextInfo: { externalAdReply: { showAdAttribution: true, mediaUrl: yt, mediaType: 'VIDEO', description: '', title: wm, body: '🤖 𝚂𝚄𝙿𝙴𝚁 𝙼𝙰𝙺𝙰𝙽𝙰𝙺𝚈 - 𝚆𝙷𝙰𝚃𝚂𝙰𝙿𝙿 🤖', thumbnailUrl: await(await fetch(global.img)).buffer(), sourceUrl: yt }}}
 let dos = [enlace, enlace2]    
 
 let user = global.db.data.users[m.sender]
@@ -49,7 +49,7 @@ for (let reward of Object.keys(recompensas)) {
 texto += `*+${recompensas[reward]}* ${global.rpgshop.emoticon(reward)}\n`}
 let text = `
 ╭━━🎅━🎁━🎅━━⬣
-┃ ✨ 𝙊𝘽𝙏𝙄𝙀𝙉𝙀𝙎 𝙐𝙉 𝙍𝙀𝙂𝘼𝙇𝙊!!
+┃ ✨ 𝙾𝙱𝚃𝙸𝙴𝙽𝙴𝚂 𝚄𝙽 𝚁𝙴𝙶𝙰𝙻𝙾!!
 ┃ *${premium ? '🎟️ Recompensa Premium' : '🆓 Recompensa Gratis'}*
 ╰━━🎁━☃️━🎅━━⬣`
 let img = 'https://img.freepik.com/vector-gratis/gente-diminuta-enormes-cajas-regalo-ilustracion-vectorial-plana-personas-que-celebran-cumpleanos-envian-o-reciben-regalos-lealtad-o-ideas-brillantes-recompensa-bonificacion-concepto-fiesta_74855-25016.jpg?w=2000'
