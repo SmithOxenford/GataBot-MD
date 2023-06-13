@@ -19,18 +19,18 @@ let j = ps.getRandom()
 
 if (command == 'topgays') {
 let vn = './media/gay2.mp3'
-let top = `*🌈TOP 10 GAYS/LESBIANAS DEL GRUPO🌈*
+let top = `🌈 𝐓𝐎𝐏 𝟏𝟎 𝐆𝐀𝐘𝐒 / 𝐋𝐄𝐒𝐁𝐈𝐀𝐍𝐀𝐒 𝐃𝐄𝐋 𝐆𝐑𝐔𝐏𝐎 🌈
     
-*_1.- 🏳️‍🌈 ${user(a)}_* 🏳️‍🌈
-*_2.- 🪂 ${user(b)}_* 🪂
-*_3.- 🪁 ${user(c)}_* 🪁
-*_4.- 🏳️‍🌈 ${user(d)}_* 🏳️‍🌈
-*_5.- 🪂 ${user(e)}_* 🪂
-*_6.- 🪁 ${user(f)}_* 🪁
-*_7.- 🏳️‍🌈 ${user(g)}_* 🏳️‍🌈
-*_8.- 🪂 ${user(h)}_* 🪂
-*_9.- 🪁 ${user(i)}_* 🪁
-*_10.- 🏳️‍🌈 ${user(j)}_* 🏳️‍🌈`
+_1.- 🏳️‍🌈 ${user(a)}_ 🏳️‍🌈
+_2.- 🪂 ${user(b)}_ 🪂
+_3.- 🪁 ${user(c)}_ 🪁
+_4.- 🏳️‍🌈 ${user(d)}_ 🏳️‍🌈
+_5.- 🪂 ${user(e)}_ 🪂
+_6.- 🪁 ${user(f)}_ 🪁
+_7.- 🏳️‍🌈 ${user(g)}_ 🏳️‍🌈
+_8.- 🪂 ${user(h)}_ 🪂
+_9.- 🪁 ${user(i)}_ 🪁
+_10.- 🏳️‍🌈 ${user(j)}_ 🏳️‍🌈`
 m.reply(top, null, { mentions: conn.parseMention(top) })
 //m.reply(top, null, {
 
@@ -48,18 +48,18 @@ ptt: true })}
     
 if (command == 'topotakus') {
 let vn = './media/otaku.mp3'
-let top = `*🌸 TOP 10 OTAKUS DEL GRUPO 🌸*
+let top = `🌸 𝐓𝐎𝐏 𝟏𝟎 𝐎𝐓𝐀𝐊𝐔𝐒 𝐃𝐄𝐋 𝐆𝐑𝐔𝐏𝐎 🌸
     
-*_1.- 💮 ${user(a)}_* 💮
-*_2.- 🌷 ${user(b)}_* 🌷
-*_3.- 💮 ${user(c)}_* 💮
-*_4.- 🌷 ${user(d)}_* 🌷
-*_5.- 💮 ${user(e)}_* 💮
-*_6.- 🌷 ${user(f)}_* 🌷
-*_7.- 💮 ${user(g)}_* 💮
-*_8.- 🌷 ${user(h)}_* 🌷
-*_9.- 💮 ${user(i)}_* 💮
-*_10.- 🌷 ${user(j)}_* 🌷`
+_1.- 💮 ${user(a)}_ 💮
+_2.- 🌷 ${user(b)}_ 🌷
+_3.- 💮 ${user(c)}_ 💮
+_4.- 🌷 ${user(d)}_ 🌷
+*_5.- 💮 ${user(e)}_ 💮
+_6.- 🌷 ${user(f)}_ 🌷
+_7.- 💮 ${user(g)}_ 💮
+_8.- 🌷 ${user(h)}_ 🌷
+_9.- 💮 ${user(i)}_ 💮
+_10.- 🌷 ${user(j)}_ 🌷`
 m.reply(top, null, { mentions: conn.parseMention(top) })
 //m.reply(top, null, {
 //conn.sendHydrated(m.chat, top, wm, null, md, '𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿', null, null, [
@@ -75,168 +75,168 @@ ptt: true
 })}
    
 if (command == 'topintegrantes') {
-let top = `*_💎TOP 10 L@S MEJORES INTEGRANTES👑_*
+let top = `💎 𝐓𝐎𝐏 𝟏𝟎 𝐋@𝐒 𝐌𝐄𝐉𝐎𝐑𝐄𝐒 𝐈𝐍𝐓𝐄𝐆𝐑𝐀𝐍𝐓𝐄𝐒 👑
     
-*_1.- 💎 ${user(a)}_* 💎
-*_2.- 👑 ${user(b)}_* 👑
-*_3.- 💎 ${user(c)}_* 💎
-*_4.- 👑 ${user(d)}_* 👑
-*_5.- 💎 ${user(e)}_* 💎
-*_6.- 👑 ${user(f)}_* 👑
-*_7.- 💎 ${user(g)}_* 💎
-*_8.- 👑 ${user(h)}_* 👑
-*_9.- 💎 ${user(i)}_* 💎
-*_10.- 👑 ${user(j)}_* 👑`
+_1.- 💎 ${user(a)}_ 💎
+_2.- 👑 ${user(b)}_ 👑
+_3.- 💎 ${user(c)}_ 💎
+_4.- 👑 ${user(d)}_ 👑
+_5.- 💎 ${user(e)}_ 💎
+_6.- 👑 ${user(f)}_ 👑
+_7.- 💎 ${user(g)}_ 💎
+_8.- 👑 ${user(h)}_ 👑
+_9.- 💎 ${user(i)}_ 💎
+_10.- 👑 ${user(j)}_ 👑`
 m.reply(top, null, { mentions: conn.parseMention(top) })}
    
 if (command == 'topintegrante') {
-let top = `*_💎TOP 10 L@S MEJORES INTEGRANTES👑_*
+let top = `💎 𝐓𝐎𝐏 𝟏𝟎 𝐋@𝐒 𝐌𝐄𝐉𝐎𝐑𝐄𝐒 𝐈𝐍𝐓𝐄𝐆𝐑𝐀𝐍𝐓𝐄𝐒 👑
     
-*_1.- 💎 ${user(a)}_* 💎
-*_2.- 👑 ${user(b)}_* 👑
-*_3.- 💎 ${user(c)}_* 💎
-*_4.- 👑 ${user(d)}_* 👑
-*_5.- 💎 ${user(e)}_* 💎
-*_6.- 👑 ${user(f)}_* 👑
-*_7.- 💎 ${user(g)}_* 💎
-*_8.- 👑 ${user(h)}_* 👑
-*_9.- 💎 ${user(i)}_* 💎
-*_10.- 👑 ${user(j)}_* 👑`
+_1.- 💎 ${user(a)}_ 💎
+_2.- 👑 ${user(b)}_ 👑
+_3.- 💎 ${user(c)}_ 💎
+_4.- 👑 ${user(d)}_ 👑
+_5.- 💎 ${user(e)}_ 💎
+_6.- 👑 ${user(f)}_ 👑
+_7.- 💎 ${user(g)}_ 💎
+_8.- 👑 ${user(h)}_ 👑
+_9.- 💎 ${user(i)}_ 💎
+_10.- 👑 ${user(j)}_ 👑`
 m.reply(top, null, { mentions: conn.parseMention(top) })}
    
 if (command == 'toplagrasa') {
-let top = `*_Uwu TOP 10 LA GRASA Uwu_* 
+let top = `𝐔𝐰𝐮 𝐓𝐎𝐏 𝟏𝟎 𝐋𝐀 𝐆𝐑𝐀𝐒𝐀 𝐔𝐰𝐮
     
-*_1.- Bv ${user(a)} Bv_*
-*_2.- :v ${user(b)} :v_*
-*_3.- :D ${user(c)} :D_*
-*_4.- Owo ${user(d)} Owo_*
-*_5.- U.u ${user(e)} U.u_*
-*_6.- >:v ${user(f)} >:v_*
-*_7.- :'v ${user(g)} :'v_*
-*_8.- ._. ${user(h)} ._._*
-*_9.- :V ${user(i)} :V_*
-*_10.- XD ${user(j)} XD_*`
+_1.- Bv ${user(a)} Bv_
+_2.- :v ${user(b)} :v_
+_3.- :D ${user(c)} :D_
+_4.- Owo ${user(d)} Owo_
+_5.- U.u ${user(e)} U.u_
+_6.- >:v ${user(f)} >:v_
+_7.- :'v ${user(g)} :'v_
+_8.- ._. ${user(h)} ._._
+_9.- :V ${user(i)} :V_
+_10.- XD ${user(j)} XD_`
 m.reply(top, null, { mentions: conn.parseMention(top) })}
    
 if (command == 'topgrasa') {
-let top = `*_Uwu TOP 10 LA GRASA Uwu_* 
+let top = `𝐔𝐰𝐮 𝐓𝐎𝐏 𝟏𝟎 𝐋𝐀 𝐆𝐑𝐀𝐒𝐀 𝐔𝐰𝐮
     
-*_1.- Bv ${user(a)} Bv_*
-*_2.- :v ${user(b)} :v_*
-*_3.- :D ${user(c)} :D_*
-*_4.- Owo ${user(d)} Owo_*
-*_5.- U.u ${user(e)} U.u_*
-*_6.- >:v ${user(f)} >:v_*
-*_7.- :'v ${user(g)} :'v_*
-*_8.- ._. ${user(h)} ._._*
-*_9.- :V ${user(i)} :V_*
-*_10.- XD ${user(j)} XD_*`
+_1.- Bv ${user(a)} Bv_
+_2.- :v ${user(b)} :v_
+_3.- :D ${user(c)} :D_
+_4.- Owo ${user(d)} Owo_
+_5.- U.u ${user(e)} U.u_
+_6.- >:v ${user(f)} >:v_
+_7.- :'v ${user(g)} :'v_
+_8.- ._. ${user(h)} ._._
+_9.- :V ${user(i)} :V_
+_10.- XD ${user(j)} XD_`
 m.reply(top, null, { mentions: conn.parseMention(top) })}
    
 if (command == 'toppanafrescos') {
-let top = `*_👊TOP 10 PANAFRESCOS👊_* 
+let top = `👊 𝐓𝐎𝐏 𝟏𝟎 𝐏𝐀𝐍𝐀𝐅𝐑𝐄𝐒𝐂𝐎𝐒 👊
     
-*_1.- 🤑 ${user(a)}_* 🤑
-*_2.- 🤙 ${user(b)}_* 🤙
-*_3.- 😎 ${user(c)}_* 😎
-*_4.- 👌 ${user(d)}_* 👌
-*_5.- 🧐 ${user(e)}_* 🧐
-*_6.- 😃 ${user(f)}_* 😃
-*_7.- 😋 ${user(g)}_* 😋
-*_8.- 🤜 ${user(h)}_* 🤜
-*_9.- 💪 ${user(i)}_* 💪
-*_10.- 😉 ${user(j)}_* 😉`
+_1.- 🤑 ${user(a)}_ 🤑
+_2.- 🤙 ${user(b)}_ 🤙
+_3.- 😎 ${user(c)}_ 😎
+_4.- 👌 ${user(d)}_ 👌
+_5.- 🧐 ${user(e)}_ 🧐
+_6.- 😃 ${user(f)}_ 😃
+_7.- 😋 ${user(g)}_ 😋
+_8.- 🤜 ${user(h)}_ 🤜
+_9.- 💪 ${user(i)}_ 💪
+_10.- 😉 ${user(j)}_ 😉`
 m.reply(top, null, { mentions: conn.parseMention(top) })}
    
 if (command == 'toppanafresco') {
-let top = `*_👊TOP 10 PANAFRESCOS👊_* 
+let top = `👊 𝐓𝐎𝐏 𝟏𝟎 𝐏𝐀𝐍𝐀𝐅𝐑𝐄𝐒𝐂𝐎𝐒 👊
     
-*_1.- 🤑 ${user(a)}_* 🤑
-*_2.- 🤙 ${user(b)}_* 🤙
-*_3.- 😎 ${user(c)}_* 😎
-*_4.- 👌 ${user(d)}_* 👌
-*_5.- 🧐 ${user(e)}_* 🧐
-*_6.- 😃 ${user(f)}_* 😃
-*_7.- 😋 ${user(g)}_* 😋
-*_8.- 🤜 ${user(h)}_* 🤜
-*_9.- 💪 ${user(i)}_* 💪
-*_10.- 😉 ${user(j)}_* 😉`
+_1.- 🤑 ${user(a)}_ 🤑
+_2.- 🤙 ${user(b)}_ 🤙
+_3.- 😎 ${user(c)}_ 😎
+_4.- 👌 ${user(d)}_ 👌
+_5.- 🧐 ${user(e)}_ 🧐
+_6.- 😃 ${user(f)}_ 😃
+_7.- 😋 ${user(g)}_ 😋
+_8.- 🤜 ${user(h)}_ 🤜
+_9.- 💪 ${user(i)}_ 💪
+_10.- 😉 ${user(j)}_ 😉`
 m.reply(top, null, { mentions: conn.parseMention(top) })}
    
 if (command == 'topshiposters') {
-let top = `*_😱TOP 10 SHIPOSTERS DEL GRUPO😱_* 
+let top = `😱 𝐓𝐎𝐏 𝟏𝟎 𝐒𝐇𝐈𝐏𝐎𝐒𝐓𝐄𝐑𝐒 𝐃𝐄𝐋 𝐆𝐑𝐔𝐏𝐎 😱 
     
-*_1.- 😈 ${user(a)}_* 😈
-*_2.- 🤙 ${user(b)}_* 🤙
-*_3.- 🥶 ${user(c)}_* 🥶
-*_4.- 🤑 ${user(d)}_* 🤑
-*_5.- 🥵 ${user(e)}_* 🥵
-*_6.- 🤝 ${user(f)}_* 🤝
-*_7.- 😟 ${user(g)}_* 😟
-*_8.- 😨 ${user(h)}_* 😨
-*_9.- 😇 ${user(i)}_* 😇
-*_10.- 🤠 ${user(j)}_* 🤠`
+_1.- 😈 ${user(a)}_ 😈
+_2.- 🤙 ${user(b)}_ 🤙
+_3.- 🥶 ${user(c)}_ 🥶
+_4.- 🤑 ${user(d)}_ 🤑
+_5.- 🥵 ${user(e)}_ 🥵
+_6.- 🤝 ${user(f)}_ 🤝
+_7.- 😟 ${user(g)}_ 😟
+_8.- 😨 ${user(h)}_ 😨
+_9.- 😇 ${user(i)}_ 😇
+_10.- 🤠 ${user(j)}_ 🤠`
 m.reply(top, null, { mentions: conn.parseMention(top) })}
    
 if (command == 'topshipost') {
-let top = `*_😱TOP 10 SHIPOSTERS DEL GRUPO😱_* 
+let top = `😱 𝐓𝐎𝐏 𝟏𝟎 𝐒𝐇𝐈𝐏𝐎𝐒𝐓𝐄𝐑𝐒 𝐃𝐄𝐋 𝐆𝐑𝐔𝐏𝐎 😱  
     
-*_1.- 😈 ${user(a)}_* 😈
-*_2.- 🤙 ${user(b)}_* 🤙
-*_3.- 🥶 ${user(c)}_* 🥶
-*_4.- 🤑 ${user(d)}_* 🤑
-*_5.- 🥵 ${user(e)}_* 🥵
-*_6.- 🤝 ${user(f)}_* 🤝
-*_7.- 😟 ${user(g)}_* 😟
-*_8.- 😨 ${user(h)}_* 😨
-*_9.- 😇 ${user(i)}_* 😇
-*_10.- 🤠 ${user(j)}_* 🤠`
+_1.- 😈 ${user(a)}_ 😈
+_2.- 🤙 ${user(b)}_ 🤙
+_3.- 🥶 ${user(c)}_ 🥶
+_4.- 🤑 ${user(d)}_ 🤑
+_5.- 🥵 ${user(e)}_ 🥵
+_6.- 🤝 ${user(f)}_ 🤝
+_7.- 😟 ${user(g)}_ 😟
+_8.- 😨 ${user(h)}_ 😨
+_9.- 😇 ${user(i)}_ 😇
+_10.- 🤠 ${user(j)}_ 🤠`
 m.reply(top, null, { mentions: conn.parseMention(top) })}
    
 if (command == 'toppajer@s') {
-let top = `*_😏TOP L@S MAS PAJEROS/AS DEL GRUPO💦_* 
+let top = `😏 𝐓𝐎𝐏 𝐋@𝐒 𝐌𝐀𝐒 𝐏𝐀𝐉𝐄𝐑𝐎𝐒/𝐀𝐒 𝐃𝐄𝐋 𝐆𝐑𝐔𝐏𝐎 💦
     
-*_1.- 🥵 ${user(a)}_* 💦
-*_2.- 🥵 ${user(b)}_* 💦
-*_3.- 🥵 ${user(c)}_* 💦
-*_4.- 🥵 ${user(d)}_* 💦
-*_5.- 🥵 ${user(e)}_* 💦
-*_6.- 🥵 ${user(f)}_* 💦
-*_7.- 🥵 ${user(g)}_* 💦
-*_8.- 🥵 ${user(h)}_* 💦
-*_9.- 🥵 ${user(i)}_* 💦
-*_10.- 🥵 ${user(j)}_* 💦`
+_1.- 🥵 ${user(a)}_ 💦
+_2.- 🥵 ${user(b)}_ 💦
+_3.- 🥵 ${user(c)}_ 💦
+_4.- 🥵 ${user(d)}_ 💦
+_5.- 🥵 ${user(e)}_ 💦
+_6.- 🥵 ${user(f)}_ 💦
+_7.- 🥵 ${user(g)}_ 💦
+_8.- 🥵 ${user(h)}_ 💦
+_9.- 🥵 ${user(i)}_ 💦
+_10.- 🥵 ${user(j)}_ 💦`
 m.reply(top, null, { mentions: conn.parseMention(top) })}
    
 if (command == 'toplind@s') {
-let top = `*_😳TOP L@S MAS LIND@S Y SEXIS DEL GRUPO😳_*
+let top = `😳 𝐓𝐎𝐏 𝐋@𝐒 𝐌𝐀𝐒 𝐋𝐈𝐍𝐃@𝐒 𝐘 𝐒𝐄𝐗𝐈𝐒 𝐃𝐄𝐋 𝐆𝐑𝐔𝐏𝐎 😳
     
-*_1.- ✨ ${user(a)}_* ✨
-*_2.- ✨ ${user(b)}_* ✨
-*_3.- ✨ ${user(c)}_* ✨
-*_4.- ✨ ${user(d)}_* ✨
-*_5.- ✨ ${user(e)}_* ✨
-*_6.- ✨ ${user(f)}_* ✨
-*_7.- ✨ ${user(g)}_* ✨
-*_8.- ✨ ${user(h)}_* ✨
-*_9.- ✨ ${user(i)}_* ✨
-*_10.- ✨ ${user(j)}_* ✨`
+_1.- ✨ ${user(a)}_ ✨
+_2.- ✨ ${user(b)}_ ✨
+_3.- ✨ ${user(c)}_ ✨
+_4.- ✨ ${user(d)}_ ✨
+_5.- ✨ ${user(e)}_ ✨
+_6.- ✨ ${user(f)}_ ✨
+_7.- ✨ ${user(g)}_ ✨
+_8.- ✨ ${user(h)}_ ✨
+_9.- ✨ ${user(i)}_ ✨
+_10.- ✨ ${user(j)}_ ✨`
 m.reply(top, null, { mentions: conn.parseMention(top) })}
    
 if (command == 'toplindos') {
-let top = `*_😳TOP L@S MAS LIND@S Y SEXIS DEL GRUPO😳_*
+let top = `😳 𝐓𝐎𝐏 𝐋@𝐒 𝐌𝐀𝐒 𝐋𝐈𝐍𝐃@𝐒 𝐘 𝐒𝐄𝐗𝐈𝐒 𝐃𝐄𝐋 𝐆𝐑𝐔𝐏𝐎 😳
     
-*_1.- ✨ ${user(a)}_* ✨
-*_2.- ✨ ${user(b)}_* ✨
-*_3.- ✨ ${user(c)}_* ✨
-*_4.- ✨ ${user(d)}_* ✨
-*_5.- ✨ ${user(e)}_* ✨
-*_6.- ✨ ${user(f)}_* ✨
-*_7.- ✨ ${user(g)}_* ✨
-*_8.- ✨ ${user(h)}_* ✨
-*_9.- ✨ ${user(i)}_* ✨
-*_10.- ✨ ${user(j)}_* ✨`
+_1.- ✨ ${user(a)}_ ✨
+_2.- ✨ ${user(b)}_ ✨
+_3.- ✨ ${user(c)}_ ✨
+_4.- ✨ ${user(d)}_ ✨
+_5.- ✨ ${user(e)}_ ✨
+_6.- ✨ ${user(f)}_ ✨
+_7.- ✨ ${user(g)}_ ✨
+_8.- ✨ ${user(h)}_ ✨
+_9.- ✨ ${user(i)}_ ✨
+_10.- ✨ ${user(j)}_ ✨`
 m.reply(top, null, { mentions: conn.parseMention(top) })}
    
 if (command == 'topput@s') {
@@ -255,71 +255,71 @@ let top = `*_😏TOP L@S MAS PUT@S DEL GRUPO SON🔥_*
 m.reply(top, null, { mentions: conn.parseMention(top) })}
    
 if (command == 'topfamosos') {
-let top = `*_🌟TOP PERSONAS FAMOSAS EN EL GRUPO🌟_* 
+let top = `🌟 𝐓𝐎𝐏 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐒 𝐅𝐀𝐌𝐎𝐒𝐀𝐒 𝐄𝐍 𝐄𝐋 𝐆𝐑𝐔𝐏𝐎 🌟
     
-*_1.- 🛫 ${user(a)}_* 🛫
-*_2.- 🥂 ${user(b)}_* 🥂
-*_3.- 🤩 ${user(c)}_* 🤩
-*_4.- 🛫 ${user(d)}_* 🛫
-*_5.- 🥂 ${user(e)}_* 🥂
-*_6.- 🤩 ${user(f)}_* 🤩
-*_7.- 🛫 ${user(g)}_* 🛫
-*_8.- 🥂 ${user(h)}_* 🥂
-*_9.- 🤩 ${user(i)}_* 🤩
-*_10.- 🛫 ${user(j)}_* 🛫`
+_1.- 🛫 ${user(a)}_ 🛫
+_2.- 🥂 ${user(b)}_ 🥂
+_3.- 🤩 ${user(c)}_ 🤩
+_4.- 🛫 ${user(d)}_ 🛫
+_5.- 🥂 ${user(e)}_ 🥂
+_6.- 🤩 ${user(f)}_ 🤩
+_7.- 🛫 ${user(g)}_ 🛫
+_8.- 🥂 ${user(h)}_ 🥂
+_9.- 🤩 ${user(i)}_ 🤩
+_10.- 🛫 ${user(j)}_ 🛫`
 m.reply(top, null, { mentions: conn.parseMention(top) })}
    
 if (command == 'topfamos@s') {
-let top = `*_🌟TOP PERSONAS FAMOSAS EN EL GRUPO🌟_* 
+let top = `🌟 𝐓𝐎𝐏 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐒 𝐅𝐀𝐌𝐎𝐒𝐀𝐒 𝐄𝐍 𝐄𝐋 𝐆𝐑𝐔𝐏𝐎 🌟
     
-*_1.- 🛫 ${user(a)}_* 🛫
-*_2.- 🥂 ${user(b)}_* 🥂
-*_3.- 🤩 ${user(c)}_* 🤩
-*_4.- 🛫 ${user(d)}_* 🛫
-*_5.- 🥂 ${user(e)}_* 🥂
-*_6.- 🤩 ${user(f)}_* 🤩
-*_7.- 🛫 ${user(g)}_* 🛫
-*_8.- 🥂 ${user(h)}_* 🥂
-*_9.- 🤩 ${user(i)}_* 🤩
-*_10.- 🛫 ${user(j)}_* 🛫`
+_1.- 🛫 ${user(a)}_ 🛫
+_2.- 🥂 ${user(b)}_ 🥂
+_3.- 🤩 ${user(c)}_ 🤩
+_4.- 🛫 ${user(d)}_ 🛫
+_5.- 🥂 ${user(e)}_ 🥂
+_6.- 🤩 ${user(f)}_ 🤩
+_7.- 🛫 ${user(g)}_ 🛫
+_8.- 🥂 ${user(h)}_ 🥂
+_9.- 🤩 ${user(i)}_ 🤩
+_10.- 🛫 ${user(j)}_ 🛫`
 m.reply(top, null, { mentions: conn.parseMention(top) })}
    
 if (command == 'topparejas') {
-let top = `*_😍 Las 5 maravillosas parejas del grupo 😍_*
+let top = `😍 𝐓𝐎𝐏 𝐋𝐀𝐒 𝟓 𝐌𝐀𝐑𝐀𝐕𝐈𝐋𝐋𝐎𝐒𝐀𝐒 𝐏𝐀𝐑𝐄𝐉𝐀𝐒 𝐃𝐄𝐋 𝐆𝐑𝐔𝐏𝐎 😍
     
-*_1.- ${user(a)} 💘 ${user(b)}_* 
-Que hermosa pareja 💖, me invitan a su Boda 🛐
+_1.- ${user(a)} 💘 ${user(b)}_
+𝚀𝚄𝙴 𝙷𝙴𝚁𝙼𝙾𝚂𝙰 𝙿𝙰𝚁𝙴𝙹𝙰 💖, 𝙼𝙴 𝙸𝙽𝙸𝚅𝚃𝙰𝙽 𝙰 𝚂𝚄 𝙱𝙾𝙳𝙰 🛐
 
-*_2.- ${user(c)} 💘 ${user(d)}_*  
-🌹 Ustedes se merecen lo mejor del mundo 💞
+_2.- ${user(c)} 💘 ${user(d)}_  
+🌹 𝚄𝚂𝚃𝙴𝙳𝙴𝚂 𝙼𝙴𝚁𝙴𝙲𝙴𝙽 𝙻𝙾 𝙼𝙴𝙹𝙾𝚁 𝙳𝙴𝙻 𝙼𝚄𝙽𝙳𝙾 💞
 
-*_3.- ${user(e)} 💘 ${user(f)}_* 
-Tan enamorados 😍, para cuando la familia 🥰
+_3.- ${user(e)} 💘 ${user(f)}_
+𝚃𝙰𝙽 𝙴𝙽𝙰𝙼𝙾𝚁𝙰𝙳𝙾𝚂 😍, 𝙿𝙰𝚁𝙰 𝙲𝚄𝙰𝙽𝙳𝙾 𝚄𝙽𝙰 𝙵𝙰𝙼𝙸𝙻𝙸𝙰 🥰
 
-*_4.- ${user(g)} 💘 ${user(h)}_* 
-💗 Decreto que ustedes son la pareja del Año 💗 
+_4.- ${user(g)} 💘 ${user(h)}_
+💗 𝙳𝙴𝙲𝚁𝙴𝚃𝙾 𝚀𝚄𝙴 𝚄𝚂𝚃𝙴𝙳𝙴𝚂 𝚂𝙾𝙽 𝙻𝙰 𝙿𝙰𝚁𝙴𝙹𝙰 𝙳𝙴𝙻 𝙰𝙽̃𝙾 💗 
 
-*_5.- ${user(i)} 💘 ${user(j)}_* 
-Genial! 💝, están de Luna de miel 🥵✨❤️‍🔥`
+_5.- ${user(i)} 💘 ${user(j)}_
+𝙶𝙴𝙽𝙸𝙰𝙻! 💝, 𝙴𝚂𝚃𝙰𝙽 𝙳𝙴 𝙻𝚄𝙽𝙰 𝙳𝙴 𝙼𝙸𝙴𝙻 🥵✨❤️‍🔥`
 m.reply(top, null, { mentions: conn.parseMention(top) })}
    
 if (command == 'top5parejas') {
-let top = `*_😍 Las 5 maravillosas parejas del grupo 😍_*
+let top = `😍 𝐓𝐎𝐏 𝐋𝐀𝐒 𝟓 𝐌𝐀𝐑𝐀𝐕𝐈𝐋𝐋𝐎𝐒𝐀𝐒 𝐏𝐀𝐑𝐄𝐉𝐀𝐒 𝐃𝐄𝐋 𝐆𝐑𝐔𝐏𝐎 😍
     
-*_1.- ${user(a)} 💘 ${user(b)}_* 
-Que hermosa pareja 💖, me invitan a su Boda 🛐
+_1.- ${user(a)} 💘 ${user(b)}_
+𝚀𝚄𝙴 𝙷𝙴𝚁𝙼𝙾𝚂𝙰 𝙿𝙰𝚁𝙴𝙹𝙰 💖, 𝙼𝙴 𝙸𝙽𝙸𝚅𝚃𝙰𝙽 𝙰 𝚂𝚄 𝙱𝙾𝙳𝙰 🛐
 
-*_2.- ${user(c)} 💘 ${user(d)}_*  
-🌹 Ustedes se merecen lo mejor del mundo 💞
+_2.- ${user(c)} 💘 ${user(d)}_  
+🌹 𝚄𝚂𝚃𝙴𝙳𝙴𝚂 𝙼𝙴𝚁𝙴𝙲𝙴𝙽 𝙻𝙾 𝙼𝙴𝙹𝙾𝚁 𝙳𝙴𝙻 𝙼𝚄𝙽𝙳𝙾 💞
 
-*_3.- ${user(e)} 💘 ${user(f)}_* 
-Tan enamorados 😍, para cuando la familia 🥰
+_3.- ${user(e)} 💘 ${user(f)}_
+𝚃𝙰𝙽 𝙴𝙽𝙰𝙼𝙾𝚁𝙰𝙳𝙾𝚂 😍, 𝙿𝙰𝚁𝙰 𝙲𝚄𝙰𝙽𝙳𝙾 𝚄𝙽𝙰 𝙵𝙰𝙼𝙸𝙻𝙸𝙰 🥰
 
-*_4.- ${user(g)} 💘 ${user(h)}_* 
-💗 Decreto que ustedes son la pareja del Año 💗 
+_4.- ${user(g)} 💘 ${user(h)}_
+💗 𝙳𝙴𝙲𝚁𝙴𝚃𝙾 𝚀𝚄𝙴 𝚄𝚂𝚃𝙴𝙳𝙴𝚂 𝚂𝙾𝙽 𝙻𝙰 𝙿𝙰𝚁𝙴𝙹𝙰 𝙳𝙴𝙻 𝙰𝙽̃𝙾 💗 
 
-*_5.- ${user(i)} 💘 ${user(j)}_* 
-Genial! 💝, están de Luna de miel 🥵✨❤️‍🔥`
+_5.- ${user(i)} 💘 ${user(j)}_
+𝙶𝙴𝙽𝙸𝙰𝙻! 💝, 𝙴𝚂𝚃𝙰𝙽 𝙳𝙴 𝙻𝚄𝙽𝙰 𝙳𝙴 𝙼𝙸𝙴𝙻 🥵✨❤️‍🔥`
 m.reply(top, null, { mentions: conn.parseMention(top) })}
   
 }
