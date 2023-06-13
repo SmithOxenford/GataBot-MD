@@ -4,7 +4,7 @@ import yts from 'yt-search'
 let handler = async (m, { conn, command, text, usedPrefix }) => {
 let q, v, yt, dl_url, ttl, size, lolhuman, lolh, n, n2, n3, n4, cap, qu, currentQuality
 	let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
-	if (!text) throw `${lenguajeGB['smsAvisoMG']()}𝙴𝚂𝙲𝚁𝙸𝙱𝙰 𝙴𝙻 𝙽𝙾𝙼𝙱𝚁𝙴 𝙾 𝚃𝙸𝚃𝚄𝙻𝙾\n𝙴𝙹𝙴𝙼𝙿𝙻𝙾:\n*${usedPrefix + command} El Faraon Love Shady - Oh me vengo*`
+	if (!text) throw `${lenguajeGB['smsAvisoMG']()}𝙴𝚂𝙲𝚁𝙸𝙱𝙰 𝙴𝙻 𝙽𝙾𝙼𝙱𝚁𝙴 𝙾 𝚃𝙸𝚃𝚄𝙻𝙾\n𝙴𝙹𝙴𝙼𝙿𝙻𝙾:\n${usedPrefix + command} 𝙴𝙻 𝙵𝙰𝚁𝙰𝙾𝙽 𝙻𝙾𝚅𝙴 𝚂𝙷𝙰𝙳𝚈 - 𝙾𝙷 𝙼𝙴 𝚅𝙴𝙽𝙶𝙾`
 	let vid = (await yts(text)).all[0]
 let { title, description, publishedTime, url, thumbnail, videoId, timestamp, views, published } = vid
 try {
