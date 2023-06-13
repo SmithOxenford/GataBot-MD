@@ -4,29 +4,29 @@ import yts from 'yt-search'
 let handler = async (m, { conn, command, text, usedPrefix }) => {
 let q, v, yt, dl_url, ttl, size, lolhuman, lolh, n, n2, n3, n4, cap, qu, currentQuality
 	let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
-	if (!text) throw `${lenguajeGB['smsAvisoMG']()}𝙀𝙎𝘾𝙍𝙄𝘽𝘼 𝙀𝙇 𝙉𝙊𝙈𝘽𝙍𝙀 𝙊 𝙏𝙄𝙏𝙐𝙇𝙊\n𝙀𝙅𝙀𝙈𝙋𝙇𝙊\n*${usedPrefix + command} Billie Eilish - Bellyache*`
+	if (!text) throw `${lenguajeGB['smsAvisoMG']()}𝙴𝚂𝙲𝚁𝙸𝙱𝙰 𝙴𝙻 𝙽𝙾𝙼𝙱𝚁𝙴 𝙾 𝚃𝙸𝚃𝚄𝙻𝙾\n𝙴𝙹𝙴𝙼𝙿𝙻𝙾:\n*${usedPrefix + command} El Faraon Love Shady - Oh me vengo*`
 	let vid = (await yts(text)).all[0]
 let { title, description, publishedTime, url, thumbnail, videoId, timestamp, views, published } = vid
 try {
 if (command == 'play') {	
-conn.sendFile(m.chat, thumbnail, 'thumbnail.jpg', `*𓆩 𝙏𝙃𝙀 𝙈𝘼𝙆𝘼𝙉𝘼𝙆𝙔 - 𝘽𝙊𝙏 𓆪*
+conn.sendFile(m.chat, thumbnail, 'thumbnail.jpg', `𓆩 𝐓𝐇𝐄 𝐌𝐀𝐊𝐀𝐍𝐀𝐊𝐘 - 🤖 𓆪
 
-ও *TÍTULO*
+ও 𝚃𝙸𝚃𝚄𝙻𝙾
 » ${title} 
 ﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘
-ও *DESCRIPCIÓN*
+ও 𝙳𝙴𝚂𝙲𝚁𝙸𝙿𝙲𝙸𝙾𝙽
 » ${description}
 ﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘
-ও *DURACIÓN*
+ও 𝙳𝚄𝚁𝙰𝙲𝙸𝙾𝙽
 » ${timestamp}
 ﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘
-ও *VISTAS*
+ও 𝚅𝙸𝚂𝚃𝙰𝚂
 » ${views}
 ﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘
-ও *URL*
+ও 𝚄𝚁𝙻
 » ${url}
 
-*𓆩 𝙏𝙃𝙀 𝙈𝘼𝙆𝘼𝙉𝘼𝙆𝙔 - 𝘽𝙊𝙏 𓆪*`.trim(), fkontak, m)
+𓆩 𝐓𝐇𝐄 𝐌𝐀𝐊𝐀𝐍𝐀𝐊𝐘 - 🤖 𓆪`.trim(), fkontak, m)
 q = '128kbps'
 v = url
 yt = await youtubedl(v).catch(async () => await youtubedlv2(v)).catch(async () => await youtubedlv3(v))
