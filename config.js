@@ -12,7 +12,7 @@ import { en, es, id, ar, pt, fr } from './lib/idiomas/total-idiomas.js'
 //⊱ ━━━━━.⋅ Añada los numeros a ser Propietario/a | Add the numbers to be Owner ⋅.━━━━ ⊰  
 
 global.owner = [
-  ['51936933624', '𝐓𝐇𝐄 𝐌𝐀𝐊𝐀𝐍𝐀𝐊𝐘 - 🤖', true],  
+  ['51936933624', '𝐌𝐀𝐊𝐀𝐍𝐀𝐊𝐘 - 🤖', true],  
   ['51986206184', '𝙊𝙬𝙣𝙚𝙧 (1) 💻', true],
   ['51986206184', '𝘾𝙪𝙨𝙩𝙤𝙢𝙚𝙧 𝙎𝙪𝙥𝙥𝙤𝙧𝙩 🥏', true],
   ['51986206184', '𝘼𝙙𝙧𝙞𝙖𝙣𝙤 𝙎𝙖𝙣𝙘𝙝𝙚𝙯', true],
@@ -113,7 +113,7 @@ global.desc = '' //agrega una descripción corta
 global.desc2 = '' //agrega una descripción larga (Solo se aplicará si su whasapp no tiene descripción)
 global.country = '' //agrega tú país ejemplo: 🇪🇨
 
-global.packname = '𝐓𝐇𝐄 𝐌𝐀𝐊𝐀𝐍𝐀𝐊𝐘 - 🤖'
+global.packname = '𝐌𝐀𝐊𝐀𝐍𝐀𝐊𝐘 - 🤖'
 global.author = '𝐀𝐃𝐑𝐈𝐀𝐍𝐎 𝐒𝐀𝐍𝐂𝐇𝐄𝐙'
 
 //⊱ ━━━━━.⋅ Versión | Nombre | cuentas ⋅.━━━━ ⊰
@@ -121,7 +121,7 @@ global.author = '𝐀𝐃𝐑𝐈𝐀𝐍𝐎 𝐒𝐀𝐍𝐂𝐇𝐄𝐙'
 global.vs = '1.4.9'
 global.vsJB = '2.0'
 
-global.gt = '𝐓𝐇𝐄 𝐌𝐀𝐊𝐀𝐍𝐀𝐊𝐘 - 🤖'
+global.gt = '𝐌𝐀𝐊𝐀𝐍𝐀𝐊𝐘 - 🤖'
 global.yt = 'https://www.instagram.com/adri2.pc'
 global.yt2 = 'https://www.instagram.com/adri2.pc'
 global.ig = 'https://www.instagram.com/adri2.pc'
@@ -173,8 +173,8 @@ global.exito = eg
 
 //⊱ ━━━━━.⋅ Información | Information ⋅.━━━━ ⊰
 
-global.wm = '𝚃𝙷𝙴 𝙼𝙰𝙺𝙰𝙽𝙰𝙺𝚈 - 🤖 : 𝙰𝙳𝚁𝙸𝙰𝙽𝙾 𝚂𝙰𝙽𝙲𝙷𝙴𝚉'
-global.igfg = '𝐓𝐇𝐄 𝐌𝐀𝐊𝐀𝐍𝐀𝐊𝐘 - 🤖'
+global.wm = '𝙼𝙰𝙺𝙰𝙽𝙰𝙺𝚈 - 🤖 : 𝙰𝙳𝚁𝙸𝙰𝙽𝙾 𝚂𝙰𝙽𝙲𝙷𝙴𝚉'
+global.igfg = '𝐌𝐀𝐊𝐀𝐍𝐀𝐊𝐘 - 🤖'
 global.wait = '*⌛ 𝙲𝙰𝚁𝙶𝙰𝙽𝙳𝙾... ▬▭▭▭▭▭▭*'
 global.waitt = '*⌛ 𝙲𝙰𝚁𝙶𝙰𝙽𝙳𝙾... ▬▬▭▭▭*'
 global.waittt = '*⌛ 𝙲𝙰𝚁𝙶𝙰𝙽𝙳𝙾... ▬▬▬▬▭▭*'
