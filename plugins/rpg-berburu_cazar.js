@@ -70,7 +70,7 @@ let handler = async (m, { conn }) => {
 		let ar12 = `${['🪚','⛏️','🧨','💣','🔫','🔪','🗡️','🏹','🦾','🥊','🧹','🔨','🛻'].getRandom()}`
 
 let hsl = `
-*✧ Resultados de la caza ${conn.getName(m.sender)} ✧*
+✧ 𝐑𝐄𝐒𝐔𝐋𝐓𝐀𝐃𝐎𝐒 𝐃𝐄 𝐋𝐀 𝐂𝐀𝐙𝐀 ${conn.getName(m.sender)} ✧
 
  *🐂 ${ar1} ${anti1}*			 *🐃 ${ar7} ${anti7}*
  *🐅 ${ar2} ${anti2}*			 *🐮 ${ar8} ${anti8}*
@@ -93,29 +93,33 @@ let hsl = `
 		global.db.data.users[m.sender].ayam += rbrb12
 	
 let time = global.db.data.users[m.sender].lastberburu + 2700000 //45 Minutos
-if (new Date - global.db.data.users[m.sender].lastberburu < 2700000) return conn.sendButton(m.chat, `𝙋𝙊𝙍 𝙁𝘼𝙑𝙊𝙍 𝘿𝙀𝙎𝘾𝘼𝙉𝙎𝘼 𝙐𝙉 𝙈𝙊𝙈𝙀𝙉𝙏𝙊 𝙋𝘼𝙍𝘼 𝙇𝙐𝙀𝙂𝙊 𝙎𝙀𝙂𝙐𝙄𝙍 𝘾𝘼𝙕𝘼𝙉𝘿𝙊`, `⫹⫺ 𝙏𝙄𝙀𝙈𝙋𝙊 : ${clockString(time - new Date())}\n${wm}`, null, [
-['🏞️ 𝘼𝙣𝙞𝙢𝙖𝙡𝙚𝙨 𝘾𝙖𝙥𝙩𝙪𝙧𝙖𝙙𝙤𝙨 ', '.kandang'],
-[`🎒 𝙄𝙣𝙫𝙚𝙣𝙩𝙖𝙧𝙞𝙤 | 𝙄𝙣𝙫𝙚𝙣𝙩𝙤𝙧𝙮`, `.inventario`]], fkontak, m)	
+if (new Date - global.db.data.users[m.sender].lastberburu < 2700000) return conn.reply(m.chat, `𝙿𝙾𝚁 𝙵𝙰𝚅𝙾𝚁 𝙳𝙴𝚂𝙲𝙰𝙽𝚂𝙰 𝚄𝙽 𝙼𝙾𝙼𝙴𝙽𝚃𝙾 𝙿𝙰𝚁𝙰 𝙻𝚄𝙴𝙶𝙾 𝚂𝙴𝙶𝚄𝙸𝚁 𝙲𝙰𝚉𝙰𝙽𝙳𝙾 🤗\n\n⫹⫺ 𝐓𝐈𝐄𝐌𝐏𝐎: ${clockString(time - new Date())}\n${wm}`, fkontak, m)
+//conn.sendButton(m.chat, `𝙋𝙊𝙍 𝙁𝘼𝙑𝙊𝙍 𝘿𝙀𝙎𝘾𝘼𝙉𝙎𝘼 𝙐𝙉 𝙈𝙊𝙈𝙀𝙉𝙏𝙊 𝙋𝘼𝙍𝘼 𝙇𝙐𝙀𝙂𝙊 𝙎𝙀𝙂𝙐𝙄𝙍 𝘾𝘼𝙕𝘼𝙉𝘿𝙊\n\n𝙋𝙇𝙀𝘼𝙎𝙀 𝙍𝙀𝙎𝙏 𝘼 𝙈𝙊𝙈𝙀𝙉𝙏 𝘼𝙉𝘿 𝙏𝙃𝙀𝙉 𝘾𝙊𝙉𝙏𝙄𝙉𝙐𝙀 𝙃𝙐𝙉𝙏𝙄𝙉𝙂`, `⫹⫺ 𝙏𝙄𝙀𝙈𝙋𝙊 : 𝙏𝙄𝙈𝙀 ${clockString(time - new Date())}\n${wm}`, null, [['🏞️ 𝘼𝙣𝙞𝙢𝙖𝙡𝙚𝙨 𝘾𝙖𝙥𝙩𝙪𝙧𝙖𝙙𝙤𝙨 ', '.kandang'],[`🎒 𝙄𝙣𝙫𝙚𝙣𝙩𝙖𝙧𝙞𝙤 | 𝙄𝙣𝙫𝙚𝙣𝙩𝙤𝙧𝙮`, `.inventario`]], fkontak, m)	
 
 setTimeout(() => {
-conn.sendHydrated(m.chat, hsl, wm, null, md, `𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿`, null, null, [
-[null, null]], null)}, 20000)
+conn.reply(m.chat, hsl, fkontak, m)
+//conn.sendButton(m.chat, hsl, wm, null, [['🔗 𝙶𝙸𝚃𝙷𝚄𝙱 🔗', '#script']], null)
+/*conn.sendHydrated(m.chat, hsl, wm, null, md, `𝙶𝙸𝚃𝙷𝚄𝙱`, null, null, [
+[null, null]], null)*/
+}, 20000)
+/*conn.sendHydrated(m.chat, hsl, wm, null, md, `𝙶𝙸𝚃𝙷𝚄𝙱`, null, null, [
+[null, null]], null)*/
 	        
 setTimeout(() => {
-conn.sendHydrated(m.chat, `${conn.getName(m.sender)} *${['OBJETIVO FIJADO 🎯','Carnada en Marcha 🍫 🍇 🍖','ANIMALES DETECTADOS!! 🐂 🐅 🐘 🐼','ANIMALES DETECTADOS!! 🐖 🐃 🐮 🐒'].getRandom()}*`, wm, null, null, null, null, null, [
-[null, null]], null)}, 18000)
+conn.reply(m.chat, `@${m.sender.split("@s.whatsapp.net")[0]} *${['𝙾𝙱𝙹𝙴𝚃𝙸𝚅𝙾 𝙵𝙸𝙹𝙰𝙳𝙾 🎯','𝙲𝙰𝚁𝙽𝙰𝙳𝙰 𝙴𝙽 𝙼𝙰𝚁𝙲𝙷𝙰 🍫 🍇 🍖','𝙲𝙰𝚁𝙽𝙰𝙳𝙰 𝙴𝙽 𝙼𝙰𝚁𝙲𝙷𝙰 🐂 🐅 🐘 🐼','𝙰𝙽𝙸𝙼𝙰𝙻𝙴𝚂 𝙳𝙴𝚃𝙴𝙲𝚃𝙰𝙳𝙾𝚂!! 🐖 🐃 🐮 🐒'].getRandom()}*`, null, { mentions: [m.sender]})}, 18000)	
+//conn.sendHydrated(m.chat, `${conn.getName(m.sender)} *${['OBJETIVO FIJADO 🎯','Carnada en Marcha 🍫 🍇 🍖','ANIMALES DETECTADOS!! 🐂 🐅 🐘 🐼','ANIMALES DETECTADOS!! 🐖 🐃 🐮 🐒'].getRandom()}*`, wm, null, null, null, null, null, [[null, null]], null)}, 18000)
 
 setTimeout(() => {
-conn.sendHydrated(m.chat, `${conn.getName(m.sender)} *${['Armas lista para la Caza!!','Probando Armas 🔫 💣 🪓 🏹','CARROS PARA LA CAZA!! 🚗 🏍️ 🚜','TIEMPO BUENO PARA LA CAZA 🧤'].getRandom()}*`, wm, null, null, null, null, null, [
-[null, null]], null)}, 15000)
+conn.reply(m.chat, `@${m.sender.split("@s.whatsapp.net")[0]} *${['𝙰𝚁𝙼𝙰𝚂 𝙻𝙸𝚂𝚃𝙰 𝙿𝙰𝚁𝙰 𝙻𝙰 𝙲𝙰𝚉𝙰!!','𝙿𝚁𝙾𝙱𝙰𝙽𝙳𝙾 𝙰𝚁𝙼𝙰𝚂 🔫 💣 🪓 🏹','𝙲𝙰𝚁𝚁𝙾𝚂 𝙿𝙰𝚁𝙰 𝙻𝙰 𝙲𝙰𝚉𝙰!! 🚗 🏍️ 🚜','𝚃𝙸𝙴𝙼𝙿𝙾 𝙱𝚄𝙴𝙽𝙾 𝙿𝙰𝚁𝙰 𝙻𝙰 𝙲𝙰𝚉𝙰 🧤'].getRandom()}*`, null, { mentions: [m.sender]})}, 15000) 	
+//conn.sendHydrated(m.chat, `${conn.getName(m.sender)} *${['Armas lista para la Caza!!','Probando Armas 🔫 💣 🪓 🏹','CARROS PARA LA CAZA!! 🚗 🏍️ 🚜','TIEMPO BUENO PARA LA CAZA 🧤'].getRandom()}*`, wm, null, null, null, null, null, [[null, null]], null)}, 15000)
 
 setTimeout(() => {
-conn.sendHydrated(m.chat, `${conn.getName(m.sender)} *${['Looking for hunting implements...','Getting everything ready for the hunt!!','Establishing Hunting Place...','PREPARING HUNTING PLACE!!'].getRandom()}*`, wm, null, null, null, null, null, [
-[null, null]], null)}, 14000)
+conn.reply(m.chat, `@${m.sender.split("@s.whatsapp.net")[0]} *${['𝙻𝙾𝙾𝙺𝙸𝙽𝙶 𝙵𝙾𝚁 𝙷𝚄𝙽𝚃𝙸𝙽𝙶 𝙸𝙼𝙿𝙻𝙴𝙼𝙴𝙽𝚃𝚂...','𝙶𝙴𝚃𝚃𝙸𝙽𝙶 𝙴𝚅𝙴𝚁𝚈𝚃𝙷𝙸𝙽𝙶 𝚁𝙴𝙰𝙳𝚈 𝙵𝙾𝚁 𝚃𝙷𝙴 𝙷𝚄𝙽𝚃!!','𝙴𝚂𝚃𝙰𝙱𝙻𝙸𝚂𝙷𝙸𝙽𝙶 𝙷𝚄𝙽𝚃𝙸𝙽𝙶 𝙿𝙻𝙰𝙲𝙴...','𝙿𝚁𝙴𝙿𝙰𝚁𝙸𝙽𝙶 𝙷𝚄𝙽𝚃𝙸𝙽𝙶 𝙿𝙻𝙰𝙲𝙴!!'].getRandom()}*`, null, { mentions: [m.sender]})}, 18000)	
+//conn.sendHydrated(m.chat, `${conn.getName(m.sender)} *${['Looking for hunting implements...','Getting everything ready for the hunt!!','Establishing Hunting Place...','PREPARING HUNTING PLACE!!'].getRandom()}*`, wm, null, null, null, null, null, [[null, null]], null)}, 14000)
 
 setTimeout(() => {
-conn.sendHydrated(m.chat, `${conn.getName(m.sender)} *${['Buscando implementos de caza...','Alistando todo para la caza!!','Estableciendo Lugar de la Caza...','PREPARANDO LUGAR DE CAZA!!'].getRandom()}*`, wm, null, null, null, null, null, [
-[null, null]], null)}, 0)	
+conn.reply(m.chat, `@${m.sender.split("@s.whatsapp.net")[0]} *${['𝙱𝚄𝚂𝙲𝙰𝙽𝙳𝙾 𝙸𝙼𝙿𝙻𝙴𝙼𝙴𝙽𝚃𝙾𝚂 𝙿𝙰𝚁𝙰 𝙻𝙰 𝙲𝙰𝚉𝙰...','𝙰𝙻𝙸𝚂𝚃𝙰𝙽𝙳𝙾 𝚃𝙾𝙳𝙾 𝙿𝙰𝚁𝙰 𝙻𝙰 𝙲𝙰𝚉𝙰!!','𝙴𝚂𝚃𝙰𝙱𝙻𝙴𝙲𝙸𝙴𝙽𝙳𝙾 𝙻𝚄𝙶𝙰𝚁 𝙳𝙴 𝙻𝙰 𝙲𝙰𝚉𝙰...','𝙿𝚁𝙴𝙿𝙰𝚁𝙰𝙽𝙳𝙾 𝙻𝚄𝙶𝙰𝚁 𝙳𝙴 𝙲𝙰𝚉𝙰!!'].getRandom()}*`, null, { mentions: [m.sender]})}, 18000)	
+//conn.sendHydrated(m.chat, `${conn.getName(m.sender)} *${['Buscando implementos de caza...','Alistando todo para la caza!!','Estableciendo Lugar de la Caza...','PREPARANDO LUGAR DE CAZA!!'].getRandom()}*`, wm, null, null, null, null, null, [[null, null]], null)}, 0)	
 user.lastberburu = new Date * 1	
 //} else conn.sendButton(m.chat, `𝙋𝙊𝙍 𝙁𝘼𝙑𝙊𝙍 𝘿𝙀𝙎𝘾𝘼𝙉𝙎𝘼 𝙐𝙉 𝙈𝙊𝙈𝙀𝙉𝙏𝙊 𝙋𝘼𝙍𝘼 𝙇𝙐𝙀𝙂𝙊 𝙎𝙀𝙂𝙐𝙄𝙍 𝘾𝘼𝙕𝘼𝙉𝘿𝙊\n\n𝙋𝙇𝙀𝘼𝙎𝙀 𝙍𝙀𝙎𝙏 𝘼 𝙈𝙊𝙈𝙀𝙉𝙏 𝘼𝙉𝘿 𝙏𝙃𝙀𝙉 𝘾𝙊𝙉𝙏𝙄𝙉𝙐𝙀 𝙃𝙐𝙉𝙏𝙄𝙉𝙂`, `⫹⫺ 𝙏𝙄𝙀𝙈𝙋𝙊 : 𝙏𝙄𝙈𝙀 ${msToTime(time - new Date())}\n${wm}`, null, [
 //['🏞️ 𝘼𝙣𝙞𝙢𝙖𝙡𝙚𝙨 𝘾𝙖𝙥𝙩𝙪𝙧𝙖𝙙𝙤𝙨 ', '.kandang'],
@@ -126,6 +130,7 @@ handler.help = ['berburu']
 handler.tags = ['rpg']
 handler.command = /^(hunt|berburu|caza(r)?)$/i
 //handler.group = true
+handler.register = true
 export default handler
 
 function clockString(ms) {
