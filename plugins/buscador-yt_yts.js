@@ -7,8 +7,8 @@ if (!text) return conn.reply(m.chat, `${lenguajeGB['smsAvisoMG']()}𝙴𝚂𝙲�
   let tes = results.all
   let teks = results.all.map(v => {
     switch (v.type) { 
-      case 'video': return `❤️꙰༻ *TÍTULO:* ${v.title}
-⁖🩵꙰༻ 𝐄𝐍𝐋𝐀𝐂𝐄 : ${v.url}
+      case 'video': return `❤️꙰༻ 𝐓𝐈́𝐓𝐔𝐋𝐎 : ${v.title}
+⁖❤️꙰༻ 𝐄𝐍𝐋𝐀𝐂𝐄 : ${v.url}
 ⁖💜꙰༻ 𝐃𝐔𝐑𝐀𝐂𝐈𝐎́𝐍 : ${v.timestamp}
 ⁖💚꙰༻ 𝐒𝐔𝐁𝐈𝐃𝐎 : ${v.ago}
 ⁖🧡꙰༻ 𝐕𝐈𝐒𝐓𝐀𝐒 : ${v.views}`}}).filter(v => v).join('\n\n••••••••••••••••••••••••••••••••••••\n\n')
