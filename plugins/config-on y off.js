@@ -68,7 +68,7 @@ ${lenguajeGB.smsConfi6()}
 ${lenguajeGB.smsConfi7()}
 ${lenguajeGB.smsConfi8()}
 ${m.isGroup ? `┃` : `┃\n${lenguajeGB.smsConfi9()}`}
-╰━━━━━✦ *${vs}* ✦━━━━⬣
+╰━━━━━✦ ${vs} ✦━━━━⬣
 ${wm}`,
 title: null,
 buttonText: `⚙️ ${lenguajeGB.smsConfi1()} ⚙️`,
