@@ -31,14 +31,14 @@ let significado = [
 'Afortunado/a', 'Actor/Actriz' ,'Malvado/a', 'Diabólico/a', 'Payasesco/a'
 ]
 
-let sections = Object.keys(emoji, significado).map((v, index) => ({ title: `🤔 CÓMO ESTÁ HOY?`,
+let sections = Object.keys(emoji, significado).map((v, index) => ({ title: `🤔 𝙲𝙾́𝙼𝙾 𝙴𝚂𝚃𝙰́ 𝙷𝙾𝚈?`,
 rows: [{ title: `» ${emoji[v]}${emoji[v]}${emoji[v]}${emoji[v]}`, description: `${1 + index}. ${significado[v]}`, rowId: usedPrefix + command + ' ' + text + significado[v] + ' ' + emoji[v], }], }))
 
 const listMessage = {
-text: `❖ ${user.registered === true ? user.name : name}\n👋 *SELECCIONE SU ESTADO ACTUAL POR FAVOR*\n*❖ SU ESTADO ACTUAL:* ${typeof user.miestado === 'string' ? user.miestado : 'Estado no asignado'}\n\n*╰⸺ ⊹ ⸺  ⊹ ⸺ ⊹ ⸺ ⊹ ⸺ ⊹ 》*`,
+text: `❖ ${user.registered === true ? user.name : name}\n👋 𝚂𝙴𝙻𝙴𝙲𝙲𝙸𝙾𝙽𝙴 𝚂𝚄 𝙴𝚂𝚃𝙰𝙳𝙾 𝙰𝙲𝚃𝚄𝙰𝙻 𝙿𝙾𝚁 𝙵𝙰𝚅𝙾𝚁 🤗\n❖ 𝚂𝚄 𝙴𝚂𝚃𝙰𝙳𝙾 𝙰𝙲𝚃𝚄𝙰𝙻: ${typeof user.miestado === 'string' ? user.miestado : 'Estado no asignado'}\n\n*╰⸺ ⊹ ⸺  ⊹ ⸺ ⊹ ⸺ ⊹ ⸺ ⊹ 》*`,
 footer: wm,
 title: "*╭⸺ ⊹ ⸺  ⊹ ⸺ ⊹ ⸺ ⊹ ⸺ ⊹ 》*\n",
-buttonText: "👉 MI ESTADO 👈",
+buttonText: "👉 𝐌𝐈 𝐄𝐒𝐓𝐀𝐃𝐎 👈",
 sections
 } 
 
@@ -46,7 +46,7 @@ if (command == 'miestado') {
 if (!text) return conn.sendMessage(m.chat, listMessage, {quoted: fkontak})
 miEstado = text.trim()
 user.miestado = miEstado
-if (text) return conn.sendButton(m.chat, eg + `*GENIAL!! SE HA AGREGADO UN ESTADO*\n*- - - - - - - - - - - - - - - - - - - - - - - - - - - -*\n\n` + `*❖ SU ESTADO:* ${user.miestado}`, wm, null, [[`MENU`, usedPrefix + 'menu']], m)
+if (text) return conn.sendButton(m.chat, eg + `𝙶𝙴𝙽𝙸𝙰𝙻!! 𝚂𝙴 𝙷𝙰 𝙰𝙶𝚁𝙴𝙶𝙰𝙳𝙾 𝚄𝙽 𝙴𝚂𝚃𝙰𝙳𝙾 🥳\n*- - - - - - - - - - - - - - - - - - - - - - - - - - - -*\n\n` + `❖ 𝚂𝚄 𝙴𝚂𝚃𝙰𝙳𝙾: ${user.miestado}`, wm, null, [[`MENU`, usedPrefix + 'menu']], m)
 miEstado = 0
 }}
 handler.command = ['miestado'] 
