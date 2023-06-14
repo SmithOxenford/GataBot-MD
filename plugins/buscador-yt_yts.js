@@ -1,17 +1,17 @@
 import yts from "yt-search"
 let handler = async (m, { text, conn, args, command, usedPrefix }) => {
 let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
-if (!text) return conn.reply(m.chat, `${lenguajeGB['smsAvisoMG']()}𝙀𝙎𝘾𝙍𝙄𝘽𝘼 𝙀𝙇 𝙉𝙊𝙈𝘽𝙍𝙀 𝘿𝙀 𝙐𝙉 𝙑𝙄𝘿𝙀𝙊 𝙊 𝘾𝘼𝙉𝘼𝙇 𝘿𝙀 𝙔𝙊𝙐𝙏𝙐𝘽𝙀`, fkontak,  m)
+if (!text) return conn.reply(m.chat, `${lenguajeGB['smsAvisoMG']()}𝙴𝚂𝙲𝚁𝙸𝙱𝙰 𝙴𝙻 𝙽𝙾𝙼𝙱𝚁𝙴 𝙳𝙴 𝚄𝙽 𝚅𝙸𝙳𝙴𝙾 𝙾 𝙲𝙰𝙽𝙰𝙻 𝙳𝙴 𝚈𝙾𝚄𝚃𝚄𝙱𝙴 🤗`, fkontak,  m)
 //await conn.reply(m.chat, global.wait, m)
   let results = await yts(text)
   let tes = results.all
   let teks = results.all.map(v => {
     switch (v.type) { 
       case 'video': return `❤️꙰༻ *TÍTULO:* ${v.title}
-⁖🩵꙰༻ *ENLACE:* ${v.url}
-⁖💜꙰༻ *DURACIÓN:* ${v.timestamp}
-⁖💚꙰༻ *SUBIDO:* ${v.ago}
-⁖🧡꙰༻ *VISTAS:* ${v.views}`}}).filter(v => v).join('\n\n••••••••••••••••••••••••••••••••••••\n\n')
+⁖🩵꙰༻ 𝐄𝐍𝐋𝐀𝐂𝐄 : ${v.url}
+⁖💜꙰༻ 𝐃𝐔𝐑𝐀𝐂𝐈𝐎́𝐍 : ${v.timestamp}
+⁖💚꙰༻ 𝐒𝐔𝐁𝐈𝐃𝐎 : ${v.ago}
+⁖🧡꙰༻ 𝐕𝐈𝐒𝐓𝐀𝐒 : ${v.views}`}}).filter(v => v).join('\n\n••••••••••••••••••••••••••••••••••••\n\n')
   conn.sendFile(m.chat, tes[0].thumbnail, 'yts.jpeg', teks, fkontak, m)
 }
 handler.help = ['', 'earch'].map(v => 'yts' + v + ' <pencarian>')
