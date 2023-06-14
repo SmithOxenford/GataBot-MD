@@ -11,19 +11,19 @@ try {
 if (command == 'play') {	
 conn.sendFile(m.chat, thumbnail, 'thumbnail.jpg', `𓆩 𝐓𝐇𝐄 𝐌𝐀𝐊𝐀𝐍𝐀𝐊𝐘 - 🤖 𓆪
 
-ও 𝚃𝙸𝚃𝚄𝙻𝙾
+ও 𝐓𝐈𝐓𝐔𝐋𝐎 :
 » ${title} 
 ﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘
-ও 𝙳𝙴𝚂𝙲𝚁𝙸𝙿𝙲𝙸𝙾𝙽
+ও 𝐃𝐄𝐒𝐂𝐑𝐈𝐏𝐂𝐈𝐎𝐍 : 
 » ${description}
 ﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘
-ও 𝙳𝚄𝚁𝙰𝙲𝙸𝙾𝙽
+ও 𝐃𝐔𝐑𝐀𝐂𝐈𝐎́𝐍
 » ${timestamp}
 ﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘
-ও 𝚅𝙸𝚂𝚃𝙰𝚂
+ও 𝐕𝐈𝐒𝐓𝐀𝐒
 » ${views}
 ﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘
-ও 𝚄𝚁𝙻
+ও 𝐔𝐑𝐋
 » ${url}
 
 𓆩 𝐓𝐇𝐄 𝐌𝐀𝐊𝐀𝐍𝐀𝐊𝐘 - 🤖 𓆪`.trim(), fkontak, m)
@@ -71,7 +71,7 @@ const yt = await youtubedl(v).catch(async _ => await youtubedlv2(v)).catch(async
 const dl_url = await yt.video[q].download()
 const ttl = await yt.title
 const size = await yt.video[q].fileSizeH
-await await conn.sendMessage(m.chat, { video: { url: dl_url }, fileName: `${ttl}.mp4`, mimetype: 'video/mp4', caption: `╭━❰  ${wm}  ❱━⬣\n┃ 💜 𝙏𝙄𝙏𝙐𝙇𝙊 \n┃ ${ttl}\n┃┈┈┈┈┈┈┈┈┈┈┈┈┈\n┃ 💙 𝙋𝙀𝙎𝙊 \n┃ ${size}\n╰━━━━━❰ 𝙏𝙃𝙀 𝙈𝘼𝙆𝘼𝙉𝘼𝙆𝙔 - 𝘽𝙊𝙏 ❱━━━━⬣`, thumbnail: await fetch(yt.thumbnail) }, { quoted: m })
+await await conn.sendMessage(m.chat, { video: { url: dl_url }, fileName: `${ttl}.mp4`, mimetype: 'video/mp4', caption: `╭━❰  ${wm}  ❱━⬣\n┃ 💜 𝐓𝐈𝐓𝐔𝐋𝐎 \n┃ ${ttl}\n┃┈┈┈┈┈┈┈┈┈┈┈┈┈\n┃ 💙 𝐏𝐄𝐒𝐎 \n┃ ${size}\n╰━━━━━❰ 𝐓𝐇𝐄 𝐌𝐀𝐊𝐀𝐍𝐀𝐊𝐘 - 🤖 ❱━━━━⬣`, thumbnail: await fetch(yt.thumbnail) }, { quoted: m })
 }
 } catch (e) {
 }}
