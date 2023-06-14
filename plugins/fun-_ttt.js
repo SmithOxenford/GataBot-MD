@@ -37,10 +37,10 @@ isSurrender,
 text: m.text }))
 if (!isSurrender && 1 > (ok = room.game.turn(m.sender === room.game.playerO, parseInt(m.text) - 1))) {
 m.reply({
-'-3': 'El juego ha terminado',
-'-2': 'Inválido',
-'-1': 'Posición inválida',
-0: 'Posición inválida',
+'-3': '𝙴𝙻 𝙹𝚄𝙴𝙶𝙾 𝙷𝙰 𝚃𝙴𝚁𝙼𝙸𝙽𝙰𝙳𝙾 𝙿𝙸𝙿𝙸𝙿𝙸 ☹️,
+'-2': '𝙸𝙽𝚅𝙰𝙻𝙸𝙳𝙾 ☹️️',
+'-1': '𝙿𝙾𝚂𝙸𝙲𝙸𝙾𝙽 𝙸𝙽𝚅𝙰𝙻𝙸𝙳𝙰 ☹️️',
+0: '𝙿𝙾𝚂𝙸𝙲𝙸𝙾𝙽 𝙸𝙽𝚅𝙰𝙻𝙸𝙳𝙰 ☹️️',
 }[ok])
 return !0 }
 if (m.sender === room.game.winner)
@@ -78,7 +78,7 @@ let expp2 = Math.floor(Math.random() * 2500)
 
 let winner = isSurrender ? room.game.currentTurn : room.game.winner
 let str = `
-𝙅𝙐𝙂𝘼𝘿𝙊𝙍𝙀𝙎 *:*
+𝐉𝐔𝐆𝐀𝐃𝐎𝐑𝐄𝐒 :
 *┈┈┈┈┈┈┈┈┈*
 ❎ = @${room.game.playerX.split('@')[0]}
 ⭕ = @${room.game.playerO.split('@')[0]}
@@ -87,7 +87,7 @@ let str = `
      ${arr.slice(3, 6).join('')}
      ${arr.slice(6).join('')}
 *┈┈┈┈┈┈┈┈┈*
-${isWin ? `@${(isSurrender ? room.game.currentTurn : room.game.winner).split('@')[0]} 😎🏆 *GANASTE!!*\n*POR HABER GANADO OBTIENES*\n\n💎 *${dia2} Diamantes*\n🪙 *${tok2} Tokens*\n🐈 *${gata2} MakanakyCoins*\n⚡ *${expp2} Exp*` : isTie ? `*EMPATE!!* 🤨\n*POR TERMINAR EN EMPATE AMBOS OBTIENEN*\n\n💎 *${dia} Diamantes*\n🪙 *${tok} Tokens*\n *${gata} MakanakyCoins*\n⚡ *${expp} Exp*` : `*TURNO DE* @${room.game.currentTurn.split('@')[0]}`}
+${isWin ? `@${(isSurrender ? room.game.currentTurn : room.game.winner).split('@')[0]} 😎🏆 𝙶𝙰𝙽𝙰𝚂𝚃𝙴!!\n𝙿𝙾𝚁 𝙷𝙰𝙱𝙴𝚁 𝙶𝙰𝙽𝙰𝙳𝙾 𝙾𝙱𝚃𝙸𝙴𝙽𝙴𝚂\n\n💎 ${dia2} 𝙳𝙸𝙰𝙼𝙰𝙽𝚃𝙴𝚂0\n ${tok2} 𝚃𝙾𝙺𝙴𝙽𝚂\n🤖 ${gata2} 𝙼𝙰𝙺𝙰𝙽𝙰𝙺𝚈𝙲𝙾𝙸𝙽𝚂\n⚡ ${expp2} 𝙴𝚇𝙿` : isTie ? `𝙴𝙼𝙿𝙰𝚃𝙴!! 🤨\n𝙿𝙾𝚁 𝚃𝙴𝚁𝙼𝙸𝙽𝙰𝚁 𝙴𝙽 𝙴𝙼𝙿𝙰𝚃𝙴 𝙰𝙼𝙱𝙾𝚂 𝙾𝙱𝚃𝙸𝙴𝙽𝙴𝙽\n\n💎 ${dia} 𝙳𝙸𝙰𝙼𝙰𝙽𝚃𝙴𝚂\n ${tok} 𝚃𝙾𝙺𝙴𝙽𝚂\n ${gata} 𝙼𝙰𝙺𝙰𝙽𝙰𝙺𝚈𝙲𝙾𝙸𝙽𝚂\n⚡ ${expp} 𝙴𝚇𝙿` : `𝚃𝚄𝚁𝙽𝙾 𝙳𝙴 @${room.game.currentTurn.split('@')[0]}`}
 `.trim()
 let users = global.db.data.users
 if ((room.game._currentTurn ^ isSurrender ? room.x : room.o) !== m.chat)
