@@ -1,73 +1,73 @@
 let handler = async (m, { conn, command, text, usedPrefix }) => {
-if (!text) throw `${lenguajeGB['smsAvisoMG']()}𝙀𝙏𝙄𝙌𝙐𝙀𝙏𝙀 @𝙏𝘼𝙂 𝙊 𝙀𝙎𝘾𝙍𝙄𝘽𝘼 𝙀𝙇 𝙉𝙊𝙈𝘽𝙍𝙀` 
+if (!text) throw `${lenguajeGB['smsAvisoMG']()}𝙴𝚃𝙸𝚀𝚄𝙴𝚃𝙴 @𝚃𝙰𝙶 𝙾 𝙴𝚂𝙲𝚁𝙸𝙱𝙰 𝙴𝙻 𝙽𝙾𝙼𝙱𝚁𝙴` 
 
 if (command == 'gay2') {
-let juego = `_*${text.toUpperCase()}* *ES/IS* *${(500).getRandom()}%* *GAY*_ 🏳️‍🌈`.trim()
+let juego = `*${text.toUpperCase()}* 𝙴𝚂 *${(500).getRandom()}%* 𝙶𝙰𝚈_ 🏳️‍🌈`.trim()
 await conn.reply(m.chat, juego, m, m.mentionedJid ? { mentions: m.mentionedJid } : {})}
 
  // ------------------------------------------------------------------------------------------------------------------------------------------------
   
 if (command == 'lesbiana') { 
-let juego = `_*${text.toUpperCase()}* *ES/IS* *${(500).getRandom()}%* *${command.replace('how', '').toUpperCase()}*_ 🏳️‍🌈`.trim()
+let juego = `*${text.toUpperCase()}* 𝙴𝚂 *${(500).getRandom()}%* *${command.replace('how', '').toUpperCase()}* 🏳️‍🌈`.trim()
 await conn.reply(m.chat, juego, m, m.mentionedJid ? { mentions: m.mentionedJid } : {})}
   
 // ------------------------------------------------------------------------------------------------------------------------------------------------
   
 if (command == 'pajero') {
-let juego = `_*${text.toUpperCase()}* *ES/IS* *${(500).getRandom()}%* *${command.replace('how', '').toUpperCase()}*_ 😏💦`.trim()
+let juego = `*${text.toUpperCase()}* 𝙴𝚂 *${(500).getRandom()}%* *${command.replace('how', '').toUpperCase()}* 😏💦`.trim()
 await conn.reply(m.chat, juego, m, m.mentionedJid ? { mentions: m.mentionedJid } : {})}
   
 // ------------------------------------------------------------------------------------------------------------------------------------------------
   
 if (command == 'pajera') {
-let juego = `_*${text.toUpperCase()}* *ES/IS* *${(500).getRandom()}%* *${command.replace('how', '').toUpperCase()}*_ 😏💦`.trim()
+let juego = `*${text.toUpperCase()}* 𝙴𝚂 *${(500).getRandom()}%* *${command.replace('how', '').toUpperCase()}* 😏💦`.trim()
 await conn.reply(m.chat, juego, m, m.mentionedJid ? { mentions: m.mentionedJid } : {})}
   
 // ------------------------------------------------------------------------------------------------------------------------------------------------
   
 if (command == 'puto') {
-let juego = `_*${text.toUpperCase()}* *ES/IS* *${(500).getRandom()}%* *${command.replace('how', '').toUpperCase()},* *MÁS INFORMACIÓN A SU PRIVADO 🔥🥵 XD*_`.trim()
+let juego = `*${text.toUpperCase()}* 𝙴𝚂 *${(500).getRandom()}%* *${command.replace('how', '').toUpperCase()}, 𝙼𝙰́𝚂 𝙸𝙽𝙵𝙾𝚁𝙼𝙰𝙲𝙸𝙾́𝙽 𝙰 𝚂𝚄 𝙿𝚁𝙸𝚅𝙰𝙳𝙾 🔥🥵`.trim()
 await conn.reply(m.chat, juego, m, m.mentionedJid ? { mentions: m.mentionedJid } : {})}
   
 // ------------------------------------------------------------------------------------------------------------------------------------------------
   
 if (command == 'puta') {
-let juego = `_*${text.toUpperCase()}* *ES/IS* *${(500).getRandom()}%* *${command.replace('how', '').toUpperCase()},* *MÁS INFORMACIÓN A SU PRIVADO 🔥🥵 XD*_`.trim()
+let juego = `*${text.toUpperCase()}* 𝙴𝚂 *${(500).getRandom()}%* *${command.replace('how', '').toUpperCase()}, 𝙼𝙰́𝚂 𝙸𝙽𝙵𝙾𝚁𝙼𝙰𝙲𝙸𝙾́𝙽 𝙰 𝚂𝚄 𝙿𝚁𝙸𝚅𝙰𝙳𝙾 🔥🥵`.trim()
 await conn.reply(m.chat, juego, m, m.mentionedJid ? { mentions: m.mentionedJid } : {})}
 
  // ------------------------------------------------------------------------------------------------------------------------------------------------
   
 if (command == 'manco') {
-let juego = `_*${text.toUpperCase()}* *ES/IS* *${(500).getRandom()}%* *${command.replace('how', '').toUpperCase()} 💩*_`.trim()
+let juego = `*${text.toUpperCase()}* 𝙴𝚂 *${(500).getRandom()}%* *${command.replace('how', '').toUpperCase()} 💩*`.trim()
 await conn.reply(m.chat, juego, m, m.mentionedJid ? { mentions: m.mentionedJid } : {})}
   
 // ------------------------------------------------------------------------------------------------------------------------------------------------  
   
 if (command == 'manca') {
-let juego = `_*${text.toUpperCase()}* *ES* *${(500).getRandom()}%* *${command.replace('how', '').toUpperCase()} 💩*_`.trim()
+let juego = `*${text.toUpperCase()}* 𝙴𝚂 *${(500).getRandom()}%* *${command.replace('how', '').toUpperCase()} 💩*`.trim()
 await conn.reply(m.chat, juego, m, m.mentionedJid ? { mentions: m.mentionedJid } : {})}
   
 // ------------------------------------------------------------------------------------------------------------------------------------------------ 
   
 if (command == 'rata') {
-let juego = `_*${text.toUpperCase()}* *ES* *${(500).getRandom()}%* *${command.replace('how', '').toUpperCase()} 🐁 COME QUESO 🧀*_`.trim()
+let juego = `*${text.toUpperCase()}* 𝙴𝚂 *${(500).getRandom()}%* *${command.replace('how', '').toUpperCase()} 🐁 𝙲𝙾𝙼𝙴 𝚀𝚄𝙴𝚂𝙾 🧀*`.trim()
 await conn.reply(m.chat, juego, m, m.mentionedJid ? { mentions: m.mentionedJid } : {})}
   
 // ------------------------------------------------------------------------------------------------------------------------------------------------   
   
 if (command == 'prostituto') {
-let juego = `_*${text.toUpperCase()}* *ES* *${(500).getRandom()}%* *${command.replace('how', '').toUpperCase()} 🫦👅, QUIEN QUIERE DE SUS SERVICIOS? XD*_`.trim()
+let juego = `*${text.toUpperCase()}* 𝙴𝚂 *${(500).getRandom()}%* *${command.replace('how', '').toUpperCase()} , 𝚀𝚄𝙸𝙴𝙽 𝚀𝚄𝙸𝙴𝚁𝙴 𝙳𝙴 𝚂𝚄𝚂 𝚂𝙴𝚁𝚅𝙸𝙲𝙸𝙾𝚂? 😏*`.trim()
 await conn.reply(m.chat, juego, m, m.mentionedJid ? { mentions: m.mentionedJid } : {})}
   
 // ------------------------------------------------------------------------------------------------------------------------------------------------   
   
 if (command == 'prostituta') {
-let juego = `_*${text.toUpperCase()}* *ES* *${(500).getRandom()}%* *${command.replace('how', '').toUpperCase()} 🫦👅, QUIEN QUIERE DE SUS SERVICIOS? XD*_`.trim()
+let juego = `*${text.toUpperCase()}* 𝙴𝚂 *${(500).getRandom()}%* *${command.replace('how', '').toUpperCase()} , 𝚀𝚄𝙸𝙴𝙽 𝚀𝚄𝙸𝙴𝚁𝙴 𝙳𝙴 𝚂𝚄𝚂 𝚂𝙴𝚁𝚅𝙸𝙲𝙸𝙾𝚂? 😏*`.trim()
 await conn.reply(m.chat, juego, m, m.mentionedJid ? { mentions: m.mentionedJid } : {})}
   
  // ------------------------------------------------------------------------------------------------------------------------------------------------   
 if (command == 'love') {
-let juego = `*❤️❤️ MEDIDOR DE AMOR ❤️❤️*\n*_El amor de ${text.toUpperCase()} ES DE ${(500).getRandom()}% Deberias pedirle que sea tu  novia/o ?_*`.trim()
+let juego = `❤️❤️ 𝐌𝐄𝐃𝐈𝐃𝐎𝐑 𝐃𝐄 𝐀𝐌𝐎𝐑 ❤️❤️\n𝙴𝙻 𝙰𝙼𝙾𝚁 𝙳𝙴  ${text.toUpperCase()} 𝙴𝚂 𝙳𝙴 ${(500).getRandom()}% 𝙳𝙴𝙱𝙴𝚁𝙸𝙰𝚂 𝙿𝙴𝙳𝙸𝚁𝙻𝙴 𝚀𝚄𝙴 𝚂𝙴𝙰 𝚃𝚄 𝙽𝙾𝚅𝙸𝙰(𝙾) ?`.trim()
 await conn.reply(m.chat, juego, m, m.mentionedJid ? { mentions: m.mentionedJid } : {})}
 //conn.sendHydrated(m.chat, juego, wm, null, md, '𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿', null, null, [
 //['𝙈𝙚𝙣𝙪 𝙅𝙪𝙚𝙜𝙤𝙨 | 𝙂𝙖𝙢𝙚𝙨 𝙈𝙚𝙣𝙪 🎡', '#juegosmenu'],
