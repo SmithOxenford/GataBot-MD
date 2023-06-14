@@ -4,21 +4,21 @@ if (m.isGroup) who = m.mentionedJid[0] ? m.mentionedJid[0] : m.sender
 else who = m.sender
 let name = conn.getName(who) 
 await m.reply(`
-╭━〔 🔖 *BALANCE* 〕━⬣
-┃ *USUARIO(A) | USER*
+╭━〔 🔖 𝐁𝐀𝐋𝐀𝐍𝐂𝐄 🔖 〕━⬣
+┃ 𝚄𝚂𝚄𝙰𝚁𝙸𝙾(𝙰): 
 ┃ ${name}
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-┃ *${global.db.data.users[who].limit} Diamantes* 💎
-╰━━━━〔 *𓃠 ${vs}* 〕━━━⬣\n\n*COMPRAR DIAMANTES CON EXP*
-${usedPrefix}buy *cantidad*
-${usedPrefix}buyall *cantidad*
+┃ ${global.db.data.users[who].limit} 𝙳𝙸𝙰𝙼𝙰𝙽𝚃𝙴𝚂 💎
+╰━━━━〔 𝐌𝐀𝐊𝐀𝐍𝐀𝐊𝐘 - 🤖 〕━━━⬣\n\n💎 𝐂𝐎𝐌𝐏𝐑𝐀𝐑 𝐃𝐈𝐀𝐌𝐀𝐍𝐓𝐄𝐒 𝐂𝐎𝐍 𝐄𝐗𝐏 💎
+${usedPrefix}buy 𝙲𝙰𝙽𝚃𝙸𝙳𝙰𝙳
+${usedPrefix}buyall 𝙲𝙰𝙽𝚃𝙸𝙳𝙰𝙳
 
-*COMPRAR DIAMANTES CON GATACOINS*
-${usedPrefix}buy2 *cantidad*
-${usedPrefix}buyall2 *cantidad*`)
+💎 𝐂𝐎𝐌𝐏𝐑𝐀𝐑 𝐃𝐈𝐀𝐌𝐀𝐍𝐓𝐄𝐒 𝐂𝐎𝐍 𝐌𝐀𝐊𝐀𝐍𝐀𝐊𝐘𝐂𝐎𝐈𝐍𝐒 💎
+${usedPrefix}buy2 𝙲𝙰𝙽𝚃𝙸𝙳𝙰𝙳
+${usedPrefix}buyall2 𝙲𝙰𝙽𝚃𝙸𝙳𝙰𝙳`)
 
 /*let d = `
-*COMPRAR DIAMANTES CON EXP*
+💎 𝙲𝙾𝙼𝙿𝚁𝙰𝚁 𝙳𝙸𝙰𝙼𝙰𝙽𝚃𝙴𝚂 𝙲𝙾𝙽 𝙴𝚇𝙿 💎
 ${usedPrefix}buy *cantidad*
 ${usedPrefix}buyall *cantidad*
 
