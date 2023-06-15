@@ -14,19 +14,19 @@ let res2 = await fetch(`https://api.lolhuman.xyz/api/spotify?apikey=${lolkeysapi
 let json2 = await res2.json()
 let { thumbnail, title, artists } = json2.result
 
-let spotifyi = `✨ *TITULO:* 
+let spotifyi = `✨ 𝐓𝐈𝐓𝐔𝐋𝐎 :
 _${title}_
 
-🗣️ *ARTISTA:* 
+🗣️ 𝐀𝐑𝐓𝐈𝐒𝐓𝐀 : 
 » _${artists}_
 
-🌐 *URL*: 
+🌐 𝐔𝐑𝐋 : 
 » _${link}_
 
-💚 *URL DE DESCARGA:* 
+💚 𝐔𝐑𝐋 𝐃𝐄 𝐃𝐄𝐒𝐂𝐀𝐑𝐆𝐀 :
 » _${json2.result.link}_
 
-🎶 *Enviando canción...*
+🎶 𝙴𝙽𝚅𝙸𝙰𝙽𝙳𝙾 𝙲𝙰𝙽𝙲𝙸𝙾𝙽...*
 ${wm}`
 
 conn.sendFile(m.chat, thumbnail, 'error.jpg', spotifyi, fkontak, m)

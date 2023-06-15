@@ -1,9 +1,9 @@
 import { pinterest } from '@bochilteam/scraper'
 let handler = async(m, { conn, text, usedPrefix, command }) => {
-if (!text) throw `${lenguajeGB['smsAvisoMG']()} 𝙐𝙎𝙀 𝘿𝙀 𝙇𝘼 𝙎𝙄𝙂𝙐𝙄𝙀𝙉𝙏𝙀 𝙈𝘼𝙉𝙀𝙍𝘼\n*${usedPrefix + command} Gato*` 
+if (!text) throw `${lenguajeGB['smsAvisoMG']()} 𝚄𝚂𝙴 𝙳𝙴 𝙻𝙰 𝚂𝙸𝙶𝚄𝙸𝙴𝙽𝚃𝙴 𝙼𝙰𝙽𝙴𝚁𝙰 :\n*${usedPrefix + command}* 𝙶𝙰𝚃𝙾` 
 const json = await pinterest(text)
 await conn.sendFile(m.chat, json.getRandom(), 'error.jpg', `
-╰⊱💚⊱ *𝙀́𝙓𝙄𝙏𝙊* ⊱💚⊱╮\n💞 𝙍𝙚𝙨𝙪𝙡𝙩𝙖𝙙𝙤: ${text}`.trim(), m)
+╰⊱💚⊱ 𝐄𝐗𝐈𝐓𝐎 ⊱💚⊱╮\n💞 𝐑𝐄𝐒𝐔𝐋𝐓𝐀𝐃𝐎 : ${text}`.trim(), m)
   
   /*conn.sendHydrated(m.chat, `💞 𝙍𝙚𝙨𝙪𝙡𝙩𝙖𝙙𝙤 | 𝙍𝙚𝙨𝙪𝙡𝙩: ${text}`, `𝙋𝙞𝙣𝙩𝙚𝙧𝙚𝙨𝙩 | ${wm}`, null, md, '𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿', null, null, [
 ['🔄 𝙎𝙞𝙜𝙪𝙞𝙚𝙣𝙩𝙚 | 𝙉𝙚𝙭𝙩', `/pinterest ${text}`],

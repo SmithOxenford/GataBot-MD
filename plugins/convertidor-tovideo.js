@@ -1,9 +1,9 @@
 import { webp2mp4 } from '../lib/webp2mp4.js'
 import { ffmpeg } from '../lib/converter.js'
 let handler = async (m, { conn, usedPrefix, command }) => {
-if (!m.quoted) throw `${lenguajeGB['smsAvisoMG']()}𝙍𝙀𝙎𝙋𝙊𝙉𝘿𝙀𝙍 𝘼𝙇 𝘼𝙐𝘿𝙄𝙊 𝙋𝘼𝙍𝘼 𝘾𝙊𝙉𝙑𝙀𝙍𝙏𝙄𝙍 𝙀𝙉 𝙑𝙄𝘿𝙀𝙊\n\n*${usedPrefix + command}*`
+if (!m.quoted) throw `${lenguajeGB['smsAvisoMG']()}𝚁𝙴𝚂𝙿𝙾𝙽𝙳𝙴 𝙰𝙻 𝙰𝚄𝙳𝙸𝙾 𝙿𝙰𝚁𝙰 𝙲𝙾𝙽𝚅𝙴𝚁𝚃𝙸𝚁 𝙴𝙽 𝚅𝙸𝙳𝙴𝙾 🤗\n\n*${usedPrefix + command}*`
 let mime = m.quoted.mimetype || ''
-if (!/webp|audio/.test(mime)) throw `${lenguajeGB['smsAvisoMG']()}𝙍𝙀𝙎𝙋𝙊𝙉𝘿𝙀𝙍 𝘼𝙇 𝘼𝙐𝘿𝙄𝙊 𝙋𝘼𝙍𝘼 𝘾𝙊𝙉𝙑𝙀𝙍𝙏𝙄𝙍 𝙀𝙉 𝙑𝙄𝘿𝙀𝙊\n\n*${usedPrefix + command}*`
+if (!/webp|audio/.test(mime)) throw `${lenguajeGB['smsAvisoMG']()}𝚁𝙴𝚂𝙿𝙾𝙽𝙳𝙴 𝙰𝙻 𝙰𝚄𝙳𝙸𝙾 𝙿𝙰𝚁𝙰 𝙲𝙾𝙽𝚅𝙴𝚁𝚃𝙸𝚁 𝙴𝙽 𝚅𝙸𝙳𝙴𝙾 🤗\n\n*${usedPrefix + command}*`
 let media = await m.quoted.download()
 let out = Buffer.alloc(0)
 if (/webp/.test(mime)) {
@@ -17,7 +17,7 @@ out = await ffmpeg(media, [
 '-shortest'
 ], 'mp3', 'mp4')
 }
-await conn.sendFile(m.chat, out, 'error.mp4', '*FUE UN ÉXITO!!*', m, 0, { thumbnail: out })
+await conn.sendFile(m.chat, out, 'error.mp4', '𝙵𝚄𝙴 𝚄𝙽 𝙴𝚇𝙸𝚃𝙾!! 😁', m, 0, { thumbnail: out })
 }
 handler.help = ['tovideo']
 handler.tags = ['sticker']
