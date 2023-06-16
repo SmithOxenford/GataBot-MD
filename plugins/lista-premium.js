@@ -1,14 +1,14 @@
 let handler = async (m, { conn, isOwner }) => {
 let vip = global.db.data.users[m.sender].premium
 let prem = Object.entries(global.db.data.users).filter(user => user[1].premium)
-let caption = `🎟️ 𝙐𝙎𝙐𝘼𝙍𝙄𝙊𝙎 𝙋𝙍𝙀𝙈𝙄𝙐𝙈 :  
+let caption = `🎟️ 𝐔𝐒𝐔𝐀𝐑𝐈𝐎𝐒 𝐏𝐑𝐄𝐌𝐈𝐔𝐌 :  
 *╭•·–––––––––––––––––––·•*
-│ *Total : ${prem.length} Usuarios* ${prem ? '\n' + prem.map(([jid], i) => `
-│ *${i + 1}.* ${conn.getName(jid) == undefined ? 'Sin Usuarios' : conn.getName(jid)}
+│ 𝚃𝙾𝚃𝙰𝙻 : ${prem.length} 𝚄𝚂𝚄𝙰𝚁𝙸𝙾𝚂 : ${prem ? '\n' + prem.map(([jid], i) => `
+│ *${i + 1}.* ${conn.getName(jid) == undefined ? '_Sin Usuarios_' : conn.getName(jid)}
 │ ${isOwner ? '@' + jid.split`@`[0] : jid}\n│ - - - - - - - - -`.trim()).join('\n') : ''}
 *╰•·–––––––––––––––––––·•*`
-await conn.sendButton(m.chat, caption, `🎟️ 𝗣 𝗥 𝗘 𝗠 𝗜 𝗨 𝗠 ⇢ ${vip ? '✅' : '❌'}\n${wm}`, null, [ 
-[`${vip ? '✦ 𝘿𝙄𝙎𝙁𝙍𝙐𝙏𝘼𝙍 𝙋𝙍𝙀𝙈𝙄𝙐𝙈 ✦': '✦ 𝘾𝙊𝙈𝙋𝙍𝘼𝙍 𝙋𝘼𝙎𝙀 𝙋𝙍𝙀𝙈𝙄𝙐𝙈 ✦'}`, `${vip ? '.allmenu': '.pase premium'}`]], m, { mentions: await conn.parseMention(caption) })
+await conn.sendButton(m.chat, caption, `🎟️ 𝐏 𝐑 𝐄 𝐌 𝐈 𝐔 𝐌 ⇢ ${vip ? '✅' : '❌'}\n${wm}`, null, [ 
+[`${vip ? '✦ 𝐃𝐈𝐒𝐅𝐑𝐔𝐓𝐀𝐑 𝐏𝐑𝐄𝐌𝐈𝐔𝐌 ✦': '✦ 𝐂𝐎𝐌𝐏𝐑𝐀𝐑 𝐏𝐀𝐒𝐄 𝐏𝐑𝐄𝐌𝐈𝐔𝐌 ✦'}`, `${vip ? '.allmenu': '.pase premium'}`]], m, { mentions: await conn.parseMention(caption) })
 }
 handler.command = /^(listapremium)$/i
 

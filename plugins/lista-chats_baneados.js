@@ -2,9 +2,9 @@ let handler = async (m, { conn }) => {
 let ban = global.db.data.chats    
 let chats = Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned)
     
-let caption = `*╭•·––| 💬 𝘾𝙃𝘼𝙏𝙎 𝘽𝘼𝙉𝙀𝘼𝘿𝙊𝙎 : |––·•*
-│ *Total: ${chats.length} Chats* ${chats ? '\n│\n' + chats.map(([jid], i) =>`
-│ ${i + 1}. ${conn.getName(jid) == undefined ? 'Sin Chats Baneados' : `*CHAT BANEADO*`}
+let caption = `╭•·––| 💬 𝐂𝐇𝐀𝐓𝐒 𝐁𝐀𝐍𝐄𝐀𝐃𝐎𝐒 💬 |––·•
+│ 𝚃𝙾𝚃𝙰𝙻 : ${chats.length} 𝙲𝙷𝙰𝚃𝚂 : ${chats ? '\n│\n' + chats.map(([jid], i) =>`
+│ ${i + 1}. ${conn.getName(jid) == undefined ? '_Sin Chats Baneados_' : `_Chat baneado_`}
 │ ${jid}\n│ - - - - - - - - -`.trim()).join('\n') : ''}
 *╰•·–––––––––––––––––––·•*`
 await conn.sendButton(m.chat, caption, wm, null, [ 
