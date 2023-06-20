@@ -6,7 +6,7 @@ let handler = async (m, { conn, text, usedPrefix, command}) => {
 
 if (!userSP) {
 userSP = m.sender.split("@")[0]
-await conn.reply(m.chat, `*@${m.sender.split("@")[0]} REGISTRADO EN EL JUEGO* ✅`, m, { mentions: [m.sender] })
+await conn.reply(m.chat, `@${m.sender.split("@")[0]} 𝚁𝙴𝙶𝙸𝚂𝚃𝚁𝙰𝙳𝙾 𝙴𝙽 𝙴𝙻 𝙹𝚄𝙴𝙶𝙾 ✅`, m, { mentions: [m.sender] })
 }
   
 async function generarSopaDeLetras() {
@@ -94,10 +94,10 @@ sopaDeLetrasConBordes += fila + "\n"
 sopaDeLetrasConBordes = sopaDeLetrasConBordes.replace(/[a-zA-Z]/g, letra => LETRAS_POSIBLES[letra.charCodeAt() - 65] || letra)
 
 await m.reply(`🔠 𝐒𝐎𝐏𝐀 𝐃𝐄 𝐋𝐄𝐓𝐑𝐀𝐒 🔠
-𝙿𝙰𝙻𝙰𝙱𝚁𝙰: \`\`\`"${PALABRA}"\`\`\`
+𝐏𝐀𝐋𝐀𝐁𝐑𝐀 : \`\`\`"${PALABRA}"\`\`\`
 𝚃𝙸𝙴𝙽𝙴 𝟹 𝙼𝙸𝙽𝚄𝚃𝙾𝚂 𝙿𝙰𝚁𝙰 𝙴𝙽𝙲𝙾𝙽𝚃𝚁𝙰𝚁 𝙻𝙰 𝚁𝙴𝚂𝙿𝚄𝙴𝚂𝚃𝙰 𝙲𝙾𝚁𝚁𝙴𝙲𝚃𝙰!!
 
-*ESCRIBA EL NÚMERO DE FILA Y COLUMNA DEL COMIENZO DE LA PRIMERA LETRA _"${PALABRA.charAt(0)}"_ DE LA PALABRA _"${PALABRA}"_ TIENE _${intentos}_ INTENTOS!!*
+𝙴𝚂𝙲𝚁𝙸𝙱𝙰 𝙴𝙻 𝙽𝚄́𝙼𝙴𝚁𝙾 𝙳𝙴 𝙵𝙸𝙻𝙰 𝚈 𝙲𝙾𝙻𝚄𝙼𝙽𝙰 𝙳𝙴𝙻 𝙲𝙾𝙼𝙸𝙴𝙽𝚉𝙾 𝙳𝙴 𝙻𝙰 𝙿𝚁𝙸𝙼𝙴𝚁𝙰 𝙻𝙴𝚃𝚁𝙰"${PALABRA.charAt(0)}" 𝙳𝙴 𝙻𝙰 𝙿𝙰𝙻𝙰𝙱𝚁𝙰 "${PALABRA}" 𝚃𝙸𝙴𝙽𝙴 _${intentos}_ 𝙸𝙽𝚃𝙴𝙽𝚃𝙾𝚂!!
 
 𝙴𝙹𝙴𝙼𝙿𝙻𝙾:
 ❇️ \`\`\`${usedPrefix + command} 28\`\`\`
@@ -125,11 +125,11 @@ resetUserSP(sopaDir)
 async function resetUserSP() {
 await new Promise((resolve) => setTimeout(resolve, 2 * 60 * 1000)) // 2 min
 if (intentos !== 0) {
-await conn.reply(m.chat, `*@${m.sender.split("@")[0]} TE QUEDA UN MINUTO!!* 😨`, m, { mentions: [m.sender] })
+await conn.reply(m.chat, `@${m.sender.split("@")[0]} 𝚃𝙴 𝚀𝚄𝙴𝙳𝙰 𝚄𝙽 𝙼𝙸𝙽𝚄𝚃𝙾!! 😨`, m, { mentions: [m.sender] })
 }
 await new Promise((resolve) => setTimeout(resolve, 3 * 60 * 1000)) // 3 min
 if (intentos !== 0) {
-await conn.reply( m.chat, `*@${m.sender.split("@")[0]} EL TIEMPO SE HA ACABADO!!* 😧\n\n*LA PALABRA _"${sopaPalabra}"_ SE ENCONTRABA EN LA DIRECCIÓN _${sopaDir}_ DE LA FILA _${fila}_ Y COLUMNA _${columna}_*`, m, { mentions: [m.sender] })
+await conn.reply( m.chat, `@${m.sender.split("@")[0]} 𝙴𝙻 𝚃𝙸𝙴𝙼𝙿𝙾 𝚂𝙴 𝙷𝙰 𝙰𝙲𝙰𝙱𝙰𝙳𝙾!! 😧\n\n𝙻𝙰 𝙿𝙰𝙻𝙰𝙱𝚁𝙰 _"${sopaPalabra}"_ 𝚂𝙴 𝙴𝙽𝙲𝙾𝙽𝚃𝚁𝙰𝙱𝙰 𝙴𝙽 𝙻𝙰 𝙳𝙸𝚁𝙴𝙲𝙲𝙸𝙾́𝙽 _${sopaDir}_ 𝙳𝙴 𝙻𝙰 𝙵𝙸𝙻𝙰 _${fila}_ 𝚈 𝙲𝙾𝙻𝚄𝙼𝙽𝙰 _${columna}_`, m, { mentions: [m.sender] })
 fila = null, columna = null, sopaNube = null, sopaPalabra = null, sopaDir = null, userSP = null, cambioLetra = null
 intentos = 0
 }
@@ -146,7 +146,7 @@ diamante = 32
 }
 global.db.data.users[m.sender].limit += diamante
 
-await m.reply(`\`\`\`🎊 HAS GANADO ${diamante} ${rpgshop.emoticon('limit')}!!\`\`\`\n\n*CORRECTO!! LA PALABRA _"${sopaPalabra}"_ SE ENCONTRABA EN LA DIRECCIÓN _${cambioLetra}_ DE LA FILA _${fila}_ Y COLUMNA _${columna}_*`)
+await m.reply(`\`\`\`🎊 𝐇𝐀𝐒 𝐆𝐀𝐍𝐀𝐃𝐎 ${diamante} ${rpgshop.emoticon('limit')}!!\`\`\`\n\n𝙲𝙾𝚁𝚁𝙴𝙲𝚃𝙾!! 𝙻𝙰 𝙿𝙰𝙻𝙰𝙱𝚁𝙰 _"${sopaPalabra}"_ 𝚂𝙴 𝙴𝙽𝙲𝙾𝙽𝚃𝚁𝙰𝙱𝙰 𝙴𝙽 𝙻𝙰 𝙳𝙸𝚁𝙴𝙲𝙲𝙸𝙾́𝙽 _${cambioLetra}_ 𝙳𝙴 𝙻𝙰 𝙵𝙸𝙻𝙰 _${fila}_ 𝚈 𝙲𝙾𝙻𝚄𝙼𝙽𝙰 _${columna}_`)
 fila = null, columna = null, sopaNube = null, sopaPalabra = null, sopaDir = null, userSP = null, cambioLetra = null
 intentos = 0
 return
@@ -154,7 +154,7 @@ return
 if (intentos === 1) {
 fila = null, columna = null, sopaNube = null, sopaPalabra = null, sopaDir = null, userSP = null, cambioLetra = null
 intentos = 0
-await m.reply(`𝙰𝙶𝙾𝚃𝙰𝚂𝚃𝙴 𝙻𝙾𝚂 𝙸𝙽𝚃𝙴𝙽𝚃𝙾𝚂 𝙿𝙸𝙿𝙸𝙿𝙸 ☹️ 𝙻𝙰 𝙿𝙰𝙻𝙰𝙱𝚁𝙰 _"${sopaPalabra}"_ 𝚂𝙴 𝙴𝙽𝙲𝙾𝙽𝚃𝚁𝙰𝙱𝙰 𝙴𝙽 𝙻𝙰 𝙳𝙸𝚁𝙴𝙲𝙲𝙸𝙾𝙽 _${cambioLetra}_ 𝙳𝙴 𝙻𝙰 𝙵𝙸𝙻𝙰 _${fila}_ 𝚈 𝙲𝙾𝙻𝚄𝙼𝙽𝙰 _${columna}_*`)
+await m.reply(`𝙰𝙶𝙾𝚃𝙰𝚂𝚃𝙴 𝙻𝙾𝚂 𝙸𝙽𝚃𝙴𝙽𝚃𝙾𝚂 𝙿𝙸𝙿𝙸𝙿𝙸 ☹️ 𝙻𝙰 𝙿𝙰𝙻𝙰𝙱𝚁𝙰 _"${sopaPalabra}"_ 𝚂𝙴 𝙴𝙽𝙲𝙾𝙽𝚃𝚁𝙰𝙱𝙰 𝙴𝙽 𝙻𝙰 𝙳𝙸𝚁𝙴𝙲𝙲𝙸𝙾𝙽 _${cambioLetra}_ 𝙳𝙴 𝙻𝙰 𝙵𝙸𝙻𝙰 _${fila}_ 𝚈 𝙲𝙾𝙻𝚄𝙼𝙽𝙰 _${columna}_`)
 return  
 } else {
 intentos -= 1

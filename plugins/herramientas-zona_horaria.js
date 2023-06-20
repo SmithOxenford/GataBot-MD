@@ -23,26 +23,26 @@ const fechabra = moment().tz('America/Sao_Paulo').format('DD/MM HH:mm')
 const fechaafri = moment().tz('Africa/Malabo').format('DD/MM HH:mm')
 await conn.sendMessage(m.chat, { text: `\`\`\`
 「 🗺️ 𝐙𝐎𝐍𝐀 𝐇𝐎𝐑𝐀𝐑𝐈𝐀 🗺️ 」
-⏱️*_Peru_*       : ${fechaper}
-⏱️*_Mexico_*     : ${fechamex}
-⏱️*_Bolivia_*    : ${fechabol}
-⏱️*_Chile_*      : ${fechachi}
-⏱️*_Argentina_*  : ${fechaarg}
-⏱️*_Colombia_*   : ${fechacol}
-⏱️*_Ecuador_*    : ${fechaecu}
-⏱️*_Costa_Rica_* : ${fechacosr}
-⏱️*_Cuba_*       : ${fechacub}
-⏱️*_Guatemala_*  : ${fechagua}
-⏱️*_Honduras_*   : ${fechahon}
-⏱️*_Nicaragua_*  : ${fechanic}
-⏱️*_Panama_*     : ${fechapan}
-⏱️*_Uruguay_*    : ${fechauru}
-⏱️*_Venezuela_*  : ${fechaven}
-⏱️*_Paraguay_*   : ${fechapar}
-⏱️*_New York_*   : ${fechanew}
-⏱️*_Indonesia_*  : ${fechaasi}
-⏱️*_Brasil_*     : ${fechabra}
-⏱️*_G.N.Q_*      : ${fechaafri}
+⏱️_Perú_       : ${fechaper}
+⏱️_Mexico_     : ${fechamex}
+⏱️_Bolivia_    : ${fechabol}
+⏱️_Chile_      : ${fechachi}
+⏱️_Argentina_  : ${fechaarg}
+⏱️_Colombia_   : ${fechacol}
+⏱️_Ecuador_    : ${fechaecu}
+⏱️_Costa_Rica_ : ${fechacosr}
+⏱️_Cuba_       : ${fechacub}
+⏱️_Guatemala_  : ${fechagua}
+⏱️_Honduras_   : ${fechahon}
+⏱️_Nicaragua_  : ${fechanic}
+⏱️_Panama_     : ${fechapan}
+⏱️_Uruguay_    : ${fechauru}
+⏱️_Venezuela_  : ${fechaven}
+⏱️_Paraguay_   : ${fechapar}
+⏱️_New York_   : ${fechanew}
+⏱️_Indonesia_  : ${fechaasi}
+⏱️_Brasil_     : ${fechabra}
+⏱️_G.N.Q_      : ${fechaafri}
 \`\`\`
 ${String.fromCharCode(8206).repeat(850)}
 💻 𝚉𝙾𝙽𝙰 𝙷𝙾𝚁𝙰𝚁𝙸𝙰 𝙳𝙴𝙻 𝚂𝙴𝚁𝚅𝙸𝙳𝙾𝚁 𝙰𝙲𝚃𝚄𝙰𝙻 : \n*[ ${Intl.DateTimeFormat().resolvedOptions().timeZone} ]*\n*${moment().tz(Intl.DateTimeFormat().resolvedOptions().timeZone).format('DD/MM/YY HH:mm:ss')}*` }, {quoted: m })

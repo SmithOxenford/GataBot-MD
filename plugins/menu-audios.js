@@ -70,7 +70,7 @@ let fsizedoc = '1'.repeat(10)
 let adReply = { fileLength: fsizedoc, seconds: fsizedoc, contextInfo: { forwardingScore: fsizedoc, externalAdReply: { showAdAttribution: true, title: wm, body: '👋 ' + username, mediaUrl: ig, description: 'Hola', previewType: 'PHOTO', thumbnail: await(await fetch(gataMenu.getRandom())).buffer(), sourceUrl: redesMenu.getRandom() }}}
 
 let str = `
-╭┄〔 *${wm}* 〕┄⊱
+╭┄〔 𝐌𝐀𝐊𝐀𝐍𝐀𝐊𝐘 - 🤖 〕┄⊱
 ┊ *🎶 ${lenguajeGB['smsConfi2']()} ${username}*
 ┊დ *${week}, ${date}*
 ┊დ *${lenguajeGB['smsBotonM4']()} » ${Object.keys(global.db.data.users).length}* 
@@ -215,10 +215,10 @@ let str = `
 ∘ _Gol!_
 
 ╭════• ೋ•✧๑♡๑✧•ೋ •════╮
-                      🐈 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨 🐈
+                      👑 𝐀𝐃𝐑𝐈𝐀𝐍𝐎 𝐒𝐀𝐍𝐂𝐇𝐄𝐙 👑
          0:40 ━❍──────── -8:39
          ↻     ⊲  Ⅱ  ⊳     ↺
-         VOLUMEN: ▁▂▃▄▅▆▇ 100%
+         𝚅𝙾𝙻𝚄𝙼𝙴𝙽 : ▁▂▃▄▅▆▇ 100%
 ╰════• ೋ•✧๑♡๑✧•ೋ •════╯`.trim()
     conn.sendFile(m.chat, pp, 'lp.jpg', str, m, false, { contextInfo: { mentionedJid }})
 /*let menuA = `🎶 ${lenguajeGB['smsConfi2']()} *${username}*`.trim()

@@ -151,7 +151,7 @@ ${readMore}
 
 *╭━〔 𝐉𝐔𝐄𝐆𝐎𝐒 - 𝐌𝐔𝐋𝐓𝐈 𝐉𝐔𝐄𝐆𝐎𝐒 🎡 〕━⬣*
 ┃🎡➺ _${usedPrefix}mates | matemáticas | math_
-┃🎡➺ _${usedPrefix}lanzar *cara* | *cruz*
+┃🎡➺ _${usedPrefix}suerte *cara* | *cruz*_
 ┃🎡➺ _${usedPrefix}ppt *piedra : papel : tijera*_
 ┃🎡➺ _${usedPrefix}tictactoe | ttt *sala*_
 ┃🎡➺ _${usedPrefix}deltictactoe | delttt_

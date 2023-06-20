@@ -76,101 +76,101 @@ ${username}
 𝙏𝙐  𝙍𝘼𝙉𝙂𝙊 𝘼𝘾𝙏𝙐𝘼𝙇
 ${role}
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-👑 *∞ ÉLITE GLOBAL I* 💎🏁
-👑 *∞ ÉLITE GLOBAL II* 💎🏁
-👑 *∞ ÉLITE GLOBAL III* 💎🏁
-👑 *∞ ÉLITE GLOBAL IV* 💎🏁
-👑 *∞ ÉLITE GLOBAL V* 💎🏁
+👑 *∞ 𝙴́𝙻𝙸𝚃𝙴 𝙶𝙻𝙾𝙱𝙰𝙻 𝙸* 💎🏁
+👑 *∞ 𝙴́𝙻𝙸𝚃𝙴 𝙶𝙻𝙾𝙱𝙰𝙻 𝙸𝙸* 💎🏁
+👑 *∞ 𝙴́𝙻𝙸𝚃𝙴 𝙶𝙻𝙾𝙱𝙰𝙻 𝙸𝙸𝙸* 💎🏁
+👑 *∞ 𝙴́𝙻𝙸𝚃𝙴 𝙶𝙻𝙾𝙱𝙰𝙻 𝙸𝚅* 💎🏁
+👑 *∞ 𝙴́𝙻𝙸𝚃𝙴 𝙶𝙻𝙾𝙱𝙰𝙻 𝚅* 💎🏁
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-👑 *ÉLITE GLOBAL I* 🏁
-👑 *ÉLITE GLOBAL II* 🏁
-👑 *ÉLITE GLOBAL III* 🏁
-👑 *ÉLITE GLOBAL IV* 🏁
-👑 *ÉLITE GLOBAL V* 🏁
+👑 *𝙴́𝙻𝙸𝚃𝙴 𝙶𝙻𝙾𝙱𝙰𝙻 𝙸* 🏁
+👑 *𝙴́𝙻𝙸𝚃𝙴 𝙶𝙻𝙾𝙱𝙰𝙻 𝙸𝙸* 🏁
+👑 *𝙴́𝙻𝙸𝚃𝙴 𝙶𝙻𝙾𝙱𝙰𝙻 𝙸𝙸𝙸* 🏁
+👑 *𝙴́𝙻𝙸𝚃𝙴 𝙶𝙻𝙾𝙱𝙰𝙻 𝙸𝚅* 🏁
+👑 *𝙴́𝙻𝙸𝚃𝙴 𝙶𝙻𝙾𝙱𝙰𝙻 𝚅* 🏁
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-*TOP ASTRAL I* ⚜️🔱
-*TOP ASTRAL II* ⚜️🔱
-*TOP ASTRAL III* ⚜️🔱
-*TOP ASTRAL IV* ⚜️🔱
-*TOP ASTRAL V* ⚜️🔱
+*𝚃𝙾𝙿 𝙰𝚂𝚃𝚁𝙰𝙻 𝙸* ⚜️🔱
+*𝚃𝙾𝙿 𝙰𝚂𝚃𝚁𝙰𝙻 𝙸𝙸* ⚜️🔱
+*𝚃𝙾𝙿 𝙰𝚂𝚃𝚁𝙰𝙻 𝙸𝙸𝙸* ⚜️🔱
+*𝚃𝙾𝙿 𝙰𝚂𝚃𝚁𝙰𝙻 𝙸𝚅* ⚜️🔱
+*𝚃𝙾𝙿 𝙰𝚂𝚃𝚁𝙰𝙻 𝚅* ⚜️🔱
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-*ESTELAR I* ☄️
-*ESTELAR II* ☄️
-*ESTELAR III* ☄️
-*ESTELAR IV* ☄️
-*ESTELAR V* ☄️
+*𝙴𝚂𝚃𝙴𝙻𝙰𝚁 𝙸* ☄️
+*𝙴𝚂𝚃𝙴𝙻𝙰𝚁 𝙸𝙸* ☄️
+*𝙴𝚂𝚃𝙴𝙻𝙰𝚁 𝙸𝙸𝙸* ☄️
+*𝙴𝚂𝚃𝙴𝙻𝙰𝚁 𝙸𝚅* ☄️
+*𝙴𝚂𝚃𝙴𝙻𝙰𝚁 𝚅* ☄️
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-*LEYENDA I* 🏆
-*LEYENDA II* 🏆
-*LEYENDA III* 🏆
-*LEYENDA IV* 🏆
-*LEYENDA V* 🏆
+*𝙻𝙴𝚈𝙴𝙽𝙳𝙰 𝙸* 🏆
+*𝙻𝙴𝚈𝙴𝙽𝙳𝙰 𝙸𝙸* 🏆
+*𝙻𝙴𝚈𝙴𝙽𝙳𝙰 𝙸𝙸𝙸* 🏆
+*𝙻𝙴𝚈𝙴𝙽𝙳𝙰 𝙸𝚅* 🏆
+*𝙻𝙴𝚈𝙴𝙽𝙳𝙰 𝚅* 🏆
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-*LEGENDARIO(A) I* 🛡️
-*LEGENDARIO(A) II* 🛡️
-*LEGENDARIO(A) III* 🛡️
-*LEGENDARIO(A) IV* 🛡️
-*LEGENDARIO(A) V* 🛡️
+*𝙻𝙴𝙶𝙴𝙽𝙳𝙰𝚁𝙸𝙾(𝙰) 𝙸* 🛡️
+*𝙻𝙴𝙶𝙴𝙽𝙳𝙰𝚁𝙸𝙾(𝙰) 𝙸𝙸* 🛡️
+*𝙻𝙴𝙶𝙴𝙽𝙳𝙰𝚁𝙸𝙾(𝙰) 𝙸𝙸𝙸* 🛡️
+*𝙻𝙴𝙶𝙴𝙽𝙳𝙰𝚁𝙸𝙾(𝙰) 𝙸𝚅* 🛡️
+*𝙻𝙴𝙶𝙴𝙽𝙳𝙰𝚁𝙸𝙾(𝙰) 𝚅* 🛡️
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-*SUPER PRO I* 🎩
-*SUPER PRO II* 🎩
-*SUPER PRO III* 🎩
-*SUPER PRO IV* 🎩
-*SUPER PRO V* 🎩
+*𝚂𝚄𝙿𝙴𝚁 𝙿𝚁𝙾 𝙸* 🎩
+*𝚂𝚄𝙿𝙴𝚁 𝙿𝚁𝙾 𝙸𝙸* 🎩
+*𝚂𝚄𝙿𝙴𝚁 𝙿𝚁𝙾 𝙸𝙸𝙸* 🎩
+*𝚂𝚄𝙿𝙴𝚁 𝙿𝚁𝙾 𝙸𝚅* 🎩
+*𝚂𝚄𝙿𝙴𝚁 𝙿𝚁𝙾 𝚅* 🎩
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-*PRO EN MAKANAKYBOT I* 😼
-*PRO EN MAKANAKYBOT II* 😼
-*PRO EN MAKANAKYBOT III* 😼
-*PRO EN MAKANAKYBOT IV* 😼
-*PRO EN MAKANAKYBOT V* 😼
+*𝙿𝚁𝙾 𝙴𝙽 𝙼𝙰𝙺𝙰𝙽𝙰𝙺𝚈𝙱𝙾𝚃 𝙸* 😼
+*𝙿𝚁𝙾 𝙴𝙽 𝙼𝙰𝙺𝙰𝙽𝙰𝙺𝚈𝙱𝙾𝚃 𝙸𝙸* 😼
+*𝙿𝚁𝙾 𝙴𝙽 𝙼𝙰𝙺𝙰𝙽𝙰𝙺𝚈𝙱𝙾𝚃 𝙸𝙸𝙸* 😼
+*𝙿𝚁𝙾 𝙴𝙽 𝙼𝙰𝙺𝙰𝙽𝙰𝙺𝚈𝙱𝙾𝚃 𝙸𝚅* 😼
+*𝙿𝚁𝙾 𝙴𝙽 𝙼𝙰𝙺𝙰𝙽𝙰𝙺𝚈𝙱𝙾𝚃 𝚅* 😼
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-*DIAMANTE I* 💎
-*DIAMANTE II* 💎
-*DIAMANTE III* 💎
-*DIAMANTE IV* 💎
-*DIAMANTE V* 💎
+*𝙳𝙸𝙰𝙼𝙰𝙽𝚃𝙴 𝙸* 💎
+*𝙳𝙸𝙰𝙼𝙰𝙽𝚃𝙴 𝙸𝙸* 💎
+*𝙳𝙸𝙰𝙼𝙰𝙽𝚃𝙴 𝙸𝙸𝙸* 💎
+*𝙳𝙸𝙰𝙼𝙰𝙽𝚃𝙴 𝙸𝚅* 💎
+*𝙳𝙸𝙰𝙼𝙰𝙽𝚃𝙴 𝚅* 💎
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-*ORO I* 🏅
-*ORO II* 🏅
-*ORO III* 🏅
-*ORO IV* 🏅
-*ORO V* 🏅
+*𝙾𝚁𝙾 𝙸* 🏅
+*𝙾𝚁𝙾 𝙸𝙸* 🏅
+*𝙾𝚁𝙾 𝙸𝙸𝙸* 🏅
+*𝙾𝚁𝙾 𝙸𝚅* 🏅
+*𝙾𝚁𝙾 𝚅* 🏅
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-*PLATA I* 🔮
-*PLATA II* 🔮
-*PLATA III* 🔮
-*PLATA IV* 🔮
-*PLATA V* 🔮
+*𝙿𝙻𝙰𝚃𝙰 𝙸* 🔮
+*𝙿𝙻𝙰𝚃𝙰 𝙸𝙸* 🔮
+*𝙿𝙻𝙰𝚃𝙰 𝙸𝙸𝙸* 🔮
+*𝙿𝙻𝙰𝚃𝙰 𝙸𝚅* 🔮
+*𝙿𝙻𝙰𝚃𝙰 𝚅* 🔮
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-*IRON I* 🦾
-*IRON II* 🦾
-*IRON III* 🦾
-*IRON IV* 🦾
-*IRON V* 🦾
+*𝙸𝚁𝙾𝙽 𝙸* 🦾
+*𝙸𝚁𝙾𝙽 𝙸𝙸* 🦾
+*𝙸𝚁𝙾𝙽 𝙸𝙸𝙸* 🦾
+*𝙸𝚁𝙾𝙽 𝙸𝚅* 🦾
+*𝙸𝚁𝙾𝙽 𝚅* 🦾
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-*MAESTRO(A) I* ⚒️
-*MAESTRO(A) II* ⚒️
-*MAESTRO(A) III* ⚒️
-*MAESTRO(A) IV* ⚒️
-*MAESTRO(A) V* ⚒️
+*𝙼𝙰𝙴𝚂𝚃𝚁𝙾(𝙰) 𝙸* ⚒️
+*𝙼𝙰𝙴𝚂𝚃𝚁𝙾(𝙰) 𝙸𝙸* ⚒️
+*𝙼𝙰𝙴𝚂𝚃𝚁𝙾(𝙰) 𝙸𝙸𝙸* ⚒️
+*𝙼𝙰𝙴𝚂𝚃𝚁𝙾(𝙰) 𝙸𝚅* ⚒️
+*𝙼𝙰𝙴𝚂𝚃𝚁𝙾(𝙰) 𝚅* ⚒️
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-*EXPLORADOR(A) I* 🪓
-*EXPLORADOR(A) II* 🪓
-*EXPLORADOR(A) III* 🪓
-*EXPLORADOR(A) IV* 🪓
-*EXPLORADOR(A) V* 🪓
+*𝙴𝚇𝙿𝙻𝙾𝚁𝙰𝙳𝙾𝚁(𝙰) 𝙸* 🪓
+*𝙴𝚇𝙿𝙻𝙾𝚁𝙰𝙳𝙾𝚁(𝙰) 𝙸𝙸* 🪓
+*𝙴𝚇𝙿𝙻𝙾𝚁𝙰𝙳𝙾𝚁(𝙰) 𝙸𝙸𝙸* 🪓
+*𝙴𝚇𝙿𝙻𝙾𝚁𝙰𝙳𝙾𝚁(𝙰) 𝙸𝚅* 🪓
+*𝙴𝚇𝙿𝙻𝙾𝚁𝙰𝙳𝙾𝚁(𝙰) 𝚅* 🪓
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-*APRENDIS I* 🪚
-*APRENDIS II* 🪚
-*APRENDIS III* 🪚
-*APRENDIS IV* 🪚
-*APRENDIS V* 🪚
+*𝙰𝙿𝚁𝙴𝙽𝙳𝙸𝚂 𝙸* 🪚
+*𝙰𝙿𝚁𝙴𝙽𝙳𝙸𝚂 𝙸𝙸* 🪚
+*𝙰𝙿𝚁𝙴𝙽𝙳𝙸𝚂 𝙸𝙸𝙸* 🪚
+*𝙰𝙿𝚁𝙴𝙽𝙳𝙸𝚂 𝙸𝚅* 🪚
+*𝙰𝙿𝚁𝙴𝙽𝙳𝙸𝚂 𝚅* 🪚
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-*NOVATO(A) I* 🪤
-*NOVATO(A) II* 🪤
-*NOVATO(A) III* 🪤
-*NOVATO(A) IV* 🪤
-*NOVATO(A) V* 🪤
+*𝙽𝙾𝚅𝙰𝚃𝙾(𝙰) 𝙸* 🪤
+*𝙽𝙾𝚅𝙰𝚃𝙾(𝙰) 𝙸𝙸* 🪤
+*𝙽𝙾𝚅𝙰𝚃𝙾(𝙰) 𝙸𝙸𝙸* 🪤
+*𝙽𝙾𝚅𝙰𝚃𝙾(𝙰) 𝙸𝚅* 🪤
+*𝙽𝙾𝚅𝙰𝚃𝙾(𝙰) 𝚅* 🪤
 ╰━━━━━━━━━━━━━━━━━━━⬣`.trim()
 conn.sendHydrated(m.chat, menu, `𝙍𝘼𝙉𝙂𝙊𝙎 | ${wm}`, pp, 'https://github.com/SmithOxenford/MakanakyBot-MD', '𝙈𝙖𝙠𝙖𝙣𝙖𝙠𝙮𝘽𝙤𝙩-𝙈𝘿', null, null, [
 ['𝙈𝙚𝙣𝙪́ 𝙘𝙤𝙢𝙥𝙡𝙚𝙩𝙤 💫', '.allmenu'],

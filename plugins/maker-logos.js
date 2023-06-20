@@ -1,7 +1,7 @@
 import axios from 'axios'
 let split = '|'
 let handler = async (m, { conn, args: [effect], text: txt, usedPrefix, command, name }) => {
-if (!effect) throw `${mg}𝚄𝚂𝙰𝚁 𝙴𝙻 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 𝙳𝙴 𝙻𝙰 𝚂𝙸𝙶𝚄𝙸𝙴𝙽𝚃𝙴 𝙼𝙰𝙽𝙴𝚁𝙰 :\n💫 *${usedPrefix + command}* efecto texto\n𝙴𝙹𝙴𝙼𝙿𝙻𝙾 :\n💫 *${usedPrefix + command}* American-flag-3D MakanakyBot\n\n💫 𝙴𝙽 𝙲𝙰𝚂𝙾 𝙳𝙴 𝚀𝚄𝙴 𝙳𝙸𝙶𝙰 𝚀𝚄𝙴 𝙵𝙰𝙻𝚃𝙰 𝚃𝙴𝚇𝚃𝙾 𝚄𝚂𝙰𝚁 𝙳𝙴 𝙴𝚂𝚃𝙰 𝙵𝙾𝚁𝙼𝙰 :\n💫 *${usedPrefix + command} efecto texto1|texto2*\n𝙴𝙹𝙴𝙼𝙿𝙻𝙾 : \n💫 *${usedPrefix + command}* Wolf-Logo-Galaxy \n\n✨ 𝐋𝐈𝐒𝐓𝐀 𝐃𝐄 𝐋𝐎𝐆𝐎𝐒 ✨\n\n🤍 ${usedPrefix + command} ` + effects.map(v => v.title).join(`\n💜 ${usedPrefix + command} `)
+if (!effect) throw `${mg}𝚄𝚂𝙰𝚁 𝙴𝙻 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 𝙳𝙴 𝙻𝙰 𝚂𝙸𝙶𝚄𝙸𝙴𝙽𝚃𝙴 𝙼𝙰𝙽𝙴𝚁𝙰 :\n💫 *${usedPrefix + command}* efecto texto\n𝙴𝙹𝙴𝙼𝙿𝙻𝙾 :\n💫 *${usedPrefix + command}* American-flag-3D MakanakyBot\n\n💫 𝙴𝙽 𝙲𝙰𝚂𝙾 𝙳𝙴 𝚀𝚄𝙴 𝙳𝙸𝙶𝙰 𝚀𝚄𝙴 𝙵𝙰𝙻𝚃𝙰 𝚃𝙴𝚇𝚃𝙾 𝚄𝚂𝙰𝚁 𝙳𝙴 𝙴𝚂𝚃𝙰 𝙵𝙾𝚁𝙼𝙰 :\n💫 *${usedPrefix + command}* efecto texto1|texto2\n𝙴𝙹𝙴𝙼𝙿𝙻𝙾 : \n💫 *${usedPrefix + command}* Wolf-Logo-Galaxy \n\n✨ 𝐋𝐈𝐒𝐓𝐀 𝐃𝐄 𝐋𝐎𝐆𝐎𝐒 ✨\n\n🤍 ${usedPrefix + command} ` + effects.map(v => v.title).join(`\n💜 ${usedPrefix + command} `)
 effect = effect.toLowerCase()
 if (!effects.find(v => (new RegExp(v.title, 'gi')).test(effect))) throw `${mg}𝙴𝙻 𝙻𝙾𝙶𝙾 ${effect}𝙽𝙾 𝚂𝙴 𝙴𝙽𝙲𝚄𝙴𝙽𝚃𝚁𝙰 𝙴𝙽 𝙻𝙰 𝙻𝙸𝚂𝚃𝙰 𝙳𝙴 𝙻𝙾𝙶𝙾𝚂 ☹️`
 let text = txt.replace(new RegExp(effect, 'gi'), '').trimStart()
@@ -12,7 +12,7 @@ if (typeof res == 'number') throw res == -1 ? `${mg}𝙴𝙻 𝙻𝙾𝙶𝙾 ${
 let result = await axios.get(res, {
 responseType: 'arraybuffer'
 })
-await conn.sendFile(m.chat, result.data, 'Error.jpg', `✅ 𝙰𝚀𝚄𝙸́ 𝙴𝚂𝚃𝙰 𝚃𝚄́ 𝙻𝙾𝙶𝙾!!\n\n🔆 𝐄𝐅𝐄𝐂𝐓𝐎 : ${effect}*\n${wm}`, m)
+await conn.sendFile(m.chat, result.data, 'Error.jpg', `✅ 𝙰𝚀𝚄𝙸́ 𝙴𝚂𝚃𝙰 𝚃𝚄́ 𝙻𝙾𝙶𝙾!!\n\n🔆 𝐄𝐅𝐄𝐂𝐓𝐎 : ${effect}\n${wm}`, m)
 }
 handler.help = ['logos']
 handler.tags = ['nulis']

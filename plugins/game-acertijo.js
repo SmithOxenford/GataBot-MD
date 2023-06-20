@@ -15,16 +15,16 @@ let handler = async (m, { conn, usedPrefix }) => {
     let _clue = json.response
     let clue = _clue.replace(/[A-Za-z]/g, '_')
     let caption = `
-ⷮ *${json.question}*
+ⷮ _${json.question}_
 
-• 𝚃𝙸𝙴𝙼𝙿𝙾: ${(timeout / 1000).toFixed(2)} 𝚂𝙴𝙶𝚄𝙽𝙳𝙾𝚂
-• 𝙱𝙾𝙽𝙾: +${poin} Exp
+• 𝐓𝐈𝐄𝐌𝐏𝐎 : ${(timeout / 1000).toFixed(2)} 𝚂𝙴𝙶𝚄𝙽𝙳𝙾𝚂
+• 𝐁𝐎𝐍𝐎 : +${poin} 𝙴𝚇𝙿
 `.trim()
     conn.tekateki[id] = [
        await conn.reply(m.chat, caption, m),
         json, poin,
         setTimeout(async () => {
-            if (conn.tekateki[id]) await conn.reply(m.chat, `𝚂𝙴 𝙰𝙲𝙰𝙱𝙾 𝙴𝙻 𝚃𝙸𝙴𝙼𝙿𝙾 𝙿𝙸𝙿𝙸𝙿𝙸 😔\n𝚁𝙴𝚂𝙿𝚄𝙴𝚂𝚃𝙰: ${json.response}`, conn.tekateki[id][0])
+            if (conn.tekateki[id]) await conn.reply(m.chat, `𝚂𝙴 𝙰𝙲𝙰𝙱𝙾 𝙴𝙻 𝚃𝙸𝙴𝙼𝙿𝙾 𝙿𝙸𝙿𝙸𝙿𝙸 😔\n𝐑𝐄𝐒𝐏𝐔𝐄𝐒𝐓𝐀 : ${json.response}`, conn.tekateki[id][0])
             delete conn.tekateki[id]
         }, timeout)
     ]
