@@ -2,7 +2,7 @@ let handler = async (m, { conn, command, text, usedPrefix }) => {
 let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
 
 const sections = [{
-title: comienzo + ' 🗂️ 𝙏𝙄𝙋𝙊𝙎 𝘿𝙀 𝙇𝙄𝙎𝙏𝘼𝙎 ' + fin,
+title: comienzo + ' 🗂️ 𝐓𝐈𝐏𝐎𝐒 𝐃𝐄 𝐋𝐈𝐒𝐓𝐀𝐒 ' + fin,
 rows: [
 {title: "📛 𝐁𝐋𝐎𝐐𝐔𝐄𝐀𝐃𝐎𝐒 : ", rowId: `${usedPrefix}listablock`, description: `𝚄𝚂𝚄𝙰𝚁𝙸𝙾𝚂 𝙱𝙻𝙾𝚀𝚄𝙴𝙰𝙳𝙾𝚂 𝙿𝙾𝚁 𝙻𝙻𝙰𝙼𝙰𝚁. 😐`},
 {title: "⚠️ 𝐀𝐃𝐕𝐄𝐑𝐓𝐈𝐃𝐎𝐒  : ", rowId: `${usedPrefix}listadv`, description: `𝚄𝚂𝚄𝙰𝚁𝙸𝙾𝚂 𝙰𝙳𝚅𝙴𝚁𝚃𝙸𝙳𝙾𝚂 𝙿𝙾𝚁 𝙼𝙰𝙻𝙰𝚂 𝙿𝙰𝙻𝙰𝙱𝚁𝙰𝚂. 😐`},
@@ -12,9 +12,9 @@ rows: [
 {title: "💞 𝐔𝐒𝐔𝐀𝐑𝐈𝐎𝐒 𝐄𝐍 𝐑𝐄𝐋𝐀𝐂𝐈𝐎𝐍 : ", rowId: `${usedPrefix}listaparejas`, description: `𝚄𝚂𝚄𝙰𝚁𝙸𝙾𝚂 𝚀𝚄𝙴 𝙴𝚂𝚃𝙰𝙽 𝙴𝙽 𝚄𝙽𝙰 𝚁𝙴𝙻𝙰𝙲𝙸𝙾𝙽 𝚁𝙾𝙼𝙰𝙽𝚃𝙸𝙲𝙰 🥰`}]}]
 
 const listMessage = {
-  text: `𝙏𝙄𝙋𝙊𝙎 𝘿𝙀 𝙇𝙄𝙎𝙏𝘼𝙎 𝘿𝙀 𝙐𝙎𝙐𝘼𝙍𝙄𝙊𝙎`,
+  text: `𝐓𝐈𝐏𝐎𝐒 𝐃𝐄 𝐋𝐈𝐒𝐓𝐀𝐒 𝐃𝐄 𝐔𝐒𝐔𝐀𝐑𝐈𝐎𝐒`,
   footer: wm,
-  title: `${htki} 𝙇𝙄𝙎𝙏𝘼 𝙑𝘼𝙍𝙄𝘼𝘿𝘼𝙎 📃`,
+  title: `${htki} 𝐋𝐈𝐒𝐓𝐀𝐒 𝐕𝐀𝐑𝐈𝐀𝐃𝐀𝐒 📃`,
   buttonText: `📑 𝙑𝙀𝙍 𝙇𝙄𝙎𝙏𝘼𝙎 📑`,
   sections
 }

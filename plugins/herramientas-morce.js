@@ -135,7 +135,7 @@ if(j == i) Output_String += dec[i]
 }}
 return conn.reply(m.chat, Output_String, fkontak, m)
 } else {
-return conn.reply(m.chat, `${mg}🔣 𝘾𝙊𝘿𝙄𝘾𝙊 𝙈𝙊𝙍𝙎𝙀 𝘾𝙊𝘿𝙄𝙁𝙄𝘾𝘼𝙍/𝘿𝙀𝘾𝙊𝘿𝙄𝙁𝙄𝘾𝘼𝙍\n\n𝙋𝘼𝙍𝘼 𝘾𝙊𝘿𝙄𝙁𝙄𝘾𝘼𝙍 𝙐𝙎𝙀 *:* 𝙏𝙊 𝙀𝙉𝘾𝙊𝘿𝙀 𝙐𝙎𝙀\n*${usedPrefix}${command} codificar Hola Gata*\n*${usedPrefix}${command} codificar Hello Gata*\n\n𝙋𝘼𝙍𝘼 𝘿𝙀𝘾𝙊𝘿𝙄𝙁𝙄𝘾𝘼𝙍 𝙐𝙎𝙀 *:* 𝙏𝙊 𝘿𝙀𝘾𝙊𝘿𝙀 𝙐𝙎𝙀\n*${usedPrefix}${command} decodificar •••• --- •-•• •- / --• •- - •-*\n*${usedPrefix}${command} decodificar •••• • •-•• •-•• --- / --• •- - •-*`, fkontak, m)
+return conn.reply(m.chat, `${mg}🔣 𝙲𝙾𝙳𝙸𝙶𝙾 𝙼𝙾𝚁𝚂𝙴 𝙲𝙾𝙳𝙸𝙵𝙸𝙲𝙰𝚁 / 𝙳𝙴𝙲𝙾𝙳𝙸𝙵𝙸𝙲𝙰𝚁\n\n𝙿𝙰𝚁𝙰 𝙲𝙾𝙳𝙸𝙵𝙸𝙲𝙰𝚁 𝚄𝚂𝙴 :\n*${usedPrefix}${command}* codificar Hola Makanaky\n*${usedPrefix}${command}* codificar Hello Makanaky\n\n𝙿𝙰𝚁𝙰 𝙳𝙴𝙲𝙾𝙳𝙸𝙵𝙸𝙲𝙰𝚁 𝚄𝚂𝙴 :\n*${usedPrefix}${command}* decodificar •••• --- •-•• •- / --• •- - •-\n*${usedPrefix}${command}* decodificar •••• • •-•• •-•• --- / --• •- - •-`, fkontak, m)
 }}
 
 handler.help = ["morse"].map(v => v + " <encode|decode>")

@@ -10,7 +10,7 @@ let handler = async (m, { args, usedPrefix, command }) => {
     let data = json.map((v, i) => `${i + 1}. ${v.latin}\n${v.arabic}\n${v.translation_id}`).join('\n\n')
     if (isNaN(args[0])) throw `𝙴𝙹𝙴𝙼𝙿𝙻𝙾 :\n${usedPrefix + command} 1`
     if (args[0]) {
-        if (args[0] < 1 || args[0] > 99) throw `mínimo 1 y máximo 99!`
+        if (args[0] < 1 || args[0] > 99) throw `𝙼𝙸́𝙽𝙸𝙼𝙾 𝙳𝙴𝙻 𝟷 𝙰𝙻 𝟿𝟿! 🤗`
         let { index, latin, arabic, translation_id, translation_en } = json.find(v => v.index == args[0].replace(/[^0-9]/g, ''))
         return m.reply(`🔢 𝐍𝐔𝐌𝐄𝐑𝐎 : ${index}
 ${arabic}

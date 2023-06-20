@@ -9,17 +9,17 @@ let handler = async (m, { conn, text }) => {
 		pp = await conn.profilePictureUrl(data.id, 'image').catch(console.error)
 		let groupinfo = `
 *┏━━━━━━━━━━━━━━━┓*
-*┃☂️ ⫹⫺ ID:* ${data.id}◞
-*┃🧪 ⫹⫺ Nombre:* ${data.subject}
-*┃📅 ⫹⫺ Creado:* ${data.creation}
-*┃👑 ⫹⫺ Owner:* ${data.owner}
+┃☂️ ⫹⫺ 𝐈𝐃 : ${data.id}◞
+┃🧪 ⫹⫺ 𝐍𝐎𝐌𝐁𝐑𝐄 : ${data.subject}
+┃📅 ⫹⫺ 𝐂𝐑𝐄𝐀𝐃𝐎 : ${data.creation}
+┃👑 ⫹⫺ 𝐎𝐖𝐍𝐄𝐑 : ${data.owner}
 *┗━━━━━━━━━━━━━━━┛*
 `
 	await conn.reply(m.chat, groupinfo, m)
 	const botones = [
-{index: 1, urlButton: {displayText: `Copiar Descripción 🍓`, url: `https://www.whatsapp.com/otp/copy/${data.desc}`}},
+{index: 1, urlButton: {displayText: `𝙲𝙾𝙿𝙸𝙰𝚁 𝙳𝙴𝚂𝙲𝚁𝙸𝙿𝙲𝙸𝙾𝙽 🍓`, url: `https://www.whatsapp.com/otp/copy/${data.desc}`}},
 ]
-await conn.sendMessage(m.chat, { text: `*┏━━━━━━━━━━━━━━┓*\n┃¿Desa copiar la desc? •🌷\n*┗━━━━━━━━━━━━━━┛*`, templateButtons: botones, footer: wm })
+await conn.sendMessage(m.chat, { text: `*┏━━━━━━━━━━━━━━┓*\n┃¿𝙳𝙴𝚂𝙴𝙰 𝙲𝙾𝙿𝙸𝙰𝚁 𝙻𝙰 𝙳𝙴𝚂𝙲𝚁𝙸𝙿? •🌷\n*┗━━━━━━━━━━━━━━┛*`, templateButtons: botones, footer: wm })
 }
 handler.command = /^(inspect)$/i
 

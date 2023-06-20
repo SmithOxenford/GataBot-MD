@@ -65,24 +65,24 @@ let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? c
 let mentionedJid = [who]
 let username = conn.getName(who)
 
-let chat = `👤 *El chat Anónimo funciona solo al privado del Bot Makanaky.*
+let chat = `👤 ᴇʟ ᴄʜᴀᴛ ᴀɴᴏ́ɴɪᴍᴏ ғᴜɴᴄɪᴏɴᴀ sᴏʟᴏ ᴀʟ ᴘʀɪᴠᴀᴅᴏ ᴅᴇʟ ʙᴏᴛ ᴍᴀᴋᴀɴᴀᴋʏ.
 
-👥 Consiste en usar el número del Bot para hablar con otras personas, es decir las dos personas estarán a la vez escribiendo por el chat privado del Bot, de esa manera ninguna 🔒de las dos personas pueden ver su número, Foto, usuario, descripción etc... 🔒
+👥 ᴄᴏɴsɪsᴛᴇ ᴇɴ ᴜsᴀʀ ᴇʟ ɴᴜ́ᴍᴇʀᴏ ᴅᴇʟ ʙᴏᴛ ᴘᴀʀᴀ ʜᴀʙʟᴀʀ ᴄᴏɴ ᴏᴛʀᴀs ᴘᴇʀsᴏɴᴀs﹐ ᴇs ᴅᴇᴄɪʀ ʟᴀs ᴅᴏs ᴘᴇʀsᴏɴᴀs ᴇsᴛᴀʀᴀ́ɴ ᴀ ʟᴀ ᴠᴇᴢ ᴇsᴄʀɪʙɪᴇɴᴅᴏ ᴘᴏʀ ᴇʟ ᴄʜᴀᴛ ᴘʀɪᴠᴀᴅᴏ ᴅᴇʟ ʙᴏᴛ﹐ ᴅᴇ ᴇsᴀ ᴍᴀɴᴇʀᴀ ɴɪɴɢᴜɴᴀ 🔒ᴅᴇ ʟᴀs ᴅᴏs ᴘᴇʀsᴏɴᴀs ᴘᴜᴇᴅᴇɴ ᴠᴇʀ sᴜ ɴᴜ́ᴍᴇʀᴏ﹐ ғᴏᴛᴏ﹐ ᴜsᴜᴀʀɪᴏ﹐ ᴅᴇsᴄʀɪᴘᴄɪᴏ́ɴ ᴇᴛᴄ... 🔒
 
-✨ Para poder hacer uso de esta función debes hacer lo siguiente:
-⚡️ Ingresa al chat privado del Bot
-⚡️ Escribe es siguiente comando
-*#start*
+✨ ᴘᴀʀᴀ ᴘᴏᴅᴇʀ ʜᴀᴄᴇʀ ᴜsᴏ ᴅᴇ ᴇsᴛᴀ ғᴜɴᴄɪᴏ́ɴ ᴅᴇʙᴇs ʜᴀᴄᴇʀ ʟᴏ sɪɢᴜɪᴇɴᴛᴇ﹕
+⚡️ ɪɴɢʀᴇsᴀ ᴀʟ ᴄʜᴀᴛ ᴘʀɪᴠᴀᴅᴏ ᴅᴇʟ ʙᴏᴛ
+⚡️ ᴇsᴄʀɪʙᴇ ᴇs sɪɢᴜɪᴇɴᴛᴇ ᴄᴏᴍᴀɴᴅᴏ
+﹟sᴛᴀʀᴛ
 
-✅ Una vez hecho lo anterior solo tienes que tener paciencia a que otra persona use el mismo comando (#start) para poder ser vinculados por medio del número del Bot y empezar a interactuar 
+✅ ᴜɴᴀ ᴠᴇᴢ ʜᴇᴄʜᴏ ʟᴏ ᴀɴᴛᴇʀɪᴏʀ sᴏʟᴏ ᴛɪᴇɴᴇs ϙᴜᴇ ᴛᴇɴᴇʀ ᴘᴀᴄɪᴇɴᴄɪᴀ ᴀ ϙᴜᴇ ᴏᴛʀᴀ ᴘᴇʀsᴏɴᴀ ᴜsᴇ ᴇʟ ᴍɪsᴍᴏ ᴄᴏᴍᴀɴᴅᴏ ﹙﹟sᴛᴀʀᴛ﹚ ᴘᴀʀᴀ ᴘᴏᴅᴇʀ sᴇʀ ᴠɪɴᴄᴜʟᴀᴅᴏs ᴘᴏʀ ᴍᴇᴅɪᴏ ᴅᴇʟ ɴᴜ́ᴍᴇʀᴏ ᴅᴇʟ ʙᴏᴛ ʏ ᴇᴍᴘᴇᴢᴀʀ ᴀ ɪɴᴛᴇʀᴀᴄᴛᴜᴀʀ 
 
-✅ Si dejas activado el #start tendrás más posibilidades de interactuar con la otra persona de forma Anónima 
+✅ Sɪ ᴅᴇᴊᴀs ᴀᴄᴛɪᴠᴀᴅᴏ ᴇʟ ﹟sᴛᴀʀᴛ ᴛᴇɴᴅʀᴀ́s ᴍᴀ́s ᴘᴏsɪʙɪʟɪᴅᴀᴅᴇs ᴅᴇ ɪɴᴛᴇʀᴀᴄᴛᴜᴀʀ ᴄᴏɴ ʟᴀ ᴏᴛʀᴀ ᴘᴇʀsᴏɴᴀ ᴅᴇ ғᴏʀᴍᴀ ᴀɴᴏ́ɴɪᴍᴀ 
 
-🚪 En caso que quieras salir del chat anónimo usa el siguiente comando 
-*#leave* 
+🚪 ᴇɴ ᴄᴀsᴏ ϙᴜᴇ ϙᴜɪᴇʀᴀs sᴀʟɪʀ ᴅᴇʟ ᴄʜᴀᴛ ᴀɴᴏ́ɴɪᴍᴏ ᴜsᴀ ᴇʟ sɪɢᴜɪᴇɴᴛᴇ ᴄᴏᴍᴀɴᴅᴏ 
+﹟ʟᴇᴀᴠᴇ 
 
-✅ De esa forma ya dejarás de estar en el chat anónimo del Bot
-❗ No nos hacemos responsables del mal uso que le puedas dar a esta función del Bot.`
+✅ ᴅᴇ ᴇsᴀ ғᴏʀᴍᴀ ʏᴀ ᴅᴇᴊᴀʀᴀ́s ᴅᴇ ᴇsᴛᴀʀ ᴇɴ ᴇʟ ᴄʜᴀᴛ ᴀɴᴏ́ɴɪᴍᴏ ᴅᴇʟ ʙᴏᴛ
+❗ ɴᴏ ɴᴏs ʜᴀᴄᴇᴍᴏs ʀᴇsᴘᴏɴsᴀʙʟᴇs ᴅᴇʟ ᴍᴀʟ ᴜsᴏ ϙᴜᴇ ʟᴇ ᴘᴜᴇᴅᴀs ᴅᴀʀ ᴀ ᴇsᴛᴀ ғᴜɴᴄɪᴏ́ɴ ᴅᴇʟ ʙᴏᴛ.`
 
 const fkontak = {
 	"key": {

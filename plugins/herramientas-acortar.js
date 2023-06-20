@@ -1,10 +1,10 @@
 import axios from "axios"
 import fetch from 'node-fetch'
 let handler = async(m, { conn, text, xteamkey }) => {
-if (!text) throw `${mg}𝙄𝙉𝙂𝙍𝙀𝙎𝙀 𝙐𝙉 𝙀𝙉𝙇𝘼𝘾𝙀 𝙋𝘼𝙍𝘼 𝘼𝘾𝙊𝙍𝙏𝘼𝙍`
+if (!text) throw `${mg}𝙸𝙽𝙶𝚁𝙴𝚂𝙴 𝙴𝙽𝙻𝙰𝙲𝙴 𝙿𝙰𝚁𝙰 𝙰𝙲𝙾𝚁𝚃𝙰𝚁`
 let json = await (await fetch(`https://api.xteam.xyz/shorturl/tinyurl?url=${text}&apikey=cb15ed422c71a2fb`)).json()
 if (!json.status) throw json
-let hasil = `✅ 𝙎𝙀 𝙍𝙀𝘼𝙇𝙄𝙕𝙊 𝘾𝙊𝙉 𝙀𝙓𝙄𝙏𝙊\n\n𝙀𝙉𝙇𝘼𝘾𝙀 𝘿𝙀 𝘼𝙉𝙏𝙀𝙎 | 𝘽𝙀𝙁𝙊𝙍𝙀 𝙇𝙄𝙉𝙆\n*${text}*\n\n𝙀𝙉𝙇𝘼𝘾𝙀 𝘿𝙀 𝘼𝙃𝙊𝙍𝘼 \n*${json.result}*`.trim()   
+let hasil = `✅ 𝚂𝙴 𝚁𝙴𝙰𝙻𝙸𝚉𝙾 𝙲𝙾𝙽 𝙴𝚇𝙸𝚃𝙾\n\n𝙴𝙽𝙻𝙰𝙲𝙴 𝙳𝙴 𝙰𝙽𝚃𝙴𝚂 : \n*${text}*\n\n𝙴𝙽𝙻𝙰𝙲𝙴 𝙳𝙴 𝙰𝙷𝙾𝚁𝙰 \n*${json.result}*`.trim()   
 m.reply(hasil)
 }
 handler.help = ['tinyurl','acortar'].map(v => v + ' <link>')

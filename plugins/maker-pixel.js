@@ -4,7 +4,7 @@ conn.sendFile(m.chat, global.API('https://some-random-api.ml', '/canvas/pixelate
 avatar: await conn.profilePictureUrl(m.sender, 'image').catch(_ => 'https://telegra.ph/file/24fa902ead26340f3df2c.png'),
 comment: text,
 username: conn.getName(m.sender)
-}), 'error.png', '🌀 *AQUÍ ESTA LA IMAGEN PIXELADA!!*\n𝙏𝙃𝙀 𝙈𝘼𝙆𝘼𝙉𝘼𝙆𝙔 - 𝘽𝙊𝙏  | 𝘼𝘿𝙍𝙄𝘼𝙉𝙊 𝙎𝘼𝙉𝘾𝙃𝙀𝙕', m)
+}), 'error.png', '🌀 𝙰𝚀𝚄𝙸́ 𝙴𝚂𝚃𝙰 𝙻𝙰 𝙸𝙼𝙰𝙶𝙴𝙽 𝙿𝙸𝚇𝙴𝙻𝙰𝙳𝙰!!\n𝐌𝐀𝐊𝐀𝐍𝐀𝐊𝐘 - 🤖', m)
 }
 handler.help = ['pixel','difuminar']
 handler.tags = ['maker']

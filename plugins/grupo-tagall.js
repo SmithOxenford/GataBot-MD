@@ -9,7 +9,7 @@ let teks = `⺀𝐈 𝐍 𝐕 𝐎 𝐂 𝐀 𝐍 𝐃 𝐎 - 𝐆 𝐑 𝐔 �
 for (let mem of participants) {
 teks += `┣➥ @${mem.id.split('@')[0]}\n`}
 teks += `┃\n`
-teks += `*└* 𝚃𝙷𝙴 𝙼𝙰𝙺𝙰𝙽𝙰𝙺𝚈 - 🤖`
+teks += `*└* 𝙼 𝙰 𝙺 𝙰 𝙽 𝙰 𝙺 𝚈 - 🤖`
 conn.sendMessage(m.chat, { text: teks, mentions: participants.map(a => a.id) }, )  
 }
 handler.command = /^(tagall|invocar|invocacion|todos|invocación)$/i

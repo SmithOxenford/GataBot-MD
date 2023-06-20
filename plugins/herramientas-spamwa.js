@@ -1,18 +1,18 @@
 let handler = async (m, { conn, text, usedPrefix, command }) => {
 
 let time = global.db.data.users[m.sender].lastrob + 7200000
-if (new Date - global.db.data.users[m.sender].lastrob < 7200000) throw `*⏱️ ESPERA ${msToTime(time - new Date())}\n NO USER ESTE COMANDO CON UN MAL USO*`
+if (new Date - global.db.data.users[m.sender].lastrob < 7200000) throw `⏱️ 𝙴𝚂𝙿𝙴𝚁𝙰 ${msToTime(time - new Date())}\n 𝙽𝙾 𝚄𝚂𝙰𝚁 𝙴𝚂𝚃𝙴 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 𝙲𝙾𝙽 𝚄𝙽 𝙼𝙰𝙻 𝚄𝚂𝙾`
 let [nomor, pesan, jumlah] = text.split('|')
-if (!nomor) throw `${mg}𝙄𝙉𝙂𝙍𝙀𝙎𝙀 𝙀𝙇 𝙉𝙐𝙈𝙀𝙍𝙊 𝘼𝙇 𝙌𝙐𝙀 𝙎𝙀 𝙇𝙀 𝙃𝘼𝙍𝘼 𝙎𝙋𝘼𝙈\n*❊ ${usedPrefix + command} numero|texto|cantidad*\n𝙀𝙅𝙀𝙈𝙋𝙇𝙊\n*❊ ${usedPrefix + command} 999999999999|Holaaa|35*`
-if (!pesan) throw `${mg}𝙄𝙉𝙂𝙍𝙀𝙎𝙀 𝙀𝙇 𝙉𝙐𝙈𝙀𝙍𝙊 𝘼𝙇 𝙌𝙐𝙀 𝙎𝙀 𝙇𝙀 𝙃𝘼𝙍𝘼 𝙎𝙋𝘼𝙈\n*❊ ${usedPrefix + command} numero|texto|cantidad*\n𝙀𝙅𝙀𝙈𝙋𝙇𝙊\n*❊ ${usedPrefix + command} 999999999999|Holaaa|35*`
-if (jumlah && isNaN(jumlah)) throw `𝙀𝙉 𝘾𝘼𝙉𝙏𝙄𝘿𝘼𝘿 𝘿𝙀𝘽𝙀 𝘿𝙀 𝙄𝙍 𝙀𝙇 𝙉𝙐𝙈𝙀𝙍𝙊 𝘼𝙇 𝙌𝙐𝙀 𝙎𝙀 𝙇𝙀 𝙃𝘼𝙍𝘼 𝙎𝙋𝘼𝙈\n*❊ ${usedPrefix + command} numero|texto|cantidad*\n𝙀𝙅𝙀𝙈𝙋𝙇𝙊\n*❊ ${usedPrefix + command} 999999999999|Holaaa|35*`
+if (!nomor) throw `${mg}𝙸𝙽𝙶𝚁𝙴𝚂𝙴 𝙴𝙻 𝙽𝚄𝙼𝙴𝚁𝙾 𝙰𝙻 𝚀𝚄𝙴 𝚂𝙴 𝙻𝙴 𝙷𝙰𝚁𝙰́ 𝚂𝙿𝙰𝙼 😁\n❊ ${usedPrefix + command} 𝙽𝚄́𝙼𝙴𝚁𝙾 | 𝚃𝙴𝚇𝚃𝙾 | 𝙲𝙰𝙽𝚃𝙸𝙳𝙰𝙳\n𝙴𝙹𝙴𝙼𝙿𝙻𝙾 :\n❊ ${usedPrefix + command} 999999999999|Holaaa|35`
+if (!pesan) throw `${mg}𝙸𝙽𝙶𝚁𝙴𝚂𝙴 𝙴𝙻 𝙽𝚄𝙼𝙴𝚁𝙾 𝙰𝙻 𝚀𝚄𝙴 𝚂𝙴 𝙻𝙴 𝙷𝙰𝚁𝙰́ 𝚂𝙿𝙰𝙼 😁\n❊ ${usedPrefix + command} 𝙽𝚄́𝙼𝙴𝚁𝙾 | 𝚃𝙴𝚇𝚃𝙾 | 𝙲𝙰𝙽𝚃𝙸𝙳𝙰𝙳\n𝙴𝙹𝙴𝙼𝙿𝙻𝙾 :\n❊ ${usedPrefix + command} 999999999999|Holaaa|35`
+if (jumlah && isNaN(jumlah)) throw `𝙴𝙽 𝙲𝙰𝙽𝚃𝙸𝙳𝙰𝙳 𝙳𝙴𝙱𝙴 𝙸𝚁 𝙴𝙻 𝙽𝚄́𝙼𝙴𝚁𝙾 𝙰𝙻 𝚀𝚄𝙴 𝚂𝙴 𝙻𝙴 𝙷𝙰𝚁𝙰́ 𝚂𝙿𝙰𝙼\n❊ ${usedPrefix + command} 𝙽𝚄́𝙼𝙴𝚁𝙾 | 𝚃𝙴𝚇𝚃𝙾 | 𝙲𝙰𝙽𝚃𝙸𝙳𝙰𝙳\n𝙴𝙹𝙴𝙼𝙿𝙻𝙾 :\n❊ ${usedPrefix + command} 999999999999|Holaaa|35`
 await delay(10000)
 let fixedNumber = nomor.replace(/[-+<>@]/g, '').replace(/ +/g, '').replace(/^[0]/g, '62') + '@s.whatsapp.net'
 await delay(10000)
 let fixedJumlah = jumlah ? jumlah * 1 : 10
-if (fixedJumlah > 10) throw `${fg}𝙈𝙄𝙉𝙄𝙈𝙊 *10* 𝙈𝙀𝙉𝙎𝘼𝙅𝙀𝙎 𝙋𝘼𝙍𝘼 𝙃𝘼𝘾𝙀𝙍 𝙀𝙇 𝙎𝙋𝘼𝙈 `
+if (fixedJumlah > 10) throw `${fg}𝙼𝙸́𝙽𝙸𝙼𝙾 𝟷0 𝙼𝙴𝙽𝚂𝙰𝙹𝙴𝚂 𝙿𝙰𝚁𝙰 𝙷𝙰𝙲𝙴𝚁 𝙴𝙻 𝚂𝙿𝙰𝙼 😁`
 await delay(10000)
-await m.reply(`${eg}𝙀𝙇 𝙎𝙋𝘼𝙈 𝙎𝙀 𝙀𝙉𝙑𝙄𝙊 *${fixedJumlah}* 𝙑𝙀𝘾𝙀𝙎 𝘼 *${nomor}*`)
+await m.reply(`${eg}𝙴𝙻 𝚂𝙿𝙰𝙼 𝚂𝙴 𝙴𝙽𝚅𝙸𝙾́ *${fixedJumlah}* 𝚅𝙴𝙲𝙴𝚂 𝙰 *${nomor}*`)
 await delay(10000)
 for (let i = fixedJumlah; i > 1; i--) {
 await delay(10000)
