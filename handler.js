@@ -1188,8 +1188,8 @@ if (m.text && user.banned && !isROwner) {
   
   if (user.bannedMessageCount < 3) {
     const messageNumber = user.bannedMessageCount + 1;
-    const messageText = `❰ ⚠️ ❱ *𝙀𝙎𝙏𝘼𝙎 𝘽𝘼𝙉𝙀𝘼𝘿𝙊/𝘼* ❰ ⚠️ ❱\nAviso (${messageNumber}/3)${user.bannedReason ? `\n*Motivo:* *${user.bannedReason}*` : ''}
-*👉 Puedes contactar al propietario del Bot Makanaky si crees que se trata de un error (TENER PRUEBAS) para tratar el motivo de tú desbaneo*
+    const messageText = `❰ ⚠️ ❱ 𝐄𝐒𝐓𝐀𝐒 𝐁𝐀𝐍𝐄𝐀𝐃𝐎/𝐀 ❰ ⚠️ ❱\n𝐀𝐕𝐈𝐒𝐎 : (${messageNumber}/3)${user.bannedReason ? `\n𝐌𝐎𝐓𝐈𝐕𝐎 : ${user.bannedReason}` : ''}
+👉 𝙿𝚄𝙴𝙳𝙴𝚂 𝙲𝙾𝙽𝚃𝙰𝙲𝚃𝙰𝚁 𝙰𝙻 𝙿𝚁𝙾𝙿𝙸𝙴𝚃𝙰𝚁𝙸𝙾 𝙳𝙴𝙻 𝙱𝙾𝚃 𝙼𝙰𝙺𝙰𝙽𝙰𝙺𝚈 𝚂𝙸 𝙲𝚁𝙴𝙴𝚂 𝚀𝚄𝙴 𝚂𝙴 𝚃𝚁𝙰𝚃𝙰 𝙳𝙴 𝚄𝙽 𝙴𝚁𝚁𝙾𝚁 (𝚃𝙴𝙽𝙴𝚁 𝙿𝚁𝚄𝙴𝙱𝙰𝚂) 𝙿𝙰𝚁𝙰 𝚃𝚁𝙰𝚃𝙰𝚁 𝙴𝙻 𝙼𝙾𝚃𝙸𝚅𝙾 𝙳𝙴 𝚃𝚄́ 𝙳𝙴𝚂𝙱𝙰𝙽𝙴𝙾
 
 👉 ${global.asistencia}
 👉 wa.me/51986206184
@@ -1213,7 +1213,7 @@ if (botSpam.antispam && m.text && user && user.lastCommandTime && (Date.now() - 
   if (user.commandCount === 5) {
     const remainingTime = Math.ceil((user.lastCommandTime + 5000 - Date.now()) / 1000)
     if (remainingTime > 0) {
-      const messageText = `*𝙀𝙎𝙋𝙀𝙍𝘼 ${remainingTime} 𝙎𝙀𝙂𝙐𝙉𝘿𝙊 𝘼𝙉𝙏𝙀𝙎 𝘿𝙀 𝙐𝙎𝘼𝙍 𝙊𝙏𝙍𝙊 𝘾𝙊𝙈𝘼𝙉𝘿𝙊*`
+      const messageText = `𝙴𝚂𝙿𝙴𝚁𝙰  ${remainingTime} *𝚂𝙴𝙶𝚄𝙽𝙳𝙾𝚂* 𝙰𝙽𝚃𝙴𝚂 𝙳𝙴 𝚄𝚂𝙰𝚁 𝙾𝚃𝚁𝙾 𝙲𝙾𝙼𝙰𝙽𝙳𝙾`
       m.reply(messageText)
       return
     } else {
@@ -1278,7 +1278,7 @@ if (botSpam.antispam && m.text && user && user.lastCommandTime && (Date.now() - 
                     m.reply('Exp limit') // Hehehe
                 else               
                 if (!isPrems && plugin.money && global.db.data.users[m.sender].money < plugin.money * 1) {
-                    this.reply(m.chat, `𝙉𝙊 𝙏𝙄𝙀𝙉𝙀 𝙈𝘼𝙆𝘼𝙉𝘼𝙆𝙔𝘾𝙊𝙄𝙉𝙎`, m)
+                    this.reply(m.chat, `𝙽𝙾 𝚃𝙸𝙴𝙽𝙴 𝙼𝙰𝙺𝙰𝙽𝙰𝙺𝚈𝙲𝙾𝙸𝙽𝚂 ☹️`, m)
                     continue     
 		}
 			
@@ -1348,7 +1348,7 @@ if (botSpam.antispam && m.text && user && user.lastCommandTime && (Date.now() - 
                         m.reply(+m.limit + lenguajeGB.smsCont8())
                 }
                  if (m.money)
-                        m.reply(+m.money + ' 𝙈𝘼𝙆𝘼𝙉𝘼𝙆𝙔𝘾𝙊𝙄𝙉𝙎 𝙐𝙎𝘼𝘿𝙊(𝙎)')
+                        m.reply(+m.money + ' 𝙼𝙰𝙺𝙰𝙽𝙰𝙺𝚈𝙲𝙾𝙸𝙽𝚂 𝚄𝚂𝙰𝙳𝙾(𝚂)')
               
                 break
             }
@@ -1523,13 +1523,13 @@ export async function deleteUpdate(message) {
         if (chat.delete)
             return
         await this.reply(msg.chat, `
-━━━━⬣  𝘼𝙉𝙏𝙄 𝘿𝙀𝙇𝙀𝙏𝙀  ⬣━━━━
-*■ Nombre:* @${participant.split`@`[0]}
-*■ Enviando el mensaje..*
-*■ Para desactivar esta función escriba el comando:*
-*—◉ #disable antidelete*
-*—◉ #enable delete*
-━━━━⬣  𝘼𝙉𝙏𝙄 𝘿𝙀𝙇𝙀𝙏𝙀  ⬣━━━━
+━━━━⬣  𝐀𝐍𝐓𝐈 𝐃𝐄𝐋𝐄𝐓𝐄  ⬣━━━━
+■ 𝐍𝐎𝐌𝐁𝐑𝐄 : @${participant.split`@`[0]}
+■ 𝙴𝙽𝚅𝙸𝙰𝙽𝙳𝙾 𝙴𝙻 𝙼𝙴𝙽𝚂𝙰𝙹𝙴...
+■ 𝙿𝙰𝚁𝙰 𝙳𝙴𝚂𝙰𝙲𝚃𝙸𝚅𝙰𝚁 𝙴𝚂𝚃𝙰 𝙵𝚄𝙽𝙲𝙸𝙾́𝙽 𝙴𝚂𝙲𝚁𝙸𝙱𝙰 𝙴𝙻 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 :
+—◉ #disable antidelete
+—◉ #enable delete
+━━━━⬣  𝐀𝐍𝐓𝐈 𝐃𝐄𝐋𝐄𝐓𝐄  ⬣━━━━
 `.trim(), msg, {
             mentions: [participant]
         })
@@ -1554,7 +1554,7 @@ let msg = {
 }[type]
 //if (msg) return m.reply(msg)
 let tg = { quoted: m, userJid: conn.user.jid }
-let prep = generateWAMessageFromContent(m.chat, { extendedTextMessage: { text: msg, contextInfo: { externalAdReply: { title: lenguajeGB.smsAvisoAG().slice(0,-2), body: [wm, '😻 𝗦𝘂𝗽𝗲𝗿 ' + gt + ' 😻', '🌟 botmakanaky.gmail.com'].getRandom(), thumbnail: gataImg.getRandom(), sourceUrl: [md, nna, nn, nnn, nnnt, nnnttt4, yt, ig, paypal, fb].getRandom() }}}}, tg)
+let prep = generateWAMessageFromContent(m.chat, { extendedTextMessage: { text: msg, contextInfo: { externalAdReply: { title: lenguajeGB.smsAvisoAG().slice(0,-2), body: [wm, '🤖 𝐒𝐔𝐏𝐄𝐑 ' + gt + ' 🤖', '🌟 botmakanaky.gmail.com'].getRandom(), thumbnail: gataImg.getRandom(), sourceUrl: [md, nna, nn, nnn, nnnt, nnnttt4, yt, ig, paypal, fb].getRandom() }}}}, tg)
 if (msg) return conn.relayMessage(m.chat, prep.message, { messageId: prep.key.id })
 }
 
