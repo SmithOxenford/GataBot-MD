@@ -15,7 +15,7 @@ global.owner = [
   ['51936933624', '𝐌𝐀𝐊𝐀𝐍𝐀𝐊𝐘 - 🤖', true],  
   ['51986206184', '𝙊𝙬𝙣𝙚𝙧 (1) 💻', true],
   ['51986206184', '𝘾𝙪𝙨𝙩𝙤𝙢𝙚𝙧 𝙎𝙪𝙥𝙥𝙤𝙧𝙩 🥏', true],
-  ['51986206184', '𝘼𝙙𝙧𝙞𝙖𝙣𝙤 𝙎𝙖𝙣𝙘𝙝𝙚𝙯', true],
+  ['51986206184', '𝐀𝐃𝐑𝐈𝐀𝐍𝐎 𝐒𝐀́𝐍𝐂𝐇𝐄𝐙', true],
   ['51936933624'],
   ['51936933624'],
   ['51936933624'],
@@ -122,22 +122,22 @@ global.vs = '1.4.9'
 global.vsJB = '2.0'
 
 global.gt = '𝐌𝐀𝐊𝐀𝐍𝐀𝐊𝐘 - 🤖'
-global.yt = 'https://www.instagram.com/adri2.pc'
-global.yt2 = 'https://www.instagram.com/adri2.pc'
-global.ig = 'https://www.instagram.com/adri2.pc'
+global.yt = 'https://www.instagram.com/adri2.sp'
+global.yt2 = 'https://www.instagram.com/adri2.sp'
+global.ig = 'https://www.instagram.com/adri2.sp'
 global.md = 'https://github.com/SmithOxenford/MakanakyBot-MD'
-global.fb = 'https://www.instagram.com/adri2.pc'
+global.fb = 'https://www.instagram.com/adri2.sp'
 
-global.nna = 'https://www.instagram.com/adri2.pc' //UPDATE GATABOT
-global.nna2 = 'https://www.instagram.com/adri2.pc' //Help
-global.nn = 'https://www.instagram.com/adri2.pc' //Grupo 1
-global.nnn = 'https://www.instagram.com/adri2.pc' //Grupo 2
-global.nnnt = 'https://www.instagram.com/adri2.pc' //Grupo 3
-global.nnntt = 'https://www.instagram.com/adri2.pc' //Grupo 4
-global.nnnttt = 'https://www.instagram.com/adri2.pc' //Grupo 5 COL
-global.nnnttt2 = 'https://www.instagram.com/adri2.pc' //Grupo 6 COL
-global.nnnttt3 = 'https://www.instagram.com/adri2.pc' //Grupo 7 COL
-global.nnnttt4 = 'https://www.instagram.com/adri2.pc' //Grupo 8 COL
+global.nna = 'https://www.instagram.com/adri2.sp' //UPDATE GATABOT
+global.nna2 = 'https://www.instagram.com/adri2.sp' //Help
+global.nn = 'https://www.instagram.com/adri2.sp' //Grupo 1
+global.nnn = 'https://www.instagram.com/adri2.sp' //Grupo 2
+global.nnnt = 'https://www.instagram.com/adri2.sp' //Grupo 3
+global.nnntt = 'https://www.instagram.com/adri2.sp' //Grupo 4
+global.nnnttt = 'https://www.instagram.com/adri2.sp' //Grupo 5 COL
+global.nnnttt2 = 'https://www.instagram.com/adri2.sp' //Grupo 6 COL
+global.nnnttt3 = 'https://www.instagram.com/adri2.sp' //Grupo 7 COL
+global.nnnttt4 = 'https://www.instagram.com/adri2.sp' //Grupo 8 COL
 global.paypal = '*YAPE* 51986206184'
 global.asistencia = 'Wa.me/51986206184' //Dudas? escríbeme...
 
@@ -173,7 +173,7 @@ global.exito = eg
 
 //⊱ ━━━━━.⋅ Información | Information ⋅.━━━━ ⊰
 
-global.wm = '𝙼𝙰𝙺𝙰𝙽𝙰𝙺𝚈 - 🤖 : 𝙰𝙳𝚁𝙸𝙰𝙽𝙾 𝚂𝙰𝙽𝙲𝙷𝙴𝚉'
+global.wm = '𝐌𝐀𝐊𝐀𝐍𝐀𝐊𝐘 - 🤖 : 𝐀𝐃𝐑𝐈𝐀𝐍𝐎 𝐒𝐀́𝐍𝐂𝐇𝐄𝐙'
 global.igfg = '𝐌𝐀𝐊𝐀𝐍𝐀𝐊𝐘 - 🤖'
 global.wait = '*⌛ 𝙲𝙰𝚁𝙶𝙰𝙽𝙳𝙾... ▬▭▭▭▭▭▭*'
 global.waitt = '*⌛ 𝙲𝙰𝚁𝙶𝙰𝙽𝙳𝙾... ▬▬▭▭▭*'
