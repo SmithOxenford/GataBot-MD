@@ -533,8 +533,8 @@ user.pasatiempo = pasatiempo === 0 ? '𝙽𝙾 𝙴𝙽𝙲𝙾𝙽𝚃𝚁𝙰�
 fecha = `${week}, ${date} || `
 hora = `${time}`
 user.tiempo = fecha + hora
-user.name = nombre === 0 ? 'No encontrada' : nombre + 'ᴳᴬᴬᴬ'
-user.age = edad === 0 ? 'No encontrada' : `${edad >= 18 ? edad += ' Años *||* ' + '(Persona Adulta)' : edad += ' Años *||* ' + '(Persona Joven)'}`
+user.name = nombre === 0 ? '𝙽𝙾 𝙴𝙽𝙲𝙾𝙽𝚃𝚁𝙰𝙳𝙰 ☹️' : nombre + 'ᴳᴬᴬᴬ'
+user.age = edad === 0 ? '𝙽𝙾 𝙴𝙽𝙲𝙾𝙽𝚃𝚁𝙰𝙳𝙰 ☹️' : `${edad >= 18 ? edad += ' Años *||* ' + '_(Persona Adulta)_' : edad += ' Años *||* ' + '_(Persona Joven)_'}`
 user.descripcion = bio	
 }
 user.regTime = + new Date
@@ -612,7 +612,7 @@ await conn.reply(m.chat, `🍃 \`\`\`𝚅𝙴𝚁𝙸𝙵𝙸𝙲𝙰𝙲𝙸�
 🔢 𝐄𝐃𝐀𝐃
 ❱❱ ${user.age}
 
-${user.registroC === true ? `☘️ *GENERO*
+${user.registroC === true ? `☘️ 𝐆𝐄𝐍𝐄𝐑𝐎
 ❱❱ ${user.genero}
 
 🌱 𝐈𝐃𝐄𝐍𝐓𝐈𝐃𝐀𝐃 𝐃𝐄 𝐆𝐄𝐍𝐄𝐑𝐎

@@ -7,26 +7,26 @@ const emoji = new EmojiAPI()
 
 let handler = async (m, { conn, args, usedPrefix, command, isPrems }) => {
 let er = `
-${mg}𝘿𝙀𝘽𝙀 𝘿𝙀 𝙐𝙎𝘼𝙍 𝙀𝙇 𝘾𝙊𝙈𝘼𝙉𝘿𝙊 𝘾𝙊𝙈𝙊 𝙀𝙉 𝙀𝙇 𝙀𝙅𝙀𝙈𝙋𝙇𝙊
-*${usedPrefix + command} _tipo emoji_*
+${mg} 𝙳𝙴𝙱𝙴 𝚄𝚂𝙰𝚁 𝙴𝙻 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 𝙲𝙾𝙼𝙾 𝙴𝙽 𝙴𝙻 𝙴𝙹𝙴𝙼𝙿𝙻𝙾
+*${usedPrefix + command}* _tipo emoji_
 
-⊱⊱ 𝙀𝙅𝙀𝙈𝙋𝙇𝙊
+⊱⊱ 𝐄𝐉𝐄𝐌𝐏𝐋𝐎 :
 *${usedPrefix + command}* sa 😹
 
-⊱⊱ 𝙏𝙄𝙋𝙊𝙎 𝘿𝙀 𝙀𝙈𝙊𝙅𝙄𝙎
+⊱⊱ 𝐓𝐈𝐏𝐎𝐒 𝐃𝐄 𝐄𝐌𝐎𝐉𝐈𝐒
 
-*✦ wha = whatsapp* 
-*✦ sa = samsung*
-*✦ fa = facebook*
-*✦ ig = Instagram*
-*✦ go = google*
-*✦ ht = htc*
-*✦ mi = microsoft*
-*✦ mo = mozilla*
-*✦ op = openmoji*
-*✦ pi = pixel*
-*✦ ap = apple*
-*✦ tw = twitter*`
+*✦ wha = _whatsapp_* 
+*✦ sa = _samsung_*
+*✦ fa = _facebook_*
+*✦ ig = _Instagram_*
+*✦ go = _google_*
+*✦ ht = _htc_*
+*✦ mi = _microsoft_*
+*✦ mo = _mozilla_*
+*✦ op = _openmoji_*
+*✦ pi = _pixel_*
+*✦ ap = _apple_*
+*✦ tw = _twitter_*`
 
 if (!args[0]) throw er
 let template = (args[0] || '').toLowerCase()

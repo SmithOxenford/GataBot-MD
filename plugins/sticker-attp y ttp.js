@@ -1,5 +1,5 @@
 let handler = async(m, { conn, text, args, usedPrefix, command }) => {
-if (!text) throw `${mg}𝙀𝙎𝘾𝙍𝙄𝘽𝘼 𝙋𝘼𝙍𝘼 𝙌𝙐𝙀 𝙀𝙇 𝙏𝙀𝙓𝙏𝙊 𝙎𝙀 𝘾𝙊𝙉𝙑𝙄𝙀𝙍𝙏𝘼 𝙀𝙉 𝙎𝙏𝙄𝘾𝙆𝙀𝙍\n𝙀𝙅𝙀𝙈𝙋𝙇𝙊\n*${usedPrefix + command}* Nuevo Sticker\n*${usedPrefix + command}* New Sticker*`
+if (!text) throw `${mg}𝙴𝚂𝙲𝚁𝙸𝙱𝙰 𝙿𝙰𝚁𝙰 𝚀𝚄𝙴 𝙴𝙻 𝚃𝙴𝚇𝚃𝙾 𝚂𝙴 𝙲𝙾𝙽𝚅𝙸𝙴𝚁𝚃𝙰 𝙴𝙽 𝚂𝚃𝙸𝙲𝙺𝙴𝚁 😁\n𝐄𝐉𝐄𝐌𝐏𝐋𝐎 :\n*${usedPrefix + command}* _Nuevo Sticker_`
 let teks = encodeURI(text)
 
 if (command == 'attp') {
