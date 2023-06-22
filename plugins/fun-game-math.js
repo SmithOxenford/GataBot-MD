@@ -7,8 +7,8 @@ let mat =`${lenguajeGB['smsAvisoIIG']()}✨ 𝙿𝚄𝙴𝙳𝙴 𝙴𝚂𝙲�
 ${Object.keys(modes).join('  |  ')}
 
 𝙴𝙹𝙴𝙼𝙿𝙻𝙾 : 
-${usedPrefix + command} noob
-${usedPrefix + command} impossible2
+${usedPrefix + command} _noob_
+${usedPrefix + command} _impossible2_
 
 𝙼𝙸𝙴𝙽𝚃𝚁𝙰𝚂 𝙼𝙰𝚂 𝙳𝙸𝙵𝙸𝙻𝙲𝚄𝚃𝙰𝙳 𝙼𝙰𝚈𝙾𝚁 𝚁𝙴𝙲𝙾𝙼𝙿𝙴𝙽𝚂𝙰 😁
 `.trim()

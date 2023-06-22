@@ -1,6 +1,6 @@
 import { googleImage } from '@bochilteam/scraper'
 let handler = async (m, { conn, text, usedPrefix, command }) => {
-if (!text) throw `${lenguajeGB['smsAvisoMG']()}𝚄𝚂𝙴 𝙳𝙴 𝙻𝙰 𝚂𝙸𝙶𝚄𝙸𝙴𝙽𝚃𝙴 𝙼𝙰𝙽𝙴𝚁𝙰 :\n${usedPrefix + command} 𝙼𝙰𝙺𝙰𝙽𝙰𝙺𝚈`
+if (!text) throw `${lenguajeGB['smsAvisoMG']()}𝚄𝚂𝙴 𝙳𝙴 𝙻𝙰 𝚂𝙸𝙶𝚄𝙸𝙴𝙽𝚃𝙴 𝙼𝙰𝙽𝙴𝚁𝙰 :\n*${usedPrefix + command}* _Makanaky_`
 const res = await googleImage(text)
 let image = res.getRandom()
 let link = image

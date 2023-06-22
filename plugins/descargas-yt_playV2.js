@@ -1,13 +1,13 @@
 import fs from 'fs'
 import fetch from 'node-fetch'
 let handler = async (m, {command, conn, text, usedPrefix }) => {
-if (!text) throw `${mg}𝙴𝚂𝙲𝚁𝙸𝙱𝙰 𝙴𝙻 𝙽𝙾𝙼𝙱𝚁𝙴 𝙾 𝚃𝙸𝚃𝚄𝙻𝙾 🤗\n𝙴𝙹𝙴𝙼𝙿𝙻𝙾:\n*${usedPrefix + command} Billie Eilish - Bellyache*`
+if (!text) throw `${mg}𝙴𝚂𝙲𝚁𝙸𝙱𝙰 𝙴𝙻 𝙽𝙾𝙼𝙱𝚁𝙴 𝙾 𝚃𝙸𝚃𝚄𝙻𝙾 🤗\n𝙴𝙹𝙴𝙼𝙿𝙻𝙾:\n*${usedPrefix + command}* _Billie Eilish - Bellyache_`
 try {
 if (command == 'play.1') {
 conn.reply(m.chat, `${eg}𝙴𝚂𝙿𝙴𝚁𝙴 𝚄𝙽 𝙼𝙾𝙼𝙴𝙽𝚃𝙾 𝙴𝙻 𝙰𝚄𝙳𝙸𝙾 𝙿𝙾𝚁 𝙵𝙰𝚅𝙾𝚁 😃`, m, {
 contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, 
 title: '𝐓𝐇𝐄 𝐌𝐀𝐊𝐀𝐍𝐀𝐊𝐘 - 🤖 | 𝐀𝐃𝐑𝐈𝐀𝐍𝐎 𝐒𝐀𝐍𝐂𝐇𝐄𝐙',
-body: 'Super Bot WhatsApp',         
+body: '🤖 𝐒𝐔𝐏𝐄𝐑 𝐌𝐀𝐊𝐀𝐍𝐀𝐊𝐘 - 𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏 🤖',         
 previewType: 0, thumbnail: fs.readFileSync("./media/menus/Menu3.jpg"),
 sourceUrl: `https://github.com/SmithOxenford/MakanakyBot-MD`}}}) 
   

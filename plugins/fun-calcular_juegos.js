@@ -2,7 +2,7 @@ let handler = async (m, { conn, command, text, usedPrefix }) => {
 if (!text) throw `${lenguajeGB['smsAvisoMG']()}𝙴𝚃𝙸𝚀𝚄𝙴𝚃𝙴 @𝚃𝙰𝙶 𝙾 𝙴𝚂𝙲𝚁𝙸𝙱𝙰 𝙴𝙻 𝙽𝙾𝙼𝙱𝚁𝙴` 
 
 if (command == 'gay2') {
-let juego = `*${text.toUpperCase()}* 𝙴𝚂 *${(500).getRandom()}%* 𝙶𝙰𝚈_ 🏳️‍🌈`.trim()
+let juego = `*${text.toUpperCase()}* 𝙴𝚂 *${(500).getRandom()}%* 𝙶𝙰𝚈 🏳️‍🌈`.trim()
 await conn.reply(m.chat, juego, m, m.mentionedJid ? { mentions: m.mentionedJid } : {})}
 
  // ------------------------------------------------------------------------------------------------------------------------------------------------
@@ -50,19 +50,19 @@ await conn.reply(m.chat, juego, m, m.mentionedJid ? { mentions: m.mentionedJid }
 // ------------------------------------------------------------------------------------------------------------------------------------------------ 
   
 if (command == 'rata') {
-let juego = `*${text.toUpperCase()}* 𝙴𝚂 *${(500).getRandom()}%* *${command.replace('how', '').toUpperCase()} 🐁 𝙲𝙾𝙼𝙴 𝚀𝚄𝙴𝚂𝙾 🧀*`.trim()
+let juego = `*${text.toUpperCase()}* 𝙴𝚂 *${(500).getRandom()}%* *${command.replace('how', '').toUpperCase()} 🐁* 𝙲𝙾𝙼𝙴 𝚀𝚄𝙴𝚂𝙾 🧀`.trim()
 await conn.reply(m.chat, juego, m, m.mentionedJid ? { mentions: m.mentionedJid } : {})}
   
 // ------------------------------------------------------------------------------------------------------------------------------------------------   
   
 if (command == 'prostituto') {
-let juego = `*${text.toUpperCase()}* 𝙴𝚂 *${(500).getRandom()}%* *${command.replace('how', '').toUpperCase()} , 𝚀𝚄𝙸𝙴𝙽 𝚀𝚄𝙸𝙴𝚁𝙴 𝙳𝙴 𝚂𝚄𝚂 𝚂𝙴𝚁𝚅𝙸𝙲𝙸𝙾𝚂? 😏*`.trim()
+let juego = `*${text.toUpperCase()}* 𝙴𝚂 *${(500).getRandom()}%* *${command.replace('how', '').toUpperCase()} ,* 𝚀𝚄𝙸𝙴𝙽 𝚀𝚄𝙸𝙴𝚁𝙴 𝙳𝙴 𝚂𝚄𝚂 𝚂𝙴𝚁𝚅𝙸𝙲𝙸𝙾𝚂? 😏`.trim()
 await conn.reply(m.chat, juego, m, m.mentionedJid ? { mentions: m.mentionedJid } : {})}
   
 // ------------------------------------------------------------------------------------------------------------------------------------------------   
   
 if (command == 'prostituta') {
-let juego = `*${text.toUpperCase()}* 𝙴𝚂 *${(500).getRandom()}%* *${command.replace('how', '').toUpperCase()} , 𝚀𝚄𝙸𝙴𝙽 𝚀𝚄𝙸𝙴𝚁𝙴 𝙳𝙴 𝚂𝚄𝚂 𝚂𝙴𝚁𝚅𝙸𝙲𝙸𝙾𝚂? 😏*`.trim()
+let juego = `*${text.toUpperCase()}* 𝙴𝚂 *${(500).getRandom()}%* *${command.replace('how', '').toUpperCase()} ,* 𝚀𝚄𝙸𝙴𝙽 𝚀𝚄𝙸𝙴𝚁𝙴 𝙳𝙴 𝚂𝚄𝚂 𝚂𝙴𝚁𝚅𝙸𝙲𝙸𝙾𝚂? 😏`.trim()
 await conn.reply(m.chat, juego, m, m.mentionedJid ? { mentions: m.mentionedJid } : {})}
   
  // ------------------------------------------------------------------------------------------------------------------------------------------------   

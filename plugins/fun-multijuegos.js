@@ -82,7 +82,7 @@ if (command == 'multijuegos') {
  
 let t = {
 text: global.wm,
-footer: `𝘽𝙞𝙚𝙣𝙫𝙚𝙣𝙞𝙙𝙤(𝙖) ${username}\n𝙅𝙪𝙚𝙜𝙖 𝙪𝙣𝙖 𝙂𝙧𝙖𝙣 𝙫𝙖𝙧𝙞𝙚𝙙𝙖𝙙 𝙙𝙚 𝙟𝙪𝙚𝙜𝙤𝙨!!`,
+footer: `𝙱𝙸𝙴𝙽𝚅𝙴𝙽𝙸𝙳𝙾(𝙰) ${username}\n𝙹𝚄𝙴𝙶𝙰 𝚄𝙽𝙰 𝙶𝚁𝙰𝙽 𝚅𝙰𝚁𝙸𝙴𝙳𝙰𝙳 𝙳𝙴 𝙹𝚄𝙴𝙶𝙾𝚂!! 😁`,
 templateButtons: templateButtonsReplyMessage
   }
 conn.sendMessage(m.chat, t, m)
@@ -91,7 +91,7 @@ conn.sendMessage(m.chat, t, m)
   
   if (command == 'juegos') { 
     global.db.data.users[m.sender].money += 5
-    let gata = `${pickRandom([`𝙋𝙪𝙚𝙙𝙚𝙨 𝙂𝙖𝙣𝙖𝙧 𝘿𝙞𝙖𝙢𝙖𝙣𝙩𝙚𝙨 𝙖𝙡 𝙅𝙪𝙜𝙖𝙧!!`,`𝙎𝙞𝙜𝙪𝙚 𝙟𝙪𝙜𝙖𝙣𝙙𝙤 𝙥𝙖𝙧𝙖 𝙜𝙖𝙣𝙖𝙧 𝙂𝙖𝙩𝙖𝘾𝙤𝙞𝙣𝙨!!`,`𝙎𝙖𝙗𝙞𝙖𝙨 𝙦𝙪𝙚 𝙥𝙪𝙚𝙙𝙚𝙨 𝙂𝙖𝙣𝙖𝙧 𝙀𝙭𝙥𝙚𝙧𝙞𝙚𝙣𝙘𝙞𝙖 𝙖𝙡 𝙅𝙪𝙜𝙖𝙧? 𝘼𝙝𝙤𝙧𝙖 𝙮𝙖 𝙡𝙤 𝙨𝙖𝙗𝙚𝙨!!`])}`
+    let gata = `${pickRandom([`𝙿𝚄𝙴𝙳𝙴𝚂 𝙶𝙰𝙽𝙰𝚁 𝙳𝙸𝙰𝙼𝙰𝙽𝚃𝙴𝚂 𝙰𝙻 𝙹𝚄𝙶𝙰𝚁!! 😏`,`𝚂𝙸𝙶𝚄𝙴 𝙹𝚄𝙶𝙰𝙽𝙳𝙾 𝙿𝙰𝚁𝙰 𝙶𝙰𝙽𝙰 𝙼𝙰𝙺𝙰𝙽𝙰𝙺𝚈𝙲𝙾𝙸𝙽𝚂!! 😁`,`𝚂𝙰𝙱𝙸́𝙰𝚂 𝚀𝚄𝙴 𝙿𝚄𝙴𝙳𝙴𝚂 𝙶𝙰𝙽𝙰𝚁 𝙴𝚇𝙿𝙴𝚁𝙸𝙴𝙽𝙲𝙸𝙰 𝙰𝙻 𝙹𝚄𝙶𝙰𝚁? 𝙰𝙷𝙾𝚁𝙰 𝚈𝙰 𝙻𝙾 𝚂𝙰𝙱𝙴𝚂!! 🤗`])}`
              let c = `${usedPrefix}`
               let juegos = `${pickRandom([`${c}reto`,`${c}verdad`,`${c}topgays`,`${c}topotakus`,`${c}mates medium`,`${c}mates noob`])}`
                let juegos2 = `${pickRandom([`${c}reto`,`${c}verdad`,`${c}formarpareja`,`${c}ppt tijeras`,`${c}ppt piedra`])}`
@@ -101,7 +101,7 @@ conn.sendMessage(m.chat, t, m)
                    let emojis3 = `${pickRandom([`🛸`,`🚁`,`🚀`,`🧠`,`✈️`,`🚤`,`🚢`,`🚗`])}`
               
 
-              let ss = await `𝙏𝙃𝙀 𝙈𝘼𝙆𝘼𝙉𝘼𝙆𝙔 - 𝘽𝙊𝙏  | 𝘼𝘿𝙍𝙄𝘼𝙉𝙊 𝙎𝘼𝙉𝘾𝙃𝙀𝙕`
+              let ss = await `𝐌𝐀𝐊𝐀𝐍𝐀𝐊𝐘 - 🤖 | 𝐀𝐃𝐑𝐈𝐀𝐍𝐎 𝐒𝐀𝐍𝐂𝐇𝐄𝐙`
 
  const templateButtonsReplyMessage = [
 {index: 1, urlButton: {displayText: '𝙈𝙖𝙠𝙖𝙣𝙖𝙠𝙮𝘽𝙤𝙩-𝙈𝘿', url: 'https://github.com/SmithOxenford/MakanakyBot-MD'}},
@@ -122,7 +122,7 @@ conn.sendMessage(m.chat, tt, m)
   
  if (command == 'juegos') {
    global.db.data.users[m.sender].money += 10
-   let gata = `${pickRandom([`𝘿𝙚𝙢𝙪𝙚𝙨𝙩𝙧𝙖 𝙦𝙪𝙚 𝙥𝙪𝙚𝙙𝙚𝙨 𝙡𝙡𝙚𝙜𝙖𝙧 𝙖𝙡 𝙏𝙤𝙥 1!!`,`𝙈𝙞𝙚𝙣𝙩𝙧𝙖𝙨 𝙢𝙖𝙨 𝙅𝙪𝙚𝙜𝙖𝙨 𝙩𝙪 𝙍𝙖𝙣𝙜𝙤 𝙩𝙖𝙢𝙗𝙞𝙚𝙣 𝙨𝙪𝙗𝙞𝙧𝙖!!`,`𝙋𝙖𝙧𝙩𝙞𝙘𝙞𝙥𝙖 𝙚𝙣 𝙚𝙡 𝙢𝙤𝙙𝙤 𝙈𝙪𝙡𝙩𝙞𝙟𝙪𝙚𝙜𝙤𝙨 𝙮 𝙂𝙖𝙣𝙖 𝙧𝙚𝙘𝙤𝙢𝙥𝙚𝙣𝙨𝙖𝙨!!`])}`
+   let gata = `${pickRandom([`𝙳𝙴𝙼𝚄𝙴𝚂𝚃𝚁𝙰 𝚀𝚄𝙴 𝙿𝚄𝙴𝙳𝙴𝚂 𝙻𝙻𝙴𝙶𝙰𝚁 𝙰𝙻 𝚃𝙾𝙿 𝟷!! 😏`,`𝙼𝙸𝙴𝙽𝚃𝚁𝙰𝚂 𝙼𝙰́𝚂 𝙹𝚄𝙴𝙶𝙰𝚂 𝚃𝚄 𝚁𝙰𝙽𝙶𝙾 𝚂𝚄𝙱𝙸𝚁𝙰́!! 😁`,`𝙿𝙰𝚁𝚃𝙸𝙲𝙸𝙿𝙰 𝙴𝙽 𝙴𝙻 𝙼𝙾𝙳𝙾 𝙼𝚄𝙻𝚃𝙸𝙹𝚄𝙴𝙶𝙾𝚂 𝚈 𝙶𝙰𝙽𝙰 𝚁𝙴𝙲𝙾𝙼𝙿𝙴𝙽𝚂𝙰𝚂!! 🤗`])}`
             let c = `${usedPrefix}`
              let juegos = `${pickRandom([`${c}lesbiana Yo`,`${c}doxxear`,`${c}pajero Yo`,`${c}love Tú Mejor Amigo/a`,`${c}reto`,`${c}verdad`,`${c}ppt piedra`,`${c}puta Yo`,`${c}mates medium`,`${c}simi Que`])}`
               let juegos2 = `${pickRandom([`${c}ppt piedra`,`${c}mates noob`,`${c}pregunta El cielo y el infierno existen?`,`${c}pregunta Hay una sola vida?`,`${c}pregunta Los robots y androides podrán tener sentimientos en algún momento?`,`${c}pregunta De verdad el universo es infinito?`,`${c}pajera Yo`,`${c}manca Yo`,`${c}manco Yo`,`${c}pregunta Hay un destino?`,`${c}pregunta Se puede tener todo lo que se quiere?`])}`
@@ -131,7 +131,7 @@ conn.sendMessage(m.chat, tt, m)
                  let emojis2 = `${pickRandom([`🕵🏻‍♀️`,`🕵🏽‍♀️`,`🕵🏻‍♂️`,`🕵🏾‍♂️`,`👩🏿‍⚕️`,`🧑🏿‍⚕️`,`👩🏻‍⚕️`,`🧑🏻‍⚕️`,`👩🏼‍⚕️`,`🧑🏼‍⚕️`,`👩🏻‍🍳`,`🧑🏽‍🍳`,`👩🏾‍🍳`,`🧑🏿‍🍳`,`👩🏻‍🎓`,`👩🏼‍🎓`,`🧑🏾‍🎓`,`🧑🏻‍🎓`,`👩🏿‍🚀`,`🧑🏾‍🚀`,`👩🏽‍🚀`,`🧑🏽‍🚀`,`👩🏻‍⚖️`,`🧑🏻‍⚖️`,`👩🏽‍⚖️`,`🧑🏾‍⚖️`,`👩🏼‍⚖️`,`🧑🏼‍⚖️`,`🧙🏾‍♀️`,`🧙🏾‍♂️`,`🧙🏻‍♀️`,`🧙🏻‍♂️`,`🧚🏻‍♀️`,`🧚🏻‍♂️`,`🧚🏿‍♀️`,`🧚🏿‍♂️`,`🧚🏽‍♀️`,`🧚🏽‍♂️`,`🧞‍♀️`,`🧞‍♂️`,`👩🏻‍🎨`,`👩🏼‍🎨`,`👩🏿‍🎨`,`🧑🏻‍🎨`,`🧑🏼‍🎨`,`🧑🏿‍🎨`])}`
                   let emojis3 = `${pickRandom([`🍑`,`🍒`,`🍕`,`🍡`,`🍨`,`🥧`,`🍜`,`🍛`,`🍫`,`🫒`,`🍆`,`🍩`,`🍪`,`🍿`])}`
 
-           let sss = await `𝙏𝙃𝙀 𝙈𝘼𝙆𝘼𝙉𝘼𝙆𝙔 - 𝘽𝙊𝙏  | 𝘼𝘿𝙍𝙄𝘼𝙉𝙊 𝙎𝘼𝙉𝘾𝙃𝙀𝙕`
+           let sss = await `𝐌𝐀𝐊𝐀𝐍𝐀𝐊𝐘 - 🤖 | 𝐀𝐃𝐑𝐈𝐀𝐍𝐎 𝐒𝐀𝐍𝐂𝐇𝐄𝐙`
 
  const templateButtonsReplyMessage = [
   {index: 1, urlButton: {displayText: '𝙈𝙖𝙠𝙖𝙣𝙖𝙠𝙮𝘽𝙤𝙩-𝙈𝘿', url: 'https://github.com/SmithOxenford/MakanakyBot-MD'}},
@@ -150,7 +150,7 @@ conn.sendMessage(m.chat, ttt, m)
   
   if (command == 'juegos') { 
     global.db.data.users[m.sender].exp += 20
-    let gata = `${pickRandom([`𝙀𝙡𝙞𝙟𝙚 𝙏𝙪 𝙀𝙢𝙤𝙟𝙞 𝙁𝙖𝙫𝙤𝙧𝙞𝙩𝙤 𝙥𝙖𝙧𝙖 𝙅𝙪𝙜𝙖𝙧!!`,`𝘼𝙙𝙞𝙫𝙞𝙣𝙖 𝙚𝙡 𝙋𝙧𝙤𝙭𝙞𝙢𝙤 𝙅𝙪𝙚𝙜𝙤!!`,`𝘼𝙙𝙞𝙫𝙞𝙣𝙖 𝙚𝙡 𝙋𝙧𝙤𝙭𝙞𝙢𝙤 𝙅𝙪𝙚𝙜𝙤!!`,`𝙈𝙞𝙣𝙞𝙟𝙪𝙚𝙜𝙤𝙨 𝙚𝙨𝙩á𝙣 𝙚𝙨𝙥𝙚𝙧𝙖𝙣𝙙𝙤 𝙚𝙣 𝙨𝙚𝙧 𝙅𝙪𝙜𝙖𝙙𝙤𝙨!!`])}`
+    let gata = `${pickRandom([`𝙴𝙻𝙸𝙹𝙴 𝚃𝚄 𝙴𝙼𝙾𝙹𝙸 𝙵𝙰𝚅𝙾𝚁𝙸𝚃𝙾 𝙿𝙰𝚁𝙰 𝙹𝚄𝙶𝙰𝚁!! 😁`,`𝙰𝙳𝙸𝚅𝙸𝙽𝙰 𝙴𝙻 𝙿𝚁𝙾́𝚇𝙸𝙼𝙾 𝙹𝚄𝙴𝙶𝙾!! 😁`,`𝙰𝙳𝙸𝚅𝙸𝙽𝙰 𝙴𝙻 𝙿𝚁𝙾́𝚇𝙸𝙼𝙾 𝙹𝚄𝙴𝙶𝙾!! 😏`,`𝙼𝙸𝙽𝙸𝙹𝚄𝙴𝙶𝙾𝚂 𝙴𝚂𝚃𝙰́𝙽 𝙴𝚂𝙿𝙴𝚁𝙰𝙽𝙳𝙾 𝙴𝙽 𝚂𝙴𝚁 𝙹𝚄𝙶𝙰𝙳𝙾𝚂!! 🤗`])}`
                  let c = `${usedPrefix}`
                   let juegos = `${pickRandom([`${c}lesbiana Yo`,`${c}doxxear`,`${c}pajero Yo`,`${c}love Tú Mejor Amigo/a`,`${c}reto`,`${c}verdad`,`${c}ppt piedra`,`${c}puta Yo`,`${c}mates medium`,`${c}simi Que`])}`
                    let juegos2 = `${pickRandom([`${c}ppt piedra`,`${c}mates noob`,`${c}pregunta El cielo y el infierno existen?`,`${c}pregunta Hay una sola vida?`,`${c}pregunta Los robots y androides podrán tener sentimientos en algún momento?`,`${c}pregunta De verdad el universo es infinito?`,`${c}pajera Yo`,`${c}manca Yo`,`${c}manco Yo`,`${c}pregunta Hay un destino?`,`${c}pregunta Se puede tener todo lo que se quiere?`])}`
@@ -159,7 +159,7 @@ conn.sendMessage(m.chat, ttt, m)
                       let emojis2 = `${pickRandom([`❤️`,`🧡`,`💛`,`💚`,`💙`,`💜`,`🖤`,`💔`,`❤️‍🔥`,`❤️‍🩹`,`❣️`,`💕`,`💞`,`💓`,`💗`,`💖`,`💘`,`💝`])}`
                        let emojis3 = `${pickRandom([`🥊`,`🥋`,`🎣`,`🎊`,`🎉`,`🎈`,`✨`,`⭐`,`💫`,`🌟`,`🌈`,`🔥`,`💥`,`☃️`,`❄️`,`⛱️`,`🗿`,`🔮`])}`
          
-                 let ssss = await `𝙏𝙃𝙀 𝙈𝘼𝙆𝘼𝙉𝘼𝙆𝙔 - 𝘽𝙊𝙏  | 𝘼𝘿𝙍𝙄𝘼𝙉𝙊 𝙎𝘼𝙉𝘾𝙃𝙀𝙕`
+                 let ssss = await `𝐌𝐀𝐊𝐀𝐍𝐀𝐊𝐘 - 🤖 | 𝐀𝐃𝐑𝐈𝐀𝐍𝐎 𝐒𝐀𝐍𝐂𝐇𝐄𝐙`
 
  const templateButtonsReplyMessage = [
 {index: 1, urlButton: {displayText: null, url: null}},
@@ -180,14 +180,14 @@ conn.sendMessage(m.chat, tttt, m)
       
    if (command == 'juegos') { 
       global.db.data.users[m.sender].exp += 20
-     let gata = `${pickRandom([`𝘾𝙖𝙧𝙜𝙖 𝙢𝙖𝙨 𝙅𝙪𝙚𝙜𝙤𝙨 𝙪𝙨𝙖𝙣𝙙𝙤 𝙚𝙡 𝘽𝙤𝙩𝙤𝙣 𝙈𝙖𝙨 𝙅𝙪𝙚𝙜𝙤𝙨!!`,`𝘿𝙞𝙣𝙖𝙢𝙞𝙘𝙖𝙨, 𝙍𝙚𝙩𝙤𝙨, 𝘼𝙥𝙪𝙚𝙨𝙩𝙖𝙨, 𝙀𝙩𝙞𝙦𝙪𝙚𝙩𝙖𝙨 𝙮 𝙢𝙪𝙘𝙝𝙤 𝙢𝙖𝙨!!`])}`
+     let gata = `${pickRandom([`𝙲𝙰𝚁𝙶𝙰 𝙼𝙰́𝚂 𝙹𝚄𝙴𝙶𝙾𝚂 𝚄𝚂𝙰𝙽𝙳𝙾 𝙴𝙻 𝙱𝙾𝚃𝙾́𝙽 𝙼𝙰́𝚂 𝙹𝚄𝙴𝙶𝙾𝚂!! 🤗`,`𝙳𝙸𝙽𝙰́𝙼𝙸𝙲𝙰𝚂, 𝚁𝙴𝚃𝙾𝚂, 𝙰𝙿𝚄𝙴𝚂𝚃𝙰𝚂, 𝙴𝚃𝙸𝚀𝚄𝙴𝚃𝙰𝚂 𝚈 𝙼𝚄𝙲𝙷𝙾 𝙼𝙰́𝚂!! 🤑`])}`
                  let c = `${usedPrefix}`
                   let juegos2 = `${pickRandom([`${c}ppt piedra`,`${c}mates noob`,`${c}pregunta El cielo y el infierno existen?`,`${c}pregunta Hay una sola vida?`,`${c}pregunta Los robots y androides podrán tener sentimientos en algún momento?`,`${c}pregunta De verdad el universo es infinito?`,`${c}pajera Yo`,`${c}manca Yo`,`${c}manco Yo`,`${c}pregunta Hay un destino?`,`${c}pregunta Se puede tener todo lo que se quiere?`])}`
                    let juegos3 = `${pickRandom([`${c}puto Él de arriba`,`${c}puta La de arriba`,`${c}pregunta Se puede viajar en el tiempo?`,`${c}pregunta Hay un solo Universo?`,`${c}rata Yo`,`${c}mates impossible`,`${c}prostituto Yo`,`${c}prostituta Yo`,`${c}pregunta Soy Pro en el Grupo?`,`${c}mates impossible2`,`${c}rata Yo`])}`
                     let emojis1 = `${pickRandom([`🏳️`,`🏴`,`🏴‍☠️`,`🏁`,`🚩`,`🏳️‍🌈`,`🏳‍⚧`,`🇧🇷`,`🇨🇱`,`🇦🇷`,`🇧🇴`,`🇻🇪`,`🇭🇳`,`🇺🇾`,`🇨🇴`,`🇵🇪`,`🇵🇦`,`🇳🇮`,`🇬🇹`,`🇨🇺`,`🇨🇷`,`🇭🇹`,`🇩🇴`,`🇲🇽`,`🇸🇻`,`🇬🇾`,`🇺🇸`,`🇨🇦`,`🇱🇨`,`🇪🇨`])}`
                      let emojis2 = `${pickRandom([`🌁`,`🌉`,`🌌`,`🌃`,`🏙️`,`🌆`,`🌇`,`🎆`,`🎇`,`🌠`,`🌄`,`🌅`,`🏞️`,`🎑`,`🗾`,`🏜️`,`🏝️`,`🏖️`,`🗼`,`🗽`,`🗺️`,`🏗️`])}`
          
-                 let ssss = await `𝙏𝙃𝙀 𝙈𝘼𝙆𝘼𝙉𝘼𝙆𝙔 - 𝘽𝙊𝙏  | 𝘼𝘿𝙍𝙄𝘼𝙉𝙊 𝙎𝘼𝙉𝘾𝙃𝙀𝙕`
+                 let ssss = await `𝐌𝐀𝐊𝐀𝐍𝐀𝐊𝐘 - 🤖 | 𝐀𝐃𝐑𝐈𝐀𝐍𝐎 𝐒𝐀𝐍𝐂𝐇𝐄𝐙`
 
  const templateButtonsReplyMessage = [
 {index: 1, urlButton: {displayText: null, url: null}},

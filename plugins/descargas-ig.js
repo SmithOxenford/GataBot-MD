@@ -21,7 +21,7 @@ const fkontak = {
         "participant": "0@s.whatsapp.net"
     }
 
-if (!args[0]) throw `${lenguajeGB['smsAvisoMG']()}𝙸𝙽𝙶𝚁𝙴𝚂𝙴  𝚄𝙽 𝙴𝙽𝙻𝙰𝙲𝙴 𝙸𝙽𝚂𝚃𝚁𝙰𝙶𝙰𝙼 𝙿𝙰𝚁𝙰 𝙳𝙴𝚂𝙲𝙰𝚁𝙶𝙰𝚁 𝚂𝚄 𝚅𝙸𝙳𝙴𝙾 𝙾 𝙸𝙼𝙰𝙶𝙴𝙽 🤗\n𝙴𝙹𝙴𝙼𝙿𝙻𝙾 :\n*${usedPrefix + command} https://www.instagram.com/tv/Cd8U99IloVA/?igshid=YmMyMTA2M2Y=*`
+if (!args[0]) throw `${lenguajeGB['smsAvisoMG']()}𝙸𝙽𝙶𝚁𝙴𝚂𝙴  𝚄𝙽 𝙴𝙽𝙻𝙰𝙲𝙴 𝙸𝙽𝚂𝚃𝚁𝙰𝙶𝙰𝙼 𝙿𝙰𝚁𝙰 𝙳𝙴𝚂𝙲𝙰𝚁𝙶𝙰𝚁 𝚂𝚄 𝚅𝙸𝙳𝙴𝙾 𝙾 𝙸𝙼𝙰𝙶𝙴𝙽 🤗\n𝙴𝙹𝙴𝙼𝙿𝙻𝙾 :\n*${usedPrefix + command}* https://www.instagram.com/tv/Cd8U99IloVA/?igshid=YmMyMTA2M2Y=`
 await conn.reply(m.chat, wait, fkontak,  m)
 await conn.reply(m.chat, waitt, fkontak,  m)
 await conn.reply(m.chat, waittt, fkontak,  m)
@@ -65,7 +65,7 @@ let txt1 = `✨ 𝐄𝐍𝐋𝐀𝐂𝐄 : ${shortUrl1}\n\n${wm}`.trim()
 await conn.sendFile(m.chat, videoig, 'error.mp4', txt1, m)     
 } catch { 
 console.log('𝙴𝚁𝚁𝙾𝚁 𝙰𝙻 𝙸𝙽𝚃𝙴𝙽𝚃𝙾 4, 𝚂𝙸𝙽 𝚁𝙴𝚂𝚄𝙻𝚃𝙰𝙳𝙾𝚂 ☹️')  
-throw `${lenguajeGB['smsAvisoFG']()} 𝙀𝙍𝙍𝙊𝙍 𝙋𝙊𝙍 𝙁𝘼𝙑𝙊𝙍 𝙑𝙐𝙀𝙇𝙑𝘼 𝘼 𝙄𝙉𝙏𝙀𝙉𝙏𝘼`
+throw `${lenguajeGB['smsAvisoFG']()} ⚠️ 𝐄𝐑𝐑𝐎𝐑 ⚠️ 𝙿𝙾𝚁 𝙵𝙰𝚅𝙾𝚁 𝚅𝚄𝙴𝙻𝚅𝙰 𝙰 𝙸𝙽𝚃𝙴𝙽𝚃𝙰𝚁𝙻𝙾 ☹️`
 }}}}}}
 handler.help = ['instagram <link ig>']
 handler.tags = ['downloader']

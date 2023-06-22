@@ -20,7 +20,7 @@ let n = lolh.result.title || 'error'
 await conn.sendMessage(m.chat, { audio: { url: lolh.result.link }, fileName: `${n}.mp3`, mimetype: 'audio/mp4' }, { quoted: m })
 //await conn.sendFile(m.chat, lolh.result.link, `${n}.mp3`, null, m, false, { mimetype: 'audio/mp4' })    
 } catch {
-await conn.reply(m.chat, `${lenguajeGB['smsAvisoFG']()}𝙴𝚂 𝙿𝙾𝚂𝙸𝙱𝙻𝙴 𝚀𝚄𝙴 𝙴𝙻 𝙰𝚁𝙲𝙷𝙸𝚅𝙾 𝚂𝙴𝙰 𝙼𝚄𝚈 𝙿𝙴𝚂𝙰𝙳𝙾. 𝙸𝙽𝚃𝙴𝙽𝚃𝙴 𝙲𝙾𝙽 𝙾𝚃𝚁𝙰 𝙾𝙿𝙲𝙸𝙾𝙽 𝙳𝙴 𝙳𝙴𝚂𝙲𝙰𝚁𝙶𝙰 ☹️`, m)}
+await conn.reply(m.chat, `${lenguajeGB['smsAvisoFG']()}𝙴𝚂 𝙿𝙾𝚂𝙸𝙱𝙻𝙴 𝚀𝚄𝙴 𝙴𝙻 𝙰𝚁𝙲𝙷𝙸𝚅𝙾 𝚂𝙴𝙰 𝙼𝚄𝚈 𝙿𝙴𝚂𝙰𝙳𝙾 ☹️. 𝙸𝙽𝚃𝙴𝙽𝚃𝙴 𝙲𝙾𝙽 𝙾𝚃𝚁𝙰 𝙾𝙿𝙲𝙸𝙾𝙽 𝙳𝙴 𝙳𝙴𝚂𝙲𝙰𝚁𝙶𝙰 🤗`, m)}
 }}
 handler.command = /^fgmp3|dlmp3|getaud|yt(a|mp3)$/i
 export default handler

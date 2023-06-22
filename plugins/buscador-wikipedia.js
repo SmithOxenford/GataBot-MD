@@ -25,9 +25,9 @@ status: link.status,
 Pesan: eror}
 return notFond}}
 let handler = async (m, { conn, text, usedPrefix, command }) => {
-if (!text) throw `${lenguajeGB['smsAvisoMG']()}𝙴𝚂𝙲𝚁𝙸𝙱𝙰 𝙻𝙰 𝙿𝙰𝙻𝙰𝙱𝚁𝙰 𝙲𝙻𝙰𝚅𝙴 𝙿𝙰𝚁𝙰 𝙱𝚄𝚂𝙲𝙰𝚁 🔍\n𝙴𝙹𝙴𝙼𝙿𝙻𝙾 :\n${usedPrefix + command} 𝙼𝙰𝙺𝙰𝙽𝙰𝙺𝚈`
+if (!text) throw `${lenguajeGB['smsAvisoMG']()}𝙴𝚂𝙲𝚁𝙸𝙱𝙰 𝙻𝙰 𝙿𝙰𝙻𝙰𝙱𝚁𝙰 𝙲𝙻𝙰𝚅𝙴 𝙿𝙰𝚁𝙰 𝙱𝚄𝚂𝙲𝙰𝚁 🔍\n𝐄𝐉𝐄𝐌𝐏𝐋𝐎 :\n*${usedPrefix + command}* _makanaky_`
 wikipedia(`${text}`).then(res => {
-let info = `🤖 𝙴𝙽𝙲𝙾𝙽𝚃𝚁𝙴́ 𝙴𝚂𝚃𝙾 :\n\n` + res.result.isi
+let info = `🤖 𝐄𝐍𝐂𝐎𝐍𝐓𝐑𝐄́ 𝐄𝐒𝐓𝐎 :\n\n` + res.result.isi
 conn.SendButton(m.chat, info, wm, null, ig, '𝙄𝙣𝙨𝙩𝙖𝙜𝙧𝙖𝙢', null, null, [
 ['𝙈𝙚𝙣𝙪 𝘽𝙪𝙨𝙦𝙪𝙚𝙙𝙖𝙨 🔎', '#buscarmenu'],
 ['𝙈𝙚𝙣𝙪 𝘾𝙤𝙢𝙥𝙡𝙚𝙩𝙤 ✨', '.allmenu'],

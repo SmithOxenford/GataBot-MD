@@ -9,21 +9,21 @@ let q, v, yt, dl_url, ttl, size, lolhuman, lolh, n, n2, n3, n4, cap, qu, current
 let { title, description, publishedTime, url, thumbnail, videoId, timestamp, views, published } = vid
 try {
 if (command == 'play') {	
-conn.sendFile(m.chat, thumbnail, 'thumbnail.jpg', `𓆩 𝐓𝐇𝐄 𝐌𝐀𝐊𝐀𝐍𝐀𝐊𝐘 - 🤖 𓆪
+conn.sendFile(m.chat, thumbnail, 'thumbnail.jpg', `𓆩 𝐌𝐀𝐊𝐀𝐍𝐀𝐊𝐘 - 🤖 𓆪
 
 ও 𝐓𝐈𝐓𝐔𝐋𝐎 :
-» ${title} 
+» *_${title}_* 
 ﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘
 ও 𝐃𝐄𝐒𝐂𝐑𝐈𝐏𝐂𝐈𝐎𝐍 : 
-» ${description}
+» _${description}_
 ﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘
-ও 𝐃𝐔𝐑𝐀𝐂𝐈𝐎́𝐍
-» ${timestamp}
+ও 𝐃𝐔𝐑𝐀𝐂𝐈𝐎́𝐍 :
+» _${timestamp}_
 ﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘
-ও 𝐕𝐈𝐒𝐓𝐀𝐒
-» ${views}
+ও 𝐕𝐈𝐒𝐓𝐀𝐒 :
+»_${views}_
 ﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘
-ও 𝐔𝐑𝐋
+ও 𝐔𝐑𝐋 :
 » ${url}
 
 𓆩 𝐓𝐇𝐄 𝐌𝐀𝐊𝐀𝐍𝐀𝐊𝐘 - 🤖 𓆪`.trim(), fkontak, m)
@@ -46,24 +46,24 @@ thumbnail: await (await fetch(thumbnail)).buffer()}}}, { quoted: m })
 //await conn.sendFile(m.chat, dl_url, title + '.mp3', null, m, false, { mimetype: 'audio/mp4' })
 }
 if (command == 'play2') {
-conn.sendFile(m.chat, thumbnail, 'thumbnail.jpg', `*𓆩 𝙏𝙃𝙀 𝙈𝘼𝙆𝘼𝙉𝘼𝙆𝙔 - 𝘽𝙊𝙏 𓆪*
+conn.sendFile(m.chat, thumbnail, 'thumbnail.jpg', `𓆩 𝐌𝐀𝐊𝐀𝐍𝐀𝐊𝐘 - 🤖 𓆪
 
-ও *TÍTULO*
-» ${title}
+ও 𝐓𝐈𝐓𝐔𝐋𝐎 :
+» *_${title}_* 
 ﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘
-ও *DESCRIPCIÓN*
-» ${description}
+ও 𝐃𝐄𝐒𝐂𝐑𝐈𝐏𝐂𝐈𝐎𝐍 : 
+» _${description}_
 ﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘
-ও *DURACIÓN*
-» ${timestamp}
+ও 𝐃𝐔𝐑𝐀𝐂𝐈𝐎́𝐍 :
+» _${timestamp}_
 ﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘
-ও *VISTAS*
-» ${views}
+ও 𝐕𝐈𝐒𝐓𝐀𝐒 :
+»_${views}_
 ﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘
-ও *URL*
+ও 𝐔𝐑𝐋 :
 » ${url}
 
-*𓆩 𝙏𝙃𝙀 𝙈𝘼𝙆𝘼𝙉𝘼𝙆𝙔 - 𝘽𝙊𝙏 𓆪*`.trim(), fkontak, m)
+𓆩 𝐓𝐇𝐄 𝐌𝐀𝐊𝐀𝐍𝐀𝐊𝐘 - 🤖 𓆪`.trim(), fkontak, m)
 let qu = args[1] || '360'
 let q = qu + 'p'
 let v = args[0]

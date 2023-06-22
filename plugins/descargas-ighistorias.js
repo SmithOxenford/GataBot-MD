@@ -3,7 +3,7 @@ import axios from 'axios'
 import hx from 'hxz-api' 
 
 let handler = async (m, { conn, args, usedPrefix, command, text}) => {
-if (!text) throw `${lenguajeGB['smsAvisoMG']()}𝙸𝙽𝙶𝚁𝙴𝚂𝙴  𝙴𝙻 𝙽𝙾𝙼𝙱𝚁𝙴 𝙳𝙴 𝚄𝚂𝚄𝙰𝚁𝙸𝙾 𝙳𝙴 𝙸𝙽𝚂𝚃𝚁𝙰𝙶𝙰𝙼 𝙿𝙰𝚁𝙰 𝙳𝙴𝚂𝙲𝙰𝚁𝙶𝙰𝚁 𝙻𝙰𝚂 𝙷𝙸𝚂𝚃𝙾𝚁𝙸𝙰𝚂 😁\n𝙴𝙹𝙴𝙼𝙿𝙻𝙾 :\n*${usedPrefix + command} adri2.pc*`
+if (!text) throw `${lenguajeGB['smsAvisoMG']()}𝙸𝙽𝙶𝚁𝙴𝚂𝙴  𝙴𝙻 𝙽𝙾𝙼𝙱𝚁𝙴 𝙳𝙴 𝚄𝚂𝚄𝙰𝚁𝙸𝙾 𝙳𝙴 𝙸𝙽𝚂𝚃𝚁𝙰𝙶𝙰𝙼 𝙿𝙰𝚁𝙰 𝙳𝙴𝚂𝙲𝙰𝚁𝙶𝙰𝚁 𝙻𝙰𝚂 𝙷𝙸𝚂𝚃𝙾𝚁𝙸𝙰𝚂 😁\n𝙴𝙹𝙴𝙼𝙿𝙻𝙾 :\n*${usedPrefix + command}* _adri2.pc_`
 
 hx.igstory(text).then(async (result) => {
 for (let i of result.medias) {

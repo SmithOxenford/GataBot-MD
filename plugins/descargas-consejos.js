@@ -14,7 +14,7 @@ let result = await translate(`${contenido}`, { to: lenguajeGB.lenguaje(), autoCo
 let texto = `
 ・☘️・》・》・》
 
-*ღ _${result.text}_*
+ღ _${result.text}_
 
 ・☘️・》・》・》`
 
@@ -29,7 +29,7 @@ let frase2 = await translate(`${frase}`, { to: lenguajeGB.lenguaje(), autoCorrec
 let texto = `
 ・☘️・》・》・》
 
-*ღ ${frase2.text}*
+ღ _${frase2.text}_
 
 ・☘️・》・》・》`
 

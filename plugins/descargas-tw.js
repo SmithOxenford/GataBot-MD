@@ -15,7 +15,7 @@ const fkontak = {
         "participant": "0@s.whatsapp.net"
     }
 
-if (!args[0]) throw `${lenguajeGB['smsAvisoMG']()}𝙄𝙉𝙂𝙍𝙀𝙎𝙀 𝙐𝙉 𝙀𝙉𝙇𝘼𝘾𝙀 𝘿𝙀 𝙏𝙒𝙄𝙏𝙏𝙀𝙍 𝙋𝘼𝙍𝘼 𝘿𝙀𝙎𝘾𝘼𝙍𝙂𝘼𝙍 𝙎𝙐 𝙑𝙄𝘿𝙀𝙊\n𝙀𝙅𝙀𝙈𝙋𝙇𝙊\n*${usedPrefix + command} https://twitter.com/Animalesybichos/status/1564616107159330816?t=gKqUsstvflSp7Dhpe_nmDg&s=19*`
+if (!args[0]) throw `${lenguajeGB['smsAvisoMG']()}𝙸𝙽𝙶𝚁𝙴𝚂𝙴 𝚄𝙽 𝙴𝙽𝙻𝙰𝙲𝙴 𝙳𝙴 𝚃𝚆𝙸𝚃𝚃𝙴𝚁 𝙿𝙰𝚁𝙰 𝙳𝙴𝚂𝙲𝙰𝚁𝙶𝙰𝚁 𝚂𝚄 𝚅𝙸𝙳𝙴𝙾 😁\n𝐄𝐉𝐄𝐌𝐏𝐋𝐎 :\n*${usedPrefix + command}* https://twitter.com/Animalesybichos/status/1564616107159330816?t=gKqUsstvflSp7Dhpe_nmDg&s=19`
 let res = await twitterdlv2(args[0])
 const { url, quality, type } = res[1]
 
@@ -23,7 +23,7 @@ await conn.reply(m.chat, wait, fkontak,  m)
 await conn.reply(m.chat, waitt, fkontak,  m)
 await conn.reply(m.chat, waittt, fkontak,  m)
 await conn.reply(m.chat, waitttt, fkontak,  m)
-await conn.sendFile(m.chat, url, 'twitter' + (type == 'image' ? '.jpg' : '.mp4'), `✨ 𝘾𝘼𝙇𝙄𝘿𝘼𝘿 *:* » ${quality}*\n${wm}`, m)
+await conn.sendFile(m.chat, url, 'twitter' + (type == 'image' ? '.jpg' : '.mp4'), `✨ 𝐂𝐀𝐋𝐈𝐃𝐀𝐃 : » ${quality}\n${wm}`, m)
 }
 handler.help = ['twitter'].map(v => v + ' <url>')
 handler.tags = ['downloader']

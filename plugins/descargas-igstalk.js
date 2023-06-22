@@ -1,7 +1,7 @@
 import { instagramStalk } from '@bochilteam/scraper'
 
 let handler= async (m, { args, usedPrefix, command }) => {
-if (!args[0]) throw `${lenguajeGB['smsAvisoMG']()}𝙸𝙽𝙶𝚁𝙴𝚂𝙴 𝙴𝙻 𝚄𝚂𝚄𝙰𝚁𝙸𝙾 𝙳𝙴 𝙰𝙻𝙶𝚄𝙸𝙴𝙽 𝙳𝙴 𝙸𝙽𝚂𝚃𝚁𝙰𝙶𝙰𝙼 🤗\n𝙴𝙹𝙴𝙼𝙿𝙻𝙾 :\n*${usedPrefix + command} adri2.pc*`
+if (!args[0]) throw `${lenguajeGB['smsAvisoMG']()}𝙸𝙽𝙶𝚁𝙴𝚂𝙴 𝙴𝙻 𝚄𝚂𝚄𝙰𝚁𝙸𝙾 𝙳𝙴 𝙰𝙻𝙶𝚄𝙸𝙴𝙽 𝙳𝙴 𝙸𝙽𝚂𝚃𝚁𝙰𝙶𝙰𝙼 🤗\n𝐄𝐉𝐄𝐌𝐏𝐋𝐎 :\n*${usedPrefix + command}* _adri2.pc_`
 const {
 username,
 name,
@@ -20,7 +20,7 @@ m.reply(`
 ┃ *${username}*
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ┃ 𝐄𝐍𝐋𝐀𝐂𝐄 :
-┃ *https://instagram.com/${username.replace(/^@/, '')}*
+┃ https://instagram.com/${username.replace(/^@/, '')}
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ┃ 𝐒𝐄𝐆𝐔𝐈𝐃𝐎𝐑𝐄𝐒 :
 ┃ *${followersH}* 
