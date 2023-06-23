@@ -4,12 +4,12 @@ import yts from 'yt-search'
 let handler = async (m, { conn, command, text, usedPrefix }) => {
 let q, v, yt, dl_url, ttl, size, lolhuman, lolh, n, n2, n3, n4, cap, qu, currentQuality
 	let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
-	if (!text) throw `${lenguajeGB['smsAvisoMG']()}𝙴𝚂𝙲𝚁𝙸𝙱𝙰 𝙴𝙻 𝙽𝙾𝙼𝙱𝚁𝙴 𝙾 𝚃𝙸𝚃𝚄𝙻𝙾\n𝙴𝙹𝙴𝙼𝙿𝙻𝙾:\n${usedPrefix + command} 𝙴𝙻 𝙵𝙰𝚁𝙰𝙾𝙽 𝙻𝙾𝚅𝙴 𝚂𝙷𝙰𝙳𝚈 - 𝙾𝙷 𝙼𝙴 𝚅𝙴𝙽𝙶𝙾`
+	if (!text) throw `${lenguajeGB['smsAvisoMG']()}𝙴𝚂𝙲𝚁𝙸𝙱𝙰 𝙴𝙻 𝙽𝙾𝙼𝙱𝚁𝙴 𝙾 𝚃𝙸𝚃𝚄𝙻𝙾\n𝐄𝐉𝐄𝐌𝐏𝐋𝐎 :\n*${usedPrefix + command}* _El Faraon Love Shady - Oh Me Vengo_`
 	let vid = (await yts(text)).all[0]
 let { title, description, publishedTime, url, thumbnail, videoId, timestamp, views, published } = vid
 try {
 if (command == 'play') {	
-conn.sendFile(m.chat, thumbnail, 'thumbnail.jpg', `𓆩 𝐌𝐀𝐊𝐀𝐍𝐀𝐊𝐘 - 🤖 𓆪
+conn.sendFile(m.chat, thumbnail, 'thumbnail.jpg', `𓆩 𝐀𝐐𝐔𝐈́ 𝐄𝐒𝐓𝐀 𝐓𝐔 𝐏𝐄𝐃𝐈𝐃𝐎! 💋 𓆪
 
 ও 𝐓𝐈𝐓𝐔𝐋𝐎 :
 » *_${title}_* 
@@ -18,10 +18,10 @@ conn.sendFile(m.chat, thumbnail, 'thumbnail.jpg', `𓆩 𝐌𝐀𝐊𝐀𝐍𝐀
 » _${description}_
 ﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘
 ও 𝐃𝐔𝐑𝐀𝐂𝐈𝐎́𝐍 :
-» _${timestamp}_
+» ${timestamp}
 ﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘
 ও 𝐕𝐈𝐒𝐓𝐀𝐒 :
-»_${views}_
+» ${views}
 ﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘
 ও 𝐔𝐑𝐋 :
 » ${url}
@@ -38,7 +38,7 @@ await conn.sendMessage(m.chat, { audio: { url: dl_url }, mimetype: "audio/mp4", 
 'isForwarded': false,
 externalAdReply:{
 showAdAttribution: false,
-title: `aqui esta tu perdido`,
+title: `𝐀𝐐𝐔𝐈́ 𝐄𝐒𝐓𝐀 𝐓𝐔 𝐏𝐄𝐃𝐈𝐃𝐎! 💋`,
 body: `${title}`,
 mediaType: 2, 
 sourceUrl: `${url}`,
@@ -46,7 +46,7 @@ thumbnail: await (await fetch(thumbnail)).buffer()}}}, { quoted: m })
 //await conn.sendFile(m.chat, dl_url, title + '.mp3', null, m, false, { mimetype: 'audio/mp4' })
 }
 if (command == 'play2') {
-conn.sendFile(m.chat, thumbnail, 'thumbnail.jpg', `𓆩 𝐌𝐀𝐊𝐀𝐍𝐀𝐊𝐘 - 🤖 𓆪
+conn.sendFile(m.chat, thumbnail, 'thumbnail.jpg', `𓆩 𝐀𝐐𝐔𝐈́ 𝐄𝐒𝐓𝐀 𝐓𝐔 𝐏𝐄𝐃𝐈𝐃𝐎! 💋 𓆪
 
 ও 𝐓𝐈𝐓𝐔𝐋𝐎 :
 » *_${title}_* 
@@ -55,10 +55,10 @@ conn.sendFile(m.chat, thumbnail, 'thumbnail.jpg', `𓆩 𝐌𝐀𝐊𝐀𝐍𝐀
 » _${description}_
 ﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘
 ও 𝐃𝐔𝐑𝐀𝐂𝐈𝐎́𝐍 :
-» _${timestamp}_
+» ${timestamp}
 ﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘
 ও 𝐕𝐈𝐒𝐓𝐀𝐒 :
-»_${views}_
+» ${views}
 ﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘
 ও 𝐔𝐑𝐋 :
 » ${url}

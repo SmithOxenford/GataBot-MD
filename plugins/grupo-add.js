@@ -7,11 +7,11 @@ let user = global.db.data.users[who]
 let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
 if (!global.db.data.settings[conn.user.jid].restrict) return conn.reply(m.chat, `${lenguajeGB['smsAvisoAG']()}${lenguajeGB['smsSoloOwner']()}`, fkontak, m) 
 if (!text) throw `${lenguajeGB['smsAvisoMG']()} ${lenguajeGB['smsMalused']()}\n*${usedPrefix + command}* 59355555555`
-if (text.includes('+')) throw  `${lenguajeGB['smsAvisoMG']()}𝙄𝙉𝙂𝙍𝙀𝙎𝙀 𝙀𝙇 𝙉𝙐𝙈𝙀𝙍𝙊 𝙏𝙊𝘿𝙊 𝙅𝙐𝙉𝙏𝙊 𝙎𝙄𝙉  𝙀𝙡 *+*`
+if (text.includes('+')) throw  `${lenguajeGB['smsAvisoMG']()}𝙸𝙽𝙶𝚁𝙴𝚂𝙴 𝙴𝙻 𝙽𝚄𝙼𝙴𝚁𝙾 𝚃𝙾𝙳𝙾 𝙹𝚄𝙽𝚃𝙾 𝚂𝙸𝙽 𝙴𝙻 *+*`
 let group = m.chat
 let link = 'https://chat.whatsapp.com/' + await conn.groupInviteCode(group)
  
-      await conn.reply(text+'@s.whatsapp.net', `Hola! me presento, soy MakanakyBot-MD y soy un Bot para WhatsApp, una persona del grupo utilizo el comando para añadirte al grupo, pero no pude agregarte, asi que te mando la invitacion para que te agregues, te esperamos!!\n\n${link}`, m, {mentions: [m.sender]})
+      await conn.reply(text+'@s.whatsapp.net', `ʜᴏʟᴀ﹗ ᴍᴇ ᴘʀᴇsᴇɴᴛ, sᴏʏ ᴍᴀᴋᴀɴᴀᴋʏ 🤖 ʏ sᴏʏ ᴜɴ ʙᴏᴛ ᴘᴀʀᴀ ᴡʜᴀᴛsᴀᴘᴘ, ᴜɴᴀ ᴘᴇʀsᴏɴᴀ ᴅᴇʟ ɢʀᴜᴘᴏ ᴜᴛɪʟɪᴢᴏ ᴇʟ ᴄᴏᴍᴀɴᴅᴏ ᴘᴀʀᴀ ᴀɴ̃ᴀᴅɪʀᴛᴇ ᴀʟ ɢʀᴜᴘᴏ, ᴘᴇʀᴏ ɴᴏ ᴘᴜᴅᴇ ᴀɢʀᴇɢᴀʀᴛᴇ, ᴀsɪ ϙᴜᴇ ᴛᴇ ᴍᴀɴᴅᴏ ʟᴀ ɪɴᴠɪᴛᴀᴄɪᴏɴ ᴘᴀʀᴀ ϙᴜᴇ ᴛᴇ ᴀɢʀᴇɢᴜᴇs, ᴛᴇ ᴇsᴘᴇʀᴀᴍᴏs﹗\n\n${link}`, m, {mentions: [m.sender]})
         m.reply(`*@${who.split`@`[0]}*\n*Enviando invitacion a su privado...*`) 
 
 }

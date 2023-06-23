@@ -1,6 +1,10 @@
 import { performance } from 'perf_hooks'
 let handler = async (m, { conn, text }) => {
-let start = `😱 ¡¡𝙴𝙼𝙿𝙴𝚉𝙰𝙽𝙳𝙾 𝙳𝙾𝚇𝙴𝙾!! 😱`
+let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }  
+let user = global.db.data.users[m.sender]
+let time = user.prue + 90000 //1 min
+if (new Date - user.prue < 90000) return await conn.reply(m.chat, `🙌 𝙷𝙴𝚈 𝙰𝙻𝚃𝙾 𝙴𝚂𝙿𝙴𝚁𝙰 𝚄𝙽𝙾𝚂 𝙼𝙸𝙽𝚄𝚃𝙾𝚂 𝙿𝙰𝚁𝙰 𝚄𝚂𝙰𝚁 𝙾𝚃𝚁𝙾 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 𝙽𝙾 𝙷𝙰𝙶𝙰 𝚂𝙿𝙰𝙼`, fkontak, m)
+let start = `😱 ¡¡𝐄𝐌𝐏𝐄𝐙𝐀𝐍𝐃𝐎 𝐃𝐎𝐗𝐄𝐎!! 😱`
 let boost = `*${pickRandom(['0','1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20'])}%*`
 let boost2 = `*${pickRandom(['21','22','23','24','25','26','27','28','29','30','31','32','33','34','35','36','37','38','39','40'])}%*`
 let boost3 = `*${pickRandom(['41','42','43','44','45','46','47','48','49','50','51','52','53','54','55','56','57','58','59','60'])}%*`
@@ -64,7 +68,10 @@ Sof02s32inf14.1e100.net
 𝚃𝙲𝙿 : 192.168.629-->92.28.211.167:8615
 𝙴𝚇𝚃𝙴𝚁𝙽𝙰𝙻 𝙼𝙰𝙲 : 6U:77:89:ER:O4
 𝙼𝙾𝙳𝙴𝙼 𝙹𝚄𝙼𝙿𝚂 : 64`
-conn.reply(m.chat, doxeo, m)}
+conn.reply(m.chat, doxeo, m)
+
+user.prue = new Date * 1  
+}
 handler.help = ['doxear <nombre> | <@tag>']
 handler.tags = ['fun']
 handler.command = /^Doxxeo|doxxeo|doxxear|Doxxear|doxeo|doxear|doxxeame|doxeame/i
@@ -73,3 +80,16 @@ export default handler
 
 function pickRandom(list) {
 return list[Math.floor(Math.random() * list.length)]}
+
+function msToTime(duration) {
+var milliseconds = parseInt((duration % 1000) / 100),
+seconds = Math.floor((duration / 1000) % 60),
+minutes = Math.floor((duration / (1000 * 60)) % 60),
+hours = Math.floor((duration / (1000 * 60 * 60)) % 24)
+    
+hours = (hours < 10) ? "0" + hours : hours
+minutes = (minutes < 10) ? "0" + minutes : minutes
+seconds = (seconds < 10) ? "0" + seconds : seconds
+    
+return minutes + " m y " + seconds + " s " 
+}  

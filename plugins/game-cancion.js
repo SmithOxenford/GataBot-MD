@@ -17,15 +17,15 @@ let json = res[Math.floor(Math.random() * res.length)]
 //let json = result.result
 let caption = `
 😁 𝐀𝐃𝐈𝐕𝐈𝐍𝐀 𝐄𝐋 𝐓𝐈𝐓𝐔𝐋𝐎 𝐃𝐄 𝐋𝐀 𝐂𝐀𝐍𝐂𝐈𝐎𝐍 😁
-𝐓𝐈𝐄𝐌𝐏𝐎 : ${(timeout / 1000).toFixed(2)} 𝚂𝙴𝙶𝚄𝙽𝙳𝙾𝚂
-𝐄𝐒𝐂𝐑𝐈𝐁𝐄 : *${usedPrefix}pista* 𝙿𝙰𝚁𝙰 𝙾𝙱𝚃𝙴𝙽𝙴𝚁 𝚄𝙽𝙰 𝙿𝙸𝚂𝚃𝙰
-𝐏𝐑𝐄𝐌𝐈𝐎 : ${poin} 𝚇𝙿
+𝐓𝐈𝐄𝐌𝐏𝐎 : ${(timeout / 1000).toFixed(2)} _segundos_
+𝐄𝐒𝐂𝐑𝐈𝐁𝐄 : *${usedPrefix}* _pista_ 𝙿𝙰𝚁𝙰 𝙾𝙱𝚃𝙴𝙽𝙴𝚁 𝚄𝙽𝙰 𝙿𝙸𝚂𝚃𝙰
+𝐏𝐑𝐄𝐌𝐈𝐎 : ${poin} _XP_
 𝚁𝙴𝚂𝙿𝙾𝙽𝙳𝙴 𝙰 𝙴𝚂𝚃𝙴 𝙼𝙴𝙽𝚂𝙰𝙹𝙴 𝙲𝙾𝙽 𝙻𝙰𝚂 𝚁𝙴𝚂𝙿𝚄𝙴𝚂𝚃𝙰𝚂!`.trim()
 conn.tebaklagu[id] = [
 await m.reply(caption),
 json, poin,
 setTimeout(() => {
-if (conn.tebaklagu[id]) conn.reply(m.chat, `𝚂𝙴 𝙰𝙲𝙰𝙱𝙾 𝙴𝙻 𝚃𝙸𝙴𝙼𝙿𝙾 𝙿𝙸𝙿𝙸𝙿𝙸 ☹️\n𝐋𝐀 𝐑𝐄𝐒𝐏𝐔𝐄𝐒𝐓𝐀 𝐄𝐒 : ${json.jawaban}`, conn.tebaklagu[id][0])
+if (conn.tebaklagu[id]) conn.reply(m.chat, `𝚂𝙴 𝙰𝙲𝙰𝙱𝙾 𝙴𝙻 𝚃𝙸𝙴𝙼𝙿𝙾 𝙿𝙸𝙿𝙸𝙿𝙸 ☹️\n𝐋𝐀 𝐑𝐄𝐒𝐏𝐔𝐄𝐒𝐓𝐀 𝐄𝐒 : _${json.jawaban}_`, conn.tebaklagu[id][0])
 delete conn.tebaklagu[id]
 }, timeout)
 ]

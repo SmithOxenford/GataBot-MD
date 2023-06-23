@@ -17,14 +17,14 @@ let handler = async (m, { conn, usedPrefix }) => {
     let caption = `
 ⷮ _${json.question}_
 
-• 𝐓𝐈𝐄𝐌𝐏𝐎 : ${(timeout / 1000).toFixed(2)} 𝚂𝙴𝙶𝚄𝙽𝙳𝙾𝚂
-• 𝐁𝐎𝐍𝐎 : +${poin} 𝙴𝚇𝙿
+• 𝐓𝐈𝐄𝐌𝐏𝐎 : ${(timeout / 1000).toFixed(2)} _segundos_
+• 𝐁𝐎𝐍𝐎 : +${poin} _EXP_
 `.trim()
     conn.tekateki[id] = [
        await conn.reply(m.chat, caption, m),
         json, poin,
         setTimeout(async () => {
-            if (conn.tekateki[id]) await conn.reply(m.chat, `𝚂𝙴 𝙰𝙲𝙰𝙱𝙾 𝙴𝙻 𝚃𝙸𝙴𝙼𝙿𝙾 𝙿𝙸𝙿𝙸𝙿𝙸 😔\n𝐑𝐄𝐒𝐏𝐔𝐄𝐒𝐓𝐀 : ${json.response}`, conn.tekateki[id][0])
+            if (conn.tekateki[id]) await conn.reply(m.chat, `𝚂𝙴 𝙰𝙲𝙰𝙱𝙾 𝙴𝙻 𝚃𝙸𝙴𝙼𝙿𝙾 𝙿𝙸𝙿𝙸𝙿𝙸 😔\n𝐑𝐄𝐒𝐏𝐔𝐄𝐒𝐓𝐀 : _${json.response}_`, conn.tekateki[id][0])
             delete conn.tekateki[id]
         }, timeout)
     ]

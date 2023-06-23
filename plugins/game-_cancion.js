@@ -10,11 +10,11 @@ if (m.quoted.id == this.tebaklagu[id][0].id) {
 let json = JSON.parse(JSON.stringify(this.tebaklagu[id][1]))
 if (m.text.toLowerCase() == json.jawaban.toLowerCase().trim()) {
 global.db.data.users[m.sender].exp += this.tebaklagu[id][2]
-m.reply(`✅𝙲𝙾𝚁𝚁𝙴𝙲𝚃𝙾!\n+${this.tebaklagu[id][2]} XP`)
+m.reply(`✅ 𝙲𝙾𝚁𝚁𝙴𝙲𝚃𝙾!\n+${this.tebaklagu[id][2]} _XP_`)
 clearTimeout(this.tebaklagu[id][3])
 delete this.tebaklagu[id]
-} else if (similarity(m.text.toLowerCase(), json.jawaban.toLowerCase().trim()) >= threshold) m.reply(`Casii!`)
-else m.reply(`❌𝙸𝙽𝙲𝙾𝚁𝚁𝙴𝙲𝚃𝙾!`)
+} else if (similarity(m.text.toLowerCase(), json.jawaban.toLowerCase().trim()) >= threshold) m.reply(`¡𝙲𝙰𝚂𝙸! ☹️`)
+else m.reply(`❌ 𝙸𝙽𝙲𝙾𝚁𝚁𝙴𝙲𝚃𝙾!`)
 }
 return !0
 },
