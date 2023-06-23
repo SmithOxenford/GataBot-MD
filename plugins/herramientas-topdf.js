@@ -2,7 +2,7 @@ import uploadImage from '../lib/uploadImage.js'
 let handler = async (m, { conn, text, usedPrefix, command, isOwner }) => {
 let q = m.quoted ? m.quoted : m
 let mime = (q.msg || q).mimetype || ''
-if (!mime) throw '𝙍𝙀𝙎𝙋𝙊𝙉𝘿𝙀 / 𝙀𝙏𝙄𝙌𝙐𝙀𝙏𝙀 𝘼 𝙐𝙉𝘼 𝙄𝙈𝘼𝙂𝙀𝙉'    
+if (!mime) throw '𝚁𝙴𝚂𝙿𝙾𝙽𝙳𝙴 / 𝙴𝚃𝙸𝚀𝚄𝙴𝚃𝙴 𝙰 𝙰𝙻𝙶𝚄𝙸𝙴𝙽 💋'    
 let img = await q.download?.()
 let url = await uploadImage(img)    
 let docname = text ? text : m.pushName || 'documento'

@@ -15,7 +15,8 @@ const fkontak = {
 }
 
 let picture = './media/menus/Menu1.jpg'
-let gata = `𝐈𝐍𝐒𝐓𝐀𝐋𝐀𝐂𝐈𝐎́𝐍 𝐃𝐄 𝐌𝐀𝐊𝐀𝐍𝐀𝐊𝐘 - 🤖 `
+let gata = `𝐈𝐍𝐒𝐓𝐀𝐋𝐀𝐂𝐈𝐎́𝐍 𝐃𝐄 𝐌𝐀𝐊𝐀𝐍𝐀𝐊𝐘 - 🤖 
+𝙲𝙾𝙽𝚃𝙰𝙲𝚃𝙰𝚃𝙴 𝙲𝙾𝙽 𝙼𝙸 𝙲𝚁𝙴𝙰𝙳𝙾𝚁 𝙿𝙰𝚁𝙰 𝚂𝚄 𝙸𝙽𝚂𝚃𝙰𝙻𝙰𝙲𝙸𝙾́𝙽 🤗`
 await conn.sendFile(m.chat, picture, 'gata.mp4', gata, fkontak)}
 /*conn.sendButton(m.chat, gata, `Comunícate con Mí Creadora si necesitas ayuda con la Instalación.\n\nContact My Creator if you need help with the Installation.\n\n${ig}\n${wm}`, picture, [
 ['𝘾𝙪𝙚𝙣𝙩𝙖𝙨 𝙊𝙛𝙞𝙘𝙞𝙖𝙡𝙚𝙨 | 𝘼𝙘𝙘𝙤𝙪𝙣𝙩𝙨 ✅', '.cuentasgb'],

@@ -20,14 +20,14 @@ let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status
 
 //------------ BIO
 let ppown = await conn.profilePictureUrl(nomorown + '@s.whatsapp.net', 'image').catch(_ => imagen1[1]) 
-let teksbio = `𝙈𝙖𝙠𝙖𝙣𝙖𝙠𝙮𝘽𝙤𝙩-𝙈𝘿 
-*Wa.me/586206184*
+let teksbio = `𝐌𝐀𝐊𝐀𝐍𝐀𝐊𝐘 - 🤖
+Wa.me/586206184
 
-*CENTER MAKANAKYBOT*
-*makanakybot@gmail.com*
+🤖 𝐂𝐄𝐍𝐓𝐄𝐑 𝐁𝐎𝐓
+ᴍᴀᴋᴀɴᴀᴋʏʙᴏᴛ@ɢᴍᴀɪʟ.ᴄᴏᴍ
 
-𝘼𝘿𝙍𝙄𝘼𝙉𝙊 𝙎𝘼𝙉𝘾𝙃𝙀𝙕 - 𝘼𝙎𝙄𝙎𝙏𝙀𝙉𝘾𝙄𝘼
-*${asistencia}*`
+👀 𝐀𝐃𝐑𝐈𝐀𝐍𝐎 𝐒𝐀́𝐍𝐂𝐇𝐄𝐙 - 𝐀𝐒𝐈𝐒𝐓𝐄𝐍𝐂𝐈𝐀
+${asistencia}`
   let teks = ' '
 const sections = [
    {

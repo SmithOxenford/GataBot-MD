@@ -3,9 +3,9 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
 let time = global.db.data.users[m.sender].lastrob + 7200000
 if (new Date - global.db.data.users[m.sender].lastrob < 7200000) throw `⏱️ 𝙴𝚂𝙿𝙴𝚁𝙰 ${msToTime(time - new Date())}\n 𝙽𝙾 𝚄𝚂𝙰𝚁 𝙴𝚂𝚃𝙴 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 𝙲𝙾𝙽 𝚄𝙽 𝙼𝙰𝙻 𝚄𝚂𝙾`
 let [nomor, pesan, jumlah] = text.split('|')
-if (!nomor) throw `${mg}𝙸𝙽𝙶𝚁𝙴𝚂𝙴 𝙴𝙻 𝙽𝚄𝙼𝙴𝚁𝙾 𝙰𝙻 𝚀𝚄𝙴 𝚂𝙴 𝙻𝙴 𝙷𝙰𝚁𝙰́ 𝚂𝙿𝙰𝙼 😁\n❊ *${usedPrefix + command}* 𝙽𝚄́𝙼𝙴𝚁𝙾 | 𝚃𝙴𝚇𝚃𝙾 | 𝙲𝙰𝙽𝚃𝙸𝙳𝙰𝙳\n𝐄𝐉𝐄𝐌𝐏𝐋𝐎 :\n❊ *${usedPrefix + command}* _999999999999|Holaaa|35_`
-if (!pesan) throw `${mg}𝙸𝙽𝙶𝚁𝙴𝚂𝙴 𝙴𝙻 𝙽𝚄𝙼𝙴𝚁𝙾 𝙰𝙻 𝚀𝚄𝙴 𝚂𝙴 𝙻𝙴 𝙷𝙰𝚁𝙰́ 𝚂𝙿𝙰𝙼 😁\n❊ *${usedPrefix + command}* 𝙽𝚄́𝙼𝙴𝚁𝙾 | 𝚃𝙴𝚇𝚃𝙾 | 𝙲𝙰𝙽𝚃𝙸𝙳𝙰𝙳\n𝐄𝐉𝐄𝐌𝐏𝐋𝐎 :\n❊ *${usedPrefix + command}* _999999999999|Holaaa|35_`
-if (jumlah && isNaN(jumlah)) throw `𝙴𝙽 𝙲𝙰𝙽𝚃𝙸𝙳𝙰𝙳 𝙳𝙴𝙱𝙴 𝙸𝚁 𝙴𝙻 𝙽𝚄́𝙼𝙴𝚁𝙾 𝙰𝙻 𝚀𝚄𝙴 𝚂𝙴 𝙻𝙴 𝙷𝙰𝚁𝙰́ 𝚂𝙿𝙰𝙼\n❊ *${usedPrefix + command}* 𝙽𝚄́𝙼𝙴𝚁𝙾 | 𝚃𝙴𝚇𝚃𝙾 | 𝙲𝙰𝙽𝚃𝙸𝙳𝙰𝙳\n𝐄𝐉𝐄𝐌𝐏𝐋𝐎 :\n❊ *${usedPrefix + command}* _999999999999|Holaaa|35_`
+if (!nomor) throw `${mg}𝙸𝙽𝙶𝚁𝙴𝚂𝙴 𝙴𝙻 𝙽𝚄𝙼𝙴𝚁𝙾 𝙰𝙻 𝚀𝚄𝙴 𝚂𝙴 𝙻𝙴 𝙷𝙰𝚁𝙰́ 𝚂𝙿𝙰𝙼 😁\n❊ *${usedPrefix + command}* _número | texto | cantidad_\n𝐄𝐉𝐄𝐌𝐏𝐋𝐎 :\n❊ *${usedPrefix + command}* _999999999999|Holaaa|35_`
+if (!pesan) throw `${mg}𝙸𝙽𝙶𝚁𝙴𝚂𝙴 𝙴𝙻 𝙽𝚄𝙼𝙴𝚁𝙾 𝙰𝙻 𝚀𝚄𝙴 𝚂𝙴 𝙻𝙴 𝙷𝙰𝚁𝙰́ 𝚂𝙿𝙰𝙼 😁\n❊ *${usedPrefix + command}* _número | texto | cantidad_\n𝐄𝐉𝐄𝐌𝐏𝐋𝐎 :\n❊ *${usedPrefix + command}* _999999999999|Holaaa|35_`
+if (jumlah && isNaN(jumlah)) throw `𝙴𝙽 𝙲𝙰𝙽𝚃𝙸𝙳𝙰𝙳 𝙳𝙴𝙱𝙴 𝙸𝚁 𝙴𝙻 𝙽𝚄́𝙼𝙴𝚁𝙾 𝙰𝙻 𝚀𝚄𝙴 𝚂𝙴 𝙻𝙴 𝙷𝙰𝚁𝙰́ 𝚂𝙿𝙰𝙼\n❊ *${usedPrefix + command}* _número | texto | cantidad_\n𝐄𝐉𝐄𝐌𝐏𝐋𝐎 :\n❊ *${usedPrefix + command}* _999999999999|Holaaa|35_`
 await delay(10000)
 let fixedNumber = nomor.replace(/[-+<>@]/g, '').replace(/ +/g, '').replace(/^[0]/g, '62') + '@s.whatsapp.net'
 await delay(10000)

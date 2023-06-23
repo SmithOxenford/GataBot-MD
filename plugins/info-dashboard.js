@@ -7,9 +7,9 @@ let handler = async (m, { conn }) => {
   stats = stats.sort((a, b) => b.total - a.total)
   let txt = stats.slice(0, 10).map(({ name, total, last }, idx) => {
     if (name.includes('-') && name.endsWith('.js')) name = name.split('-')[1].replace('.js', '')
-    return `(${idx + 1})\n┏━━━━━━━━━━━━━━━━┓\n┣📚 𝘾𝙊𝙈𝘼𝙉𝘿𝙊 : ${name}\n┣≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋\n┣🗂️ 𝙐𝙎𝙊𝙎 : ${total}\n┣≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋\n┣📍 𝙐𝙇𝙏𝙄𝙈𝙊𝙎 𝙐𝙎𝙊 : ${getTime(last)}\n┗━━━━━━━━━━━━━━━━┛`
+    return `(${idx + 1})\n┏━━━━━━━━━━━━━━┓\n┣📚 𝐂𝐎𝐌𝐀𝐍𝐃𝐎 : _${name}_\n┣≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋\n┣🗂️ 𝐔𝐒𝐎𝐒 : ${total}\n┣≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋\n┣📍 𝐔𝐋𝐓𝐈𝐌𝐎𝐒 𝐔𝐒𝐎𝐒 : ${getTime(last)}\n┗━━━━━━━━━━━━━━┛`
   }).join`\n\n`
-  m.reply(`*☘️ Dashboard comandos mas usados ☘️*\n\n${txt}`)
+  m.reply(`☘️ 𝐃𝐀𝐒𝐇𝐁𝐎𝐀𝐑𝐃 𝐂𝐎𝐌𝐀𝐍𝐃𝐎𝐒 𝐌𝐀𝐒 𝐔𝐒𝐀𝐃𝐎𝐒 ☘️\n\n${txt}`)
 }
 handler.help = ['dashboard']
 handler.tags = ['info']
@@ -18,7 +18,7 @@ handler.command = /^dashboard$/i
 export default handler
 
 export function parseMs(ms) {
-  if (typeof ms !== 'number') throw 'Parameter must be filled with number'
+  if (typeof ms !== 'number') throw '_Parameter must be filled with number_'
   return {
     dias: Math.trunc(ms / 86400000),
     horas: Math.trunc(ms / 3600000) % 24,
@@ -35,5 +35,5 @@ export function getTime(ms) {
   if (now.days) return `${now.days} days ago`
   else if (now.hours) return `${now.hours} hours ago`
   else if (now.minutes) return `${now.minutes} minutes ago`
-else return `hace unos segunos`
+else return `hace unos segundos`
 }
