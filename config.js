@@ -173,7 +173,7 @@ global.exito = eg
 
 //⊱ ━━━━━.⋅ Información | Information ⋅.━━━━ ⊰
 
-global.wm = '𝐌𝐀𝐊𝐀𝐍𝐀𝐊𝐘 - 🤖 : 𝐀𝐃𝐑𝐈𝐀𝐍𝐎 𝐒𝐀́𝐍𝐂𝐇𝐄𝐙'
+global.wm = '𝐀𝐃𝐑𝐈𝐀𝐍𝐎 𝐒𝐀́𝐍𝐂𝐇𝐄𝐙'
 global.igfg = '𝐌𝐀𝐊𝐀𝐍𝐀𝐊𝐘 - 🤖'
 global.wait = '*⌛ 𝙲𝙰𝚁𝙶𝙰𝙽𝙳𝙾... ▬▭▭▭▭▭▭*'
 global.waitt = '*⌛ 𝙲𝙰𝚁𝙶𝙰𝙽𝙳𝙾... ▬▬▭▭▭*'
