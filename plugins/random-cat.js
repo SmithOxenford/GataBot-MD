@@ -4,12 +4,12 @@ try {
 let res = await fetch('https://cataas.com/cat')
 let img = await res.buffer()
 let caption = `
-𝙈𝙖𝙠𝙖𝙣𝙖𝙠𝙮𝘽𝙤𝙩-𝙈𝘿
+𝐌𝐀𝐊𝐀𝐍𝐀𝐊𝐘 - 🤖
 `.trim()
 conn.sendFile(m.chat, img, 'cat.jpg', caption, m)
 } catch (e) {
 console.log(e)
-throw '*Error!*'
+throw '⚠️ 𝙴𝚁𝚁𝙾𝚁 ⚠️'
 }}
 handler.help = ['cat']
 handler.tags = ['random']

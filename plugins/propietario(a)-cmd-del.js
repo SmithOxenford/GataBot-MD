@@ -1,11 +1,11 @@
 let handler = async (m, { conn, usedPrefix, text, command }) => {
 let hash = text
 if (m.quoted && m.quoted.fileSha256) hash = m.quoted.fileSha256.toString('hex')
-if (!hash) throw `*[❗INFO❗] SOLO SE PUEDE ASIGNAR TEXTO O COMANDO A STICKER  E IMAGBE, PARA OBTENER EL CODIGO ASIGNADO USE EL COMANDO ${usedPrefix}listcmd*`
+if (!hash) throw `[ ❗𝐈𝐍𝐅𝐎❗ ] 𝚂𝙾𝙻𝙾 𝚂𝙴 𝙿𝚄𝙴𝙳𝙴 𝙰𝚂𝙸𝙶𝙽𝙰𝚁 𝚃𝙴𝚇𝚃𝙾 𝙾 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 𝙰 𝚂𝚃𝙸𝙲𝙺𝙴𝚁  𝙴 𝙸𝙼𝙰𝙶𝙴𝙽, 𝙿𝙰𝚁𝙰 𝙾𝙱𝚃𝙴𝙽𝙴𝚁 𝙴𝙻 𝙲𝙾𝙳𝙸𝙶𝙾 𝙰𝚂𝙸𝙶𝙽𝙰𝙳𝙾 𝚄𝚂𝙴 𝙴𝙻 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 *${usedPrefix}*_listcmd_`
 let sticker = global.db.data.sticker
-if (sticker[hash] && sticker[hash].locked) throw '*[❗INFO❗] SOLO EL OWNER PUEDE REALIZAR ESTA MODIFICACIÓN*'
+if (sticker[hash] && sticker[hash].locked) throw '[ ❗𝐈𝐍𝐅𝐎❗ ]  𝚂𝙾𝙻𝙾 𝙴𝙻 𝙾𝚆𝙽𝙴𝚁 𝙿𝚄𝙴𝙳𝙴 𝚁𝙴𝙰𝙻𝙸𝚉𝙰𝚁 𝙴𝚂𝚃𝙰 𝙼𝙾𝙳𝙸𝙵𝙸𝙲𝙰𝙲𝙸𝙾́𝙽'
 delete sticker[hash]
-m.reply(`*[ ✔ ]  EL TEXTO/COMANDO ASIGNADO AL STICKER E IMAGEN FUE ELIMINADO DE LA BASE DE DATOS CORRECTAMENTE*`)}
+m.reply(`[ ✔ ]  𝙴𝙻 𝚃𝙴𝚇𝚃𝙾/𝙲𝙾𝙼𝙰𝙽𝙳𝙾 𝙰𝚂𝙸𝙶𝙽𝙰𝙳𝙾 𝙰𝙻 𝚂𝚃𝙸𝙲𝙺𝙴𝚁 𝙴 𝙸𝙼𝙰𝙶𝙴𝙽 𝙵𝚄𝙴 𝙴𝙻𝙸𝙼𝙸𝙽𝙰𝙳𝙾 𝙳𝙴 𝙻𝙰 𝙱𝙰𝚂𝙴 𝙳𝙴 𝙳𝙰𝚃𝙾𝚂 𝙲𝙾𝚁𝚁𝙴𝙲𝚃𝙰𝙼𝙴𝙽𝚃𝙴 💋`)}
 handler.command = ['delcmd']
 handler.rowner = true
 export default handler

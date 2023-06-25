@@ -10,7 +10,7 @@ let caption = `⚠️ 𝐔𝐒𝐔𝐀𝐑𝐈𝐎𝐒 𝐀𝐃𝐕𝐄𝐑𝐓�
 │ *${i + 1}.* ${conn.getName(jid)  == undefined ? '_Sin Usuarios_' : conn.getName(jid) + ` *(${user.warn}/4)*`}
 │ ${isOwner ? '@' + jid.split`@`[0] : jid}\n│ - - - - - - - - -`.trim()).join('\n') : ''}
 *╰•·–––––––––––––––––––·•*`
-await conn.sendButton(m.chat, caption, `⚠️ 𝗔𝗗𝗩𝗘𝗥𝗧𝗘𝗡𝗖𝗜𝗔 ⇢ ${warns ? `*${warns}/4*` : '*0/4*'}\n${wm}`, null, [ 
+await conn.sendButton(m.chat, caption, `⚠️ 𝐀𝐃𝐕𝐄𝐑𝐓𝐄𝐍𝐂𝐈𝐀 ⇢ ${warns ? `*${warns}/4*` : '*0/4*'}\n${wm}`, null, [ 
 ['𝗠 𝗘 𝗡 𝗨 ☘️', '/menu']], m, { mentions: await conn.parseMention(caption) })}
 
 handler.command = /^(listaadv|listadv|adv|advlist|advlista)$/i 

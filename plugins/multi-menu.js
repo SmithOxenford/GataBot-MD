@@ -89,13 +89,13 @@ const temaX = [['pornololi', 'nsfwloli'], ['pornopies', 'nsfwfoot'], ['pornoass'
 if (command == 'audioefectomenu'){ //audio
 let menuA = `🎧 ${lenguajeGB['smsConfi2']()} *${username}*`.trim()
 let menuB = `╭┄〔 ${wm} 〕┄⊱
-┊დ *${week}, ${date}*
-┊დ *${lenguajeGB['smsBotonM4']()} » ${Object.keys(global.db.data.users).length}* 
+┊დ ${week}, ${date}
+┊დ ${lenguajeGB['smsBotonM4']()} » ${Object.keys(global.db.data.users).length}
 ┊
-┊დ *${lenguajeGB['smsBotonM5']()} »* ${role}
-┊დ *${lenguajeGB['smsBotonM6']()} » ${level}*
-┊დ *${lenguajeGB['smsBotonM7']()} »* ${user.premiumTime > 0 ? '✅' : '❌'}
-╰┄┄┄┄〔 *𓃠 ${vs}* 〕┄┄┄┄⊱
+┊დ ${lenguajeGB['smsBotonM5']()} » ${role}
+┊დ ${lenguajeGB['smsBotonM6']()} » ${level}
+┊დ ${lenguajeGB['smsBotonM7']()} » ${user.premiumTime > 0 ? '✅' : '❌'}
+╰┄┄┄┄〔 ${vs} 〕┄┄┄┄⊱
 
 ⠇ ${lenguajeGB['smsTex2']()} 🧰
 ∘ _${usedPrefix}bass_
@@ -116,14 +116,14 @@ await conn.sendButtonVid(m.chat, pp, menuA, menuB, lenguajeGB.smsBotonM1(), '.me
   
 } if (command == 'buscarmenu'){ //buscador
 let menuA = `🎈 ${lenguajeGB['smsConfi2']()} *${username}*`.trim()
-let menuB = `╭┄〔 *${wm}* 〕┄⊱
-┊დ *${week}, ${date}*
-┊დ *${lenguajeGB['smsBotonM4']()} » ${Object.keys(global.db.data.users).length}* 
+let menuB = `╭┄〔 ${wm} 〕┄⊱
+┊დ ${week}, ${date}
+┊დ ${lenguajeGB['smsBotonM4']()} » ${Object.keys(global.db.data.users).length}* 
 ┊
-┊დ *${lenguajeGB['smsBotonM5']()} »* ${role}
-┊დ *${lenguajeGB['smsBotonM6']()} » ${level}*
-┊დ *${lenguajeGB['smsBotonM7']()} »* ${user.premiumTime > 0 ? '✅' : '❌'}
-╰┄┄┄┄〔 *𓃠 ${vs}* 〕┄┄┄┄⊱
+┊დ ${lenguajeGB['smsBotonM5']()} » ${role}
+┊დ ${lenguajeGB['smsBotonM6']()} » ${level}
+┊დ ${lenguajeGB['smsBotonM7']()} » ${user.premiumTime > 0 ? '✅' : '❌'}
+╰┄┄┄┄〔 ${vs} 〕┄┄┄┄⊱
 ⠇ ${lenguajeGB['smsTex1']()} 🔍
 ∘ _${usedPrefix}animeinfo *texto*_
 ∘ _${usedPrefix}mangainfo *texto*_
@@ -140,14 +140,14 @@ await conn.sendButtonVid(m.chat, pp, menuA, menuB, lenguajeGB.smsBotonM1(), '.me
 let pp = './src/+18.jpg'
 
 let menuA = `😏 ${lenguajeGB['smsConfi2']()} *${username}*`.trim()
-let menuB = `╭┄〔 *${wm}* 〕┄⊱
-┊დ *${week}, ${date}*
-┊დ *${lenguajeGB['smsBotonM4']()} » ${Object.keys(global.db.data.users).length}* 
+let menuB = `╭┄〔 ${wm} 〕┄⊱
+┊დ ${week}, ${date}
+┊დ ${lenguajeGB['smsBotonM4']()} » ${Object.keys(global.db.data.users).length}* 
 ┊
-┊დ *${lenguajeGB['smsBotonM5']()} »* ${role}
-┊დ *${lenguajeGB['smsBotonM6']()} » ${level}*
-┊დ *${lenguajeGB['smsBotonM7']()} »* ${user.premiumTime > 0 ? '✅' : '❌'}
-╰┄┄┄┄〔 *𓃠 ${vs}* 〕┄┄┄┄⊱
+┊დ ${lenguajeGB['smsBotonM5']()} » ${role}
+┊დ ${lenguajeGB['smsBotonM6']()} » ${level}
+┊დ ${lenguajeGB['smsBotonM7']()} » ${user.premiumTime > 0 ? '✅' : '❌'}
+╰┄┄┄┄〔 ${vs} 〕┄┄┄┄⊱
 ⠇ ${lenguajeGB['smsTex3']()} 🔞
 ∘ _${usedPrefix}${lenguajeGB.lenguaje() == 'es' ? temaX[0][0] : temaX[0][1]}_
 ∘ _${usedPrefix}${lenguajeGB.lenguaje() == 'es' ? temaX[1][0] : temaX[1][1]}_
@@ -272,14 +272,14 @@ conn.sendMessage(m.chat, listMessage, {quoted: fkontak})
   
 } if (command == 'convertidormenu'){ //convertidor
 let menuA = `📍 ${lenguajeGB['smsConfi2']()} *${username}*`.trim()
-let menuB = `╭┄〔 *${wm}* 〕┄⊱
-┊დ *${week}, ${date}*
-┊დ *${lenguajeGB['smsBotonM4']()} » ${Object.keys(global.db.data.users).length}* 
+let menuB = `╭┄〔 ${wm} 〕┄⊱
+┊დ ${week}, ${date}
+┊დ ${lenguajeGB['smsBotonM4']()} » ${Object.keys(global.db.data.users).length}
 ┊
-┊დ *${lenguajeGB['smsBotonM5']()} »* ${role}
-┊დ *${lenguajeGB['smsBotonM6']()} » ${level}*
-┊დ *${lenguajeGB['smsBotonM7']()} »* ${user.premiumTime > 0 ? '✅' : '❌'}
-╰┄┄┄┄〔 *𓃠 ${vs}* 〕┄┄┄┄⊱
+┊დ ${lenguajeGB['smsBotonM5']()} » ${role}
+┊დ ${lenguajeGB['smsBotonM6']()} » ${level}
+┊დ ${lenguajeGB['smsBotonM7']()} » ${user.premiumTime > 0 ? '✅' : '❌'}
+╰┄┄┄┄〔 ${vs} 〕┄┄┄┄⊱
 ⠇ ${lenguajeGB['smsTex8']()} 🛰️
 ∘ _${usedPrefix}toimg | img | jpg *sticker*_
 ∘ _${usedPrefix}tomp3 | mp3 *video o nota de voz*_
@@ -294,14 +294,14 @@ await conn.sendButtonVid(m.chat, pp, menuA, menuB, lenguajeGB.smsBotonM1(), '.me
   
 } if (command == 'descargasmenu'){ //descargas
 let menuA = `🪄 ${lenguajeGB['smsConfi2']()} *${username}*`.trim()
-let menuB = `╭┄〔 *${wm}* 〕┄⊱
-┊დ *${week}, ${date}*
-┊დ *${lenguajeGB['smsBotonM4']()} » ${Object.keys(global.db.data.users).length}* 
+let menuB = `╭┄〔 ${wm} 〕┄⊱
+┊დ ${week}, ${date}
+┊დ ${lenguajeGB['smsBotonM4']()} » ${Object.keys(global.db.data.users).length}
 ┊
-┊დ *${lenguajeGB['smsBotonM5']()} »* ${role}
-┊დ *${lenguajeGB['smsBotonM6']()} » ${level}*
-┊დ *${lenguajeGB['smsBotonM7']()} »* ${user.premiumTime > 0 ? '✅' : '❌'}
-╰┄┄┄┄〔 *𓃠 ${vs}* 〕┄┄┄┄⊱
+┊დ ${lenguajeGB['smsBotonM5']()} » ${role}
+┊დ ${lenguajeGB['smsBotonM6']()} » ${level}
+┊დ ${lenguajeGB['smsBotonM7']()} » ${user.premiumTime > 0 ? '✅' : '❌'}
+╰┄┄┄┄〔 ${vs} 〕┄┄┄┄⊱
 ⠇ ${lenguajeGB['smsTex9']()} 🚀
 ∘ _${usedPrefix}imagen | image *texto*_
 ∘ _${usedPrefix}pinterest | dlpinterest *texto*_
@@ -336,14 +336,14 @@ await conn.sendButtonVid(m.chat, pp, menuA, menuB, lenguajeGB.smsBotonM1(), '.me
   
 } if (command == 'juegosmenu'){ //fun
 let menuA = `🎠 ${lenguajeGB['smsConfi2']()} *${username}*`.trim()
-let menuB = `╭┄〔 *${wm}* 〕┄⊱
-┊დ *${week}, ${date}*
-┊დ *${lenguajeGB['smsBotonM4']()} » ${Object.keys(global.db.data.users).length}* 
+let menuB = `╭┄〔 ${wm} 〕┄⊱
+┊დ ${week}, ${date}
+┊დ ${lenguajeGB['smsBotonM4']()} » ${Object.keys(global.db.data.users).length}
 ┊
-┊დ *${lenguajeGB['smsBotonM5']()} »* ${role}
-┊დ *${lenguajeGB['smsBotonM6']()} » ${level}*
-┊დ *${lenguajeGB['smsBotonM7']()} »* ${user.premiumTime > 0 ? '✅' : '❌'}
-╰┄┄┄┄〔 *𓃠 ${vs}* 〕┄┄┄┄⊱
+┊დ ${lenguajeGB['smsBotonM5']()} » ${role}
+┊დ ${lenguajeGB['smsBotonM6']()} » ${level}
+┊დ ${lenguajeGB['smsBotonM7']()} » ${user.premiumTime > 0 ? '✅' : '❌'}
+╰┄┄┄┄〔 ${vs}* 〕┄┄┄┄⊱
 ⠇ ${lenguajeGB['smsTex10']()} 🎡
 ∘ _${usedPrefix}mates | matemáticas | math_
 ∘ _${usedPrefix}ppt *piedra : papel : tijera*_
@@ -387,14 +387,14 @@ await conn.sendButtonVid(m.chat, pp, menuA, menuB, lenguajeGB.smsBotonM1(), '.me
   
 } if (command == 'grupomenu'){ //grupo
 let menuA = `🔰 ${lenguajeGB['smsConfi2']()} *${username}*`.trim()
-let menuB = `╭┄〔 *${wm}* 〕┄⊱
-┊დ *${week}, ${date}*
-┊დ *${lenguajeGB['smsBotonM4']()} » ${Object.keys(global.db.data.users).length}* 
+let menuB = `╭┄〔 ${wm} 〕┄⊱
+┊დ ${week}, ${date}
+┊დ ${lenguajeGB['smsBotonM4']()} » ${Object.keys(global.db.data.users).length}
 ┊
-┊დ *${lenguajeGB['smsBotonM5']()} »* ${role}
-┊დ *${lenguajeGB['smsBotonM6']()} » ${level}*
-┊დ *${lenguajeGB['smsBotonM7']()} »* ${user.premiumTime > 0 ? '✅' : '❌'}
-╰┄┄┄┄〔 *𓃠 ${vs}* 〕┄┄┄┄⊱
+┊დ ${lenguajeGB['smsBotonM5']()} » ${role}
+┊დ ${lenguajeGB['smsBotonM6']()} » ${level}
+┊დ ${lenguajeGB['smsBotonM7']()} » ${user.premiumTime > 0 ? '✅' : '❌'}
+╰┄┄┄┄〔 ${vs} 〕┄┄┄┄⊱
 ⠇ ${lenguajeGB['smsTex11']()} 🌐
 ∘ _${usedPrefix}add *numero*_
 ∘ _${usedPrefix}sacar | ban | kick  *@tag*_
@@ -433,15 +433,15 @@ await conn.sendButtonVid(m.chat, pp, menuA, menuB, lenguajeGB.smsBotonM1(), '.me
 
   
 } if (command == 'herramientasmenu'){ //herramientas
-let menuA = `🔩 ${lenguajeGB['smsConfi2']()} *${username}*`.trim()
-let menuB = `╭┄〔 *${wm}* 〕┄⊱
-┊დ *${week}, ${date}*
-┊დ *${lenguajeGB['smsBotonM4']()} » ${Object.keys(global.db.data.users).length}* 
+let menuA = `🔩 ${lenguajeGB['smsConfi2']()} *${username}`.trim()
+let menuB = `╭┄〔 ${wm} 〕┄⊱
+┊დ ${week}, ${date}
+┊დ ${lenguajeGB['smsBotonM4']()} » ${Object.keys(global.db.data.users).length}* 
 ┊
-┊დ *${lenguajeGB['smsBotonM5']()} »* ${role}
-┊დ *${lenguajeGB['smsBotonM6']()} » ${level}*
-┊დ *${lenguajeGB['smsBotonM7']()} »* ${user.premiumTime > 0 ? '✅' : '❌'}
-╰┄┄┄┄〔 *𓃠 ${vs}* 〕┄┄┄┄⊱
+┊დ ${lenguajeGB['smsBotonM5']()} » ${role}
+┊დ ${lenguajeGB['smsBotonM6']()} » ${level}
+┊დ ${lenguajeGB['smsBotonM7']()} » ${user.premiumTime > 0 ? '✅' : '❌'}
+╰┄┄┄┄〔 ${vs} 〕┄┄┄┄⊱
 ⠇ ${lenguajeGB['smsTex12']()} 🛠️
 ∘ _${usedPrefix}afk *motivo*_
 ∘ _${usedPrefix}acortar *url*_
@@ -469,7 +469,7 @@ let menuB = `╭┄〔 *${wm}* 〕┄⊱
 ┊დ *${lenguajeGB['smsBotonM5']()} »* ${role}
 ┊დ *${lenguajeGB['smsBotonM6']()} » ${level}*
 ┊დ *${lenguajeGB['smsBotonM7']()} »* ${user.premiumTime > 0 ? '✅' : '❌'}
-╰┄┄┄┄〔 *𓃠 ${vs}* 〕┄┄┄┄⊱
+╰┄┄┄┄〔 ${vs} 〕┄┄┄┄⊱
 ⠇ ${lenguajeGB['smsTex13']()} 💫
 ∘ _${usedPrefix}cuentasgb_
 ∘ _${usedPrefix}gruposgb | grupos | groupgb_
@@ -492,14 +492,14 @@ await conn.sendButtonVid(m.chat, pp, menuA, menuB, lenguajeGB.smsBotonM1(), '.me
   
 } if (command == 'makermenu'){ //maker
 let menuA = `✨ ${lenguajeGB['smsConfi2']()} *${username}*`.trim()
-let menuB = `╭┄〔 *${wm}* 〕┄⊱
-┊დ *${week}, ${date}*
-┊დ *${lenguajeGB['smsBotonM4']()} » ${Object.keys(global.db.data.users).length}* 
+let menuB = `╭┄〔 ${wm} 〕┄⊱
+┊დ ${week}, ${date}
+┊დ ${lenguajeGB['smsBotonM4']()} » ${Object.keys(global.db.data.users).length}* 
 ┊
-┊დ *${lenguajeGB['smsBotonM5']()} »* ${role}
-┊დ *${lenguajeGB['smsBotonM6']()} » ${level}*
-┊დ *${lenguajeGB['smsBotonM7']()} »* ${user.premiumTime > 0 ? '✅' : '❌'}
-╰┄┄┄┄〔 *𓃠 ${vs}* 〕┄┄┄┄⊱
+┊დ ${lenguajeGB['smsBotonM5']()} » ${role}
+┊დ ${lenguajeGB['smsBotonM6']()} » ${level}
+┊დ ${lenguajeGB['smsBotonM7']()} » ${user.premiumTime > 0 ? '✅' : '❌'}
+╰┄┄┄┄〔 ${vs} 〕┄┄┄┄⊱
 ⠇ ${lenguajeGB['smsTex14']()} ⛺
 ∘ _${usedPrefix}logos *efecto texto*_
 ∘ _${usedPrefix}simpcard *@tag*_
@@ -515,14 +515,14 @@ await conn.sendButtonVid(m.chat, pp, menuA, menuB, lenguajeGB.smsBotonM1(), '.me
   
 } if (command == 'menulogos2'){ //marker
 let menuA = `⛲ ${lenguajeGB['smsConfi2']()} *${username}*`.trim()
-let menuB = `╭┄〔 *${wm}* 〕┄⊱
-┊დ *${week}, ${date}*
-┊დ *${lenguajeGB['smsBotonM4']()} » ${Object.keys(global.db.data.users).length}* 
+let menuB = `╭┄〔 ${wm} 〕┄⊱
+┊დ ${week}, ${date}
+┊დ ${lenguajeGB['smsBotonM4']()} » ${Object.keys(global.db.data.users).length}
 ┊
-┊დ *${lenguajeGB['smsBotonM5']()} »* ${role}
-┊დ *${lenguajeGB['smsBotonM6']()} » ${level}*
-┊დ *${lenguajeGB['smsBotonM7']()} »* ${user.premiumTime > 0 ? '✅' : '❌'}
-╰┄┄┄┄〔 *𓃠 ${vs}* 〕┄┄┄┄⊱
+┊დ ${lenguajeGB['smsBotonM5']()} » ${role}
+┊დ ${lenguajeGB['smsBotonM6']()} » ${level}
+┊დ ${lenguajeGB['smsBotonM7']()} » ${user.premiumTime > 0 ? '✅' : '❌'}
+╰┄┄┄┄〔 ${vs}* 〕┄┄┄┄⊱
 ⠇ ${lenguajeGB['smsTex15']()} 🌅
 ∘ ${usedPrefix}logocorazon *Texto*
 ∘ ${usedPrefix}3dtext *Texto*
@@ -557,14 +557,14 @@ await conn.sendButtonVid(m.chat, pp, menuA, menuB, lenguajeGB.smsBotonM1(), '.me
   
 } if (command == 'ownermenu'){ //propietario(a)
 let menuA = `🛂 ${lenguajeGB['smsConfi2']()} *${username}*`.trim()
-let menuB = `╭┄〔 *${wm}* 〕┄⊱
-┊დ *${week}, ${date}*
-┊დ *${lenguajeGB['smsBotonM4']()} » ${Object.keys(global.db.data.users).length}* 
+let menuB = `╭┄〔 ${wm} 〕┄⊱
+┊დ ${week}, ${date}
+┊დ ${lenguajeGB['smsBotonM4']()} » ${Object.keys(global.db.data.users).length}
 ┊
-┊დ *${lenguajeGB['smsBotonM5']()} »* ${role}
-┊დ *${lenguajeGB['smsBotonM6']()} » ${level}*
-┊დ *${lenguajeGB['smsBotonM7']()} »* ${user.premiumTime > 0 ? '✅' : '❌'}
-╰┄┄┄┄〔 *𓃠 ${vs}* 〕┄┄┄┄⊱
+┊დ ${lenguajeGB['smsBotonM5']()} » ${role}
+┊დ ${lenguajeGB['smsBotonM6']()} » ${level}
+┊დ ${lenguajeGB['smsBotonM7']()} » ${user.premiumTime > 0 ? '✅' : '❌'}
+╰┄┄┄┄〔 ${vs}* 〕┄┄┄┄⊱
 ⠇ ${lenguajeGB['smsTex20']()} 💎
 ∘ _${usedPrefix}join *enlace*_
 ∘ _${usedPrefix}unete *enlace*_
@@ -600,14 +600,14 @@ await conn.sendButtonVid(m.chat, pp, menuA, menuB, lenguajeGB.smsBotonM1(), '.me
   
 } if (command == 'randommenu'){ //randomm
 let menuA = `⛩️ ${lenguajeGB['smsConfi2']()} *${username}*`.trim()
-let menuB = `╭┄〔 *${wm}* 〕┄⊱
-┊დ *${week}, ${date}*
-┊დ *${lenguajeGB['smsBotonM4']()} » ${Object.keys(global.db.data.users).length}* 
+let menuB = `╭┄〔 ${wm} 〕┄⊱
+┊დ ${week}, ${date}
+┊დ ${lenguajeGB['smsBotonM4']()} » ${Object.keys(global.db.data.users).length} 
 ┊
-┊დ *${lenguajeGB['smsBotonM5']()} »* ${role}
-┊დ *${lenguajeGB['smsBotonM6']()} » ${level}*
-┊დ *${lenguajeGB['smsBotonM7']()} »* ${user.premiumTime > 0 ? '✅' : '❌'}
-╰┄┄┄┄〔 *𓃠 ${vs}* 〕┄┄┄┄⊱
+┊დ ${lenguajeGB['smsBotonM5']()} » ${role}
+┊დ ${lenguajeGB['smsBotonM6']()} » ${level}
+┊დ ${lenguajeGB['smsBotonM7']()} » ${user.premiumTime > 0 ? '✅' : '❌'}
+╰┄┄┄┄〔 ${vs}* 〕┄┄┄┄⊱
 ⠇ ${lenguajeGB['smsTex23']()} 🧩
 ∘ _${usedPrefix}chica_
 ∘ _${usedPrefix}chico_
@@ -665,14 +665,14 @@ await conn.sendButtonVid(m.chat, pp, menuA, menuB, lenguajeGB.smsBotonM1(), '.me
   
 } if (command == 'rpgmenu'){ //rpg
 let menuA = `🪅 ${lenguajeGB['smsConfi2']()} *${username}*`.trim()
-let menuB = `╭┄〔 *${wm}* 〕┄⊱
-┊დ *${week}, ${date}*
-┊დ *${lenguajeGB['smsBotonM4']()} » ${Object.keys(global.db.data.users).length}* 
+let menuB = `╭┄〔 ${wm} 〕┄⊱
+┊დ ${week}, ${date}
+┊დ ${lenguajeGB['smsBotonM4']()} » ${Object.keys(global.db.data.users).length}
 ┊
-┊დ *${lenguajeGB['smsBotonM5']()} »* ${role}
-┊დ *${lenguajeGB['smsBotonM6']()} » ${level}*
-┊დ *${lenguajeGB['smsBotonM7']()} »* ${user.premiumTime > 0 ? '✅' : '❌'}
-╰┄┄┄┄〔 *𓃠 ${vs}* 〕┄┄┄┄⊱
+┊დ ${lenguajeGB['smsBotonM5']()} » ${role}
+┊დ ${lenguajeGB['smsBotonM6']()} » ${level}
+┊დ ${lenguajeGB['smsBotonM7']()} » ${user.premiumTime > 0 ? '✅' : '❌'}
+╰┄┄┄┄〔 ${vs}* 〕┄┄┄┄⊱
 ⠇ ${lenguajeGB['smsTex21']()} ⚗️
 ∘ _${usedPrefix}botemporal *enlace* *cantidad*_
 ∘ _${usedPrefix}addbot *enlace* *cantidad*_
@@ -723,14 +723,14 @@ await conn.sendButtonVid(m.chat, pp, menuA, menuB, lenguajeGB.smsBotonM1(), '.me
 
 } if (command == 'stickermenu'){ //sticker
 let menuA = `🧸 ${lenguajeGB['smsConfi2']()} *${username}*`.trim()
-let menuB = `╭┄〔 *${wm}* 〕┄⊱
-┊დ *${week}, ${date}*
-┊დ *${lenguajeGB['smsBotonM4']()} » ${Object.keys(global.db.data.users).length}* 
+let menuB = `╭┄〔 ${wm} 〕┄⊱
+┊დ ${week}, ${date}
+┊დ ${lenguajeGB['smsBotonM4']()} » ${Object.keys(global.db.data.users).length}
 ┊
-┊დ *${lenguajeGB['smsBotonM5']()} »* ${role}
-┊დ *${lenguajeGB['smsBotonM6']()} » ${level}*
-┊დ *${lenguajeGB['smsBotonM7']()} »* ${user.premiumTime > 0 ? '✅' : '❌'}
-╰┄┄┄┄〔 *𓃠 ${vs}* 〕┄┄┄┄⊱
+┊დ ${lenguajeGB['smsBotonM5']()} » ${role}
+┊დ ${lenguajeGB['smsBotonM6']()} » ${level}
+┊დ ${lenguajeGB['smsBotonM7']()} » ${user.premiumTime > 0 ? '✅' : '❌'}
+╰┄┄┄┄〔 ${vs} 〕┄┄┄┄⊱
 ⠇ ${lenguajeGB['smsTex22']()} 🎐
 ∘ _${usedPrefix}sticker | s *imagen o video*_
 ∘ _${usedPrefix}sticker | s *url de tipo jpg*_

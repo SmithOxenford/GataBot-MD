@@ -71,16 +71,16 @@ let adReply = { fileLength: fsizedoc, seconds: fsizedoc, contextInfo: { forwardi
 
 let str = `
 ╭┄〔 𝐌𝐀𝐊𝐀𝐍𝐀𝐊𝐘 - 🤖 〕┄⊱
-┊ *🎶 ${lenguajeGB['smsConfi2']()} ${username}*
-┊დ *${week}, ${date}*
-┊დ *${lenguajeGB['smsBotonM4']()} » ${Object.keys(global.db.data.users).length}* 
+┊ 🎶 ${lenguajeGB['smsConfi2']()} ${username}
+┊დ ${week}, ${date}
+┊დ ${lenguajeGB['smsBotonM4']()} » ${Object.keys(global.db.data.users).length}
 ┊
-┊დ *${lenguajeGB['smsBotonM5']()} »* ${role}
-┊დ *${lenguajeGB['smsBotonM6']()} » ${level}*
-┊დ *${lenguajeGB['smsBotonM7']()} »* ${user.premiumTime > 0 ? '✅' : '❌'}
+┊დ ${lenguajeGB['smsBotonM5']()} » ${role}
+┊დ ${lenguajeGB['smsBotonM6']()} » ${level}
+┊დ ${lenguajeGB['smsBotonM7']()} » ${user.premiumTime > 0 ? '✅' : '❌'}
 ╰┄┄┄┄〔 *𓃠 ${vs}* 〕┄┄┄┄⊱
 
-⠇ *${lenguajeGB['smsTex16']()}* 🔊
+⠇ ${lenguajeGB['smsTex16']()} 🔊
 ⠇ ${lenguajeGB['smsTex17']()}
 ∘ _Noche de paz_
 ∘ _Buenos dias_

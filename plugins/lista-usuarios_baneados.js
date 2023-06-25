@@ -4,7 +4,7 @@ let caption = `
 ╭•·–| 👥 𝐔𝐒𝐔𝐀𝐑𝐈𝐎𝐒 𝐁𝐀𝐍𝐄𝐀𝐃𝐎𝐒 👥 |–·•
 │ 𝚃𝙾𝚃𝙰𝙻 : ${users.length} 𝚄𝚂𝚄𝙰𝚁𝙸𝙾𝚂 : ${users ? '\n' + users.map(([jid], i) => `
 │
-│ *${i + 1}.* ${conn.getName(jid) == undefined ? 'Sin Usuarios Baneados' : conn.getName(jid)}
+│ *${i + 1}.* ${conn.getName(jid) == undefined ? '_Sin Usuarios Baneados_' : conn.getName(jid)}
 │ ${isOwner ? '@' + jid.split`@`[0] : jid}\n│ - - - - - - - - -`.trim()).join('\n') : ''}
 *╰•·–––––––––––––––––––·•*`.trim()
 

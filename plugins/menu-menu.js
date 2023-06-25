@@ -93,7 +93,7 @@ let menu = `${lenguajeGB['smsConfi2']()} *${user.genero === 0 ? '👤' : user.ge
 
 ⊜ ${lenguajeGB['smsBotonM5']().charAt(0).toUpperCase() + lenguajeGB['smsBotonM5']().slice(1).toLowerCase()} » ${role}
 ⊜ ${lenguajeGB['smsBotonM6']().charAt(0).toUpperCase() + lenguajeGB['smsBotonM6']().slice(1).toLowerCase()} » ${emoji} || ${user.exp - min}/${xp}
-⊜ ${lenguajeGB['smsPareja']()}* ${pareja ? `\n*»* ${name} 💕 ${conn.getName(pareja)}` : `🛐 ${lenguajeGB['smsResultPareja']()}`}
+⊜ ${lenguajeGB['smsPareja']()} ${pareja ? `\n*»* ${name} 💕 ${conn.getName(pareja)}` : `🛐 ${lenguajeGB['smsResultPareja']()}`}
 ⊜ 𝙿𝙰𝚂𝙰𝚃𝙸𝙴𝙼𝙿𝙾(𝚂) ➺ ${user.pasatiempo === 0 ? '_Sin Registro_' : user.pasatiempo + '\n'}
 
 ⊜ 𝙴𝚇𝙿𝙴𝚁𝙴𝙽𝙲𝙸𝙰 *➟* ${exp} ⚡
@@ -136,8 +136,8 @@ ${readMore}
 *╭━*〔 𝐔́𝐍𝐄𝐓𝐄 𝐀𝐋 𝐆𝐑𝐔𝐏𝐎 〕*━⬣*
 ┃ ¡𝚄𝙽𝙴 𝙼𝙰𝙺𝙰𝙽𝙰𝙺𝚈𝙱𝙾𝚃 𝙰 𝙶𝚁𝚄𝙿𝙾𝚂!
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-┃🪅 _${usedPrefix}botemporal *enlace* *cantidad*_
-┃🪅 _${usedPrefix}addbot *enlace* *cantidad*_
+┃🤖 _${usedPrefix}botemporal *enlace* *cantidad*_
+┃🤖 _${usedPrefix}addbot *enlace* *cantidad*_
 *╰━━━━━━━━━━━━⬣*
 
 *╭━*〔 𝐒𝐄𝐑 𝐏𝐑𝐄𝐌𝐈𝐔𝐌 🎟️ 〕*━⬣*
@@ -193,9 +193,9 @@ ${readMore}
 ┃ ¡𝚃𝙸𝙴𝙽𝙴𝚂 𝙻𝙰 𝙾𝙲𝙰𝚂𝙸𝙾𝙽 𝙳𝙴
 ┃ 𝙲𝙾𝙽𝚅𝙴𝚁𝚂𝙰𝚁 𝙲𝙾𝙽 𝙼𝙰𝙺𝙰𝙽𝙰𝙺𝚈 𝙱𝙾𝚃!
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-┃🪄➺ _${usedPrefix}simi | okgoogle *texto*_
-┃🪄➺ _${usedPrefix}alexa | siri | cortana *texto*_
-┃🪄➺ _${usedPrefix}simsimi | bixby *texto*_
+┃🤖➺ _${usedPrefix}simi | okgoogle *texto*_
+┃🤖➺ _${usedPrefix}alexa | siri | cortana *texto*_
+┃🤖➺ _${usedPrefix}simsimi | bixby *texto*_
 *╰━━━━━━━━━━━━⬣*
 
 *╭━━━*[ 𝐀𝐉𝐔𝐒𝐓𝐄𝐒 - 𝐂𝐇𝐀𝐓𝐒 ⚙️ ]*━━━⬣*

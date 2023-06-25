@@ -14,11 +14,11 @@ export default handler*/
 //PARA GRUPOS
 
 let handler = async (m, { conn }) => {
-  if (!(m.chat in global.db.data.chats)) return m.reply('*Este chat no está registrado en la base de datos!*')
+  if (!(m.chat in global.db.data.chats)) return m.reply('𝙴𝚂𝚃𝙴 𝙲𝙷𝙰𝚃 𝙽𝙾 𝙴𝚂𝚃𝙰́ 𝚁𝙴𝙶𝙸𝚂𝚃𝚁𝙰𝙳𝙾 𝙴𝙽 𝙻𝙰 𝙱𝙰𝚂𝙴 𝙳𝙴 𝙳𝙰𝚃𝙾𝚂!')
   let chat = global.db.data.chats[m.chat]
-  if (!chat.isBanned) return m.reply('*Este chat no está baneado!!*')
+  if (!chat.isBanned) return m.reply('𝙴𝚂𝚃𝙴 𝙲𝙷𝙰𝚃 𝙽𝙾 𝙴𝚂𝚃𝙰́ 𝙱𝙰𝙽𝙴𝙰𝙳𝙾!')
   chat.isBanned = false
-  m.reply(`${eg}𝙀𝙎𝙏𝙀 𝘾𝙃𝘼𝙏 𝙁𝙐𝙀 𝘿𝙀𝙎𝘽𝘼𝙉𝙀𝘼𝘿𝙊 🥳\n𝘼𝙃𝙊𝙍𝘼 𝙎𝙄 𝙀𝙎𝙏𝙊𝙔 𝘿𝙄𝙎𝙋𝙊𝙉𝙄𝘽𝙇𝙀.`)
+  m.reply(`${eg}𝙴𝚂𝚃𝙴 𝙲𝙷𝙰𝚃 𝙵𝚄𝙴 𝙳𝙴𝚂𝙱𝙰𝙽𝙴𝙰𝙳𝙾 🥳\n𝙰𝙷𝙾𝚁𝙰 𝚂𝙸 𝙴𝚂𝚃𝙾𝚈 𝙳𝙸𝚂𝙿𝙾𝙽𝙸𝙱𝙻𝙴 😁`)
 }
 handler.command = /^unbanchat$/i
 handler.botAdmin = true

@@ -19,7 +19,7 @@ var now = new Date() * 1
 
 if (!txt && !m.quoted) throw `⚠️ 𝙵𝙰𝙻𝚃𝙰 𝙴𝙻 𝚃𝙸𝙴𝙼𝙿𝙾 𝙿𝚁𝙴𝙼𝙸𝚄𝙼 ⚠️`
 if (txt == 0 || txt == null) throw `𝙳𝙴𝙱𝙴 𝙸𝙽𝙶𝚁𝙴𝚂𝙰𝚁 𝙴𝙻 𝚃𝙸𝙴𝙼𝙿𝙾 𝙿𝚁𝙴𝙼𝙸𝚄𝙼 🤗\n\n*${usedPrefix + command} @${m.sender.split`@`[0]} 1*\n*${usedPrefix + command} 1*`
-if (isNaN(txt)) return m.reply(`*SOLO NÚMERO*\n\n*${usedPrefix + command} @${m.sender.split`@`[0]} 1*`)
+if (isNaN(txt)) return m.reply(`𝚂𝙾𝙻𝙾 𝙽𝚄́𝙼𝙴𝚁𝙾\n\n*${usedPrefix + command} @${m.sender.split`@`[0]} 1*`)
 
 /*let titulo = [ 'PREMIUM 1', 'PREMIUM 2', 'PREMIUM 3', 'PREMIUM 4', 'PREMIUM 5', 'PREMIUM 6']
 let nombre = [ 'PREMIUM BÁSICO', 'PREMIUM NORMAL', 'PREMIUM ESPECIAL', 'PREMIUM PRO', 'PREMIUM PLUS', 'PREMIUM MAGISTRAL']

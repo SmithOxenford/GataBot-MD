@@ -12,7 +12,7 @@ if (typeof res == 'number') throw res == -1 ? `${mg}𝙴𝙻 𝙻𝙾𝙶𝙾 ${
 let result = await axios.get(res, {
 responseType: 'arraybuffer'
 })
-await conn.sendFile(m.chat, result.data, 'Error.jpg', `✅ 𝙰𝚀𝚄𝙸́ 𝙴𝚂𝚃𝙰 𝚃𝚄́ 𝙻𝙾𝙶𝙾!!\n\n🔆 𝐄𝐅𝐄𝐂𝐓𝐎 : ${effect}\n${wm}`, m)
+await conn.sendFile(m.chat, result.data, 'Error.jpg', `✅ 𝙰𝚀𝚄𝙸́ 𝙴𝚂𝚃𝙰 𝚃𝚄́ 𝙻𝙾𝙶𝙾! 💋\n\n🔆 𝐄𝐅𝐄𝐂𝐓𝐎 : ${effect}\n\n${wm}`, m)
 }
 handler.help = ['logos']
 handler.tags = ['nulis']

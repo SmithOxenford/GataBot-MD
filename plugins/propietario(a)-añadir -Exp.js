@@ -13,16 +13,16 @@ let user = global.db.data.users
 if (global.db.data.users[user] == undefined)
 if (m.quoted?.sender) m.mentionedJid.push(m.quoted.sender);
 if (!m.mentionedJid.length) m.mentionedJid.push(m.sender);
-if (!who) throw `${ag}𝘿𝙀𝘽𝙀 𝘿𝙀 𝙀𝙏𝙄𝙌𝙐𝙀𝙏𝘼𝙍 𝘼𝙇 𝙐𝙎𝙐𝘼𝙍𝙄𝙊 *@tag*`
+if (!who) throw `${ag}𝙳𝙴𝙱𝙴 𝙳𝙴 𝙴𝚃𝙸𝚀𝚄𝙴𝚃𝙰𝚁 𝙰𝙻 𝚄𝚂𝚄𝙰𝚁𝙸𝙾 *@tag*`
 let txt = text.replace('@' + who.split`@`[0], '').trim()
-if (!txt) throw `${ag}𝙄𝙉𝙂𝙍𝙀𝙎𝙀 𝙇𝘼 𝘾𝘼𝙉𝙏𝙄𝘿𝘼𝘿 𝘿𝙀 𝙀𝙓𝙋`
-if (isNaN(txt)) throw `${mg}𝙎𝙄𝙉 𝙎𝙄𝙈𝘽𝙊𝙇𝙊𝙎, 𝙎𝙊𝙇𝙊 𝙄𝙉𝙂𝙍𝙀𝙎𝙀 𝙉𝙐𝙈𝙀𝙍𝙊𝙎`
+if (!txt) throw `${ag}𝙸𝙽𝙶𝚁𝙴𝚂𝙴 𝙻𝙰 𝙲𝙰𝙽𝚃𝙸𝙳𝙰𝙳 𝙳𝙴 𝙴𝚇𝙿`
+if (isNaN(txt)) throw `${mg}𝚂𝙸𝙽 𝚂𝙸𝙼𝙱𝙾𝙻𝙾𝚂, 𝚂𝙾𝙻𝙾 𝙸𝙽𝙶𝚁𝙴𝚂𝙴 𝙽𝚄𝙼𝙴𝚁𝙾𝚂`
 let xp = parseInt(txt)
 let exp = xp
 let pjk = Math.ceil(xp * pajak)
 exp += pjk 
    
-  let gata = `╭━[ 𝙀𝙓𝙋𝙀𝙍𝙄𝙀𝙉𝘾𝙄𝘼 ⚡]━⬣\n┃\n┃ღ *PARA | FOR:*\n┃ღ @${_user.split("@s.whatsapp.net")[0]}\n┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈\n┃ღ *SE LE AÑADIÓ*\n┃ღ *${xp} EXP* ⚡\n┃\n╰━━━━━━━━━━━━━━⬣`
+  let gata = `╭━[ ⚡ 𝐄𝐗𝐏𝐄𝐑𝐈𝐄𝐍𝐂𝐈𝐀 ⚡]━⬣\n┃\n┃ღ 𝙿𝙰𝚁𝙰 :\n┃ღ @${_user.split("@s.whatsapp.net")[0]}\n┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈\n┃ღ 𝚂𝙴 𝙻𝙴 𝙰𝙽̃𝙰𝙳𝙸𝙾́ :\n┃ღ _${xp} EXP_ ⚡\n┃\n╰━━━━━━━━━━━━━━⬣`
 
 user[who].exp += xp
 
@@ -34,7 +34,7 @@ await conn.sendMessage(
   conn.sendMessage(
     _user,
     {
-      text: `*❕@${m.sender.split("@")[0]} TE DIO ${xp} DE  EXP*`,
+      text: `❕@${m.sender.split("@")[0]} 𝚃𝙴 𝙳𝙸𝙾́ ${xp} 𝙳𝙴 𝙴𝚇𝙿`,
       mentions: [m.sender],
     },
     { quoted: m }

@@ -12,10 +12,10 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
       if (sha !== previousCommitSHA || message !== previousUpdatedAt) {
         previousCommitSHA = sha
         previousUpdatedAt = message
-    conn.sendMessage(m.chat, { text: `${lenguajeGB['smsAvisoIIG']()} ¡¡𝙀𝙇 𝙍𝙀𝙋𝙊𝙎𝙄𝙏𝙊𝙍𝙄𝙊 𝙃𝘼 𝙎𝙄𝘿𝙊 𝘼𝘾𝙏𝙐𝘼𝙇𝙄𝙕𝘼𝘿𝙊!!*\n*𝙍𝙀𝙋𝙊𝙎𝙄𝙏𝙊𝙍𝙄𝙊:* ${html_url}\n*- 𝙈𝙀𝙉𝙎𝘼𝙅𝙀 𝘿𝙀 𝘾𝙊𝙈𝙈𝙄𝙏:* ${message}` }, { quoted: m })
+    conn.sendMessage(m.chat, { text: `${lenguajeGB['smsAvisoIIG']()} ¡¡𝙴𝙻 𝚁𝙴𝙿𝙾𝚂𝙸𝚃𝙾𝚁𝙸𝙾 𝙷𝙰 𝚂𝙸𝙳𝙾 𝙰𝙲𝚃𝚄𝙰𝙻𝙸𝚉𝙰𝙳𝙾!!\n𝐑𝐄𝐏𝐎𝐒𝐈𝐓𝐎𝐑𝐈𝐎 : ${html_url}\n- 𝐌𝐄𝐍𝐒𝐀𝐉𝐄 𝐃𝐄 𝐂𝐎𝐌𝐌𝐈𝐓 : ${message}` }, { quoted: m })
    } 
   } catch (error) {
-    await m.reply('${fg} 𝙀𝙍𝙍𝙊𝙍 𝘼𝙇 𝙑𝙀𝙍𝙄𝙁𝙄𝘾𝘼𝙍 𝙀𝙇 𝙍𝙀𝙋𝙊𝙎𝙄𝙏𝙊𝙍𝙄𝙊:*', error.message)
+    await m.reply('⚠️ 𝙴𝚁𝚁𝙾𝚁 𝙰𝙻 𝚅𝙴𝚁𝙸𝙵𝙸𝙲𝙰𝚁 𝚁𝙴𝙿𝙾𝚂𝙸𝚃𝙾𝚁𝙸𝙾 ⚠️', error.message)
    }
   }
  setInterval(checkRepoUpdates, 60000)

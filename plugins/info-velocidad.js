@@ -97,7 +97,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
 await conn.sendFile(m.chat, gataImg.getRandom(), 'gata.jpg', caption, fkontak)
 //await conn.sendButton(m.chat, wm, caption, gata.getRandom(), [['𝗠 𝗘 𝗡 𝗨 ☘️', '/menu']], m, dos.getRandom())
 } catch (e) {
-await conn.reply(m.chat, `${fg}𝙰𝙻𝙶𝙾 𝚂𝙰𝙻𝙸𝙾 𝙼𝙰𝙻.\n\n\`\`\`𝚁𝙴𝙿𝙾𝚁𝚃𝙴 𝙴𝚂𝚃𝙴 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 ${usedPrefix + command} 𝙲𝙾𝙽 𝙴𝙻 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 ${usedPrefix}reporte\`\`\``, m)
+await conn.reply(m.chat, `${fg}𝙰𝙻𝙶𝙾 𝚂𝙰𝙻𝙸𝙾 𝙼𝙰𝙻.\n\n\`\`\`𝚁𝙴𝙿𝙾𝚁𝚃𝙴 𝙴𝚂𝚃𝙴 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 *${usedPrefix + command}* 𝙲𝙾𝙽 𝙴𝙻 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 *${usedPrefix}* _reporte_\`\`\``, m)
 }}
 handler.help = ['ping', 'speed']
 handler.tags = ['info', 'tools']

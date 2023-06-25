@@ -22,9 +22,9 @@ let txt = `
 🔎 𝐑𝐄𝐒𝐔𝐋𝐓𝐀𝐃𝐎 𝐃𝐄 𝐁𝐔𝐒𝐐𝐔𝐄𝐃𝐀𝐒 🔍 
 
 • 📌 𝐓𝐈𝐓𝐔𝐋𝐎 : *_${title}_*
-• 👨‍🎤 𝐀𝐑𝐓𝐈𝐒𝐓𝐀 : ${artists !== undefined ? artists.map(v => v.name).join(', ') : '_No encontrado_'}
-• 💾 𝐀𝐋𝐁𝐔́𝐌 : ${album.name || '_No encontrado_'}
-• 🌐 𝐆𝐄́𝐍𝐄𝐑𝐎 : ${genres !== undefined ? genres.map(v => v.name).join(', ') : '_No encontrado_'}
+• 👨‍🎤 𝐀𝐑𝐓𝐈𝐒𝐓𝐀 : _${artists !== undefined ? artists.map(v => v.name).join(', ') : '_No encontrado_'}_
+• 💾 𝐀𝐋𝐁𝐔́𝐌 : _${album.name || '_No encontrado_'}_
+• 🌐 𝐆𝐄́𝐍𝐄𝐑𝐎 : _${genres !== undefined ? genres.map(v => v.name).join(', ') : '_No encontrado_'}_
 • 📆 𝐅𝐄𝐂𝐇𝐀 𝐃𝐄 𝐋𝐀𝐍𝐙𝐀𝐌𝐈𝐄𝐍𝐓𝐎 : ${release_date || '_No encontrado_'}
 `.trim()
 fs.unlinkSync(`./tmp/${m.sender}.${ext}`)

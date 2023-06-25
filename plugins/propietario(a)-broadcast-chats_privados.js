@@ -20,9 +20,9 @@ let time = Math.floor((end - start) / 1000)
 if (time >= 60) {
 let minutes = Math.floor(time / 60)
 let seconds = time % 60
-time = `${minutes} minutos y ${seconds} segundos`
+time = `${minutes} _minutos y_ ${seconds} _segundos_`
 } else {
-time = `${time} segundos`
+time = `${time} _segundos_`
 }
 await m.reply(lenguajeGB.smsBCMensaje3(totalPri, time)) 
 }

@@ -34,9 +34,9 @@ let time2 = Math.floor((end2 - start2) / 1000)
 if (time2 >= 60) {
 let minutes = Math.floor(time2 / 60)
 let seconds = time2 % 60
-time2 = `${minutes} minutos y ${seconds} segundos`
+time2 = `${minutes} _minutos y_ ${seconds} _segundos_`
 } else {
-time2 = `${time2} segundos`
+time2 = `${time2} _segundos_`
 } 
 await m.reply(`${lenguajeGB.smsBCbot1()}
 \`\`\`${lenguajeGB.smsBCbot2()} >> ${totalPrivate2}\`\`\`

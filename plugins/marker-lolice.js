@@ -1,6 +1,6 @@
 let handler = async (m, { conn, usedprefix }) => {
 let who = m.quoted ? m.quoted.sender : m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
-conn.sendButton(m.chat, '𝙻𝙻𝙰𝙼𝙴𝙽 𝙰 𝙻𝙰 𝙿𝙾𝙻𝙸𝙲𝙸́𝙰!! 😱', wm, global.API('https://some-random-api.ml', '/canvas/lolice', { 
+conn.sendButton(m.chat, '𝙻𝙻𝙰𝙼𝙴𝙽 𝙰 𝙻𝙰 𝙿𝙾𝙻𝙸𝙲𝙸́𝙰! 😱', wm, global.API('https://some-random-api.ml', '/canvas/lolice', { 
 avatar: await conn.profilePictureUrl(who, 'image').catch(_ => 'https://telegra.ph/file/24fa902ead26340f3df2c.png'),
 }), [['😻 𝙎𝙄𝙂𝙐𝙄𝙀𝙉𝙏𝙀 | 𝙉𝙀𝙓𝙏', `/loli`]], m)}
 

@@ -159,7 +159,7 @@ let result = await translate(`${text}`, { to: lang, autoCorrect: true })
 const listMessage = {
 text: result.text,
 footer: `*𝐏𝐑𝐄𝐌𝐈𝐔𝐌 : ${user.premium ? "✅": "❌"}*\n${wm}`,
-title: `*⎔───ꕤ 🌐 𝐓𝐑𝐀𝐃𝐔𝐂𝐂𝐈𝐎́𝐍 🌐 ꕤ───⎔*`,
+title: `⎔───ꕤ 🌐 𝐓𝐑𝐀𝐃𝐔𝐂𝐂𝐈𝐎́𝐍 🌐 ꕤ───⎔`,
 buttonText: `🌐 𝙀𝙡𝙚𝙜𝙞𝙧 𝙄𝙙𝙞𝙤𝙢𝙖 🌐`,
 sections }  
 await conn.sendMessage(m.chat, listMessage, {quoted: fkontak} )
@@ -173,7 +173,7 @@ let result2 = loll.result.translated
 const listMessage = {
 text: result2.text,
 footer: `*𝐏𝐑𝐄𝐌𝐈𝐔𝐌 : ${user.premium ? "✅": "❌"}*\n${wm}`,
-title: `*⎔───ꕤ 🌐 𝐓𝐑𝐀𝐃𝐔𝐂𝐂𝐈𝐎́𝐍 ꕤ───⎔*`,
+title: `⎔───ꕤ 🌐 𝐓𝐑𝐀𝐃𝐔𝐂𝐂𝐈𝐎́𝐍 ꕤ───⎔`,
 buttonText: `🌐 𝙀𝙡𝙚𝙜𝙞𝙧 𝙄𝙙𝙞𝙤𝙢𝙖 🌐`,
 sections }  
 await conn.sendMessage(m.chat, listMessage, {quoted: fkontak} )
