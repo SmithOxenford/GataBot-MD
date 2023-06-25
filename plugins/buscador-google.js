@@ -3,7 +3,7 @@ let handler = async (m, { conn, command, args, usedPrefix }) => {
 const fetch = (await import('node-fetch')).default
 let full = /f$/i.test(command)
 let text = args.join` `
-if (!text) return conn.reply(m.chat, `${lenguajeGB['smsAvisoMG']()}𝙴𝚂𝙲𝚁𝙸𝙱𝙰 𝙻𝙾 𝚀𝚄𝙴 𝚀𝚄𝙸𝙴𝚁𝙴 𝙱𝚄𝚂𝙲𝙰𝚁\n𝐄𝐉𝐄𝐌𝐏𝐋𝐎 :\n${usedPrefix + command} 𝚀𝚄𝙸𝙴𝙽 𝙴𝚂 𝙼𝙰𝙺𝙰𝙽𝙰𝙺𝚈?`, m)
+if (!text) return conn.reply(m.chat, `${lenguajeGB['smsAvisoMG']()}𝙴𝚂𝙲𝚁𝙸𝙱𝙰 𝙻𝙾 𝚀𝚄𝙴 𝚀𝚄𝙸𝙴𝚁𝙴 𝙱𝚄𝚂𝙲𝙰𝚁 🔎\n𝐄𝐉𝐄𝐌𝐏𝐋𝐎 :\n*${usedPrefix + command}* _quien es makanaky?_`, m)
 let pp = './media/menus/Menu1.jpg'
 let url = 'https://google.com/search?q=' + encodeURIComponent(text)
 let search = await googleIt(text)
@@ -13,7 +13,7 @@ title,
 url,
 description
 }) => {
-return `*${title}*\n_${url}_\n_${description}_\n┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈`
+return `_${title}_\n${url}\n_${description}_\n┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈`
 }).join('\n\n')
 
 /*let info = `💖 *Infórmate sobre las Novedades y recuerda tener la última versión.*\n\n💝 *Find out about what's new and remember to have the latest version.*

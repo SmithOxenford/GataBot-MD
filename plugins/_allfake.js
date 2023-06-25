@@ -88,18 +88,18 @@ export default handler
 
 function ucapan() {
   const time = moment.tz('America/Los_Angeles').format('HH')  //America/Los_Angeles  Asia/Jakarta   America/Toronto
-  let res = "👋 *BIENVENIDO(A) | WELCOME* 👋"
+  let res = "👋 𝙱𝙸𝙴𝙽𝚅𝙴𝙽𝙸𝙳𝙾(𝙰) 👋"
   if (time >= 4) {
-    res = "🌇 *Buenos Días | Good Morning* ⛅"
+    res = "🌇 𝙱𝚄𝙴𝙽𝙾𝚂 𝙳𝙸́𝙰𝚂 ⛅"
   }
   if (time >= 11) {
-    res = "🏙️ *Buenas Tardes | Good Afternoon* 🌤️"
+    res = "🏙️ 𝙱𝚄𝙴𝙽𝙰𝚂 𝚃𝙰𝚁𝙳𝙴𝚂 🌤️"
   }
   if (time >= 15) {
-    res = "🌆 *Buenas tardes | Good Afternoon* 🌥️"
+    res = "🌆 𝙱𝚄𝙴𝙽𝙰𝚂 𝚃𝙰𝚁𝙳𝙴𝚂 🌥️"
   }
   if (time >= 17) {
-    res = "🌃 *Buenas noches | Good Evening* 💫"
+    res = "🌃 𝙱𝚄𝙴𝙽𝙰𝚂 𝙽𝙾𝙲𝙷𝙴𝚂 💫"
   }
   return res
 } 

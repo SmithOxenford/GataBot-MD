@@ -16,14 +16,14 @@ await conn.reply(m.chat, `𝐓𝐈𝐓𝐔𝐋𝐎 :
 💚 *${result.title}*
 
 𝐀𝐔𝐓𝐎𝐑 :
-💜 *${result.author}*
+💜 _${result.author}_
 
 
 ${result.lyrics}
 
 
 𝐄𝐍𝐋𝐀𝐂𝐄 :
-🧡 *${result.link}*`, fkontak,  m)
+🧡 _${result.link}_`, fkontak,  m)
 /*let letratexto =`
 𝙏𝙄𝙏𝙐𝙇𝙊 | 𝙏𝙄𝙏𝙇𝙀 
 💚 *${result.title}*
@@ -38,7 +38,7 @@ ${result.lyrics}
 𝙀𝙉𝙇𝘼𝘾𝙀 | 𝙐𝙍𝙇
 🧡 *${result.link}*
 `.trim()
-conn.SendButton(m.chat, letratexto, wm, json.thumbnail.genius, null, null, null, null, [
+conn.SendButton(m.chat, letratexto, wm, json.thumbnail.genius, null, null, null, null, [ 
 ['𝘿𝙚𝙨𝙘𝙖𝙧𝙜𝙖𝙧 | 𝘿𝙤𝙬𝙣𝙡𝙤𝙖𝙙 🚀', `/play ${text}`],
 ['𝙈𝙚𝙣𝙪 𝘽𝙪𝙨𝙦𝙪𝙚𝙙𝙖𝙨 | 𝙎𝙚𝙖𝙧𝙘𝙝𝙚𝙨 🔎', '#buscarmenu'],
 ['𝙑𝙤𝙡𝙫𝙚𝙧 𝙖𝙡 𝙈𝙚𝙣𝙪́ | 𝘽𝙖𝙘𝙠 𝙩𝙤 𝙈𝙚𝙣𝙪 ☘️', '/menu']
