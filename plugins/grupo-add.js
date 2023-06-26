@@ -11,7 +11,7 @@ if (text.includes('+')) throw  `${lenguajeGB['smsAvisoMG']()}𝙸𝙽𝙶𝚁�
 let group = m.chat
 let link = 'https://chat.whatsapp.com/' + await conn.groupInviteCode(group)
  
-      await conn.reply(text+'@s.whatsapp.net', `ʜᴏʟᴀ﹗ ᴍᴇ ᴘʀᴇsᴇɴᴛ, sᴏʏ ᴍᴀᴋᴀɴᴀᴋʏ 🤖 ʏ sᴏʏ ᴜɴ ʙᴏᴛ ᴘᴀʀᴀ ᴡʜᴀᴛsᴀᴘᴘ, ᴜɴᴀ ᴘᴇʀsᴏɴᴀ ᴅᴇʟ ɢʀᴜᴘᴏ ᴜᴛɪʟɪᴢᴏ ᴇʟ ᴄᴏᴍᴀɴᴅᴏ ᴘᴀʀᴀ ᴀɴ̃ᴀᴅɪʀᴛᴇ ᴀʟ ɢʀᴜᴘᴏ, ᴘᴇʀᴏ ɴᴏ ᴘᴜᴅᴇ ᴀɢʀᴇɢᴀʀᴛᴇ, ᴀsɪ ϙᴜᴇ ᴛᴇ ᴍᴀɴᴅᴏ ʟᴀ ɪɴᴠɪᴛᴀᴄɪᴏɴ ᴘᴀʀᴀ ϙᴜᴇ ᴛᴇ ᴀɢʀᴇɢᴜᴇs, ᴛᴇ ᴇsᴘᴇʀᴀᴍᴏs﹗\n\n${link}`, m, {mentions: [m.sender]})
+      await conn.reply(text+'@s.whatsapp.net', `ʜᴏʟᴀ﹗ ᴍᴇ ᴘʀᴇsᴇɴᴛᴏ, sᴏʏ ᴍᴀᴋᴀɴᴀᴋʏ 🤖 ʏ sᴏʏ ᴜɴ ʙᴏᴛ ᴘᴀʀᴀ ᴡʜᴀᴛsᴀᴘᴘ, ᴜɴᴀ ᴘᴇʀsᴏɴᴀ ᴅᴇʟ ɢʀᴜᴘᴏ ᴜᴛɪʟɪᴢᴏ ᴇʟ ᴄᴏᴍᴀɴᴅᴏ ᴘᴀʀᴀ ᴀɴ̃ᴀᴅɪʀᴛᴇ ᴀʟ ɢʀᴜᴘᴏ, ᴘᴇʀᴏ ɴᴏ ᴘᴜᴅᴇ ᴀɢʀᴇɢᴀʀᴛᴇ, ᴀsɪ ϙᴜᴇ ᴛᴇ ᴍᴀɴᴅᴏ ʟᴀ ɪɴᴠɪᴛᴀᴄɪᴏɴ ᴘᴀʀᴀ ϙᴜᴇ ᴛᴇ ᴀɢʀᴇɢᴜᴇs, ᴛᴇ ᴇsᴘᴇʀᴀᴍᴏs﹗\n\n${link}`, m, {mentions: [m.sender]})
         m.reply(`*@${who.split`@`[0]}*\n*Enviando invitacion a su privado...*`) 
 
 }

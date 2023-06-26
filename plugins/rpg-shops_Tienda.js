@@ -1,16 +1,15 @@
 const xpperlimit = 300
-const xpperlimit = 300
 import fetch from 'node-fetch'
 let handler = async (m, { command, conn, usedPrefix, args }) => {
 let user = global.db.data.users[m.sender]
 let time = user.lastmiming + 150000 //5 min
-if (new Date - user.lastmiming < 150000) return await conn.reply(m.chat, `⏱️ 𝚅𝚄𝙴𝙻𝚅𝙰 𝙴𝙽 ${msToTime(time - new Date())} 𝙽𝙾 𝙷𝙰𝙶𝙰 𝚂𝙿𝙰𝙼 😒`, m)
+if (new Date - user.lastmiming < 150000) return await conn.reply(m.chat, `⏱️ 𝙑𝙪𝙚𝙡𝙫𝙖 𝙚𝙣 ${msToTime(time - new Date())} 𝙉𝙊 𝙃𝘼𝙂𝘼 𝙎𝙋𝘼𝙈`, m)
 let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" 
 }
 let grupos = [nna, nn, nnn, nnnt]
 let gata = [img5, img6, img7, img8, img9]
-let enlace = { contextInfo: { externalAdReply: {title: wm + '', body: 'support group' , sourceUrl: grupos.getRandom(), thumbnail: await(await fetch(gata.getRandom())).buffer() }}}
-let enlace2 = { contextInfo: { externalAdReply: { showAdAttribution: true, mediaUrl: yt, mediaType: 'VIDEO', description: '', title: wm, body: '🤖 𝚂𝚄𝙿𝙴𝚁 𝙼𝙰𝙺𝙰𝙽𝙰𝙺𝚈 - 𝚆𝙷𝙰𝚃𝚂𝙰𝙿𝙿 🤖', thumbnailUrl: await(await fetch(global.img)).buffer(), sourceUrl: yt }}}
+let enlace = { contextInfo: { externalAdReply: {title: wm + ' 🐈', body: 'support group' , sourceUrl: grupos.getRandom(), thumbnail: await(await fetch(gata.getRandom())).buffer() }}}
+let enlace2 = { contextInfo: { externalAdReply: { showAdAttribution: true, mediaUrl: yt, mediaType: 'VIDEO', description: '', title: wm, body: '😻 𝗦𝘂𝗽𝗲𝗿 𝗚𝗮𝘁𝗮𝗕𝗼𝘁-𝗠𝗗 - 𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽 ', thumbnailUrl: await(await fetch(global.img)).buffer(), sourceUrl: yt }}}
 let dos = [enlace, enlace2]
 
 const items = {
@@ -176,37 +175,39 @@ let imgr = flaaa.getRandom()
     let buttons = ''
     text = (command.toLowerCase() == 'buy' ?
 (`
-${htki} 𝐂𝐎𝐌𝐏𝐑𝐀𝐑 : ${htka}`.trim()) : 
+${htki} *COMPRAR : BUY* ${htka}`.trim()) : 
 (`
-${htki} 𝐕𝐄𝐍𝐃𝐄𝐑 : ${htka}
+${htki} *VENDER : SELL* ${htka}
 `.trim())
 )
     footer = (command.toLowerCase() == 'buy' ?
 (`
-🔖 𝐋𝐈𝐒𝐓𝐀 𝐃𝐄 𝐀𝐑𝐓𝐈𝐂𝐔𝐋𝐎𝐒 🔖
+🔖 𝙇𝙄𝙎𝙏𝘼 𝘿𝙀 𝘼𝙍𝙏𝙄𝘾𝙐𝙇𝙊𝙎 : 𝙇𝙄𝙎𝙏 𝙊𝙁 𝘼𝙍𝙏𝙄𝘾𝙇𝙀𝙎
 ${Object.keys(listItems).map((v) => {
         let paymentMethod = Object.keys(listItems[v]).find(v => v in user) 
-        return `*» 1 ⇢ ${global.rpgshop.emoticon(v)}*\n𝙲𝚄𝙴𝚂𝚃𝙰 : ${listItems[v][paymentMethod]} ${global.rpgshop.emoticon(paymentMethod)}\n𝙲𝙾𝙼𝙿𝚁𝙰 : ${global.rpgshopp.emoticon(v)} 𝚄𝚂𝙰𝙽𝙳𝙾 ${usedPrefix + command} ${v} 𝙲𝙰𝙽𝚃𝙸𝙳𝙰𝙳\n*---------------------------------------------------*\n`.trim()
+        return `*» 1 ⇢ ${global.rpgshop.emoticon(v)}*\n*Cuesta:* ${listItems[v][paymentMethod]} ${global.rpgshop.emoticon(paymentMethod)}\n*Compra* ${global.rpgshopp.emoticon(v)} Usando ${usedPrefix + command} ${v} *Cantidad*\n*---------------------------------------------------*\n`.trim()
     }).join('\n')}
-✨ 𝐄𝐉𝐄𝐌𝐏𝐋𝐎 𝐏𝐀𝐑𝐀 𝐂𝐎𝐌𝐏𝐑𝐀𝐑 ✨
-𝚄𝚂𝙴 𝙴𝙻 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 𝙳𝙴 𝙻𝙰 𝚂𝙸𝙶𝚄𝙸𝙴𝙽𝚃𝙴 𝙵𝙾𝚁𝙼𝙰:
-» ${usedPrefix}${command} (𝙰𝚁𝚃𝙸𝙲𝚄𝙻𝙾) (𝙲𝙰𝙽𝚃𝙸𝙳𝙰𝙳)
+✨ 𝙀𝙅𝙀𝙈𝙋𝙇𝙊 𝙋𝘼𝙍𝘼 𝘾𝙊𝙈𝙋𝙍𝘼𝙍 : 𝙎𝘼𝙈𝙋𝙇𝙀 𝙏𝙊 𝘽𝙐𝙔
+*Use el comando de la siguiente forma:*
+*» ${usedPrefix}${command} (articulo) (cantidad)*
+*» ${usedPrefix}${command} (item) (quantity)*
 
-★ 𝙴𝙹𝙴𝙼𝙿𝙻𝙾 :
-» ${usedPrefix}${command} 𝙿𝙾𝚃𝙸𝙾𝙽 𝟻
+*★ Ejemplo : Example*
+*» ${usedPrefix}${command} potion 5*
 `.trim()) : 
 (`
-🔖 𝐋𝐈𝐒𝐓𝐀 𝐃𝐄 𝐀𝐑𝐓𝐈𝐂𝐔𝐋𝐎𝐒 🔖
+🔖 𝙇𝙄𝙎𝙏𝘼 𝘿𝙀 𝘼𝙍𝙏𝙄𝘾𝙐𝙇𝙊𝙎 : 𝙇𝙄𝙎𝙏 𝙊𝙁 𝘼𝙍𝙏𝙄𝘾𝙇𝙀𝙎
 ${Object.keys(listItems).map((v) => {
         let paymentMethod = Object.keys(listItems[v]).find(v => v in user)
-        return `*» 1 ⇢ ${global.rpgshop.emoticon(v)}*\n𝙶𝙰𝙽𝙰𝙽𝙲𝙸𝙰 : ${listItems[v][paymentMethod]} ${global.rpgshop.emoticon(paymentMethod)}\n𝚅𝙴𝙽𝙳𝙰 : ${global.rpgshopp.emoticon(v)} 𝚄𝚂𝙰𝙽𝙳𝙾 ${usedPrefix + command} ${v} 𝙲𝙰𝙽𝚃𝙸𝙳𝙰𝙳\n*---------------------------------------------------*\n`.trim()
+        return `*» 1 ⇢ ${global.rpgshop.emoticon(v)}*\n*Ganancia:* ${listItems[v][paymentMethod]} ${global.rpgshop.emoticon(paymentMethod)}\n*Venda* ${global.rpgshopp.emoticon(v)} Usando ${usedPrefix + command} ${v} *Cantidad*\n*---------------------------------------------------*\n`.trim()
     }).join('\n')}
-✨ 𝐄𝐉𝐄𝐌𝐏𝐋𝐎 𝐏𝐀𝐑𝐀 𝐕𝐄𝐍𝐃𝐄𝐑 ✨
-𝚄𝚂𝙴 𝙴𝙻 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 𝙳𝙴 𝙻𝙰 𝚂𝙸𝙶𝚄𝙸𝙴𝙽𝚃𝙴 𝙵𝙾𝚁𝙼𝙰:
-» ${usedPrefix}${command} (𝙰𝚁𝚃𝙸𝙲𝚄𝙻𝙾) (𝙲𝙰𝙽𝚃𝙸𝙳𝙰𝙳)
+✨ 𝙀𝙅𝙀𝙈𝙋𝙇𝙊 𝙋𝘼𝙍𝘼 𝙑𝙀𝙉𝘿𝙀𝙍 : 𝙎𝘼𝙈𝙋𝙇𝙀 𝙏𝙊 𝙎𝙀𝙇𝙇
+*Use el comando de la siguiente forma:*
+*» ${usedPrefix}${command} (articulo) (cantidad)*
+*» ${usedPrefix}${command} (item) (quantity)*
 
-★ 𝙴𝙹𝙴𝙼𝙿𝙻𝙾 :
-» ${usedPrefix}${command} 𝙿𝙾𝚃𝙸𝙾𝙽 𝟻
+*★ Ejemplo : Example*
+*» ${usedPrefix}${command} potion 5*
 `.trim())
 )
     image = (command.toLowerCase() == 'buy' ?
@@ -231,17 +232,7 @@ if (!listItems[item]) return conn.sendFile(m.chat, image, 'gata.jpg', footer, fk
 //conn.sendButton(m.chat, text, footer, image, buttons, m)
 if (command.toLowerCase() == 'buy') {
 let paymentMethod = Object.keys(listItems[item]).find(v => v in user)
-if (user[paymentMethod] < listItems[item][paymentMethod] * total) return await conn.reply(m.chat, `*–--『 𝙄𝙉𝙎𝙐𝙁𝙄𝘾𝙄𝙀𝙉𝙏𝙀𝙎 𝙍𝙀𝘾𝙐𝙍𝙎𝙊𝙎 』--–*`, 
-`*Necesitas ${(listItems[item][paymentMethod] * total) - user[paymentMethod]} ${global.rpgshop.emoticon(paymentMethod)} Para Comprar ${total} ${global.rpgshop.emoticon(item)}.*
-
-*Solo tienes ${user[paymentMethod]} ${global.rpgshop.emoticon(paymentMethod)}.*
-*–––––––––––––––––––––––––*
-*Misiones para Obtener Recursos*
-*Quests to Obtain Resources*
-*⛰️ Aventura : Adventure : » ${new Date - user.lastadventure < 1500000 ? '❌' : `✅ _${usedPrefix}aventura_`}*
-*♻️ Cada hora : Hourly » ${new Date - user.lasthourly < 3600000 ? '❌' : `✅ _${usedPrefix}cadahora_`}*
-*💫 Semanalmente : Weekly ${new Date - user.lastweekly < 259200000 ? '❌' : `✅ _${usedPrefix}cadasemana_`}*
-*🏅 Mensual : Monthly ${new Date - user.lastmonthly < 432000000 ? '❌' : `✅ _${usedPrefix}cadames_`}*\n\nRECURSOS BAJOS : LOW RESOURCES\n${wm}`, fkontak, m)
+if (user[paymentMethod] < listItems[item][paymentMethod] * total) return await conn.reply(m.chat, `*–--『 𝙄𝙉𝙎𝙐𝙁𝙄𝘾𝙄𝙀𝙉𝙏𝙀𝙎 𝙍𝙀𝘾𝙐𝙍𝙎𝙊𝙎 』--–*\n\n*Necesitas ${(listItems[item][paymentMethod] * total) - user[paymentMethod]} ${global.rpgshop.emoticon(paymentMethod)} Para Comprar ${total} ${global.rpgshop.emoticon(item)}.*\n\n*Solo tienes ${user[paymentMethod]} ${global.rpgshop.emoticon(paymentMethod)}.*\n*–––––––––––––––––––––––––*\n*Misiones para Obtener Recursos*\n*Quests to Obtain Resources*\n*⛰️ Aventura : Adventure : » ${new Date - user.lastadventure < 1500000 ? '❌' : `✅ _${usedPrefix}aventura_`}*\n*♻️ Cada hora : Hourly » ${new Date - user.lasthourly < 3600000 ? '❌' : `✅ _${usedPrefix}cadahora_`}*\n*💫 Semanalmente : Weekly ${new Date - user.lastweekly < 259200000 ? '❌' : `✅ _${usedPrefix}cadasemana_`}*\n*🏅 Mensual : Monthly ${new Date - user.lastmonthly < 432000000 ? '❌' : `✅ _${usedPrefix}cadames_`}*\n\nRECURSOS BAJOS : LOW RESOURCES\n\n${wm}`, fkontak, m)
 /*conn.sendButton(m.chat,
 `*–--『 𝙄𝙉𝙎𝙐𝙁𝙄𝘾𝙄𝙀𝙉𝙏𝙀𝙎 𝙍𝙀𝘾𝙐𝙍𝙎𝙊𝙎 』--–*`, 
 `*Necesitas ${(listItems[item][paymentMethod] * total) - user[paymentMethod]} ${global.rpgshop.emoticon(paymentMethod)} Para Comprar ${total} ${global.rpgshop.emoticon(item)}.*
@@ -261,12 +252,7 @@ if (user[paymentMethod] < listItems[item][paymentMethod] * total) return await c
 user[paymentMethod] -= listItems[item][paymentMethod] * total
 user[item] += total
  
- await conn.reply(m.chat, `*––『 COMPRADO | BOUGHT 』––*`,
-`${conn.getName(m.sender)} 
-*𝙃𝙖𝙨 𝘾𝙤𝙢𝙥𝙧𝙖𝙙𝙤 ${item} » ${total} ${global.rpgshop.emoticon(item)}*.
-*--------------------------------------------*
-*𝙂𝙖𝙨𝙩𝙤𝙨: ${(listItems[item][paymentMethod] * total)} ${global.rpgshop.emoticon(paymentMethod)}*
-*𝘼𝙝𝙤𝙧𝙖 𝙩𝙞𝙚𝙣𝙚: ${user[item]} ${global.rpgshopp.emoticon(item)}\n\nCOMPRA EXITOSA : DONE\n${wm}`, fkontak, m)
+ await conn.reply(m.chat, `*––『 COMPRADO | BOUGHT 』––*\n\n${conn.getName(m.sender)}\n*𝙃𝙖𝙨 𝘾𝙤𝙢𝙥𝙧𝙖𝙙𝙤 ${item} » ${total} ${global.rpgshop.emoticon(item)}*.\n*--------------------------------------------*\n*𝙂𝙖𝙨𝙩𝙤𝙨: ${(listItems[item][paymentMethod] * total)} ${global.rpgshop.emoticon(paymentMethod)}*\n*𝘼𝙝𝙤𝙧𝙖 𝙩𝙞𝙚𝙣𝙚: ${user[item]} ${global.rpgshopp.emoticon(item)}\n\nCOMPRA EXITOSA : DONE\n\n${wm}`, fkontak, m)
 /*conn.sendButton(m.chat,
 `*––『 COMPRADO | BOUGHT 』––*`,
 `${conn.getName(m.sender)} 
@@ -279,19 +265,14 @@ user[item] += total
 [`🎒 𝙄𝙉𝙑𝙀𝙉𝙏𝘼𝙍𝙄𝙊 | 𝙄𝙉𝙑𝙀𝙉𝙏𝙊𝙍𝙔`, `${usedPrefix}inventory`]
 ], fkontak, time, m)*/
 } else {
-if (user[item] < total) return await conn.reply(m.chat, `🎟️ 𝗣 𝗥 𝗘 𝗠 𝗜 𝗨 𝗠 ⇢ ${premium ? '✅' : '❌'}\n${wm}`, `*No tienes suficiente ${global.rpgshop.emoticon(item)} para vender solo tienes ${user[item]} ${global.rpgshopp.emoticon(item)}*\n\n*You don't have enough ${global.rpgshop.emoticon(item)} to sell, you only have ${user[item]} ${global.rpgshopp.emoticon(item)}*`, fkontak, m)
+if (user[item] < total) return await conn.reply(m.chat, `🎟️ 𝗣 𝗥 𝗘 𝗠 𝗜 𝗨 𝗠 ⇢ ${premium ? '✅' : '❌'}\n${wm}\n\n*No tienes suficiente ${global.rpgshop.emoticon(item)} para vender solo tienes ${user[item]} ${global.rpgshopp.emoticon(item)}*\n\n*You dont have enough ${global.rpgshop.emoticon(item)} to sell, you only have ${user[item]} ${global.rpgshopp.emoticon(item)}*`, fkontak, m)
 //conn.sendButton(m.chat, `🎟️ 𝗣 𝗥 𝗘 𝗠 𝗜 𝗨 𝗠 ⇢ ${premium ? '✅' : '❌'}\n${wm}`, `*No tienes suficiente ${global.rpgshop.emoticon(item)} para vender solo tienes ${user[item]} ${global.rpgshopp.emoticon(item)}*\n\n*You don't have enough ${global.rpgshop.emoticon(item)} to sell, you only have ${user[item]} ${global.rpgshopp.emoticon(item)}*`, gata.getRandom(), [[`🎒 𝙄𝙉𝙑𝙀𝙉𝙏𝘼𝙍𝙄𝙊 | 𝙄𝙉𝙑𝙀𝙉𝙏𝙊𝙍𝙔`, `${usedPrefix}inventory`], ['𝙑𝙤𝙡𝙫𝙚𝙧 𝙖𝙡 𝙈𝙚𝙣𝙪́ | 𝘽𝙖𝙘𝙠 𝙩𝙤 𝙈𝙚𝙣𝙪 ☘️', '/menu']], m, enlace)
        
 let paymentMethod = Object.keys(listItems[item]).find(v => v in user)
 user[item] -= total
 user[paymentMethod] += listItems[item][paymentMethod] * total
     
-await conn.reply(m.chat, `*––『 VENDIDO | SOLD 』––*`,
-`${conn.getName(m.sender)} 
-*𝙃𝙖𝙨 𝙑𝙚𝙣𝙙𝙞𝙙𝙤 ${item} » ${total} ${global.rpgshop.emoticon(item)}*.
-*--------------------------------------------*
-*𝙂𝙖𝙣𝙖𝙣𝙘𝙞𝙖𝙨: ${(listItems[item][paymentMethod] * total)} ${global.rpgshop.emoticon(paymentMethod)}*
-*𝘼𝙝𝙤𝙧𝙖 𝙩𝙞𝙚𝙣𝙚: ${user[paymentMethod]} ${global.rpgshopp.emoticon(paymentMethod)}*\n\nVENTA EXITOSA : DONE\n${wm}`, fkontak, m)
+await conn.reply(m.chat, `*––『 VENDIDO | SOLD 』––*\n\n${conn.getName(m.sender)}\n*𝙃𝙖𝙨 𝙑𝙚𝙣𝙙𝙞𝙙𝙤 ${item} » ${total} ${global.rpgshop.emoticon(item)}*.\n*--------------------------------------------*\n*𝙂𝙖𝙣𝙖𝙣𝙘𝙞𝙖𝙨: ${(listItems[item][paymentMethod] * total)} ${global.rpgshop.emoticon(paymentMethod)}*\n*𝘼𝙝𝙤𝙧𝙖 𝙩𝙞𝙚𝙣𝙚: ${user[paymentMethod]} ${global.rpgshopp.emoticon(paymentMethod)}*\n\nVENTA EXITOSA : DONE\n${wm}`, fkontak, m)
 /*conn.sendButton(m.chat,
 `*––『 VENDIDO | SOLD 』––*`,
 `${conn.getName(m.sender)} 

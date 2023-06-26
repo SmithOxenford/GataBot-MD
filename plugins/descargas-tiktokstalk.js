@@ -10,10 +10,10 @@ if (!json.status) throw json
 let thumb = await (await fetch(json.result.user_picture)).buffer()
 let gata = `
 👤 𝐔𝐒𝐔𝐀𝐑𝐈𝐎(𝐀) :
-${json.result.username}
+*${json.result.username}*
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ✨ 𝐍𝐎𝐌𝐁𝐑𝐄 : 
-*_${json.result.nickname}_*
+_${json.result.nickname}_
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ✅ 𝐒𝐄𝐆𝐔𝐈𝐃𝐎𝐑𝐄𝐒 : 
 ${json.result.followers}

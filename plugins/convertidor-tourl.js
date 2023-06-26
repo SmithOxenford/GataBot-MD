@@ -17,7 +17,7 @@ let name = await conn.getName(who)
   let caption = ` 📊 𝐄𝐍𝐋𝐀𝐂𝐄 :\n_${link}_\n
 🎁 𝐓𝐀𝐌𝐀𝐍̃𝐎 :\n${media.length} 𝙱𝚈𝚃𝙴𝚂\n
 🚀 𝐄𝐗𝐏𝐈𝐑𝐀𝐂𝐈𝐎́𝐍 :\n${isTele ? '✅ 𝙽𝙾 𝙴𝚇𝙿𝙸𝚁𝙰 ✅' : '⚠️ 𝙳𝙴𝚂𝙲𝙾𝙽𝙾𝙲𝙸𝙳𝙾 ⚠️'}\n
-🔰 𝐀𝐂𝐎𝐑𝐓𝐀𝐃𝐎 :\n${await shortUrl(link)}`
+🔰 𝐀𝐂𝐎𝐑𝐓𝐀𝐃𝐎 :\n_${await shortUrl(link)}_`
 
 conn.reply(m.chat, caption, m, { contextInfo: {
           externalAdReply :{

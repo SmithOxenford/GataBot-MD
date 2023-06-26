@@ -7,7 +7,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
     if (new Date() * 1 < global.db.data.chats[who].expired) global.db.data.chats[who].expired = false
     else global.db.data.chats[who].expired = false
     
-    let caption = `*Se eliminaron con éxito el vencimiento para este grupo*`
+    let caption = `𝚂𝙴 𝙴𝙻𝙸𝙼𝙸𝙽𝙰𝚁𝙾𝙽 𝙲𝙾𝙽 𝙴́𝚇𝙸𝚃𝙾 𝙴𝙻 𝚅𝙴𝙽𝙲𝙸𝙼𝙸𝙴𝙽𝚃𝙾 𝙿𝙰𝚁𝙰 𝙴𝚂𝚃𝙴 𝙶𝚁𝚄𝙿𝙾`
     conn.sendButton(m.chat, caption, wm, null, [['𝙑𝙤𝙡𝙫𝙚𝙧 𝙖𝙡 𝙈𝙚𝙣𝙪́ ☘️', `/menu`]], m)
     
 }
@@ -28,7 +28,7 @@ function msToDate(ms) {
     let minutes = Math.floor((hoursms) / (60 * 1000));
     let minutesms = ms % (60 * 1000);
     let sec = Math.floor((minutesms) / (1000));
-    return days + " *Día(s)* ☀️\n" + hours + " *Hora(s)* ⏳\n" + minutes + " *Minuto(s)* ⏰\n" + sec + " *Segundo(s)* 🕐\n";
+    return days + " 𝙳𝙸́𝙰(𝚂) ☀️\n" + hours + " 𝙷𝙾𝚁𝙰(𝚂) ⏳\n" + minutes + " 𝙼𝙸𝙽𝚄𝚃𝙾(𝚂) ⏰\n" + sec + " 𝚂𝙴𝙶𝚄𝙽𝙳𝙾(𝚂) 🕐\n";
     //return days + " Hari " + hours + " Jam " + minutes + " Menit";
     // +minutes+":"+sec;
 }

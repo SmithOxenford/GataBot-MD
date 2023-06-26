@@ -13,7 +13,7 @@ let json = await res.json()
 if (!json.thumbnail.genius) throw json
 
 await conn.reply(m.chat, `𝐓𝐈𝐓𝐔𝐋𝐎 :
-💚 *${result.title}*
+💚 *_${result.title}_*
 
 𝐀𝐔𝐓𝐎𝐑 :
 💜 _${result.author}_

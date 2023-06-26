@@ -6,25 +6,25 @@ try {
 let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
 
 let grupos = [nna, nn, nnn, nnnt, nnntt, nnnttt]
-let MAKANAKY = [img5, img6, img7, img8, img9]
-let enlace = { contextInfo: { externalAdReply: {title: wm + ' 🐈', body: 'support group' , sourceUrl: grupos.getRandom(), thumbnail: await(await fetch(MAKANAKY.getRandom())).buffer() }}}
+let gata = [img5, img6, img7, img8, img9]
+let enlace = { contextInfo: { externalAdReply: {title: wm + ' 🐈', body: 'support group' , sourceUrl: grupos.getRandom(), thumbnail: await(await fetch(gata.getRandom())).buffer() }}}
 let enlace2 = { contextInfo: { externalAdReply: { showAdAttribution: true, mediaUrl: yt, mediaType: 'VIDEO', description: '', title: wm, body: '🤖 𝐒𝐔𝐏𝐄𝐑 𝐌𝐀𝐊𝐀𝐍𝐀𝐊𝐘 - 𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏 🤖', thumbnailUrl: await(await fetch(img)).buffer(), sourceUrl: yt }}}
 let dos = [enlace, enlace2]  
 
-let texto0 = `${ag}𝙈𝙄 𝘾𝙍𝙀𝘼𝘿𝙊𝙍 𝘼𝘿𝙍𝙄𝘼𝙉𝙊 𝙎𝘼́𝙉𝘾𝙃𝙀𝙕 𝙃𝘼 𝙍𝙀𝙎𝙏𝙍𝙄𝙉𝙂𝙄𝘿𝙊 𝙀𝙎𝙏𝘼 𝙁𝙐𝙉𝘾𝙄𝙊𝙉 𝘿𝙀 𝙄𝙉𝙂𝙍𝙀𝙎𝘼𝙍 𝙀𝙇 𝘽𝙊𝙏 𝙏𝙀𝙈𝙋𝙊𝙍𝘼𝙇𝙈𝙀𝙉𝙏𝙀 𝘼 𝙂𝙍𝙐𝙋𝙊𝙎 𝙑𝙐𝙀𝙇𝙑𝘼 𝙈𝘼𝙎 𝙏𝘼𝙍𝘿𝙀 𝙊 𝙐𝙎𝙀 𝙇𝘼 𝙁𝙐𝙉𝘾𝙄𝙊𝙉 *${usedPrefix}serbot*`
-let texto1 = `${mg}𝙐𝙎𝙀 𝙀𝙇 𝘾𝙊𝙈𝘼𝙉𝘿𝙊 𝘾𝙊𝙈𝙊 𝙀𝙎𝙏𝙀 𝙀𝙅𝙀𝙈𝙋𝙇𝙊\n*${usedPrefix + command} enlace de Grupo y Número de Token(s)*\n*${usedPrefix + command} ${grupos.getRandom()} 3*`
-let texto2 = `${ag}¡𝙔𝘼 𝙉𝙊 𝙏𝙄𝙀𝙉𝙀𝙎 𝙏𝙊𝙆𝙀𝙉𝙎! 🪙\n\n𝘾𝙊𝙈𝙋𝙍𝘼 𝙏𝙊𝙆𝙀𝙉𝙎 𝙋𝘼𝙍𝘼 𝙋𝙊𝘿𝙀𝙍 𝙐𝙉𝙄𝙍 𝙈𝘼𝙆𝘼𝙉𝘼𝙆𝙔𝘽𝙊𝙏 𝘼 𝙏𝙐 𝙂𝙍𝙐𝙋𝙊 𝘾𝙊𝙉 𝙀𝙇 𝘾𝙊𝙈𝘼𝙉𝘿𝙊:`
-let texto3 = `${fg}𝙀𝙉𝙇𝘼𝘾𝙀 𝙉𝙊 𝙑𝘼𝙇𝙄𝘿𝙊. 𝘿𝙀𝘽𝙀 𝙎𝙀𝙍 𝙀𝙉𝙇𝘼𝘾𝙀 𝘿𝙀 𝙂𝙍𝙐𝙋𝙊 𝘿𝙀 𝙒𝙃𝘼𝙏𝙎𝘼𝙋𝙋\n*${usedPrefix + command} ${grupos.getRandom()} 3*`
-let texto4 = `${mg}𝙄𝙉𝙂𝙍𝙀𝙎𝙀 𝙀𝙇 𝙉𝙐𝙈𝙀𝙍𝙊 𝘿𝙀 𝙏𝙊𝙆𝙀𝙉(𝙎)\n*3* 𝙏𝙊𝙆𝙀𝙉 🪙 = *30* 𝙈𝙄𝙉𝙐𝙏𝙊𝙎`
-let texto5 = `${fg}𝙈𝙄𝙉𝙄𝙈𝙊 *3* 𝙏𝙊𝙆𝙀𝙉(𝙎) 𝙋𝘼𝙍𝘼 𝙋𝙊𝘿𝙀𝙍 𝙐𝙉𝙄𝙍 𝘼 𝙈𝘼𝙆𝘼𝙉𝘼𝙆𝙔𝘽𝙊𝙏`
-let texto6 = `${fg}𝙈𝘼𝙓𝙄𝙈𝙊 *3* 𝙏𝙊𝙆𝙀𝙉(𝙎) 𝙋𝘼𝙍𝘼 𝙋𝙊𝘿𝙀𝙍 𝙐𝙉𝙄𝙍 𝘼 𝙈𝘼𝙆𝘼𝙉𝘼𝙆𝙔𝘽𝙊𝙏`
-let texto7 = `${eg}😻 𝙎𝙀 𝙃𝘼 𝙐𝙉𝙄𝘿𝙊 𝙈𝘼𝙆𝘼𝙉𝘼𝙆𝙔𝘽𝙊𝙏 𝘼𝙇 𝙂𝙍𝙐𝙋𝙊!!!`
+let texto0 = `${ag}𝙼𝙸 𝙲𝚁𝙴𝙰𝙳𝙾𝚁 𝙷𝙰 𝚁𝙴𝚂𝚃𝙸𝙽𝙶𝚁𝙸𝙳𝙾 𝙴𝚂𝚃𝙰 𝙵𝚄𝙽𝙲𝙸𝙾́𝙽 𝙳𝙴 𝙸𝙽𝙶𝚁𝙴𝚂𝙰𝚁 𝙴𝙻 𝙱𝙾𝚃 𝚃𝙴𝙼𝙿𝙾𝚁𝙰𝙻𝙼𝙴𝙽𝚃𝙴 𝙰 𝙶𝚁𝚄𝙿𝙾𝚂 𝚅𝚄𝙴𝙻𝚅𝙰 𝙼𝙰𝚂 𝚃𝙰𝚁𝙳𝙴 𝙾 𝚄𝚂𝙴 𝙻𝙰 𝙵𝚄𝙽𝙲𝙸𝙾𝙽 *${usedPrefix}serbot*`
+let texto1 = `${mg}𝚄𝚂𝙴 𝙴𝙻 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 𝙲𝙾𝙼𝙾 𝙴𝚂𝚃𝙴 𝙴𝙹𝙴𝙼𝙿𝙻𝙾 :\n*${usedPrefix + command}* _enlace de Grupo y Número de Token(s)_\n*${usedPrefix + command}* ${grupos.getRandom()} 3*`
+let texto2 = `${ag}¡𝚈𝙰 𝙽𝙾 𝚃𝙸𝙴𝙽𝙴𝚂 𝚃𝙾𝙺𝙴𝙽𝚂! ☹️\n\n𝙲𝙾𝙼𝙿𝚁𝙰 𝚃𝙾𝙺𝙴𝙽𝚂 𝙿𝙰𝚁𝙰 𝙿𝙾𝙳𝙴𝚁 𝚄𝙽𝙸𝚁 𝙰 𝙼𝙰𝙺𝙰𝙽𝙺𝚈 𝙰 𝚃𝚄 𝙶𝚁𝚄𝙿𝙾 𝙲𝙾𝙽 𝙴𝙻 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 :`
+let texto3 = `${fg}𝙴𝙽𝙻𝙰𝙲𝙴 𝙽𝙾 𝚅𝙰𝙻𝙸𝙳𝙾. 𝙳𝙴𝙱𝙴 𝚂𝙴𝚁 𝙴𝙽𝙻𝙰𝙲𝙴 𝙳𝙴 𝙶𝚁𝚄𝙿𝙾 𝙳𝙴 𝚆𝙷𝙰𝚃𝚂𝙰𝙿𝙿\n*${usedPrefix + command} ${grupos.getRandom()} 3*`
+let texto4 = `${mg}𝙸𝙽𝙶𝚁𝙴𝚂𝙴 𝙴𝙻 𝙽𝚄𝙼𝙴𝚁𝙾 𝙳𝙴 𝚃𝙾𝙺𝙴𝙽(𝚂) 😁\n*3* 𝐓𝐎𝐊𝐄𝐍 ❤️ = *30* _minutos_`
+let texto5 = `${fg}𝙼𝙸𝙽𝙸𝙼𝙾 *𝟹* 𝚃𝙾𝙺𝙴𝙽(𝚂) 𝙿𝙰𝚁𝙰 𝙿𝙾𝙳𝙴𝚁 𝚄𝙽𝙸𝚁 𝙰 𝙼𝙰𝙺𝙰𝙽𝙰𝙺𝚈`
+let texto6 = `${fg}𝙼𝙰𝚇𝙸𝙼𝙾 *𝟹* 𝚃𝙾𝙺𝙴𝙽(𝚂) 𝙿𝙰𝚁𝙰 𝙿𝙾𝙳𝙴𝚁 𝚄𝙽𝙸𝚁 𝙰 𝙼𝙰𝙺𝙰𝙽𝙰𝙺𝚈`
+let texto7 = `${eg}𝚂𝙴 𝙷𝙰 𝚄𝙽𝙸𝙳𝙾 𝙼𝙰𝙺𝙰𝙽𝙰𝙺𝚈 𝙰𝙻 𝙶𝚁𝚄𝙿𝙾! 💋`
 
 let img1 = 'https://img.freepik.com/vector-premium/animacion-monedas-pixeles-imagenes-animacion-moneda-oro-ilustracion-vectorial_350225-3.jpg?w=2000'
 let img2 ='https://img.freepik.com/premium-vector/set-8bit-pixel-graphics-icons-game-art-coins-gold-animation_534389-12.jpg?w=2000'
 
 if (!global.db.data.settings[conn.user.jid].temporal) return await conn.reply(m.chat, texto0, fkontak, m)  
-//conn.sendButton( m.chat, wm, texto0, null, [[`🙌 𝙎𝙊𝙇𝙄𝘾𝙄𝙏𝘼𝙍 𝘾𝙊𝙈𝘼𝙉𝘿𝙊`, `.reporte *Quiero unir a MAKANAKYBot en mí Grupo. Por favor Active la función #botemporal*`], [`🍀 𝙈 𝙀 𝙉 𝙐`, `.menu`]], fkontak, m) 
+//conn.sendButton( m.chat, wm, texto0, null, [[`🙌 𝙎𝙊𝙇𝙄𝘾𝙄𝙏𝘼𝙍 𝘾𝙊𝙈𝘼𝙉𝘿𝙊`, `.reporte *Quiero unir a gataBot en mí Grupo. Por favor Active la función #botemporal*`], [`🍀 𝙈 𝙀 𝙉 𝙐`, `.menu`]], fkontak, m) 
 
 if (!args[0]) return await conn.reply(m.chat, texto1, fkontak, m)  
 let [_, code] = args[0].match(linkRegex) || []
@@ -54,7 +54,7 @@ var now = new Date() * 1
  
 if (now < global.db.data.chats[res].expired) global.db.data.chats[res].expired += jumlahHari
 else global.db.data.chats[res].expired = now + jumlahHari
-await conn.reply(res, `✅ ${gt} 𝙎𝙀 𝙃𝘼 𝙐𝙉𝙄𝘿𝙊 𝘼𝙇 𝙂𝙍𝙐𝙋𝙊!!!\n${await conn.getName(res)}\n\n𝙍𝙀𝘾𝙐𝙀𝙍𝘿𝙀 𝙌𝙐𝙀 𝙀𝙎 ⏳ 𝙏𝙀𝙈𝙋𝙊𝙍𝘼𝙇, 𝙐𝙎𝙀 𝙀𝙇 𝘾𝙊𝙈𝘼𝙉𝘿𝙊 *${usedPrefix}menu* 𝙋𝘼𝙍𝘼 𝙑𝙀𝙍 𝙀𝙇 𝙈𝙀𝙉𝙐\n\n🚪 𝙈𝙀 𝙎𝘼𝙇𝘿𝙍𝙀 𝘼𝙐𝙏𝙊𝙈𝘼𝙏𝙄𝘾𝘼𝙈𝙀𝙉𝙏𝙀 𝙀𝙉:\n${msToDate(global.db.data.chats[res].expired - now)}\n\n*${username}* 𝙇𝙀 𝙌𝙐𝙀𝘿𝘼 *${user.joincount}* 𝙏𝙊𝙆𝙀𝙉(𝙎)🪙\n\n❕ 𝙋𝙐𝙀𝘿𝙀 𝙐𝙎𝘼𝙍 𝙀𝙇 𝘾𝙊𝙈𝘼𝙉𝘿𝙊 *${usedPrefix + command}* 𝙏𝘼𝙈𝘽𝙄𝙀𝙉 𝙀𝙉 𝙀𝙇 𝙂𝙍𝙐𝙋𝙊 𝙈𝙄𝙀𝙉𝙏𝙍𝘼𝙎 𝙀𝙎𝙏𝙀 𝙔𝙊\n\n❕\n*${usedPrefix + command}*\n\n❕ 𝙋𝘼𝙍𝘼 𝙐𝙉𝘼 𝙈𝙀𝙅𝙊𝙍 𝙀𝙓𝙋𝙀𝙍𝙄𝙀𝙉𝘾𝙄𝘼, 𝘿𝙀𝘽𝙊 𝘿𝙀 𝙎𝙀𝙍 𝘼𝘿𝙈𝙄𝙉\n\n❗ 𝙀𝙉 𝘾𝘼𝙎𝙊 𝙌𝙐𝙀 𝙐𝙉 𝘼𝘿𝙈𝙄𝙉 𝙈𝙀 𝙀𝙇𝙄𝙈𝙄𝙉𝙀 𝘿𝙀𝙇 𝙂𝙍𝙐𝙋𝙊 𝙔 𝙌𝙐𝙄𝙀𝙍𝘼 𝙌𝙐𝙀 𝙑𝙐𝙀𝙇𝙑𝘼 𝙉𝙊 𝙎𝙀 𝙑𝘼 𝙋𝙊𝘿𝙀𝙍`, m)  
+await conn.reply(res, `✅ ${gt} 𝚂𝙴 𝙷𝙰 𝚄𝙽𝙸𝙳𝙾 𝙰𝙻 𝙶𝚁𝚄𝙿𝙾! 💋\n${await conn.getName(res)}\n\n𝚁𝙴𝙲𝚄𝙴𝚁𝙳𝙴 𝚀𝚄𝙴 𝙴𝚂 ⏳ 𝚃𝙴𝙼𝙿𝙾𝚁𝙰𝙻, 𝚄𝚂𝙴 𝙴𝙻 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 _*${usedPrefix}menu*_ 𝙿𝙰𝚁𝙰 𝚅𝙴𝚁 𝙴𝙻 𝙼𝙴𝙽𝚄́\n\n🚪 𝐌𝐄 𝐒𝐀𝐋𝐃𝐑𝐄́ 𝐀𝐔𝐓𝐎𝐌𝐀́𝐓𝐈𝐂𝐀𝐌𝐄𝐍𝐓𝐄 𝐄𝐍 :\n${msToDate(global.db.data.chats[res].expired - now)}\n\n*${username}* 𝙻𝙴 𝚀𝚄𝙴𝙳𝙰 *${user.joincount}* 𝚃𝙾𝙺𝙴𝙽(𝚂) ❤️\n\n❕ 𝙿𝚄𝙴𝙳𝙴 𝚄𝚂𝙰𝚁 𝙴𝙻 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 *${usedPrefix + command}* 𝚃𝙰𝙼𝙱𝙸𝙴́𝙽 𝙴𝙽 𝙴𝙻 𝙶𝚁𝚄𝙿𝙾 𝙼𝙸𝙴𝙽𝚃𝚁𝙰𝚂 𝙴𝚂𝚃𝙴 𝚈𝙾\n\n❕\n*${usedPrefix + command}*\n\n❕ 𝙿𝙰𝚁𝙰 𝚄𝙽𝙰 𝙼𝙴𝙹𝙾𝚁 𝙴𝚇𝙿𝙴𝚁𝙴𝙽𝙲𝙸𝙰 𝙳𝙴𝙱𝙾 𝚂𝙴𝚁 𝙰𝙳𝙼𝙸𝙽\n\n❗ 𝙴𝙽 𝙲𝙰𝚂𝙾 𝚀𝚄𝙴 𝚄𝙽 𝙰𝙳𝙼𝙸𝙽 𝙼𝙴 𝙴𝙻𝙸𝙼𝙸𝙽𝙴 𝙳𝙴𝙻 𝙶𝚁𝚄𝙿𝙾 𝚈 𝚀𝚄𝙸𝙴𝚁𝙰 𝚀𝚄𝙴 𝚅𝚄𝙴𝙻𝚅𝙰 𝙽𝙾 𝚂𝙴 𝚅𝙰 𝙿𝙾𝙳𝙴𝚁`, m)  
 await delay(2 * 2000)
 await conn.sendMessage(res, { text: lenguajeGB.smsJoin(user), mentions: (await conn.groupMetadata(`${res}`)).participants.map(v => v.id) }, [user], { quoted: fkontak })
 //for (let jid of global.owner.map(v => v.replace(/[^0-9]/g, '') + '@s.whatsapp.net').filter(v => v != conn.user.jid)) {
@@ -67,36 +67,35 @@ let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? c
 let mentionedJid = [who]
 let username = conn.getName(who)
   
-if (user.joincount === 0 ) throw `${ag}*¡YA NO TIENES TOKENS! 🪙*\n\n*COMPRA TOKENS PARA PODER INVITAR A MAKANAKYBOT A TÚ GRUPO CON EL COMANDO *${usedPrefix}buy joincount 3 o ${usedPrefix}buy Para ver la Tienda*`
- if (!args[1]) throw `${mg}*USE EL COMANDO COMO ESTE EJEMPLO*\n*${usedPrefix + command} enlace y Número de Token(s)*\n\n*EJEMPLO*\n*${usedPrefix + command} ${nn} 3*\n\n*3 TOKEN 🪙 = 30 MINUTOS*`
-if (!linkRegex.test(args[0])) throw `${fg}𝙀𝙉𝙇𝘼𝘾𝙀 𝙉𝙊 𝙑𝘼𝙇𝙄𝘿𝙊.` //Aquí 
+if (user.joincount === 0 ) throw `${ag}¡𝚈𝙰 𝙽𝙾 𝚃𝙸𝙴𝙽𝙴𝚂 𝚃𝙾𝙺𝙴𝙽𝚂! ☹️\n\n𝙲𝙾𝙼𝙿𝚁𝙰 𝚃𝙾𝙺𝙴𝙽𝚂 𝙿𝙰𝚁𝙰 𝙿𝙾𝙳𝙴𝚁 𝙸𝙽𝚅𝙸𝚃𝙰𝚁 𝙰 𝚐𝚊𝚝𝚊𝙱𝙾𝚃 𝙰 𝚃𝚄́ 𝙶𝚁𝚄𝙿𝙾 𝙲𝙾𝙽 𝙴𝙻 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 _*${usedPrefix}buy joincount 3*_ o _*${usedPrefix}buy Para ver la Tienda*_`
+ if (!args[1]) throw `${mg}𝚄𝚂𝙴 𝙴𝙻 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 𝙲𝙾𝙼𝙾 𝙴𝚂𝚃𝙴 𝙴𝙹𝙴𝙼𝙿𝙻𝙾 :\n_*${usedPrefix + command} enlace y Número de Token(s)*_\n\n𝐄𝐉𝐄𝐌𝐏𝐋𝐎 :\n*${usedPrefix + command} ${nn} 3*\n\n*3* 𝐓𝐎𝐊𝐄𝐍 ❤️ = *30* _minutos_`
+if (!linkRegex.test(args[0])) throw `${fg}𝙴𝙽𝙻𝙰𝙲𝙴 𝙽𝙾 𝚅𝙰𝙻𝙸𝙳𝙾.` //Aquí 
 
 await delay(3 * 3000)
 let res = await conn.groupAcceptInvite(code) 
-conn.reply(m.chat, `${eg}😻 *SE HA UNIDO MAKANAKYBOT AL GRUPO!!!*`, m).then(async() => { //Si el Owner se une al Grupo no habrá temporizador
-let img = 'https://i.imgur.com/8fK4h6F.jpg'
+conn.reply(m.chat, `${eg}𝚂𝙴 𝙷𝙰 𝚄𝙽𝙸𝙳𝙾 𝙼𝙰𝙺𝙰𝙽𝙰𝙺𝚈 𝙰𝙻 𝙶𝚁𝚄𝙿𝙾! 💋`, m).then(async() => { //Si el Owner se une al Grupo no habrá temporizador
  var jumlahHari = 600000 * args[1] // 10 minutos | Owner
  var now = new Date() * 1
   if (now < global.db.data.chats[res].expired) global.db.data.chats[res].expired += jumlahHari
 else global.db.data.chats[res].expired = now + jumlahHari
 
-await conn.reply(res, `✅ ${gt} SE HA UNIDO AL GRUPO!!!\n${await conn.getName(res)}\n\n*RECUERDE QUE ES ⏳ TEMPORAL, USE EL COMANDO ${usedPrefix}menu PARA VER EL MENÚ*\n\n🚪 *ME SALDRÉ AUTOMÁTICAMENTE EN:*\n${msToDate(global.db.data.chats[res].expired - now)}\n\n${username} *LE QUEDA ${user.joincount} TOKEN(S) 🪙*\n\n❕ *PUEDE USAR EL COMANDO TAMBIÉN EN GRUPO MIENTRAS ESTE YO*\n\n❕ *SI QUIERE QUE ESTE POR MÁS TIEMPO AUMENTE EL NÚMERO DE TOKENS CUANDO USE EL COMANDO*\n*${usedPrefix + command}*\n\n❗ *EN CASO QUE UN ADMIN ME ELIMINE DEL GRUPO Y QUIERA QUE VUELVA NO SE VA PODER*`, fkontak, m)  
+await conn.reply(res, `✅ ${gt} 𝚂𝙴 𝙷𝙰 𝚄𝙽𝙸𝙳𝙾 𝙰𝙻 𝙶𝚁𝚄𝙿𝙾!\n${await conn.getName(res)}\n\n𝚁𝙴𝙲𝚄𝙴𝚁𝙳𝙴 𝚀𝚄𝙴 𝙴𝚂 ⏳ 𝚃𝙴𝙼𝙿𝙾𝚁𝙰𝙻, 𝚄𝚂𝙴 𝙴𝙻 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 *_${usedPrefix}menu_* 𝙿𝙰𝚁𝙰 𝚅𝙴𝚁 𝙴𝙻 𝙼𝙴𝙽𝚄́\n\n🚪 𝐌𝐄 𝐒𝐀𝐋𝐃𝐑𝐄́ 𝐀𝐔𝐓𝐎𝐌𝐀́𝐓𝐈𝐂𝐀𝐌𝐄𝐍𝐓𝐄 𝐄𝐍 :\n${msToDate(global.db.data.chats[res].expired - now)}\n\n${username} 𝙻𝙴 𝚀𝚄𝙴𝙳𝙰 ${user.joincount} 𝚃𝙾𝙺𝙴𝙽(𝚂) ❤️\n\n❕ 𝙿𝚄𝙴𝙳𝙴 𝚄𝚂𝙰𝚁 𝙴𝙻 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 𝚃𝙰𝙼𝙱𝙸𝙴́𝙽 𝙴𝙽 𝙴𝙻 𝙶𝚁𝚄𝙿𝙾 𝙼𝙸𝙴𝙽𝚃𝚁𝙰𝚂 𝙴𝚂𝚃𝙴 𝚈𝙾\n\n❕ 𝚂𝙸 𝚀𝚄𝙸𝙴𝚁𝙴 𝚀𝚄𝙴 𝙴𝚂𝚃𝙴 𝙿𝙾𝚁 𝙼𝙰́𝚂 𝚃𝙸𝙴𝙼𝙿𝙾 𝙰𝚄𝙼𝙴𝙽𝚃𝙴 𝙴𝙻 𝙽𝚄́𝙼𝙴𝚁𝙾 𝙳𝙴 𝚃𝙾𝙺𝙴𝙽𝚂 𝙲𝚄𝙰𝙽𝙳𝙾 𝚄𝚂𝙴 𝙴𝙻 𝙲𝙾𝙼𝙰𝙽𝙳𝙾\n*${usedPrefix + command}*\n\n❗ 𝙴𝙽 𝙲𝙰𝚂𝙾 𝚀𝚄𝙴 𝚄𝙽 𝙰𝙳𝙼𝙸𝙽 𝙼𝙴 𝙴𝙻𝙸𝙼𝙸𝙽𝙴 𝙳𝙴𝙻 𝙶𝚁𝚄𝙿𝙾 𝚈 𝚀𝚄𝙸𝙴𝚁𝙰 𝚀𝚄𝙴 𝚅𝚄𝙴𝙻𝚅𝙰 𝙽𝙾 𝚂𝙴 𝚅𝙰 𝙿𝙾𝙳𝙴𝚁`, fkontak, m)  
 await delay(2 * 2000)
 await conn.sendMessage(res, { text: lenguajeGB.smsJoin(user), mentions: (await conn.groupMetadata(`${res}`)).participants.map(v => v.id) }, [user], { quoted: fkontak })
 
 for (let jid of global.owner.map(v => v.replace(/[^0-9]/g, '') + '@s.whatsapp.net').filter(v => v != m.sender)) {
 let data = (await conn.onWhatsApp(jid))[0] || {}
   if (data.exists) 
-    conn.reply(m.chat, `@${m.sender.split`@`[0]} adicional ${conn.user.name} a ${await conn.getName(res)}\njid: ${res}, el bot se apagará a tiempo: ${msToDate(global.db.data.chats[res].expired - now)}`, data.jid, m)
+    conn.reply(m.chat, `@${m.sender.split`@`[0]} 𝙰𝙳𝙸𝙲𝙸𝙾𝙽𝙰𝙻 ${conn.user.name} a ${await conn.getName(res)}\n𝐉𝐈𝐃 : ${res}, 𝙴𝙻 𝙱𝙾𝚃 𝚂𝙴 𝙰𝙿𝙰𝙶𝙰𝚁𝙰́ 𝙰 𝚃𝙸𝙴𝙼𝙿𝙾 : ${msToDate(global.db.data.chats[res].expired - now)}`, data.jid, m)
                 
 } conn.sendButton(m.chat, '', wm, null, [['Creador', `/creador`], ['𝙑𝙤𝙡𝙫𝙚𝙧 𝙖𝙡 𝙈𝙚𝙣𝙪́ ☘️', '/menu']], m, res) })}
 } catch (e) {
-await conn.reply(m.chat, `${fg}\`\`\`POSIBLES CAUSAS
-- El enlace esta incorrecto o caducado.
+await conn.reply(m.chat, `${fg}\`\`\`𝐏𝐎𝐒𝐈𝐁𝐋𝐄𝐒 𝐂𝐀𝐔𝐒𝐀𝐒
+- 𝙴𝙻 𝙴𝙽𝙻𝙰𝙲𝙴 𝙴𝚂𝚃𝙰 𝙸𝙽𝙲𝙾𝚁𝚁𝙴𝙲𝚃𝙾 𝙾 𝙲𝙰𝙳𝚄𝙲𝙰𝙳𝙾.
 
-- No me puedo unir si previamente me han eliminado del Grupo.
+- 𝙽𝙾 𝙼𝙴 𝙿𝚄𝙴𝙳𝙾 𝚄𝙽𝙸𝚁 𝚂𝙸 𝙿𝚁𝙴𝚅𝙸𝙰𝙼𝙴𝙽𝚃𝙴 𝙼𝙴 𝙷𝙰𝙽 𝙴𝙻𝙸𝙼𝙸𝙽𝙰𝙳𝙾 𝙳𝙴𝙻 𝙶𝚁𝚄𝙿𝙾.
 
-- El Grupo esta Lleno, por ende no puedo unirme.
+- 𝙴𝙻 𝙶𝚁𝚄𝙿𝙾 𝙴𝚂𝚃𝙰 𝙻𝙻𝙴𝙽𝙾, 𝙿𝙾𝚁 𝙴𝙽𝙳𝙴 𝙽𝙾 𝙿𝚄𝙴𝙳𝙾 𝚄𝙽𝙸𝚁𝙼𝙴.
 \`\`\``, m)
 console.log(e)}
 }
@@ -115,5 +114,5 @@ let hoursms = ms % (60 * 60 * 1000);
 let minutes = Math.floor((hoursms) / (60 * 1000));
 let minutesms = ms % (60 * 1000);
 let sec = Math.floor((minutesms) / (1000));
-return days + " *Día(s)* ☀️\n" + hours + " *Hora(s)* ⏳\n" + minutes + " *Minuto(s)* ⏰\n" + sec + " *Segundo(s)* 🕐\n";
+return days + " 𝙳𝙸́𝙰(𝚂) ☀️\n" + hours + " 𝙷𝙾𝚁𝙰(𝚂) ⏳\n" + minutes + " 𝙼𝙸𝙽𝚄𝚃𝙾(𝚂) ⏰\n" + sec + " 𝚂𝙴𝙶𝚄𝙽𝙳𝙾(𝚂) 🕐\n";
 }

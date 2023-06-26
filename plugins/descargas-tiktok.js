@@ -13,7 +13,7 @@ const url = video.no_watermark2 || video.no_watermark || 'https://tikcdn.net' + 
 if (!url) return conn.reply(m.chat, `${lenguajeGB['smsAvisoFG']()}𝙴𝚁𝚁𝙾𝚁 𝙰𝙻 𝙸𝙽𝚃𝙴𝙽𝚃𝙰𝚁 𝙳𝙴𝚂𝙲𝙰𝚁𝙶𝙰𝚁 𝙴𝙻 𝚃𝙸𝙺𝚃𝙾𝙺 ☹️, 𝚅𝚄𝙴𝙻𝚅𝙰 𝙰 𝙸𝙽𝚃𝙴𝙽𝚃𝙰𝚁 𝙿𝙾𝚁 𝙵𝙰𝚅𝙾𝚁 🤗`, fkontak,  m)
 await conn.reply(m.chat, `${lenguajeGB['smsAvisoEG']()}𝙿𝚁𝙾𝙽𝚃𝙾 𝚃𝙴𝙽𝙳𝚁𝙰́ 𝙴𝙻 𝚅𝙸𝙳𝙴𝙾 𝙳𝙴 𝚃𝙸𝙺𝚃𝙾𝙺 🥳`, fkontak,  m)    
 conn.sendFile(m.chat, url, 'tiktok.mp4', `
-⛱️ 𝐔𝐒𝐔𝐀𝐑𝐈𝐎 :\n${nickname}\n${description ? `\n⛱️ 𝐃𝐄𝐒𝐂𝐑𝐈𝐏𝐂𝐈𝐎́𝐍 :\n*_${description}_*` : ''}\n${wm}`.trim(), m)
+⛱️ 𝐔𝐒𝐔𝐀𝐑𝐈𝐎 :\n*_${nickname}_*\n${description ? `\n⛱️ 𝐃𝐄𝐒𝐂𝐑𝐈𝐏𝐂𝐈𝐎́𝐍 :\n_${description}_` : ''}\n${wm}`.trim(), m)
 } catch {
 await conn.reply(m.chat, `${lenguajeGB['smsAvisoFG']()}𝙴𝚁𝚁𝙾𝚁 𝙰𝙻 𝙸𝙽𝚃𝙴𝙽𝚃𝙰𝚁 𝙳𝙴𝚂𝙲𝙰𝚁𝙶𝙰𝚁 𝙴𝙻 𝚃𝙸𝙺𝚃𝙾𝙺 ☹️, 𝚅𝚄𝙴𝙻𝚅𝙰 𝙰 𝙸𝙽𝚃𝙴𝙽𝚃𝙰𝚁 𝙿𝙾𝚁 𝙵𝙰𝚅𝙾𝚁 🤗`, fkontak,  m)  
 }}

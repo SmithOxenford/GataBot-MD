@@ -11,7 +11,7 @@ if (!res2.ok) throw await res2.text()
 let html = await res2.text()
 let animeingfo = 
 `𝐓𝐈𝐓𝐔𝐋𝐎 : 
-❣ *${title}*
+❣ *_${title}_*
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 𝐂𝐀𝐏𝐈𝐓𝐔𝐋𝐎𝐒 :
 ❣ ${chapters}

@@ -15,7 +15,7 @@ let json2 = await res2.json()
 let { thumbnail, title, artists } = json2.result
 
 let spotifyi = `✨ 𝐓𝐈𝐓𝐔𝐋𝐎 :
-_${title}_
+*_${title}_*
 
 🗣️ 𝐀𝐑𝐓𝐈𝐒𝐓𝐀 : 
 » _${artists}_
