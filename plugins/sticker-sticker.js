@@ -39,7 +39,7 @@ if (new Date - user.lastmiming < 10000) return await conn.reply(m.chat, `⏳ �
     console.error(e)
     if (!stiker) stiker = e
   } finally {
-    if (stiker) conn.sendFile(m.chat, stiker, 'sticker.webp', '',m, true, { contextInfo: { 'forwardingScore': 200, 'isForwarded': false, externalAdReply:{ showAdAttribution: false, title: wm, body: `h`, mediaType: 2, sourceUrl: nn, thumbnail: imagen1}}}, { quoted: m })
+    if (stiker) conn.sendFile(m.chat, stiker, 'sticker.webp', '',m, true, { contextInfo: { 'forwardingScore': 200, 'isForwarded': false}}, { quoted: m })
     else throw '╰⊱❗️⊱ 𝐋𝐎 𝐔𝐒𝐎́ 𝐌𝐀𝐋 ⊱❗️⊱╮\n\n⚠️ 𝐕𝐔𝐄𝐋𝐕𝐀 𝐀 𝐈𝐍𝐓𝐄𝐍𝐓𝐀𝐑 ⚠️, 𝚁𝙴𝚂𝙿𝙾𝙽𝙳𝙰 𝙰 𝚄𝙽𝙰 𝙸𝙼𝙰𝙶𝙴𝙽, 𝚅𝙸𝙳𝙴𝙾, 𝙶𝙸𝙵 𝙾 𝙴𝙽𝙻𝙰𝙲𝙴 𝚃𝙸𝙿𝙾 .𝚓𝚙𝚐 𝙿𝙰𝚁𝙰 𝚁𝙴𝙰𝙻𝙸𝚉𝙰𝚁 𝙴𝙻 𝚂𝚃𝙸𝙲𝙺𝙴𝚁 '
   }
 user.lastmiming = new Date * 1

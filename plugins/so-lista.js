@@ -686,8 +686,8 @@ let vn = './media/estupido.mp3'
 this.sendPresenceUpdate('recording', m.chat)   
 this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt: true})}
 
-if (chat.audios && m.text.match(/(mi bebito fiu|fiu fiu|caramelo|Caramelo|caramelito|vizcarra|Martín Vizcarra)/gi)) {    
-let vn = './media/fui.mp3'
+if (chat.audios && m.text.match(/(mi bebito fiu|fiu fiu|Fiu Fiu|Fiu fiu|Mi Bebito|mi bebito|Mi bebito|caramelo|Caramelo|caramelito|vizcarra|Martín Vizcarra)/gi)) {    
+let vn = './media/bebitofiu.mp3'
 this.sendPresenceUpdate('recording', m.chat)   
 this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt: true})}
 
@@ -701,7 +701,7 @@ let vn = './media/oxxo.mp3'//no hay canción
 this.sendPresenceUpdate('recording', m.chat)   
 this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt: true})}
 
-if (chat.audios && m.text.match(/(sexo anak|Sexo anal|Hora de sexo anal|hora de sexo anal)/gi)) {    
+if (chat.audios && m.text.match(/(sexo anal|Sexo anal|Hora de sexo anal|hora de sexo anal)/gi)) {    
 let vn = './media/maau1.mp3'
 this.sendPresenceUpdate('recording', m.chat)   
 this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt: true})}
@@ -786,7 +786,7 @@ let vn = './media/Te-amo.mp3'
 this.sendPresenceUpdate('recording', m.chat)   
 this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt: true})}
 
-if (chat.audios && m.text.match(/(violinnnnn)/gi)) {    
+if (chat.audios && m.text.match(/(violinnnnnnnnnnnnnn)/gi)) {    
 let vn = './media/violin.mp3'
 this.sendPresenceUpdate('recording', m.chat)   
 this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt: true})}
