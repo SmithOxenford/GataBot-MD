@@ -293,7 +293,7 @@ if (verificar.test(text) == true) return conn.sendButton(m.chat, eg + '*GENIAL!!
 }
 	
 const sections = [
-{ title: "❇️ SELECCIONE HASTA 5 PASATIEMPOS!!",
+{ title: "❇️ SELECCIONE HASTA 5     PASATIEMPOS!!",
 rows: [
 {title: "👟 Acroyoga", rowId: usedPrefix + command + ' ' + text + '👟 Acroyoga' },		
 {title: "🎭 Actuación", rowId: usedPrefix + command + ' ' + text + '🎭 Actuación' },	

@@ -61,7 +61,7 @@ conn.sendFile(m.chat, thumbnail, 'thumbnail.jpg', `𓆩 𝐀𝐐𝐔𝐈́ 𝐄�
 » ${views}
 ﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘
 ও 𝐔𝐑𝐋 :
-» ${url}
+» _${url}_
 
 𓆩 𝐓𝐇𝐄 𝐌𝐀𝐊𝐀𝐍𝐀𝐊𝐘 - 🤖 𓆪`.trim(), fkontak, m)
 let qu = args[1] || '360'
