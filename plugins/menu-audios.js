@@ -78,7 +78,7 @@ let str = `
 ┊დ ${lenguajeGB['smsBotonM5']()} » ${role}
 ┊დ ${lenguajeGB['smsBotonM6']()} » ${level}
 ┊დ ${lenguajeGB['smsBotonM7']()} » ${user.premiumTime > 0 ? '✅' : '❌'}
-╰┄┄┄┄〔 *𓃠 ${vs}* 〕┄┄┄┄⊱
+╰┄┄┄┄〔 ${vs} 〕┄┄┄┄⊱
 
 ⠇ ${lenguajeGB['smsTex16']()} 🔊
 ⠇ ${lenguajeGB['smsTex17']()}

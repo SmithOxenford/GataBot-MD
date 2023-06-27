@@ -11,7 +11,7 @@ ${mg} 𝙳𝙴𝙱𝙴 𝚄𝚂𝙰𝚁 𝙴𝙻 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 �
 *${usedPrefix + command}* _tipo emoji_
 
 ⊱⊱ 𝐄𝐉𝐄𝐌𝐏𝐋𝐎 :
-*${usedPrefix + command}* sa 😹
+*${usedPrefix + command} sa* 😹
 
 ⊱⊱ 𝐓𝐈𝐏𝐎𝐒 𝐃𝐄 𝐄𝐌𝐎𝐉𝐈𝐒
 

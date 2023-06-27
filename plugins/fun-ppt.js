@@ -23,8 +23,8 @@ let handler = async (m, { conn, text, command, usedPrefix, args }) => {
     let money = global.db.data.users[who].money
     let money0 = global.db.data.users[m.sender].money += 2
     
-     await conn.reply(m.chat, `╭━━━━[ 🤝 𝐄𝐌𝐏𝐀𝐓𝐄! 🤝 ]━━━━⬣\n┃*${name}* : _${text}_\n┃🤖 𝙼𝙰𝙺𝙰𝙽𝙰𝙺𝚈 : _${astro}_\n┃💸 𝙱𝙾𝙽𝙾 : ${[money0].getRandom()} _MakanakyCoins_\n┃💵 𝚂𝚄 𝙳𝙸𝙽𝙴𝚁𝙾 : ${money} _MakanakyCoins_\n╰━━[ 𝐌𝐀𝐊𝐀𝐍𝐀𝐊𝐘 - 🤖 ]━━⬣`, fkontak, m)
-    /*conn.sendHydrated(m.chat, `╭━━━━[ 𝙀𝙈𝙋𝘼𝙏𝙀! 🤝 ]━━━━⬣\n┃*${name}* : _${text}_\n┃🤖 𝙼𝙰𝙺𝙰𝙽𝙰𝙺𝚈 : _${astro}_\n┃💸 𝙱𝙾𝙽𝙾 : $${[money0].getRandom()} MakanakyCoins_\n┃💵 𝚂𝚄 𝙳𝙸𝙽𝙴𝚁𝙾 : $${money} MakanakyCoins_\n╰━━[ 𝐌𝐀𝐊𝐀𝐍𝐀𝐊𝐘 - 🤖 ]━━⬣`, wm, null, yt, '𝙔𝙤𝙪𝙏𝙪𝙗𝙚', null, null, [
+     await conn.reply(m.chat, `╭━━━━[ 🤝 𝐄𝐌𝐏𝐀𝐓𝐄! 🤝 ]━━━━⬣\n┃\n┃👤 ${name} : _${text}_\n┃🤖 𝙼𝙰𝙺𝙰𝙽𝙰𝙺𝚈 : _${astro}_\n┃💸 𝙱𝙾𝙽𝙾 : _${[money0].getRandom()} MakanakyCoins_\n┃💵 𝚂𝚄 𝙳𝙸𝙽𝙴𝚁𝙾 : _${money} _MakanakyCoins_\n┃\n╰━━[ 𝐌𝐀𝐊𝐀𝐍𝐀𝐊𝐘 - 🤖 ]━━⬣`, fkontak, m)
+    /*conn.sendHydrated(m.chat, `╭━━━━[ 𝙀𝙈𝙋𝘼𝙏𝙀! 🤝 ]━━━━⬣\n┃\n┃👤 ${name} : _${text}_\n┃🤖 𝙼𝙰𝙺𝙰𝙽𝙰𝙺𝚈 : _${astro}_\n┃💸 𝙱𝙾𝙽𝙾 : $${[money0].getRandom()} MakanakyCoins_\n┃💵 𝚂𝚄 𝙳𝙸𝙽𝙴𝚁𝙾 : $${money} MakanakyCoins_\n┃\n╰━━[ 𝐌𝐀𝐊𝐀𝐍𝐀𝐊𝐘 - 🤖 ]━━⬣`, wm, null, yt, '𝙔𝙤𝙪𝙏𝙪𝙗𝙚', null, null, [
     ['𝙈𝙚𝙣𝙪 𝙅𝙪𝙚𝙜𝙤𝙨 | 𝙂𝙖𝙢𝙚𝙨 𝙈𝙚𝙣𝙪 🎡', '#juegosmenu'],
     ['𝙑𝙤𝙡𝙫𝙚𝙧 𝙖𝙡 𝙈𝙚𝙣𝙪́ | 𝘽𝙖𝙘𝙠 𝙩𝙤 𝙈𝙚𝙣𝙪 ☘️', '/menu']
     ], m,)*/
@@ -39,8 +39,8 @@ let handler = async (m, { conn, text, command, usedPrefix, args }) => {
     let money = global.db.data.users[who].money
     let money0 = global.db.data.users[m.sender].money += 100
     
-    await conn.reply(m.chat, `╭━━━━[ 🎉 𝐇𝐀𝐒 𝐆𝐀𝐍𝐀𝐃𝐎! 🎉 ]━━━⬣\n┃*${name}* : _${text}_\n┃🤖 𝙼𝙰𝙺𝙰𝙽𝙰𝙺𝚈 : _${astro}_\n┃💰 𝙿𝚁𝙴𝙼𝙸𝙾 : ${[money0].getRandom()} _MakanakyCoins_\n┃💵 𝚂𝚄 𝙳𝙸𝙽𝙴𝚁𝙾 : ${money} _MakanakyCoins_\n╰━━[ 𝐌𝐀𝐊𝐀𝐍𝐀𝐊𝐘 - 🤖 ]━━⬣`, fkontak, m)
-    /*conn.sendHydrated(m.chat, `╭━━━━[ 🎉 𝐇𝐀𝐒 𝐆𝐀𝐍𝐀𝐃𝐎! 🎉 ]━━━⬣\n┃*${name}* : _${text}_\n┃🤖 𝙼𝙰𝙺𝙰𝙽𝙰𝙺𝚈 : _${astro}_\n┃💰 𝙿𝚁𝙴𝙼𝙸𝙾 : $${[money0].getRandom()} MakanakyCoins_\n┃💵 𝚂𝚄 𝙳𝙸𝙽𝙴𝚁𝙾 : $${money} MakanakyCoins_\n╰━━[ 𝐌𝐀𝐊𝐀𝐍𝐀𝐊𝐘 - 🤖 ]━━⬣`, wm, null, yt, '𝙔𝙤𝙪𝙏𝙪𝙗𝙚', null, null, [
+    await conn.reply(m.chat, `╭━━━━[ 🎉 𝐇𝐀𝐒 𝐆𝐀𝐍𝐀𝐃𝐎! 🎉 ]━━━⬣\n┃\n┃👤 ${name} : _${text}_\n┃🤖 𝙼𝙰𝙺𝙰𝙽𝙰𝙺𝚈 : _${astro}_\n┃💰 𝙿𝚁𝙴𝙼𝙸𝙾 : _${[money0].getRandom()} MakanakyCoins_\n┃💵 𝚂𝚄 𝙳𝙸𝙽𝙴𝚁𝙾 : _${money} _MakanakyCoins_\n┃\n╰━━[ 𝐌𝐀𝐊𝐀𝐍𝐀𝐊𝐘 - 🤖 ]━━⬣`, fkontak, m)
+    /*conn.sendHydrated(m.chat, `╭━━━━[ 🎉 𝐇𝐀𝐒 𝐆𝐀𝐍𝐀𝐃𝐎! 🎉 ]━━━⬣\n┃\n┃👤 ${name} : _${text}_\n┃🤖 𝙼𝙰𝙺𝙰𝙽𝙰𝙺𝚈 : _${astro}_\n┃💰 𝙿𝚁𝙴𝙼𝙸𝙾 : $${[money0].getRandom()} MakanakyCoins_\n┃💵 𝚂𝚄 𝙳𝙸𝙽𝙴𝚁𝙾 : $${money} MakanakyCoins_\n┃\n╰━━[ 𝐌𝐀𝐊𝐀𝐍𝐀𝐊𝐘 - 🤖 ]━━⬣`, wm, null, yt, '𝙔𝙤𝙪𝙏𝙪𝙗𝙚', null, null, [
     ['𝙈𝙚𝙣𝙪 𝙅𝙪𝙚𝙜𝙤𝙨 | 𝙂𝙖𝙢𝙚𝙨 𝙈𝙚𝙣𝙪 🎡', '#juegosmenu'],
     ['𝙑𝙤𝙡𝙫𝙚𝙧 𝙖𝙡 𝙈𝙚𝙣𝙪́ | 𝘽𝙖𝙘𝙠 𝙩𝙤 𝙈𝙚𝙣𝙪 ☘️', '/menu']
     ], m,)*/
@@ -52,8 +52,8 @@ let handler = async (m, { conn, text, command, usedPrefix, args }) => {
     let name = conn.getName(who) 
     let money = global.db.data.users[who].money
     let money0 = global.db.data.users[m.sender].money -= 500
-    await conn.reply(m.chat, `╭━━━━[ ☹️ 𝐇𝐀 𝐏𝐄𝐑𝐃𝐈𝐃𝐎! ☹️ ]━━⬣\n┃*${name}* : _${text}_\n┃🤖 𝙼𝙰𝙺𝙰𝙽𝙰𝙺𝚈 : _${astro}_\n┃📈 𝙿𝙴́𝚁𝙳𝙸𝙳𝙰 : ${[money0].getRandom()} _MakanakyCoins_\n┃💵 𝚂𝚄 𝙳𝙸𝙽𝙴𝚁𝙾 : ${money} _MakanakyCoins_\n╰━━[ 𝐌𝐀𝐊𝐀𝐍𝐀𝐊𝐘 - 🤖 ]━━⬣`, fkontak, m)
-    /*conn.sendHydrated(m.chat, `╭━━━━[ ☹️ 𝐇𝐀 𝐏𝐄𝐑𝐃𝐈𝐃𝐎! ☹️ ]━━⬣\n┃*${name}* : _${text}_\n┃🤖 𝙼𝙰𝙺𝙰𝙽𝙰𝙺𝚈 : _${astro}_\n┃📈 𝙿𝙴́𝚁𝙳𝙸𝙳𝙰 : $${[money0].getRandom()} MakanakyCoins_\n┃💵 𝚂𝚄 𝙳𝙸𝙽𝙴𝚁𝙾 : $${money} MakanakyCoins_\n╰━━[ 𝐌𝐀𝐊𝐀𝐍𝐀𝐊𝐘 - 🤖 ]━━⬣`, wm, null, yt, '𝙔𝙤𝙪𝙏𝙪𝙗𝙚', null, null, [
+    await conn.reply(m.chat, `╭━━━━[ ☹️ 𝐇𝐀 𝐏𝐄𝐑𝐃𝐈𝐃𝐎! ☹️ ]━━⬣\n┃\n┃👤 ${name} : _${text}_\n┃🤖 𝙼𝙰𝙺𝙰𝙽𝙰𝙺𝚈 : _${astro}_\n┃📈 𝙿𝙴́𝚁𝙳𝙸𝙳𝙰 : _${[money0].getRandom()} MakanakyCoins_\n┃💵 𝚂𝚄 𝙳𝙸𝙽𝙴𝚁𝙾 : _${money} _MakanakyCoins_\n┃\n╰━━[ 𝐌𝐀𝐊𝐀𝐍𝐀𝐊𝐘 - 🤖 ]━━⬣`, fkontak, m)
+    /*conn.sendHydrated(m.chat, `╭━━━━[ ☹️ 𝐇𝐀 𝐏𝐄𝐑𝐃𝐈𝐃𝐎! ☹️ ]━━⬣\n┃\n┃👤 ${name} : _${text}_\n┃🤖 𝙼𝙰𝙺𝙰𝙽𝙰𝙺𝚈 : _${astro}_\n┃📈 𝙿𝙴́𝚁𝙳𝙸𝙳𝙰 : $${[money0].getRandom()} MakanakyCoins_\n┃💵 𝚂𝚄 𝙳𝙸𝙽𝙴𝚁𝙾 : $${money} MakanakyCoins_\n┃\n╰━━[ 𝐌𝐀𝐊𝐀𝐍𝐀𝐊𝐘 - 🤖 ]━━⬣`, wm, null, yt, '𝙔𝙤𝙪𝙏𝙪𝙗𝙚', null, null, [
     ['𝙈𝙚𝙣𝙪 𝙅𝙪𝙚𝙜𝙤𝙨 | 𝙂𝙖𝙢𝙚𝙨 𝙈𝙚𝙣𝙪 🎡', '#juegosmenu'],
     ['𝙑𝙤𝙡𝙫𝙚𝙧 𝙖𝙡 𝙈𝙚𝙣𝙪́ | 𝘽𝙖𝙘𝙠 𝙩𝙤 𝙈𝙚𝙣𝙪 ☘️', '/menu']
     ], m,)*/
@@ -68,8 +68,8 @@ let handler = async (m, { conn, text, command, usedPrefix, args }) => {
     let name = conn.getName(who) 
     let money = global.db.data.users[who].money
     let money0 = global.db.data.users[m.sender].money += 175
-    await conn.reply(m.chat, `╭━━━━[ 🎉 𝐇𝐀𝐒 𝐆𝐀𝐍𝐀𝐃𝐎! 🎉 ]━━━⬣\n┃*${name}* : _${text}_\n┃🤖 𝙼𝙰𝙺𝙰𝙽𝙰𝙺𝚈 : _${astro}_\n┃💰 𝙿𝚁𝙴𝙼𝙸𝙾 : ${[money0].getRandom()} _MakanakyCoins_\n┃💵 𝚂𝚄 𝙳𝙸𝙽𝙴𝚁𝙾 : ${money} _MakanakyCoins_\n╰━━[ 𝐌𝐀𝐊𝐀𝐍𝐀𝐊𝐘 - 🤖 ]━━⬣`, fkontak, m)
-    /*conn.sendHydrated(m.chat, `╭━━━━[ 🎉 𝐇𝐀𝐒 𝐆𝐀𝐍𝐀𝐃𝐎! 🎉 ]━━━⬣\n┃*${name}* : _${text}_\n┃🤖 𝙼𝙰𝙺𝙰𝙽𝙰𝙺𝚈 : _${astro}_\n┃💰 𝙿𝚁𝙴𝙼𝙸𝙾 : $${[money0].getRandom()} MakanakyCoins_\n┃💵 𝚂𝚄 𝙳𝙸𝙽𝙴𝚁𝙾 : $${money} MakanakyCoins_\n╰━━[ 𝐌𝐀𝐊𝐀𝐍𝐀𝐊𝐘 - 🤖 ]━━⬣`, wm, null, yt, '𝙔𝙤𝙪𝙏𝙪𝙗𝙚', null, null, [
+    await conn.reply(m.chat, `╭━━━━[ 🎉 𝐇𝐀𝐒 𝐆𝐀𝐍𝐀𝐃𝐎! 🎉 ]━━━⬣\n┃\n┃👤 ${name} : _${text}_\n┃🤖 𝙼𝙰𝙺𝙰𝙽𝙰𝙺𝚈 : _${astro}_\n┃💰 𝙿𝚁𝙴𝙼𝙸𝙾 : _${[money0].getRandom()} MakanakyCoins_\n┃💵 𝚂𝚄 𝙳𝙸𝙽𝙴𝚁𝙾 : _${money} _MakanakyCoins_\n┃\n╰━━[ 𝐌𝐀𝐊𝐀𝐍𝐀𝐊𝐘 - 🤖 ]━━⬣`, fkontak, m)
+    /*conn.sendHydrated(m.chat, `╭━━━━[ 🎉 𝐇𝐀𝐒 𝐆𝐀𝐍𝐀𝐃𝐎! 🎉 ]━━━⬣\n┃\n┃👤 ${name} : _${text}_\n┃🤖 𝙼𝙰𝙺𝙰𝙽𝙰𝙺𝚈 : _${astro}_\n┃💰 𝙿𝚁𝙴𝙼𝙸𝙾 : $${[money0].getRandom()} MakanakyCoins_\n┃💵 𝚂𝚄 𝙳𝙸𝙽𝙴𝚁𝙾 : $${money} MakanakyCoins_\n┃\n╰━━[ 𝐌𝐀𝐊𝐀𝐍𝐀𝐊𝐘 - 🤖 ]━━⬣`, wm, null, yt, '𝙔𝙤𝙪𝙏𝙪𝙗𝙚', null, null, [
     ['𝙈𝙚𝙣𝙪 𝙅𝙪𝙚𝙜𝙤𝙨 | 𝙂𝙖𝙢𝙚𝙨 𝙈𝙚𝙣𝙪 🎡', '#juegosmenu'],
     ['𝙑𝙤𝙡𝙫𝙚𝙧 𝙖𝙡 𝙈𝙚𝙣𝙪́ | 𝘽𝙖𝙘𝙠 𝙩𝙤 𝙈𝙚𝙣𝙪 ☘️', '/menu']
     ], m,)*/
@@ -81,8 +81,8 @@ let handler = async (m, { conn, text, command, usedPrefix, args }) => {
     let name = conn.getName(who) 
     let money = global.db.data.users[who].money
     let money0 = global.db.data.users[m.sender].money -= 95
-    await conn.reply(m.chat, `╭━━━━[ ☹️ 𝐇𝐀 𝐏𝐄𝐑𝐃𝐈𝐃𝐎! ☹️ ]━━⬣\n┃*${name}* : _${text}_\n┃🤖 𝙼𝙰𝙺𝙰𝙽𝙰𝙺𝚈 : _${astro}_\n┃📈 𝙿𝙴́𝚁𝙳𝙸𝙳𝙰 : ${[money0].getRandom()} _MakanakyCoins_\n┃💵 𝚂𝚄 𝙳𝙸𝙽𝙴𝚁𝙾 : ${money} _MakanakyCoins_\n╰━━[ 𝐌𝐀𝐊𝐀𝐍𝐀𝐊𝐘 - 🤖 ]━━⬣`, fkontak, m)
-    /*conn.sendHydrated(m.chat, `╭━━━━[ ☹️ 𝐇𝐀 𝐏𝐄𝐑𝐃𝐈𝐃𝐎! ☹️ ]━━⬣\n┃*${name}* : _${text}_\n┃🤖 𝙼𝙰𝙺𝙰𝙽𝙰𝙺𝚈 : _${astro}_\n┃📈 𝙿𝙴́𝚁𝙳𝙸𝙳𝙰 : $${[money0].getRandom()} MakanakyCoins_\n┃💵 𝚂𝚄 𝙳𝙸𝙽𝙴𝚁𝙾 : $${money} MakanakyCoins_\n╰━━[ 𝐌𝐀𝐊𝐀𝐍𝐀𝐊𝐘 - 🤖 ]━━⬣`, wm, null, yt, '𝙔𝙤𝙪𝙏𝙪𝙗𝙚', null, null, [
+    await conn.reply(m.chat, `╭━━━━[ ☹️ 𝐇𝐀 𝐏𝐄𝐑𝐃𝐈𝐃𝐎! ☹️ ]━━⬣\n┃\n┃👤 ${name} : _${text}_\n┃🤖 𝙼𝙰𝙺𝙰𝙽𝙰𝙺𝚈 : _${astro}_\n┃📈 𝙿𝙴́𝚁𝙳𝙸𝙳𝙰 : _${[money0].getRandom()} MakanakyCoins_\n┃💵 𝚂𝚄 𝙳𝙸𝙽𝙴𝚁𝙾 : _${money} _MakanakyCoins_\n┃\n╰━━[ 𝐌𝐀𝐊𝐀𝐍𝐀𝐊𝐘 - 🤖 ]━━⬣`, fkontak, m)
+    /*conn.sendHydrated(m.chat, `╭━━━━[ ☹️ 𝐇𝐀 𝐏𝐄𝐑𝐃𝐈𝐃𝐎! ☹️ ]━━⬣\n┃\n┃👤 ${name} : _${text}_\n┃🤖 𝙼𝙰𝙺𝙰𝙽𝙰𝙺𝚈 : _${astro}_\n┃📈 𝙿𝙴́𝚁𝙳𝙸𝙳𝙰 : $${[money0].getRandom()} MakanakyCoins_\n┃💵 𝚂𝚄 𝙳𝙸𝙽𝙴𝚁𝙾 : $${money} MakanakyCoins_\n┃\n╰━━[ 𝐌𝐀𝐊𝐀𝐍𝐀𝐊𝐘 - 🤖 ]━━⬣`, wm, null, yt, '𝙔𝙤𝙪𝙏𝙪𝙗𝙚', null, null, [
     ['𝙈𝙚𝙣𝙪 𝙅𝙪𝙚𝙜𝙤𝙨 | 𝙂𝙖𝙢𝙚𝙨 𝙈𝙚𝙣𝙪 🎡', '#juegosmenu'],
     ['𝙑𝙤𝙡𝙫𝙚𝙧 𝙖𝙡 𝙈𝙚𝙣𝙪́ | 𝘽𝙖𝙘𝙠 𝙩𝙤 𝙈𝙚𝙣𝙪 ☘️', '/menu']
     ], m,)  */
@@ -97,8 +97,8 @@ let handler = async (m, { conn, text, command, usedPrefix, args }) => {
     let money = global.db.data.users[who].money
     let money0 = global.db.data.users[m.sender].money += 225
     //global.db.data.users[m.sender].uang += 1000
-    await conn.reply(m.chat, `╭━━━━[ 🎉 𝐇𝐀𝐒 𝐆𝐀𝐍𝐀𝐃𝐎! 🎉 ]━━━⬣\n┃*${name}* : _${text}_\n┃🤖 𝙼𝙰𝙺𝙰𝙽𝙰𝙺𝚈 : _${astro}_\n┃💰 𝙿𝚁𝙴𝙼𝙸𝙾 : ${[money0].getRandom()} _MakanakyCoins_\n┃💵 𝚂𝚄 𝙳𝙸𝙽𝙴𝚁𝙾 : ${money} _MakanakyCoins_\n╰━━[ 𝐌𝐀𝐊𝐀𝐍𝐀𝐊𝐘 - 🤖 ]━━⬣`, fkontak, m)
-    /*conn.sendHydrated(m.chat, `╭━━━━[ 🎉 𝐇𝐀𝐒 𝐆𝐀𝐍𝐀𝐃𝐎! 🎉 ]━━━⬣\n┃*${name}* : _${text}_\n┃🤖 𝙼𝙰𝙺𝙰𝙽𝙰𝙺𝚈 : _${astro}_\n┃💰 𝙿𝚁𝙴𝙼𝙸𝙾 : $${[money0].getRandom()} MakanakyCoins_\n┃💵 𝚂𝚄 𝙳𝙸𝙽𝙴𝚁𝙾 : $${money} MakanakyCoins_\n╰━━[ 𝐌𝐀𝐊𝐀𝐍𝐀𝐊𝐘 - 🤖 ]━━⬣`, wm, null, yt, '𝙔𝙤𝙪𝙏𝙪𝙗𝙚', null, null, [
+    await conn.reply(m.chat, `╭━━━━[ 🎉 𝐇𝐀𝐒 𝐆𝐀𝐍𝐀𝐃𝐎! 🎉 ]━━━⬣\n┃\n┃👤 ${name} : _${text}_\n┃🤖 𝙼𝙰𝙺𝙰𝙽𝙰𝙺𝚈 : _${astro}_\n┃💰 𝙿𝚁𝙴𝙼𝙸𝙾 : _${[money0].getRandom()} MakanakyCoins_\n┃💵 𝚂𝚄 𝙳𝙸𝙽𝙴𝚁𝙾 : _${money} _MakanakyCoins_\n┃\n╰━━[ 𝐌𝐀𝐊𝐀𝐍𝐀𝐊𝐘 - 🤖 ]━━⬣`, fkontak, m)
+    /*conn.sendHydrated(m.chat, `╭━━━━[ 🎉 𝐇𝐀𝐒 𝐆𝐀𝐍𝐀𝐃𝐎! 🎉 ]━━━⬣\n┃\n┃👤 ${name} : _${text}_\n┃🤖 𝙼𝙰𝙺𝙰𝙽𝙰𝙺𝚈 : _${astro}_\n┃💰 𝙿𝚁𝙴𝙼𝙸𝙾 : $${[money0].getRandom()} MakanakyCoins_\n┃💵 𝚂𝚄 𝙳𝙸𝙽𝙴𝚁𝙾 : $${money} MakanakyCoins_\n┃\n╰━━[ 𝐌𝐀𝐊𝐀𝐍𝐀𝐊𝐘 - 🤖 ]━━⬣`, wm, null, yt, '𝙔𝙤𝙪𝙏𝙪𝙗𝙚', null, null, [
     ['𝙈𝙚𝙣𝙪 𝙅𝙪𝙚𝙜𝙤𝙨 | 𝙂𝙖𝙢𝙚𝙨 𝙈𝙚𝙣𝙪 🎡', '#juegosmenu'],
     ['𝙑𝙤𝙡𝙫𝙚𝙧 𝙖𝙡 𝙈𝙚𝙣𝙪́ | 𝘽𝙖𝙘𝙠 𝙩𝙤 𝙈𝙚𝙣𝙪 ☘️', '/menu']
     ], m,)  */
@@ -110,8 +110,8 @@ let handler = async (m, { conn, text, command, usedPrefix, args }) => {
     let name = conn.getName(who) 
     let money = global.db.data.users[who].money
     let money0 = global.db.data.users[m.sender].money -= 90
-    await conn.reply(m.chat, `╭━━━━[ ☹️ 𝐇𝐀 𝐏𝐄𝐑𝐃𝐈𝐃𝐎! ☹️ ]━━⬣\n┃*${name}* : _${text}_\n┃🤖 𝙼𝙰𝙺𝙰𝙽𝙰𝙺𝚈 : _${astro}_\n┃📈 𝙿𝙴́𝚁𝙳𝙸𝙳𝙰 : ${[money0].getRandom()} _MakanakyCoins_\n┃💵 𝚂𝚄 𝙳𝙸𝙽𝙴𝚁𝙾 : ${money} _MakanakyCoins_\n╰━━[ 𝐌𝐀𝐊𝐀𝐍𝐀𝐊𝐘 - 🤖 ]━━⬣`, fkontak, m)
-    /*conn.sendHydrated(m.chat, `╭━━━━[ ☹️ 𝐇𝐀 𝐏𝐄𝐑𝐃𝐈𝐃𝐎! ☹️ ]━━⬣\n┃*${name}* : _${text}_\n┃🤖 𝙼𝙰𝙺𝙰𝙽𝙰𝙺𝚈 : _${astro}_\n┃📈 𝙿𝙴́𝚁𝙳𝙸𝙳𝙰 : $${[money0].getRandom()} MakanakyCoins_\n┃💵 𝚂𝚄 𝙳𝙸𝙽𝙴𝚁𝙾 : $${money} MakanakyCoins_\n╰━━[ 𝐌𝐀𝐊𝐀𝐍𝐀𝐊𝐘 - 🤖 ]━━⬣`, wm, null, yt, '𝙔𝙤𝙪𝙏𝙪𝙗𝙚', null, null, [
+    await conn.reply(m.chat, `╭━━━━[ ☹️ 𝐇𝐀 𝐏𝐄𝐑𝐃𝐈𝐃𝐎! ☹️ ]━━⬣\n┃\n┃👤 ${name} : _${text}_\n┃🤖 𝙼𝙰𝙺𝙰𝙽𝙰𝙺𝚈 : _${astro}_\n┃📈 𝙿𝙴́𝚁𝙳𝙸𝙳𝙰 : _${[money0].getRandom()} MakanakyCoins_\n┃💵 𝚂𝚄 𝙳𝙸𝙽𝙴𝚁𝙾 : _${money} _MakanakyCoins_\n┃\n╰━━[ 𝐌𝐀𝐊𝐀𝐍𝐀𝐊𝐘 - 🤖 ]━━⬣`, fkontak, m)
+    /*conn.sendHydrated(m.chat, `╭━━━━[ ☹️ 𝐇𝐀 𝐏𝐄𝐑𝐃𝐈𝐃𝐎! ☹️ ]━━⬣\n┃\n┃👤 ${name} : _${text}_\n┃🤖 𝙼𝙰𝙺𝙰𝙽𝙰𝙺𝚈 : _${astro}_\n┃📈 𝙿𝙴́𝚁𝙳𝙸𝙳𝙰 : $${[money0].getRandom()} MakanakyCoins_\n┃💵 𝚂𝚄 𝙳𝙸𝙽𝙴𝚁𝙾 : $${money} MakanakyCoins_\n┃\n╰━━[ 𝐌𝐀𝐊𝐀𝐍𝐀𝐊𝐘 - 🤖 ]━━⬣`, wm, null, yt, '𝙔𝙤𝙪𝙏𝙪𝙗𝙚', null, null, [
     ['𝙈𝙚𝙣𝙪 𝙅𝙪𝙚𝙜𝙤𝙨 | 𝙂𝙖𝙢𝙚𝙨 𝙈𝙚𝙣𝙪 🎡', '#juegosmenu'],
     ['𝙑𝙤𝙡𝙫𝙚𝙧 𝙖𝙡 𝙈𝙚𝙣𝙪́ | 𝘽𝙖𝙘𝙠 𝙩𝙤 𝙈𝙚𝙣𝙪 ☘️', '/menu']
     ], m,)    */
@@ -126,8 +126,8 @@ let handler = async (m, { conn, text, command, usedPrefix, args }) => {
     let money = global.db.data.users[who].money
     let money0 = global.db.data.users[m.sender].money += 75
     //global.db.data.users[m.sender].uang += 1000
-    await conn.reply(m.chat, `╭━━━━[ 🎉 𝐇𝐀𝐒 𝐆𝐀𝐍𝐀𝐃𝐎! 🎉 ]━━━⬣\n┃*${name}* : _${text}_\n┃🤖 𝙼𝙰𝙺𝙰𝙽𝙰𝙺𝚈 : _${astro}_\n┃💰 𝙿𝚁𝙴𝙼𝙸𝙾 : ${[money0].getRandom()} _MakanakyCoins_\n┃💵 𝚂𝚄 𝙳𝙸𝙽𝙴𝚁𝙾 : ${money} _MakanakyCoins_\n╰━━[ 𝐌𝐀𝐊𝐀𝐍𝐀𝐊𝐘 - 🤖 ]━━⬣`, fkontak, m)
-    /*conn.sendHydrated(m.chat, `╭━━━━[ 🎉 𝐇𝐀𝐒 𝐆𝐀𝐍𝐀𝐃𝐎! 🎉 ]━━━⬣\n┃*${name}* : _${text}_\n┃🤖 𝙼𝙰𝙺𝙰𝙽𝙰𝙺𝚈 : _${astro}_\n┃💰 𝙿𝚁𝙴𝙼𝙸𝙾 : $${[money0].getRandom()} MakanakyCoins_\n┃💵 𝚂𝚄 𝙳𝙸𝙽𝙴𝚁𝙾 : $${money} MakanakyCoins_\n╰━━[ 𝐌𝐀𝐊𝐀𝐍𝐀𝐊𝐘 - 🤖 ]━━⬣`, wm, null, yt, '𝙔𝙤𝙪𝙏𝙪𝙗𝙚', null, null, [
+    await conn.reply(m.chat, `╭━━━━[ 🎉 𝐇𝐀𝐒 𝐆𝐀𝐍𝐀𝐃𝐎! 🎉 ]━━━⬣\n┃\n┃👤 ${name} : _${text}_\n┃🤖 𝙼𝙰𝙺𝙰𝙽𝙰𝙺𝚈 : _${astro}_\n┃💰 𝙿𝚁𝙴𝙼𝙸𝙾 : _${[money0].getRandom()} MakanakyCoins_\n┃💵 𝚂𝚄 𝙳𝙸𝙽𝙴𝚁𝙾 : _${money} _MakanakyCoins_\n┃\n╰━━[ 𝐌𝐀𝐊𝐀𝐍𝐀𝐊𝐘 - 🤖 ]━━⬣`, fkontak, m)
+    /*conn.sendHydrated(m.chat, `╭━━━━[ 🎉 𝐇𝐀𝐒 𝐆𝐀𝐍𝐀𝐃𝐎! 🎉 ]━━━⬣\n┃\n┃👤 ${name} : _${text}_\n┃🤖 𝙼𝙰𝙺𝙰𝙽𝙰𝙺𝚈 : _${astro}_\n┃💰 𝙿𝚁𝙴𝙼𝙸𝙾 : $${[money0].getRandom()} MakanakyCoins_\n┃💵 𝚂𝚄 𝙳𝙸𝙽𝙴𝚁𝙾 : $${money} MakanakyCoins_\n┃\n╰━━[ 𝐌𝐀𝐊𝐀𝐍𝐀𝐊𝐘 - 🤖 ]━━⬣`, wm, null, yt, '𝙔𝙤𝙪𝙏𝙪𝙗𝙚', null, null, [
     ['𝙈𝙚𝙣𝙪 𝙅𝙪𝙚𝙜𝙤𝙨 | 𝙂𝙖𝙢𝙚𝙨 𝙈𝙚𝙣𝙪 🎡', '#juegosmenu'],
     ['𝙑𝙤𝙡𝙫𝙚𝙧 𝙖𝙡 𝙈𝙚𝙣𝙪́ | 𝘽𝙖𝙘𝙠 𝙩𝙤 𝙈𝙚𝙣𝙪 ☘️', '/menu']
     ], m,)   */
@@ -139,8 +139,8 @@ let handler = async (m, { conn, text, command, usedPrefix, args }) => {
     let name = conn.getName(who) 
     let money = global.db.data.users[who].money
     let money0 = global.db.data.users[m.sender].money -= 240
-    await conn.reply(m.chat, `╭━━━━[ ☹️ 𝐇𝐀 𝐏𝐄𝐑𝐃𝐈𝐃𝐎! ☹️ ]━━⬣\n┃*${name}* : _${text}_\n┃🤖 𝙼𝙰𝙺𝙰𝙽𝙰𝙺𝚈 : _${astro}_\n┃📈 𝙿𝙴́𝚁𝙳𝙸𝙳𝙰 : ${[money0].getRandom()} _MakanakyCoins_\n┃💵 𝚂𝚄 𝙳𝙸𝙽𝙴𝚁𝙾 : ${money} _MakanakyCoins_\n╰━━[ 𝐌𝐀𝐊𝐀𝐍𝐀𝐊𝐘 - 🤖 ]━━⬣`, fkontak, m)
-    /*conn.sendHydrated(m.chat, `╭━━━━[ ☹️ 𝐇𝐀 𝐏𝐄𝐑𝐃𝐈𝐃𝐎! ☹️ ]━━⬣\n┃*${name}* : _${text}_\n┃🤖 𝙼𝙰𝙺𝙰𝙽𝙰𝙺𝚈 : _${astro}_\n┃📈 𝙿𝙴́𝚁𝙳𝙸𝙳𝙰 : $${[money0].getRandom()} MakanakyCoins_\n┃💵 𝚂𝚄 𝙳𝙸𝙽𝙴𝚁𝙾 : $${money} MakanakyCoins_\n╰━━[ 𝐌𝐀𝐊𝐀𝐍𝐀𝐊𝐘 - 🤖 ]━━⬣`, wm, null, yt, '𝙔𝙤𝙪𝙏𝙪𝙗𝙚', null, null, [
+    await conn.reply(m.chat, `╭━━━━[ ☹️ 𝐇𝐀 𝐏𝐄𝐑𝐃𝐈𝐃𝐎! ☹️ ]━━⬣\n┃\n┃👤 ${name} : _${text}_\n┃🤖 𝙼𝙰𝙺𝙰𝙽𝙰𝙺𝚈 : _${astro}_\n┃📈 𝙿𝙴́𝚁𝙳𝙸𝙳𝙰 : _${[money0].getRandom()} MakanakyCoins_\n┃💵 𝚂𝚄 𝙳𝙸𝙽𝙴𝚁𝙾 : _${money} _MakanakyCoins_\n┃\n╰━━[ 𝐌𝐀𝐊𝐀𝐍𝐀𝐊𝐘 - 🤖 ]━━⬣`, fkontak, m)
+    /*conn.sendHydrated(m.chat, `╭━━━━[ ☹️ 𝐇𝐀 𝐏𝐄𝐑𝐃𝐈𝐃𝐎! ☹️ ]━━⬣\n┃\n┃👤 ${name} : _${text}_\n┃🤖 𝙼𝙰𝙺𝙰𝙽𝙰𝙺𝚈 : _${astro}_\n┃📈 𝙿𝙴́𝚁𝙳𝙸𝙳𝙰 : $${[money0].getRandom()} MakanakyCoins_\n┃💵 𝚂𝚄 𝙳𝙸𝙽𝙴𝚁𝙾 : $${money} MakanakyCoins_\n┃\n╰━━[ 𝐌𝐀𝐊𝐀𝐍𝐀𝐊𝐘 - 🤖 ]━━⬣`, wm, null, yt, '𝙔𝙤𝙪𝙏𝙪𝙗𝙚', null, null, [
     ['𝙈𝙚𝙣𝙪 𝙅𝙪𝙚𝙜𝙤𝙨 | 𝙂𝙖𝙢𝙚𝙨 𝙈𝙚𝙣𝙪 🎡', '#juegosmenu'],
     ['𝙑𝙤𝙡𝙫𝙚𝙧 𝙖𝙡 𝙈𝙚𝙣𝙪́ | 𝘽𝙖𝙘𝙠 𝙩𝙤 𝙈𝙚𝙣𝙪 ☘️', '/menu']
     ], m,)    */
@@ -155,8 +155,8 @@ let handler = async (m, { conn, text, command, usedPrefix, args }) => {
     let money = global.db.data.users[who].money
     let money0 = global.db.data.users[m.sender].money += 300
     //global.db.data.users[m.sender].uang += 1000
-    await conn.reply(m.chat, `╭━━━━[ 🎉 𝐇𝐀𝐒 𝐆𝐀𝐍𝐀𝐃𝐎! 🎉 ]━━━⬣\n┃*${name}* : _${text}_\n┃🤖 𝙼𝙰𝙺𝙰𝙽𝙰𝙺𝚈 : _${astro}_\n┃💰 𝙿𝚁𝙴𝙼𝙸𝙾 : ${[money0].getRandom()} _MakanakyCoins_\n┃💵 𝚂𝚄 𝙳𝙸𝙽𝙴𝚁𝙾 : ${money} _MakanakyCoins_\n╰━━[ 𝐌𝐀𝐊𝐀𝐍𝐀𝐊𝐘 - 🤖 ]━━⬣`, fkontak, m)
-    /*conn.sendHydrated(m.chat, `╭━━━━[ 🎉 𝐇𝐀𝐒 𝐆𝐀𝐍𝐀𝐃𝐎! 🎉 ]━━━⬣\n┃*${name}* : _${text}_\n┃🤖 𝙼𝙰𝙺𝙰𝙽𝙰𝙺𝚈 : _${astro}_\n┃💰 𝙿𝚁𝙴𝙼𝙸𝙾 : $${[money0].getRandom()} MakanakyCoins_\n┃💵 𝚂𝚄 𝙳𝙸𝙽𝙴𝚁𝙾 : $${money} MakanakyCoins_\n╰━━[ 𝐌𝐀𝐊𝐀𝐍𝐀𝐊𝐘 - 🤖 ]━━⬣`, wm, null, yt, '𝙔𝙤𝙪𝙏𝙪𝙗𝙚', null, null, [
+    await conn.reply(m.chat, `╭━━━━[ 🎉 𝐇𝐀𝐒 𝐆𝐀𝐍𝐀𝐃𝐎! 🎉 ]━━━⬣\n┃\n┃👤 ${name} : _${text}_\n┃🤖 𝙼𝙰𝙺𝙰𝙽𝙰𝙺𝚈 : _${astro}_\n┃💰 𝙿𝚁𝙴𝙼𝙸𝙾 : _${[money0].getRandom()} MakanakyCoins_\n┃💵 𝚂𝚄 𝙳𝙸𝙽𝙴𝚁𝙾 : _${money} _MakanakyCoins_\n┃\n╰━━[ 𝐌𝐀𝐊𝐀𝐍𝐀𝐊𝐘 - 🤖 ]━━⬣`, fkontak, m)
+    /*conn.sendHydrated(m.chat, `╭━━━━[ 🎉 𝐇𝐀𝐒 𝐆𝐀𝐍𝐀𝐃𝐎! 🎉 ]━━━⬣\n┃\n┃👤 ${name} : _${text}_\n┃🤖 𝙼𝙰𝙺𝙰𝙽𝙰𝙺𝚈 : _${astro}_\n┃💰 𝙿𝚁𝙴𝙼𝙸𝙾 : $${[money0].getRandom()} MakanakyCoins_\n┃💵 𝚂𝚄 𝙳𝙸𝙽𝙴𝚁𝙾 : $${money} MakanakyCoins_\n┃\n╰━━[ 𝐌𝐀𝐊𝐀𝐍𝐀𝐊𝐘 - 🤖 ]━━⬣`, wm, null, yt, '𝙔𝙤𝙪𝙏𝙪𝙗𝙚', null, null, [
     ['𝙈𝙚𝙣𝙪 𝙅𝙪𝙚𝙜𝙤𝙨 | 𝙂𝙖𝙢𝙚𝙨 𝙈𝙚𝙣𝙪 🎡', '#juegosmenu'],
     ['𝙑𝙤𝙡𝙫𝙚𝙧 𝙖𝙡 𝙈𝙚𝙣𝙪́ | 𝘽𝙖𝙘𝙠 𝙩𝙤 𝙈𝙚𝙣𝙪 ☘️', '/menu']
     ], m,)     */
@@ -168,8 +168,8 @@ let handler = async (m, { conn, text, command, usedPrefix, args }) => {
     let name = conn.getName(who) 
     let money = global.db.data.users[who].money
     let money0 = global.db.data.users[m.sender].money -= 210
-    await conn.reply(m.chat, `╭━━━━[ ☹️ 𝐇𝐀 𝐏𝐄𝐑𝐃𝐈𝐃𝐎! ☹️ ]━━⬣\n┃*${name}* : _${text}_\n┃🤖 𝙼𝙰𝙺𝙰𝙽𝙰𝙺𝚈 : _${astro}_\n┃📈 𝙿𝙴́𝚁𝙳𝙸𝙳𝙰 : ${[money0].getRandom()} _MakanakyCoins_\n┃💵 𝚂𝚄 𝙳𝙸𝙽𝙴𝚁𝙾 : ${money} _MakanakyCoins_\n╰━━[ 𝐌𝐀𝐊𝐀𝐍𝐀𝐊𝐘 - 🤖 ]━━⬣`, fkontak, m)
-    /*conn.sendHydrated(m.chat, `╭━━━━[ ☹️ 𝐇𝐀 𝐏𝐄𝐑𝐃𝐈𝐃𝐎! ☹️ ]━━⬣\n┃*${name}* : _${text}_\n┃🤖 𝙼𝙰𝙺𝙰𝙽𝙰𝙺𝚈 : _${astro}_\n┃📈 𝙿𝙴́𝚁𝙳𝙸𝙳𝙰 : $${[money0].getRandom()} MakanakyCoins_\n┃💵 𝚂𝚄 𝙳𝙸𝙽𝙴𝚁𝙾 : $${money} MakanakyCoins_\n╰━━[ 𝐌𝐀𝐊𝐀𝐍𝐀𝐊𝐘 - 🤖 ]━━⬣`, wm, null, yt, '𝙔𝙤𝙪𝙏𝙪𝙗𝙚', null, null, [
+    await conn.reply(m.chat, `╭━━━━[ ☹️ 𝐇𝐀 𝐏𝐄𝐑𝐃𝐈𝐃𝐎! ☹️ ]━━⬣\n┃\n┃👤 ${name} : _${text}_\n┃🤖 𝙼𝙰𝙺𝙰𝙽𝙰𝙺𝚈 : _${astro}_\n┃📈 𝙿𝙴́𝚁𝙳𝙸𝙳𝙰 : _${[money0].getRandom()} MakanakyCoins_\n┃💵 𝚂𝚄 𝙳𝙸𝙽𝙴𝚁𝙾 : _${money} _MakanakyCoins_\n┃\n╰━━[ 𝐌𝐀𝐊𝐀𝐍𝐀𝐊𝐘 - 🤖 ]━━⬣`, fkontak, m)
+    /*conn.sendHydrated(m.chat, `╭━━━━[ ☹️ 𝐇𝐀 𝐏𝐄𝐑𝐃𝐈𝐃𝐎! ☹️ ]━━⬣\n┃\n┃👤 ${name} : _${text}_\n┃🤖 𝙼𝙰𝙺𝙰𝙽𝙰𝙺𝚈 : _${astro}_\n┃📈 𝙿𝙴́𝚁𝙳𝙸𝙳𝙰 : $${[money0].getRandom()} MakanakyCoins_\n┃💵 𝚂𝚄 𝙳𝙸𝙽𝙴𝚁𝙾 : $${money} MakanakyCoins_\n┃\n╰━━[ 𝐌𝐀𝐊𝐀𝐍𝐀𝐊𝐘 - 🤖 ]━━⬣`, wm, null, yt, '𝙔𝙤𝙪𝙏𝙪𝙗𝙚', null, null, [
     ['𝙈𝙚𝙣𝙪 𝙅𝙪𝙚𝙜𝙤𝙨 | 𝙂𝙖𝙢𝙚𝙨 𝙈𝙚𝙣𝙪 🎡', '#juegosmenu'],
     ['𝙑𝙤𝙡𝙫𝙚𝙧 𝙖𝙡 𝙈𝙚𝙣𝙪́ | 𝘽𝙖𝙘𝙠 𝙩𝙤 𝙈𝙚𝙣𝙪 ☘️', '/menu']
     ], m,)*/

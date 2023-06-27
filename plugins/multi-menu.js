@@ -293,7 +293,7 @@ await conn.sendButtonVid(m.chat, pp, menuA, menuB, lenguajeGB.smsBotonM1(), '.me
 
   
 } if (command == 'descargasmenu'){ //descargas
-let menuA = `🪄 ${lenguajeGB['smsConfi2']()} *${username}*`.trim()
+let menuA = `${lenguajeGB['smsConfi2']()} *${username}*`.trim()
 let menuB = `╭┄〔 ${wm} 〕┄⊱
 ┊დ ${week}, ${date}
 ┊დ ${lenguajeGB['smsBotonM4']()} » ${Object.keys(global.db.data.users).length}

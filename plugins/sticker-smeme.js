@@ -4,7 +4,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
     let [atas, bawah] = text.split`|`
     let q = m.quoted ? m.quoted : m
     let mime = (q.msg || q).mimetype || ''
-    if (!mime) throw `𝚁𝙴𝚂𝙿𝙾𝙽𝙳𝙴 𝙰 𝚄𝙽𝙰 𝙸𝙼𝙰𝙶𝙴𝙽 🤗\n𝐄𝐉𝐄𝐌𝐏𝐋𝐎 : .smeme bot|uwu`
+    if (!mime) throw `𝚁𝙴𝚂𝙿𝙾𝙽𝙳𝙴 𝙰 𝚄𝙽𝙰 𝙸𝙼𝙰𝙶𝙴𝙽 🤗\n𝐄𝐉𝐄𝐌𝐏𝐋𝐎 : _.smeme bot_|_uwu_`
     if (!/image\/(jpe?g|png)/.test(mime)) throw `Error`
     m.reply(global.wait)
     let img = await q.download()

@@ -1,5 +1,5 @@
 let handler = async (m, { command, usedPrefix, DevMode, args, conn }) => {
-const valoracion = { valorar1: 'Muy Alta 80% - 100%', valorar2: 'Alta 60% - 79%', valorar3: 'Media 40% - 59%', valorar4: 'Baja 20% - 39%', valorar5: 'Muy Baja 0% - 19%' }
+const valoracion = { valorar1: '𝙼𝚄𝚈 𝙰𝙻𝚃𝙰 80% - 100%', valorar2: '𝙰𝙻𝚃𝙰 60% - 79%', valorar3: '𝙼𝙴𝙳𝙸𝙰 40% - 59%', valorar4: '𝙱𝙰𝙹𝙰 20% - 39%', valorar5: '𝙼𝚄𝚈 𝙱𝙰𝙹𝙰 0% - 19%' }
 
 const categorias = {
 exp: {

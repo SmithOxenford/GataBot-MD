@@ -7,7 +7,7 @@ if ( users == 573136855110 || users == 584121083781 || users == 50689823726 || u
 let grupos = [nna, nn, nnn, nnnt]
 let gata = [img5, img6, img7, img8, img9]
 let enlace = { contextInfo: { externalAdReply: {title: wm + ' 🐈', body: 'support group' , sourceUrl: grupos.getRandom(), thumbnail: await(await fetch(gata.getRandom())).buffer() }}}
-let enlace2 = { contextInfo: { externalAdReply: { showAdAttribution: true, mediaUrl: yt, mediaType: 'VIDEO', description: '', title: wm, body: '😻 𝗦𝘂𝗽𝗲𝗿 𝗠𝗮𝗸𝗮𝗻𝗮𝗸𝘆𝗕𝗼𝘁-𝗠𝗗 - 𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽 ', thumbnailUrl: await(await fetch(global.img)).buffer(), sourceUrl: yt }}}
+let enlace2 = { contextInfo: { externalAdReply: { showAdAttribution: true, mediaUrl: yt, mediaType: 'VIDEO', description: '', title: wm, body: '🤖 𝐒𝐔𝐏𝐄𝐑 𝐌𝐀𝐊𝐀𝐍𝐀𝐊𝐘 - 𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏 🤖', thumbnailUrl: await(await fetch(global.img)).buffer(), sourceUrl: yt }}}
 let dos = [enlace, enlace2]    
 
 let user = global.db.data.users[m.sender]
@@ -57,7 +57,7 @@ const recompensas = {
 }
 
 let time = user.lastpago + 432000000 //432000000 5 dias
-if (new Date - user.lastpago < 432000000) return await conn.sendButton(m.chat, `💰 𝙎𝙐 𝙎𝙄𝙂𝙐𝙄𝙀𝙉𝙏𝙀 𝙋𝘼𝙂𝙊 𝙀𝙎 𝙀𝙉 ...`, wm + `\n\n𝙑𝙐𝙀𝙇𝙑𝙀 𝙀𝙉 :\n${clockString(time - new Date() * 1)}`, null, [['𝗠 𝗘 𝗡 𝗨 ☘️', '/menu']], fkontak, m)
+if (new Date - user.lastpago < 432000000) return await conn.sendButton(m.chat, `💰 𝚂𝚄 𝚂𝙸𝙶𝚄𝙸𝙴𝙽𝚃𝙴 𝙿𝙰𝙶𝙾 𝙴𝚂 𝙴𝙽 ...`, wm + `\n\n𝚅𝚄𝙴𝙻𝚅𝙴 𝙴𝙽 :\n${clockString(time - new Date() * 1)}`, null, [['𝗠 𝗘 𝗡 𝗨 ☘️', '/menu']], fkontak, m)
 let texto = ''
 for (let reward of Object.keys(recompensas)) {
     if (!(reward in user)) continue
@@ -65,14 +65,14 @@ for (let reward of Object.keys(recompensas)) {
 texto += `*+${recompensas[reward]}* ${global.rpgshop.emoticon(reward)}\n`}
 let text = `
 ╭━━💰━💰━💰━━⬣
-┃ ✅ 𝗣𝗔𝗚𝗢 𝗔𝗨𝗧𝗢𝗥𝗜𝗭𝗔𝗗𝗢
-┃ ✅ 𝗣𝗔𝗚𝗢 𝗥𝗘𝗔𝗟𝗜𝗭𝗔𝗗𝗢
+┃ ✅ 𝐏𝐀𝐆𝐎 𝐀𝐔𝐓𝐎𝐑𝐈𝐙𝐀𝐃𝐎
+┃ ✅ 𝐏𝐀𝐆𝐎 𝐑𝐄𝐀𝐋𝐈𝐙𝐀𝐃𝐎
 ╰━━💰━💰━💰━━⬣`
 
-await conn.sendButton(m.chat, text, texto + `\n\n🎟️ 𝗣 𝗥 𝗘 𝗠 𝗜 𝗨 𝗠 ⇢ ${premium ? '✅' : '❌'}\n${wm}`, gata.getRandom(), [['𝙑𝙤𝙡𝙫𝙚𝙧 𝙖𝙡 𝙈𝙚𝙣𝙪́ ☘️', '/menu']], m, enlace)  
+await conn.sendButton(m.chat, text, texto + `\n\n🎟️ 𝐏 𝐑 𝐄 𝐌 𝐈 𝐔 𝐌 ⇢ ${premium ? '✅' : '❌'}\n${wm}`, gata.getRandom(), [['𝙑𝙤𝙡𝙫𝙚𝙧 𝙖𝙡 𝙈𝙚𝙣𝙪́ ☘️', '/menu']], m, enlace)  
 user.lastpago = new Date * 1
 }else{
-m.reply('```USTED NO TIENE AUTORIZACIÓN PARA USAR ESTE COMANDO.```')}
+m.reply('```𝚄𝚂𝚃𝙴𝙳 𝙽𝙾 𝚃𝙸𝙴𝙽𝙴 𝙰𝚄𝚃𝙾𝚁𝙸𝚉𝙰𝙲𝙸𝙾́𝙽 𝙿𝙰𝚁𝙰 𝚄𝚂𝙰𝚁 𝙴𝚂𝚃𝙴 𝙲𝙾𝙼𝙰𝙽𝙳𝙾.```')}
 }
 handler.command = ['pgg'] 
 handler.level = 10
@@ -88,5 +88,5 @@ function clockString(ms) {
   let h = isNaN(ms) ? '--' : Math.floor(ms / 3600000) % 24
   let m = isNaN(ms) ? '--' : Math.floor(ms / 60000) % 60
   let s = isNaN(ms) ? '--' : Math.floor(ms / 1000) % 60
-  return ['┃⇢ ', ye, ' *🗓️ Años : Year*\n', '┃⇢ ', mo, ' *⛅ Mes :*\n', '┃⇢ ', d, ' *☀️ Días :*\n', '┃⇢ ', h, ' *⏰ Horas :*\n', '┃⇢ ', m, ' *🕐 Minutos :*\n', '┃⇢ ', s, ' *⏱️ Segundos :*'].map(v => v.toString().padStart(2, 0)).join('')
+  return ['┃⇢ ', ye, ' 🗓️ 𝙰𝙽̃𝙾𝚂 :\n', '┃⇢ ', mo, ' ⛅ 𝙼𝙴𝚂 :\n', '┃⇢ ', d, ' ☀️ 𝙳𝙸́𝙰𝚂 :\n', '┃⇢ ', h, ' ⏰ 𝙷𝙾𝚁𝙰𝚂  :\n', '┃⇢ ', m, ' 🕐 𝙼𝙸𝙽𝚄𝚃𝙾𝚂 :\n', '┃⇢ ', s, ' ⏱️ 𝚂𝙴𝙶𝚄𝙽𝙳𝙾𝚂 :'].map(v => v.toString().padStart(2, 0)).join('')
 }

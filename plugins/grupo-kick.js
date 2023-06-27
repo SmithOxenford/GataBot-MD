@@ -14,9 +14,9 @@ if(m.message.extendedTextMessage.contextInfo.participant !== null && m.message.e
 var mentioned = m.message.extendedTextMessage.contextInfo.mentionedJid[0] ? m.message.extendedTextMessage.contextInfo.mentionedJid[0] : m.message.extendedTextMessage.contextInfo.participant
 if(conn.user.jid.includes(mentioned)) return conn.reply(m.chat, `${lenguajeGB['smskick1']()}${usedPrefix + command} @${global.owner[0][0]}*`, fkontak, m)
 //let eliminar = await conn.groupParticipantsUpdate(m.chat, [mentioned], 'remove')
-let done = `${lenguajeGB['smsAvisoEG']()}*@${mentioned.split("@")[0]} ${lenguajeGB['smskick2']()}*`
-let err1 = `${lenguajeGB['smsAvisoFG']()}*@${mentioned.split("@")[0]} ${lenguajeGB['smskick3']()}*`
-let err2 = `${lenguajeGB['smsAvisoAG']()}*@${mentioned.split("@")[0]} ${lenguajeGB['smskick4']()}*`
+let done = `${lenguajeGB['smsAvisoEG']()}@${mentioned.split("@")[0]} ${lenguajeGB['smskick2']()}`
+let err1 = `${lenguajeGB['smsAvisoFG']()}@${mentioned.split("@")[0]} ${lenguajeGB['smskick3']()}`
+let err2 = `${lenguajeGB['smsAvisoAG']()}@${mentioned.split("@")[0]} ${lenguajeGB['smskick4']()}`
 
 
 if (eliminar[0].status === "200") m.reply(done, m.chat, { mentions: conn.parseMention(done)})  

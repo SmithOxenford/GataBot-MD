@@ -20,7 +20,7 @@
     let name = conn.getName(who) 
     //global.db.data.users[m.sender].exp += 1000
     let money0 = global.db.data.users[m.sender].money += 2
-    m.reply(`╭━━━━[🎉 𝐇𝐀 𝐆𝐀𝐍𝐀𝐃𝐎! 🎉]━━━⬣\n┃${name} 𝙴𝙻𝙴𝙶𝙸𝚂𝚃𝙴 : _${text}_\n┃💫 𝚁𝙴𝚂𝚄𝙻𝚃𝙰𝙳𝙾𝚂 : ${astro}\n┃💰 𝙿𝚁𝙴𝙼𝙸𝙾 : ${[money0].getRandom()} _MakanakyCoins_\n╰━━━━━━[ 𝐌𝐀𝐊𝐀𝐍𝐀𝐊𝐘 - 🤖 ]━━━━━⬣`)
+    m.reply(`╭━━[🎉 𝐇𝐀 𝐆𝐀𝐍𝐀𝐃𝐎! 🎉]━━━⬣\n┃${name} 𝙴𝙻𝙴𝙶𝙸𝚂𝚃𝙴 : _${text}_\n┃💫 𝚁𝙴𝚂𝚄𝙻𝚃𝙰𝙳𝙾𝚂 : _${astro}_\n┃💰 𝙿𝚁𝙴𝙼𝙸𝙾 : _${[money0].getRandom()} MakanakyCoins_\n╰━━━[ 𝐌𝐀𝐊𝐀𝐍𝐀𝐊𝐘 - 🤖 ]━━━⬣`)
     } else if (text == 'cara') {
     if (astro == 'cara') {
     let who
@@ -29,7 +29,7 @@
     let name = conn.getName(who) 
     //global.db.data.users[m.sender].exp += 1000
     let money0 = global.db.data.users[m.sender].money += 500
-    m.reply(`╭━━━━[🎉 𝐇𝐀 𝐆𝐀𝐍𝐀𝐃𝐎! 🎉]━━━⬣\n┃${name} 𝙴𝙻𝙴𝙶𝙸𝚂𝚃𝙴 : _${text}_\n┃💫 𝚁𝙴𝚂𝚄𝙻𝚃𝙰𝙳𝙾𝚂 : ${astro}\n┃💰 𝙿𝚁𝙴𝙼𝙸𝙾 : ${[money0].getRandom()} _MakanakyCoins_\n╰━━━━━━[ 𝐌𝐀𝐊𝐀𝐍𝐀𝐊𝐘 - 🤖 ]━━━━━⬣`)
+    m.reply(`╭━━[🎉 𝐇𝐀 𝐆𝐀𝐍𝐀𝐃𝐎! 🎉]━━━⬣\n┃${name} 𝙴𝙻𝙴𝙶𝙸𝚂𝚃𝙴 : _${text}_\n┃💫 𝚁𝙴𝚂𝚄𝙻𝚃𝙰𝙳𝙾𝚂 : _${astro}_\n┃💰 𝙿𝚁𝙴𝙼𝙸𝙾 : _${[money0].getRandom()} MakanakyCoins_\n╰━━━[ 𝐌𝐀𝐊𝐀𝐍𝐀𝐊𝐘 - 🤖 ]━━━⬣`)
     } else {
     let who
     if (m.isGroup) who = m.mentionedJid[0] ? m.mentionedJid[0] : m.sender
@@ -37,7 +37,7 @@
     let name = conn.getName(who) 
     let money0 = global.db.data.users[m.sender].money -= 300
     //global.db.data.users[m.sender].exp -= 300
-    m.reply(`╭━━━━[☹️ 𝐇𝐀 𝐏𝐄𝐑𝐃𝐈𝐃𝐎! ☹️]━━⬣\n┃${name} 𝙴𝙻𝙴𝙶𝙸𝚂𝚃𝙴 : _${text}_\n┃💫 𝚁𝙴𝚂𝚄𝙻𝚃𝙰𝙳𝙾𝚂 : ${astro}\n┃📈 𝙿𝙴́𝚁𝙳𝙸𝙳𝙰 : ${[money0].getRandom()} _MakanakyCoins_\n╰━━━━━━[ 𝐌𝐀𝐊𝐀𝐍𝐀𝐊𝐘 - 🤖 ]━━━━━⬣`)
+    m.reply(`╭━━[☹️ 𝐇𝐀 𝐏𝐄𝐑𝐃𝐈𝐃𝐎! ☹️]━━⬣\n┃${name} 𝙴𝙻𝙴𝙶𝙸𝚂𝚃𝙴 : _${text}_\n┃💫 𝚁𝙴𝚂𝚄𝙻𝚃𝙰𝙳𝙾𝚂 : _${astro}_\n┃📈 𝙿𝙴́𝚁𝙳𝙸𝙳𝙰 : _${[money0].getRandom()} MakanakyCoins_\n╰━━━[ 𝐌𝐀𝐊𝐀𝐍𝐀𝐊𝐘 - 🤖 ]━━━⬣`)
     }
     } else if (text == 'cara') {
     if (astro == 'cara') {
@@ -47,7 +47,7 @@
     let name = conn.getName(who) 
     let money0 = global.db.data.users[m.sender].money += 500
     //global.db.data.users[m.sender].exp += 1000
-    m.reply(`╭━━━━[🎉 𝐇𝐀 𝐆𝐀𝐍𝐀𝐃𝐎! 🎉]━━━⬣\n┃${name} 𝙴𝙻𝙴𝙶𝙸𝚂𝚃𝙴 : _${text}_\n┃💫 𝚁𝙴𝚂𝚄𝙻𝚃𝙰𝙳𝙾𝚂 : ${astro}\n┃💰 𝙿𝚁𝙴𝙼𝙸𝙾 : ${[money0].getRandom()} _MakanakyCoins_\n╰━━━━━━[ 𝐌𝐀𝐊𝐀𝐍𝐀𝐊𝐘 - 🤖 ]━━━━━⬣`)
+    m.reply(`╭━━[🎉 𝐇𝐀 𝐆𝐀𝐍𝐀𝐃𝐎! 🎉]━━━⬣\n┃${name} 𝙴𝙻𝙴𝙶𝙸𝚂𝚃𝙴 : _${text}_\n┃💫 𝚁𝙴𝚂𝚄𝙻𝚃𝙰𝙳𝙾𝚂 : _${astro}_\n┃💰 𝙿𝚁𝙴𝙼𝙸𝙾 : _${[money0].getRandom()} MakanakyCoins_\n╰━━━[ 𝐌𝐀𝐊𝐀𝐍𝐀𝐊𝐘 - 🤖 ]━━━⬣`)
     } else {
     let who
     if (m.isGroup) who = m.mentionedJid[0] ? m.mentionedJid[0] : m.sender
@@ -55,7 +55,7 @@
     let name = conn.getName(who) 
     //global.db.data.users[m.sender].exp -= 300
     let money0 = global.db.data.users[m.sender].money -= 300
-    m.reply(`╭━━━━[☹️ 𝐇𝐀 𝐏𝐄𝐑𝐃𝐈𝐃𝐎! ☹️]━━⬣\n┃${name} 𝙴𝙻𝙴𝙶𝙸𝚂𝚃𝙴 : _${text}_\n┃💫 𝚁𝙴𝚂𝚄𝙻𝚃𝙰𝙳𝙾𝚂 : ${astro}\n┃📈 𝙿𝙴́𝚁𝙳𝙸𝙳𝙰 : ${[money0].getRandom()} _MakanakyCoins_\n╰━━━━━━[ 𝐌𝐀𝐊𝐀𝐍𝐀𝐊𝐘 - 🤖 ]━━━━━⬣`)
+    m.reply(`╭━━[☹️ 𝐇𝐀 𝐏𝐄𝐑𝐃𝐈𝐃𝐎! ☹️]━━⬣\n┃${name} 𝙴𝙻𝙴𝙶𝙸𝚂𝚃𝙴 : _${text}_\n┃💫 𝚁𝙴𝚂𝚄𝙻𝚃𝙰𝙳𝙾𝚂 : _${astro}_\n┃📈 𝙿𝙴́𝚁𝙳𝙸𝙳𝙰 : _${[money0].getRandom()} MakanakyCoins_\n╰━━━[ 𝐌𝐀𝐊𝐀𝐍𝐀𝐊𝐘 - 🤖 ]━━━⬣`)
     }
     }else if (text == 'cruz') {
     if (astro == 'cruz') {
@@ -65,7 +65,7 @@
     let name = conn.getName(who) 
     //global.db.data.users[m.sender].exp += 1000
     let money0 = global.db.data.users[m.sender].money += 500
-    m.reply(`╭━━━━[🎉 𝐇𝐀 𝐆𝐀𝐍𝐀𝐃𝐎! 🎉]━━━⬣\n┃${name} 𝙴𝙻𝙴𝙶𝙸𝚂𝚃𝙴 : _${text}_\n┃💫 𝚁𝙴𝚂𝚄𝙻𝚃𝙰𝙳𝙾𝚂 : ${astro}\n┃💰 𝙿𝚁𝙴𝙼𝙸𝙾 : ${[money0].getRandom()} _MakanakyCoins_\n╰━━━━━━[ 𝐌𝐀𝐊𝐀𝐍𝐀𝐊𝐘 - 🤖 ]━━━━━⬣`)
+    m.reply(`╭━━[🎉 𝐇𝐀 𝐆𝐀𝐍𝐀𝐃𝐎! 🎉]━━━⬣\n┃${name} 𝙴𝙻𝙴𝙶𝙸𝚂𝚃𝙴 : _${text}_\n┃💫 𝚁𝙴𝚂𝚄𝙻𝚃𝙰𝙳𝙾𝚂 : _${astro}_\n┃💰 𝙿𝚁𝙴𝙼𝙸𝙾 : _${[money0].getRandom()} MakanakyCoins_\n╰━━━[ 𝐌𝐀𝐊𝐀𝐍𝐀𝐊𝐘 - 🤖 ]━━━⬣`)
     } else {
     let who
     if (m.isGroup) who = m.mentionedJid[0] ? m.mentionedJid[0] : m.sender
@@ -73,7 +73,7 @@
     let name = conn.getName(who) 
     //global.db.data.users[m.sender].exp -= 300
     let money0 = global.db.data.users[m.sender].money -= 300
-    m.reply(`╭━━━━[☹️ 𝐇𝐀 𝐏𝐄𝐑𝐃𝐈𝐃𝐎! ☹️]━━⬣\n┃${name} 𝙴𝙻𝙴𝙶𝙸𝚂𝚃𝙴 : _${text}_\n┃💫 𝚁𝙴𝚂𝚄𝙻𝚃𝙰𝙳𝙾𝚂 : ${astro}\n┃📈 𝙿𝙴́𝚁𝙳𝙸𝙳𝙰 : ${[money0].getRandom()} _MakanakyCoins_\n╰━━━━━━[ 𝐌𝐀𝐊𝐀𝐍𝐀𝐊𝐘 - 🤖 ]━━━━━⬣`)
+    m.reply(`╭━━[☹️ 𝐇𝐀 𝐏𝐄𝐑𝐃𝐈𝐃𝐎! ☹️]━━⬣\n┃${name} 𝙴𝙻𝙴𝙶𝙸𝚂𝚃𝙴 : _${text}_\n┃💫 𝚁𝙴𝚂𝚄𝙻𝚃𝙰𝙳𝙾𝚂 : _${astro}_\n┃📈 𝙿𝙴́𝚁𝙳𝙸𝙳𝙰 : _${[money0].getRandom()} MakanakyCoins_\n╰━━━[ 𝐌𝐀𝐊𝐀𝐍𝐀𝐊𝐘 - 🤖 ]━━━⬣`)
     }} else if (text == 'cruz') {
     if (astro == 'cruz') {
     let who
@@ -82,7 +82,7 @@
     let name = conn.getName(who) 
     //global.db.data.users[m.sender].exp += 1000
     let money0 = global.db.data.users[m.sender].money += 500
-    m.reply(`╭━━━━[🎉 𝐇𝐀 𝐆𝐀𝐍𝐀𝐃𝐎! 🎉]━━━⬣\n┃${name} 𝙴𝙻𝙴𝙶𝙸𝚂𝚃𝙴 : _${text}_\n┃💫 𝚁𝙴𝚂𝚄𝙻𝚃𝙰𝙳𝙾𝚂 : ${astro}\n┃💰 𝙿𝚁𝙴𝙼𝙸𝙾 : ${[money0].getRandom()} _MakanakyCoins_\n╰━━━━━━[ 𝐌𝐀𝐊𝐀𝐍𝐀𝐊𝐘 - 🤖 ]━━━━━⬣`)
+    m.reply(`╭━━[🎉 𝐇𝐀 𝐆𝐀𝐍𝐀𝐃𝐎! 🎉]━━━⬣\n┃${name} 𝙴𝙻𝙴𝙶𝙸𝚂𝚃𝙴 : _${text}_\n┃💫 𝚁𝙴𝚂𝚄𝙻𝚃𝙰𝙳𝙾𝚂 : _${astro}_\n┃💰 𝙿𝚁𝙴𝙼𝙸𝙾 : _${[money0].getRandom()} MakanakyCoins_\n╰━━━[ 𝐌𝐀𝐊𝐀𝐍𝐀𝐊𝐘 - 🤖 ]━━━⬣`)
     } else {
     let who
     if (m.isGroup) who = m.mentionedJid[0] ? m.mentionedJid[0] : m.sender
@@ -90,7 +90,7 @@
     let name = conn.getName(who)  
     //global.db.data.users[m.sender].exp -= 300
     let money0 = global.db.data.users[m.sender].money -= 400
-    m.reply(`╭━━━━[☹️ 𝐇𝐀 𝐏𝐄𝐑𝐃𝐈𝐃𝐎! ☹️]━━⬣\n┃${name} 𝙴𝙻𝙴𝙶𝙸𝚂𝚃𝙴 : _${text}_\n┃💫 𝚁𝙴𝚂𝚄𝙻𝚃𝙰𝙳𝙾𝚂 : ${astro}\n┃📈 𝙿𝙴́𝚁𝙳𝙸𝙳𝙰 : ${[money0].getRandom()} _MakanakyCoins_\n╰━━━━━━[ 𝐌𝐀𝐊𝐀𝐍𝐀𝐊𝐘 - 🤖 ]━━━━━⬣`)
+    m.reply(`╭━━[☹️ 𝐇𝐀 𝐏𝐄𝐑𝐃𝐈𝐃𝐎! ☹️]━━⬣\n┃${name} 𝙴𝙻𝙴𝙶𝙸𝚂𝚃𝙴 : _${text}_\n┃💫 𝚁𝙴𝚂𝚄𝙻𝚃𝙰𝙳𝙾𝚂 : _${astro}_\n┃📈 𝙿𝙴́𝚁𝙳𝙸𝙳𝙰 : _${[money0].getRandom()} MakanakyCoins_\n╰━━━[ 𝐌𝐀𝐊𝐀𝐍𝐀𝐊𝐘 - 🤖 ]━━━⬣`)
     }
     } else if (text == 'cara') {
     if (astro == 'cara') {
@@ -100,7 +100,7 @@
     let name = conn.getName(who) 
     //global.db.data.users[m.sender].exp += 1000
     let money0 = global.db.data.users[m.sender].money += 500
-    m.reply(`╭━━━━[🎉 𝐇𝐀 𝐆𝐀𝐍𝐀𝐃𝐎! 🎉]━━━⬣\n┃${name} 𝙴𝙻𝙴𝙶𝙸𝚂𝚃𝙴 : _${text}_\n┃💫 𝚁𝙴𝚂𝚄𝙻𝚃𝙰𝙳𝙾𝚂 : ${astro}\n┃💰 𝙿𝚁𝙴𝙼𝙸𝙾 : ${[money0].getRandom()} _MakanakyCoins_\n╰━━━━━━[ 𝐌𝐀𝐊𝐀𝐍𝐀𝐊𝐘 - 🤖 ]━━━━━⬣`)
+    m.reply(`╭━━[🎉 𝐇𝐀 𝐆𝐀𝐍𝐀𝐃𝐎! 🎉]━━━⬣\n┃${name} 𝙴𝙻𝙴𝙶𝙸𝚂𝚃𝙴 : _${text}_\n┃💫 𝚁𝙴𝚂𝚄𝙻𝚃𝙰𝙳𝙾𝚂 : _${astro}_\n┃💰 𝙿𝚁𝙴𝙼𝙸𝙾 : _${[money0].getRandom()} MakanakyCoins_\n╰━━━[ 𝐌𝐀𝐊𝐀𝐍𝐀𝐊𝐘 - 🤖 ]━━━⬣`)
     } else {
     let who
     if (m.isGroup) who = m.mentionedJid[0] ? m.mentionedJid[0] : m.sender
@@ -108,7 +108,7 @@
     let name = conn.getName(who) 
     //global.db.data.users[m.sender].exp -= 300
     let money0 = global.db.data.users[m.sender].money -= 300
-    m.reply(`╭━━━━[☹️ 𝐇𝐀 𝐏𝐄𝐑𝐃𝐈𝐃𝐎! ☹️]━━⬣\n┃${name} 𝙴𝙻𝙴𝙶𝙸𝚂𝚃𝙴 : _${text}_\n┃💫 𝚁𝙴𝚂𝚄𝙻𝚃𝙰𝙳𝙾𝚂 : ${astro}\n┃📈 𝙿𝙴́𝚁𝙳𝙸𝙳𝙰 : ${[money0].getRandom()} _MakanakyCoins_\n╰━━━━━━[ 𝐌𝐀𝐊𝐀𝐍𝐀𝐊𝐘 - 🤖 ]━━━━━⬣`)
+    m.reply(`╭━━[☹️ 𝐇𝐀 𝐏𝐄𝐑𝐃𝐈𝐃𝐎! ☹️]━━⬣\n┃${name} 𝙴𝙻𝙴𝙶𝙸𝚂𝚃𝙴 : _${text}_\n┃💫 𝚁𝙴𝚂𝚄𝙻𝚃𝙰𝙳𝙾𝚂 : _${astro}_\n┃📈 𝙿𝙴́𝚁𝙳𝙸𝙳𝙰 : _${[money0].getRandom()} MakanakyCoins_\n╰━━━[ 𝐌𝐀𝐊𝐀𝐍𝐀𝐊𝐘 - 🤖 ]━━━⬣`)
     }
     global.db.data.users[m.sender].wait = new Date * 1
     }}

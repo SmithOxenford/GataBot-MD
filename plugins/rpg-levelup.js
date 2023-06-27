@@ -79,38 +79,45 @@ let user = global.db.data.users[m.sender]
     if (!canLevelUp(user.level, user.exp, global.multiplier)) {
         let { min, xp, max } = xpRange(user.level, global.multiplier)
         throw `
-╭━━━[ *𝙉𝙄𝙑𝙀𝙇* ]━━━━⬣
-┃ *NOMBRE:*
+╭━━━[ 𝐍𝐈𝐕𝐄𝐋 ]━━━━⬣
+┃ 𝙽𝙾𝙼𝙱𝚁𝙴 :
 ┃ ${name}
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-┃ *NIVEL:* *${user.level}*
+┃ 𝙽𝙸𝚅𝙴𝙻 : 
+┃ ${user.level}
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-┃ *RANGO:* ${user.role}
+┃ 𝚁𝙰𝙽𝙶𝙾 :
+┃ ${user.role}
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-┃ *XP:* *${user.exp - min}/${xp}*
-╰━━━〔 *𓃠 ${vs}* 〕━━━━━⬣
+┃ 𝚇𝙿:
+┃ ${user.exp - min}/${xp}
+╰━━━〔 ${vs} 〕━━⬣
 
-*Te falta ${max - user.exp} de XP para subir de nivel*
+𝚃𝙴 𝙵𝙰𝙻𝚃𝙰 ${max - user.exp} 𝙳𝙴 𝚇𝙿 𝙿𝙰𝚁𝙰 𝚂𝚄𝙱𝙸𝚁 𝙳𝙴 𝙽𝙸𝚅𝙴𝙻 😁
 `.trim()
     }
         
     let before = user.level * 1
     while (canLevelUp(user.level, user.exp, global.multiplier)) user.level++
     if (before !== user.level) {
-        let teks = `Bien hecho! ${conn.getName(m.sender)} Nivel: ${user.level}`
+        let teks = `𝙱𝙸𝙴𝙽 𝙷𝙴𝙲𝙷𝙾! ${conn.getName(m.sender)} 𝐍𝐈𝐕𝐄𝐋 : ${user.level}`
         let str = `
-╭━━━[ *𝙉𝙄𝙑𝙀𝙇* ]━━━━⬣
-┃ *NIVEL ANTERIOR:* *${before}*
+╭━━━[ 𝐍𝐈𝐕𝐄𝐋 ]━━━━⬣
+┃ 𝙽𝙸𝚅𝙴𝙻 𝙰𝙽𝚃𝙴𝚁𝙸𝙾𝚁 : 
+┃ ${before}
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-┃ *NIVEL ACTUAL:* *${user.level}*
+┃ 𝙽𝙸𝚅𝙴𝙻 𝙰𝙲𝚃𝚄𝙰𝙻 :
+┃ ${user.level}
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-┃ *RANGO* ${user.role}
+┃ 𝚁𝙰𝙽𝙶𝙾 :
+┃ ${user.role}
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-┃ *FECHA:* *${new Date().toLocaleString('id-ID')}*
-╰━━━〔 *𓃠 ${vs}* 〕━━━━━⬣
+┃ 𝙵𝙴𝙲𝙷𝙰 :
+┃ ${new Date().toLocaleString('id-ID')}
+╰━━━〔 ${vs} 〕━━⬣
 
-*_Cuanto más interactúes con MakanakyBot-MD, mayor será tu nivel!!_*
-*_Actualiza tú rango con el comando ${usedPrefix}rol!!_*
+𝙲𝚄𝙰𝙽𝚃𝙾 𝙼𝙰́𝚂 𝙸𝙽𝚃𝙴𝚁𝙰𝙲𝚃𝚄́𝙴𝚂 𝙲𝙾𝙽 𝙼𝙰𝙺𝙰𝙽𝙰𝙺𝚈 - 🤖, 𝙼𝙰𝚈𝙾𝚁 𝚂𝙴𝚁𝙰́ 𝚃𝚄 𝙽𝙸𝚅𝙴𝙻!
+𝙰𝙲𝚃𝚄𝙰𝙻𝙸𝚉𝙰 𝚃𝚄́ 𝚁𝙰𝙽𝙶𝙾 𝙲𝙾𝙽 𝙴𝙻 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 *${usedPrefix}rol* 🤩
 `.trim()
         try {
             const img = await levelup(teks, user.level)

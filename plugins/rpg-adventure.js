@@ -39,10 +39,10 @@ if (new Date - user.lastadventure <= cooldown) return await conn.reply(m.chat, `
     let text = `🛫 𝙴𝚂𝚃𝙰𝚂 𝙰𝚅𝙴𝙽𝚃𝚄𝚁𝙰𝙽𝙳𝙾 𝙴𝙽 *» ${kt[1][0].name}*
 
 ${cmenut}
-${cmenub} *ID :* ${kt[1][0].id}
-${cmenub} *CIUDAD | CITY :* ${kt[1][0].capitalCity}
-${cmenub} *LONGITUD | LENGTH :* ${kt[1][0].longitude}
-${cmenub} *LATITUD | LATITUDE :* ${kt[1][0].latitude}
+${cmenub} 𝐈𝐃 : ${kt[1][0].id}
+${cmenub} 𝐂𝐈𝐔𝐃𝐀𝐃 : ${kt[1][0].capitalCity}
+${cmenub} 𝐋𝐎𝐍𝐆𝐈𝐓𝐔𝐃 : ${kt[1][0].longitude}
+${cmenub} 𝐋𝐀𝐓𝐈𝐓𝐔𝐃 : ${kt[1][0].latitude}
 ${cmenuf}
 
 🏞️ 𝐀𝐕𝐄𝐍𝐓𝐔𝐑𝐀 𝐅𝐈𝐍𝐀𝐋𝐈𝐙𝐀𝐃𝐀 🏞️ 

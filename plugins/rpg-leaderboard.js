@@ -24,42 +24,42 @@ return {...value, jid: key}
 console.log(participants)
 let len = args[0] && args[0].length > 0 ? Math.min(100, Math.max(parseInt(args[0]), 10)) : Math.min(10, sortedExp.length)
 let text = `
-       🏆 *TABLA DE CLASIFICACION*
+       🏆 𝐓𝐀𝐁𝐋𝐀 𝐃𝐄 𝐂𝐋𝐀𝐒𝐈𝐅𝐈𝐂𝐀𝐂𝐈𝐎𝐍 🏆
     
-💠 *TOP ${len} XP ⚡* 
-Tú : *${usersExp.indexOf(m.sender) + 1}* de *${usersExp.length} Usuarios*
+💠 𝐓𝐎𝐏 ${len} 𝐗𝐏 ⚡
+𝚅𝙾𝚂 : ${usersExp.indexOf(m.sender) + 1} 𝙳𝙴 ${usersExp.length} 𝚄𝚂𝚄𝙰𝚁𝙸𝙾𝚂
 
-${sortedExp.slice(0, len).map(({ jid, exp }, i) => `${i + 1}. ${participants.some(p => jid === p.jid) ? `(${conn.getName(jid)}) wa.me/` : '@'}${jid.split`@`[0]} *${exp} ⚡*`).join`\n`}
+${sortedExp.slice(0, len).map(({ jid, exp }, i) => `${i + 1}. ${participants.some(p => jid === p.jid) ? `(${conn.getName(jid)}) wa.me/` : '@'}${jid.split`@`[0]} ${exp} ⚡`).join`\n`}
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-💠 *TOP ${len} NIVEL 🔅* 
-Tú : *${usersLevel.indexOf(m.sender) + 1}* de *${usersLevel.length} Usuarios*
+💠 𝐓𝐎𝐏 ${len} 𝐍𝐈𝐕𝐄𝐋 🔅
+𝚅𝙾𝚂 : ${usersLevel.indexOf(m.sender) + 1} 𝙳𝙴 ${usersLevel.length} 𝚄𝚂𝚄𝙰𝚁𝙸𝙾𝚂
 
-${sortedLevel.slice(0, len).map(({ jid, level }, i) => `${i + 1}. ${participants.some(p => jid === p.jid) ? `(${conn.getName(jid)}) wa.me/` : '@'}${jid.split`@`[0]} *${level} 🔅*`).join`\n`}
+${sortedLevel.slice(0, len).map(({ jid, level }, i) => `${i + 1}. ${participants.some(p => jid === p.jid) ? `(${conn.getName(jid)}) wa.me/` : '@'}${jid.split`@`[0]} ${level} 🔅`).join`\n`}
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-💠 *TOP ${len} ROL | RANGO 💪* 
-Tú : *${usersLevel.indexOf(m.sender) + 1}* de *${usersLevel.length} Usuarios*
+💠 𝐓𝐎𝐏 ${len} 𝐑𝐎𝐋 | 𝐑𝐀𝐍𝐆𝐎 💪
+𝚅𝙾𝚂 : ${usersLevel.indexOf(m.sender) + 1} 𝙳𝙴 ${usersLevel.length} 𝚄𝚂𝚄𝙰𝚁𝙸𝙾𝚂
 
 ${sortedLevel.slice(0, len).map(({ jid, role, level }, i) => `${i + 1}. ${participants.some(p => jid === p.jid) ? `(${conn.getName(jid)}) wa.me/` : '@'}${jid.split`@`[0]} ${role}`).join`\n`}
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-💠 *TOP USUARIOS ${len} PREMIUM 🎟️* 
-Tú : *${usersLevel.indexOf(m.sender) + 1}* de *${usersLevel.length} Usuarios*
+💠 𝐓𝐎𝐏 𝐔𝐒𝐔𝐀𝐑𝐈𝐎𝐒 ${len} 𝐏𝐑𝐄𝐌𝐈𝐔𝐌 🎟️
+𝚅𝙾𝚂 : ${usersLevel.indexOf(m.sender) + 1} 𝙳𝙴 ${usersLevel.length} 𝚄𝚂𝚄𝙰𝚁𝙸𝙾𝚂
 
-${sortedLim.slice(0, len).map(({ jid, premium, level }, i) => `${i + 1}. ${participants.some(p => jid === p.jid) ? `(${conn.getName(jid)}) wa.me/` : '@'}${jid.split`@`[0]} *${premium ? `✅` : `❌`} 🎟️*`).join`\n`}
+${sortedLim.slice(0, len).map(({ jid, premium, level }, i) => `${i + 1}. ${participants.some(p => jid === p.jid) ? `(${conn.getName(jid)}) wa.me/` : '@'}${jid.split`@`[0]} ${premium ? `✅` : `❌`} 🎟️`).join`\n`}
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-💠 *TOP ${len} DIAMANTES 💎* 
-Tú : *${usersLim.indexOf(m.sender) + 1}* de *${usersLim.length} Usuarios*
+💠 𝐓𝐎𝐏 ${len} 𝐃𝐈𝐀𝐌𝐀𝐍𝐓𝐄𝐒 💎
+𝚅𝙾𝚂 : ${usersLim.indexOf(m.sender) + 1} 𝙳𝙴 ${usersLim.length} 𝚄𝚂𝚄𝙰𝚁𝙸𝙾𝚂
 
-${sortedLim.slice(0, len).map(({ jid, limit }, i) => `${i + 1}. ${participants.some(p => jid === p.jid) ? `(${conn.getName(jid)}) wa.me/` : '@'}${jid.split`@`[0]} *${limit} 💎*`).join`\n`}
+${sortedLim.slice(0, len).map(({ jid, limit }, i) => `${i + 1}. ${participants.some(p => jid === p.jid) ? `(${conn.getName(jid)}) wa.me/` : '@'}${jid.split`@`[0]} ${limit} 💎`).join`\n`}
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-💠 *TOP ${len} TOKENS 🪙* 
-Tú : *${usersJoincount.indexOf(m.sender) + 1}* de *${usersJoincount.length} Usuarios*
+💠 𝐓𝐎𝐏 ${len} 𝐓𝐎𝐊𝐄𝐍𝐒 ❤️
+𝚅𝙾𝚂 : ${usersJoincount.indexOf(m.sender) + 1} 𝙳𝙴 ${usersJoincount.length} 𝚄𝚂𝚄𝙰𝚁𝙸𝙾𝚂
 
-${sortedJoincount.slice(0, len).map(({ jid, joincount }, i) => `${i + 1}. ${participants.some(p => jid === p.jid) ? `(${conn.getName(jid)}) wa.me/` : '@'}${jid.split`@`[0]} *${joincount} 🪙*`).join`\n`}
+${sortedJoincount.slice(0, len).map(({ jid, joincount }, i) => `${i + 1}. ${participants.some(p => jid === p.jid) ? `(${conn.getName(jid)}) wa.me/` : '@'}${jid.split`@`[0]} ${joincount} ❤️`).join`\n`}
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-💠 *TOP ${len} MAKANAKYCOINS*
-Tú : *${usersMoney.indexOf(m.sender) + 1}* de *${usersMoney.length} Usuarios*
+💠 𝐓𝐎𝐏 ${len} 𝐌𝐀𝐊𝐀𝐂𝐀𝐍𝐀𝐊𝐘𝐂𝐎𝐈𝐍𝐒 🤖
+𝚅𝙾𝚂 : ${usersMoney.indexOf(m.sender) + 1} 𝙳𝙴 ${usersMoney.length} 𝚄𝚂𝚄𝙰𝚁𝙸𝙾𝚂
 
-${sortedMoney.slice(0, len).map(({ jid, money }, i) => `${i + 1}. ${participants.some(p => jid === p.jid) ? `(${conn.getName(jid)}) wa.me/` : '@'}${jid.split`@`[0]} *${money} 🐈*`).join`\n`}
+${sortedMoney.slice(0, len).map(({ jid, money }, i) => `${i + 1}. ${participants.some(p => jid === p.jid) ? `(${conn.getName(jid)}) wa.me/` : '@'}${jid.split`@`[0]} ${money} 🤖`).join`\n`}
 `.trim()
 await m.reply(text, null, { mentions: conn.parseMention(text) })
 /*await conn.sendButton(m.chat, wm, text, null, [

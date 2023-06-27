@@ -18,9 +18,9 @@ let text
     let pp = await conn.profilePictureUrl(m.sender, 'image').catch(_ => 'https://telegra.ph/file/a2ae6cbfa40f6eeea0cf1.jpg')
 
    const obj = {
-      "type": "quote",
+      "type": "message",
       "format": "png",
-      "backgroundColor": "#000000",
+      "backgroundColor": "#FFFFFF",
       "width": 512,
       "height": 768,
       "scale": 2,
