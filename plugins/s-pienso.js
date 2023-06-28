@@ -21,7 +21,7 @@ let stiker = await sticker(null, s[Math.floor(Math.random() * s.length)], nombre
 await delay(5 * 5000)
 if (stiker) conn.sendFile(m.chat, stiker, 'sticker.webp', '',m, true, { contextInfo: { 'forwardingScore': 200, 'isForwarded': false}}, { quoted: m })
 }
-handler.customPrefix = /piensa|pensaré|pensó|🤔/i 
+handler.customPrefix = /piensa|pensaré|pensó/i 
 handler.command = new RegExp
 handler.exp = 50
 export default handler

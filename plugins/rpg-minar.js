@@ -66,7 +66,7 @@ texto += `+${recompensas[reward]} ${global.rpgshop.emoticon(reward)}\n`}
 ['𝙈𝙞𝙣𝙖𝙧 𝙂𝙖𝙩𝙖𝘾𝙤𝙞𝙣𝙨 🐈', `.minar2`],
 ['𝙑𝙤𝙡𝙫𝙚𝙧 𝙖𝙡 𝙈𝙚𝙣𝙪́ | 𝘽𝙖𝙘𝙠 𝙩𝙤 𝙈𝙚𝙣𝙪 ☘️', `.menu`]
 ], m,)*/
-await conn.reply(m.chat, `*${minar} ${xp} XP*`, fkontak,  m)
+await conn.reply(m.chat, `*${minar} ${xp} xᴘ*`, fkontak,  m)
 user.lastmiming = new Date * 1  
 }
 handler.help = ['minar']

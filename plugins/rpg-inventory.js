@@ -260,16 +260,16 @@ let tiketm = member.healtmonster
     let pareja = global.db.data.users[m.sender].pasangan
 	
 let str = `
-🏷️ *INVENTARIO | INVENTORY* 
-👤» *${name}* ( @${who.split("@")[0]} )\n
+🏷️ 𝐈𝐍𝐕𝐄𝐍𝐓𝐀𝐑𝐈𝐎 🏷️
+👤» ${name} ( @${who.split("@")[0]} )\n
 ╭━━━━━━━━━⬣
-┃ *𝗜𝗡𝗩𝗘𝗡𝗧𝗔𝗥𝗜𝗢 𝗗𝗘 𝗔𝗥𝗧𝗜𝗖𝗨𝗟𝗢𝗦* 
+┃ 𝐈𝐍𝐕𝐄𝐍𝐓𝐀𝐑𝐈𝐎 𝐃𝐄 𝐀𝐑𝐓𝐈𝐂𝐔𝐋𝐎𝐒 
 ┃ ╸╸╸╸╸╸╸╸╸╸╸╸╸╸
-┃ *${rpg.emoticon('health')} » ${healt}* 
-┃ ${rpgg.emoticon('level')} *Nivel : Level » ${level}*
-┃ ${rpgg.emoticon('role')} *Rango : Role* 
-┃ *»* ${rol}
-┃ *${rpgg.emoticon('premium')} ${member.premium ? "✅ VIP : Premium": "Limitado : Free"}*
+┃ ${rpg.emoticon('health')} » ${healt} 
+┃ ${rpgg.emoticon('level')} Nivel » ${level}
+┃ ${rpgg.emoticon('role')} Rango
+┃ » ${rol}
+┃ _${rpgg.emoticon('premium')} ${member.premium ? "✅ VIP : Premium": "Limitado : Free"}_
 ┃ 🏦 *Banco : Bank » ${member.bank}*
 ┃ 💞 *Pareja : MyLove* 
 ┃ *» ${pasangan ? `${name} 💝 ${conn.getName(pareja)}` : `❌`}*

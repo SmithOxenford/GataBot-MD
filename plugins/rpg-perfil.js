@@ -20,22 +20,22 @@ let prem = global.prems.includes(who.split`@`[0])
 let sn = createHash('md5').update(who).digest('hex')
 let str =
 `┃ 𝐍𝐎𝐌𝐁𝐑𝐄 : 
-┃${name} ${user.registered === true ? '' : 'ᴳᴬᴬᴬ'}
+┃ ${name} ${user.registered === true ? '' : 'ᴳᴬᴬᴬ'}
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ┃ 𝐍𝐔́𝐌𝐄𝐑𝐎 : 
-┃${PhoneNumber('+' + who.replace('@s.whatsapp.net', '')).getNumber('international')}
+┃ ${PhoneNumber('+' + who.replace('@s.whatsapp.net', '')).getNumber('international')}
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ┃ 𝐄𝐍𝐋𝐀𝐂𝐄 : 
-┃wa.me/${who.split`@`[0]}${registered ?'\n┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈\n┃ 𝐄𝐃𝐀𝐃 ' + age + '' : '_Años_'}
+┃ wa.me/${who.split`@`[0]}${registered ?'\n┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈\n┃ 𝐄𝐃𝐀𝐃 ' + age + 'Años' : ''}
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ┃ 𝐋𝐈𝐌𝐈𝐓𝐄𝐒 : 
-┃_${limit} de usos_
+┃ ${limit} de usos
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ┃ 𝐑𝐄𝐆𝐈𝐒𝐓𝐑𝐀𝐃𝐎(𝐀) : 
-┃${registered ? '_Registrado_ ✅': '_No Registrado_ ❎'}
+┃ _${registered ? 'Registrado ✅': 'No Registrado ❎'}_
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ┃ 𝐏𝐑𝐄𝐌𝐈𝐔𝐌 : 
-┃${prem ? '_Si Premium_ ✅' : '_No Premium_ ❎'}
+┃ _${prem ? 'Si Premium ✅' : 'No Premium ❎'}_
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ┃ 𝐍𝐔́𝐌𝐄𝐑𝐎 𝐃𝐄 𝐒𝐄𝐑𝐈𝐄 :
 ┃ ${sn}`.trim()

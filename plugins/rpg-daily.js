@@ -47,10 +47,10 @@ let texto = ''
 for (let reward of Object.keys(recompensas)) {
     if (!(reward in user)) continue
     user[reward] += recompensas[reward]
-texto += `*+${recompensas[reward]}* ${global.rpgshop.emoticon(reward)}\n┃ `}
+texto += `*+${recompensas[reward]}* _${global.rpgshop.emoticon(reward)}_\n┃ `}
 let text = `╭━━🎁━🎁━🎁━━⬣
 ┃ ✨ 𝐎𝐁𝐓𝐈𝐄𝐍𝐄𝐒 𝐔𝐍 𝐑𝐄𝐆𝐀𝐋𝐎!
-┃ _${premium ? '🎟️ Recompensa Premium' : '🆓 Recompensa Gratis'}_
+┃ *_${premium ? '🎟️ Recompensa Premium' : '🆓 Recompensa Gratis'}_*
 ┃ _${texto}_
 ╰━━🎁━🎁━🎁━━⬣
 

@@ -30,18 +30,18 @@ const recompensas = {
 }
 
 let time = user.lasthourly + 3600000 //1 Hora //3600000
-if (new Date - user.lasthourly < 3600000) return await conn.reply(m.chat, `𝙔𝘼 𝙍𝙀𝘾𝙄𝘽𝙄𝙎𝙏𝙀 𝙏𝙐 𝙀𝙉𝙏𝙀𝙂𝘼 𝘿𝙀 𝘾𝘼𝘿𝘼 𝙃𝙊𝙍𝘼 ♻️\n𝙑𝙐𝙀𝙇𝙑𝙀 𝙀𝙉 *${msToTime(time - new Date())}* 𝙋𝘼𝙍𝘼 𝙍𝙀𝘾𝙄𝘽𝙄𝙍 𝙊𝙏𝙍𝘼 𝙀𝙉𝙏𝙍𝙀𝙂𝘼`, fkontak,  m)
+if (new Date - user.lasthourly < 3600000) return await conn.reply(m.chat, `𝚈𝙰 𝚁𝙴𝙲𝙸𝙱𝙸𝚂𝚃𝙴 𝚃𝚄 𝙴𝙽𝚃𝚁𝙴𝙶𝙰 𝙳𝙴 𝙲𝙰𝙳𝙰 𝙷𝙾𝚁𝙰 ♻️\n𝚅𝚄𝙴𝙻𝚅𝙴 𝙴𝙽 *${msToTime(time - new Date())}* 𝙿𝙰𝚁𝙰 𝚁𝙴𝙲𝙸𝙱𝙸𝚁 𝙾𝚃𝚁𝙰 𝙴𝙽𝚃𝚁𝙴𝙶𝙰`, fkontak,  m)
 //await conn.sendButton(m.chat, `𝙔𝘼 𝙍𝙀𝘾𝙄𝘽𝙄𝙎𝙏𝙀 𝙏𝙐 𝙀𝙉𝙏𝙀𝙂𝘼 𝘿𝙀 𝘾𝘼𝘿𝘼 𝙃𝙊𝙍𝘼 ♻️\n𝙑𝙐𝙀𝙇𝙑𝙀 𝙀𝙉 *${msToTime(time - new Date())}* 𝙋𝘼𝙍𝘼 𝙍𝙀𝘾𝙄𝘽𝙄𝙍 𝙊𝙏𝙍𝘼 𝙀𝙉𝙏𝙍𝙀𝙂𝘼\n\n𝙔𝙊𝙐 𝘼𝙇𝙍𝙀𝘼𝘿𝙔 𝙍𝙀𝘾𝙀𝙄𝙑𝙀𝘿 𝙔𝙊𝙐𝙍 𝙃𝙊𝙐𝙍𝙇𝙔 𝘿𝙀𝙇𝙄𝙑𝙀𝙍𝙔 ♻️\n𝘾𝙊𝙈𝙀 𝘽𝘼𝘾𝙆 𝙄𝙉 *${msToTime(time - new Date())}* 𝙏𝙊 𝙍𝙀𝘾𝙀𝙄𝙑𝙀 𝘼𝙉𝙊𝙏𝙃𝙀𝙍 𝘿𝙀𝙇𝙄𝙑𝙀𝙍𝙔`, wm, null, [['𝗠 𝗘 𝗡 𝗨 ☘️', '/menu']], fkontak, m)
 let texto = ''
 for (let reward of Object.keys(recompensas)) {
     if (!(reward in user)) continue
     user[reward] += recompensas[reward]
-texto += `*+${recompensas[reward]}* ${global.rpgshop.emoticon(reward)}\n┃ `}
+texto += `*+${recompensas[reward]}* _${global.rpgshop.emoticon(reward)}_\n┃ `}
 let text = `╭━━🕐━🕑━🕒━━⬣
-┃ ♻️ 𝙀𝙉𝙏𝙍𝙀𝙂𝘼 𝘾𝘼𝘿𝘼 𝙃𝙊𝙍𝘼!!
-┃ *${premium ? '🎟️ Recompensa Premium' : '🆓 Recompensa Gratis'}*
-┃ ${texto}
-╰━━🕕━🕔━🕓━━⬣\n\n🎟️ 𝗣 𝗥 𝗘 𝗠 𝗜 𝗨 𝗠 ⇢ ${premium ? '✅' : '❌'}\n${wm}`
+┃ ♻️ 𝐄𝐍𝐓𝐑𝐄𝐆𝐀 𝐀 𝐂𝐀𝐃𝐀 𝐇𝐎𝐑𝐀 ♻️
+┃ *_${premium ? '🎟️ Recompensa Premium' : '🆓 Recompensa Gratis'}_*
+┃ _${texto}_
+╰━━🕕━🕔━🕓━━⬣\n\n🎟️ 𝐏 𝐑 𝐄 𝐌 𝐈 𝐔 𝐌 ⇢ ${premium ? '✅' : '❌'}\n${wm}`
 await conn.sendFile(m.chat, gata, 'gata.jpg', text, fkontak)
 //await conn.sendButton(m.chat, text, texto + `\n\n🎟️ 𝗣 𝗥 𝗘 𝗠 𝗜 𝗨 𝗠 ⇢ ${premium ? '✅' : '❌'}\n${wm}`, img5, [['🎁 𝙍𝙀𝙂𝘼𝙇𝙊 | 𝘾𝙇𝘼𝙄𝙈 🎁', '/claim'], ['𝙑𝙤𝙡𝙫𝙚𝙧 𝙖𝙡 𝙈𝙚𝙣𝙪́ | 𝘽𝙖𝙘𝙠 𝙩𝙤 𝙈𝙚𝙣𝙪 ☘️', '/menu']], m, dos.getRandom())  
 user.lasthourly = new Date * 1
@@ -65,5 +65,5 @@ function msToTime(duration) {
   minutes = (minutes < 10) ? "0" + minutes : minutes
   seconds = (seconds < 10) ? "0" + seconds : seconds
 
-  return hours + " Horas " + minutes + " Minutos"
+  return hours + " Horas " + minutes + " Minutos "
 }

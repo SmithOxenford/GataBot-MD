@@ -601,25 +601,25 @@ await conn.reply(m.chat, `🍃 \`\`\`𝚅𝙴𝚁𝙸𝙵𝙸𝙲𝙰𝙲𝙸�
 ❱❱ ${sn}
 
 ✅ 𝐈𝐍𝐒𝐈𝐆𝐍𝐈𝐀 𝐃𝐄 𝐕𝐄𝐑𝐈𝐅𝐈𝐂𝐀𝐂𝐈𝐎𝐍 
-❱❱   *${user.registered === true ? 'ᴳᴬᴬᴬ' : ''}*
+❱❱ ${user.registered === true ? 'ᴳᴬᴬᴬ' : ''}
 
 ✨ 𝐍𝐎𝐌𝐁𝐑𝐄 
-❱❱ ${user.name}
+❱❱ _${user.name}_
 
 👀 𝐃𝐄𝐒𝐂𝐑𝐈𝐏𝐂𝐈𝐎𝐍
-❱❱ ${user.descripcion}
+❱❱ _${user.descripcion}_
 
 🔢 𝐄𝐃𝐀𝐃
-❱❱ ${user.age}
+❱❱ _${user.age}_
 
 ${user.registroC === true ? `☘️ 𝐆𝐄𝐍𝐄𝐑𝐎
 ❱❱ ${user.genero}
 
 🌱 𝐈𝐃𝐄𝐍𝐓𝐈𝐃𝐀𝐃 𝐃𝐄 𝐆𝐄𝐍𝐄𝐑𝐎
-❱❱ ${user.identidad}
+❱❱ _${user.identidad}_
 
 ❇️ 𝐏𝐀𝐒𝐀𝐓𝐈𝐄𝐌𝐏𝐎(𝐒)
-❱❱ ${user.pasatiempo}
+❱❱ _${user.pasatiempo}_
 
 ${user.premLimit === 1 ? '' : `🎟️ 𝙿𝚁𝙴𝙼𝙸𝚄𝙼
 ❱❱ ${user.premLimit === 1 ? '' : `${user.premiumTime > 0 ? '✅' : '❌'} +𝟹 𝙷𝙾𝚁𝙰𝚂 || ${user.premiumTime - now} ms`}`}   ` : ''}`, fkontak,  m)

@@ -5,7 +5,7 @@ let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status
 let grupos = [nna, nn, nnn, nnnt]
 let gata = [img5, img6, img7, img8, img9]
 let enlace = { contextInfo: { externalAdReply: {title: wm + ' 🐈', body: 'support group' , sourceUrl: grupos.getRandom(), thumbnail: await(await fetch(gata.getRandom())).buffer() }}}
-let enlace2 = { contextInfo: { externalAdReply: { showAdAttribution: true, mediaUrl: yt, mediaType: 'VIDEO', description: '', title: wm, body: '😻 𝗦𝘂𝗽𝗲𝗿 𝗠𝗮𝗸𝗮𝗻𝗮𝗸𝘆𝗕𝗼𝘁-𝗠𝗗 - 𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽 ', thumbnailUrl: await(await fetch(global.img)).buffer(), sourceUrl: yt }}}
+let enlace2 = { contextInfo: { externalAdReply: { showAdAttribution: true, mediaUrl: yt, mediaType: 'VIDEO', description: '', title: wm, body: '🤖 𝐒𝐔𝐏𝐄𝐑 𝐌𝐀𝐊𝐀𝐍𝐀𝐊𝐘 - 𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏 🤖', thumbnailUrl: await(await fetch(global.img)).buffer(), sourceUrl: yt }}}
 let dos = [enlace, enlace2]    
 
 let user = global.db.data.users[m.sender]
@@ -43,19 +43,19 @@ const recompensas = {
 }
 
 let time = user.halloween + 18000000 //18000000 5 horas
-if (new Date - user.halloween < 18000000) return await conn.sendButton(m.chat, `𝙔𝘼 𝙍𝙀𝘾𝙄𝘽𝙄𝙎𝙏𝙀 𝙏𝙐 𝙍𝙀𝘾𝙊𝙈𝙋𝙀𝙉𝙎𝘼 🎃`, wm + `\n\n𝙑𝙐𝙀𝙇𝙑𝙀 𝙀𝙉 :\n${clockString(time - new Date() * 1)}`, null, [['𝗠 𝗘 𝗡 𝗨 ☘️', '/menu']], fkontak, m)
+if (new Date - user.halloween < 18000000) return await conn.sendButton(m.chat, `𝚈𝙰 𝚁𝙴𝙲𝙸𝙱𝙸𝚂𝚃𝙴 𝚃𝚄 𝚁𝙴𝙲𝙾𝙼𝙿𝙴𝙽𝚂𝙰 🎃`, wm + `\n\n𝐕𝐔𝐄𝐋𝐕𝐄 𝐄𝐍 :\n${clockString(time - new Date() * 1)}`, null, [['𝗠 𝗘 𝗡 𝗨 ☘️', '/menu']], fkontak, m)
 let texto = ''
 for (let reward of Object.keys(recompensas)) {
     if (!(reward in user)) continue
     user[reward] += recompensas[reward]
-texto += `*+${recompensas[reward]}* ${global.rpgshop.emoticon(reward)}\n`}
+texto += `*+${recompensas[reward]}* _${global.rpgshop.emoticon(reward)}_\n`}
 let text = `
 ╭━━👻━🏰━🎃━━⬣
-┃ 🔮 𝙍𝙀𝘾𝙊𝙈𝙋𝙀𝙉𝙎𝘼 𝙎𝙀𝙈𝘼𝙉𝘼𝙇!!
-┃ *${premium ? '🎟️ Recompensa Premium' : '🆓 Recompensa Gratis'}*
+┃ 🔮 𝐑𝐄𝐂𝐎𝐌𝐏𝐄𝐍𝐒𝐀 𝐒𝐄𝐌𝐀𝐍𝐀𝐋 🔮
+┃ *_${premium ? '🎟️ Recompensa Premium' : '🆓 Recompensa Gratis'}_*
 ╰━━🕯️━🍬━🕸️━━⬣`
 
-await conn.sendButton(m.chat, text, texto + `\n\n🎟️ 𝗣 𝗥 𝗘 𝗠 𝗜 𝗨 𝗠 ⇢ ${premium ? '✅' : '❌'}\n${wm}`, gata.getRandom(), [['🌅 𝙀𝙉𝙏𝙍𝙀𝙂𝘼 𝘿𝙀𝙇 𝙈𝙀𝙎 🌠', '/monthly'], ['𝙑𝙤𝙡𝙫𝙚𝙧 𝙖𝙡 𝙈𝙚𝙣𝙪́ ☘️', '/menu']], m, enlace)  
+await conn.sendButton(m.chat, text, texto + `\n\n🎟️ 𝐏 𝐑 𝐄 𝐌 𝐈 𝐔 𝐌 ⇢ ${premium ? '✅' : '❌'}\n${wm}`, gata.getRandom(), [['🌅 𝙴𝙽𝚃𝚁𝙴𝙶𝙰 𝙳𝙴𝙻 𝙼𝙴𝚂 🌠', '/monthly'], ['𝙑𝙤𝙡𝙫𝙚𝙧 𝙖𝙡 𝙈𝙚𝙣𝙪́ ☘️', '/menu']], m, enlace)  
 user.halloween = new Date * 1
 }
 handler.command = ['halloween'] 
@@ -72,5 +72,5 @@ function clockString(ms) {
   let h = isNaN(ms) ? '--' : Math.floor(ms / 3600000) % 24
   let m = isNaN(ms) ? '--' : Math.floor(ms / 60000) % 60
   let s = isNaN(ms) ? '--' : Math.floor(ms / 1000) % 60
-  return ['┃⇢ ', ye, ' *🗓️ Años : Year*\n', '┃⇢ ', mo, ' *⛅ Mes : Month*\n', '┃⇢ ', d, ' *☀️ Días : Days*\n', '┃⇢ ', h, ' *⏰ Horas : Hours*\n', '┃⇢ ', m, ' *🕐 Minutos : Minutes*\n', '┃⇢ ', s, ' *⏱️ Segundos : Seconds*'].map(v => v.toString().padStart(2, 0)).join('')
+  return ['┃⇢ ', ye, ' 🗓️ 𝙰𝙽̃𝙾𝚂 \n', '┃⇢ ', mo, ' ⛅ 𝙼𝙴𝚂\n', '┃⇢ ', d, ' ☀️ 𝙳𝙸́𝙰𝚂\n', '┃⇢ ', h, ' ⏰ 𝙷𝙾𝚁𝙰𝚂\n', '┃⇢ ', m, ' 🕐 𝙼𝙸𝙽𝚄𝚃𝙾𝚂 \n', '┃⇢ ', s, ' ⏱️ 𝚂𝙴𝙶𝚄𝙽𝙳𝙾𝚂'].map(v => v.toString().padStart(2, 0)).join('')
 }
