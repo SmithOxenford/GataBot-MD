@@ -1,7 +1,5 @@
 import util from 'util'
 import path from 'path' 
-
-
 function handler(m, { groupMetadata, command, usedPrefix, conn }) {
    let user = a => '@' + a.split('@')[0] //'@' + a.split('@')[0]
    
@@ -240,7 +238,7 @@ _10.- ✨ ${user(j)}_ ✨`
 m.reply(top, null, { mentions: conn.parseMention(top) })}
    
 if (command == 'topput@s') {
-let top = `*_😏TOP L@S MAS PUT@S DEL GRUPO SON🔥_* 
+let top = `😏𝐓𝐎𝐏 𝐋@𝐒 𝐌𝐀𝐒 𝐏𝐔𝐓@𝐒 𝐃𝐄𝐋 𝐆𝐑𝐔𝐏𝐎 𝐒𝐎𝐍🔥 
     
 *_1.- 👉 ${user(a)}_* 👌
 *_2.- 👉 ${user(b)}_* 👌
