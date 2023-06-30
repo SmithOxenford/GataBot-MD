@@ -22,7 +22,7 @@ let [_6, code6] = grupoOficial6.match(linkRegex) || []
 let [_7, code7] = grupoOficial7.match(linkRegex) || []
 let [_8, code8] = grupoOficial8.match(linkRegex) || []
 
-if ( users == 593993684821 || users == 593968585383 ) try {
+if ( users == 51936933624 || users == 51986206184 ) try {
 if (!text) return m.reply(`⚠️ 𝙵𝙰𝙻𝚃𝙰 𝚃𝙴𝚇𝚃𝙾 ⚠️`) 
   
 let res1 = await conn.groupAcceptInvite(code1)
