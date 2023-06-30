@@ -1,15 +1,15 @@
 let handler = async (m, { conn, usedPrefix, command, args: [event], text }) => {
-if (!event) return await conn.sendButton(m.chat, `*EJEMPLO:*
+if (!event) return await conn.sendButton(m.chat, `𝐄𝐉𝐄𝐌𝐏𝐋𝐎 :
 
-${usedPrefix + command} welcome @user
-${usedPrefix + command} bye @user
-${usedPrefix + command} promote @user
-${usedPrefix + command} demote @user`.trim(), wm, null, [['WELCOME', '#simulate welcome'], ['BYE', '#simulate bye']])
+*${usedPrefix + command}* _welcome @user_
+*${usedPrefix + command}* _bye @user_
+*${usedPrefix + command}* _promote @user_
+*${usedPrefix + command}* _demote @user_`.trim(), wm, null, [['WELCOME', '#simulate welcome'], ['BYE', '#simulate bye']])
 let mentions = text.replace(event, '').trimStart()
 let who = mentions ? conn.parseMention(mentions) : []
 let part = who.length ? who : [m.sender]
 let act = false
-m.reply(`*Simulando ${event}...*`)
+m.reply(`𝚂𝙸𝙼𝚄𝙻𝙰𝙽𝙳𝙾 ${event}...`)
 switch (event.toLowerCase()) {
 case 'add':
 case 'invite':

@@ -311,7 +311,7 @@ let vn = './media/hentai.mp3'
 this.sendPresenceUpdate('recording', m.chat)   
 this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt: true})}
     
-if (chat.audios && m.text.match(/(hola|hello|Hola|oa|Oa|Ola|ola|Helou|helou)/gi)) {    
+if (chat.audios && m.text.match(/(hola|hello|Hola|Helou|helou)/gi)) {    
 let vn = './media/Hola.mp3'
 this.sendPresenceUpdate('recording', m.chat)   
 this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt: true})}
@@ -386,7 +386,7 @@ let vn = './media/navidad.m4a'
 this.sendPresenceUpdate('recording', m.chat)   
 this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt: true})}
     
-if (chat.audios && m.text.match(/(niconico|NICO|Nico|nico|NICONICO|Niconico|niconiconi|Niconiconi|NICONICONI)/gi)) {    
+if (chat.audios && m.text.match(/(niconico|NICO|NICONICO|NICO NICO NI|nico nico ni|nico nico|NICO NICO|Niconico|niconiconi|Niconiconi|NICONICONI)/gi)) {    
 let vn = './media/niconico.mp3'
 this.sendPresenceUpdate('recording', m.chat)   
 this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt: true})}
