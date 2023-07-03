@@ -12,5 +12,5 @@ ptt: true
 })
 }
 handler.customPrefix = /OA|Oa|oa|Ola|Oa|ola/
-handler.command = /^(oa|OA|Ola|Oa|ola?$)/
+handler.command = /^(OA|Oa|oa|Ola|Oa|ola?$)/
 export default handler
