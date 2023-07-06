@@ -16,12 +16,12 @@ import { Configuration, OpenAIApi } from 'openai'
 const configuration = new Configuration({ organization: global.openai_org_id, apiKey: global.openai_key });
 const openaiii = new OpenAIApi(configuration);
 let handler = async (m, { conn, text, usedPrefix, command }) => {
-if (!text) throw `*${lenguajeGB['smsAvisoMG']()}𝙸𝙽𝙶𝚁𝙴𝚂𝙴 𝚄𝙽𝙰 𝙿𝙴𝚃𝙸𝙲𝙸𝙾𝙽 𝙾 𝚄𝙽𝙰 𝙾𝚁𝙳𝙴𝙽 𝙿𝙰𝚁𝙰 𝚄𝚂𝙰𝚁 𝙻𝙰 𝙵𝚄𝙽𝙲𝙸𝙾𝙽 𝙳𝙴𝙻 𝙲𝙷𝙰𝚃𝙶𝙿𝚃 🤗\n\n❏ 𝙴𝙹𝙴𝙼𝙿𝙻𝙾 𝙳𝙴 𝙿𝙴𝚃𝙸𝙲𝙸𝙾𝙽𝙴𝚂 𝚈 𝙾𝚁𝙳𝙴𝙽𝙴𝚂 :\n❏ ${usedPrefix + command} Recomienda un top 10 de películas de acción\n❏ ${usedPrefix + command} Codigo en JS para un juego de cartas`    
+if (!text) throw `*${lenguajeGB['smsAvisoMG']()}𝙸𝙽𝙶𝚁𝙴𝚂𝙴 𝚄𝙽𝙰 𝙿𝙴𝚃𝙸𝙲𝙸𝙾𝙽 𝙾 𝚄𝙽𝙰 𝙾𝚁𝙳𝙴𝙽 𝙿𝙰𝚁𝙰 𝚄𝚂𝙰𝚁 𝙻𝙰 𝙵𝚄𝙽𝙲𝙸𝙾𝙽 𝙳𝙴𝙻 𝙲𝙷𝙰𝚃𝙶𝙿𝚃 🤗\n\n❏ 𝙴𝙹𝙴𝙼𝙿𝙻𝙾 𝙳𝙴 𝙿𝙴𝚃𝙸𝙲𝙸𝙾𝙽𝙴𝚂 𝚈 𝙾𝚁𝙳𝙴𝙽𝙴𝚂 :\n❏ *${usedPrefix + command}* _Recomienda un top 10 de películas de acción_\n❏ *${usedPrefix + command}* _Codigo en JS para un juego de cartas_`    
 try {
 await conn.sendPresenceUpdate('composing', m.chat)
 let chgptdb = global.chatgpt.data.users[m.sender];
 chgptdb.push({ role: 'user', content: text });
-const config = { method: 'post', url: 'https://api.openai.com/v1/chat/completions', headers: { 'Content-Type': 'application/json', 'Authorization': 'Bearer ' + global.openai_key }, data: JSON.stringify({ 'model': 'gpt-3.5-turbo', 'messages': [{ role: 'system', content: 'Bot de WhatsApp el cual fue creado por Adriano Sánchez, tu seras MakanakyBot-MD' }, ...chgptdb ]})}
+const config = { method: 'post', url: 'https://api.openai.com/v1/chat/completions', headers: { 'Content-Type': 'application/json', 'Authorization': 'Bearer ' + global.openai_key }, data: JSON.stringify({ 'model': 'gpt-3.5-turbo', 'messages': [{ role: 'system', content: 'Bot de WhatsApp el cual fue creado por Adriano, tu seras MakanakyBot-MD' }, ...chgptdb ]})}
 let response = await axios(config);
 chgptdb.push({ role: 'assistant', content: response.data.choices[0].message.content }) 
 m.reply(response.data.choices[0].message.content)
