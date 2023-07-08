@@ -1,45 +1,53 @@
 let handler = async (m, { conn, text, usedPrefix, command }) => {
-  let time = global.db.data.users[m.sender].lastrob + 7200000;
-  if (new Date() - global.db.data.users[m.sender].lastrob < 7200000)
-    throw `⏱️ 𝙴𝚂𝙿𝙴𝚁𝙰 ${msToTime(time - new Date())}\n 𝙽𝙾 𝚄𝚂𝙴𝚂 𝙴𝚂𝚃𝙴 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 𝚃𝙰𝙽 𝚁𝙰𝙿𝙸𝙳𝙾`;
-
-  let [pesan, jumlah] = text.split('|');
-  if (!pesan)
-    throw `❌ 𝙳𝙴𝙱𝙴𝚂 𝙿𝚁𝙾𝙿𝙾𝚁𝙲𝙸𝙾𝙽𝙰𝚁 𝙴𝙻 𝙼𝙴𝙽𝚂𝙰𝙹𝙴 𝚀𝚄𝙴 𝙳𝙴𝚂𝙴𝙰𝚂 𝙴𝙽𝚅𝙸𝙰𝚁 𝙰 𝙻𝙾𝚂 𝙶𝚁𝚄𝙿𝙾𝚂\n\n𝐄𝐉𝐄𝐌𝐏𝐋𝐎: *${usedPrefix + command}* _mensaje|cantidad_`;
-
-  if (jumlah && isNaN(jumlah))
-    throw `𝙻𝙰 𝙲𝙰𝙽𝚃𝙸𝙳𝙰𝙳 𝙿𝚁𝙾𝙿𝙾𝚁𝙲𝙸𝙾𝙽𝙰𝙳𝙰 𝙽𝙾 𝙴𝚂 𝚅𝙰́𝙻𝙸𝙳𝙰. 𝙰𝚂𝙴𝙶𝚄́𝚁𝙰𝚃𝙴 𝙳𝙴 𝚄𝚂𝙰𝚁 𝚄𝙽 𝙽𝚄́𝙼𝙴𝚁𝙾.\n\n𝐄𝐉𝐄𝐌𝐏𝐋𝐎: *${usedPrefix + command}* _mensaje|cantidad_`;
-
-  let fixedJumlah = jumlah ? jumlah * 1 : 10;
-  if (fixedJumlah > 10)
-    throw `𝙽𝙾 𝙿𝚄𝙴𝙳𝙴𝚂 𝙴𝙽𝚅𝙸𝙰𝚁 𝙼𝙰́𝚂 𝙳𝙴 𝟷0 𝙼𝙴𝙽𝚂𝙰𝙹𝙴𝚂 𝙰 𝙻𝙰 𝚅𝙴𝚉.`;
-
-  let groups = await conn.groupList();
-  await m.reply(`📢 𝙴𝙽𝚅𝙸𝙰𝙽𝙳𝙾 𝙴𝙻 𝙼𝙴𝙽𝚂𝙰𝙹𝙴 𝙰 ${fixedJumlah} 𝙶𝚁𝚄𝙿𝙾𝚂...`);
-  for (let i = 0; i < fixedJumlah; i++) {
-    if (groups[i]) {
-      await delay(1000); // Retraso de 1 segundo entre cada mensaje para evitar bloqueos
-      await conn.sendMessage(groups[i].jid, pesan.trim(), MessageType.text);
-    }
+  if (!m.isGroup) throw 'Este comando solo puede ser ejecutado en grupos.'
+  
+  let time = global.db.data.users[m.sender].lastrob + 7200000
+  if (new Date - global.db.data.users[m.sender].lastrob < 7200000) throw `⏱️ ESPERA ${msToTime(time - new Date())}\n NO PUEDES USAR EL COMANDO HASTA DENTRO DE ${msToTime(7200000)}`
+  
+  let [pesan, jumlah] = text.split('|')
+  if (!pesan) throw `INGRESA EL TEXTO QUE DESEAS SPAMEAR 😁\n❊ *${usedPrefix + command}* _texto | cantidad_\nEJEMPLO:\n❊ *${usedPrefix + command}* _Hola a todos|35_`
+  
+  if (jumlah && isNaN(jumlah)) throw `EL NÚMERO DE MENSAJES DEBE SER UN NÚMERO ENTERO\n❊ *${usedPrefix + command}* _texto | cantidad_\nEJEMPLO:\n❊ *${usedPrefix + command}* _Hola a todos|35_`
+  
+  await delay(10000)
+  let groupList = await conn.getAllGroups()
+  let fixedJumlah = jumlah ? jumlah * 1 : 10
+  if (fixedJumlah > 10) throw `${fg} MÁXIMO 10 MENSAJES POR SPAM 😁`
+  
+  await delay(10000)
+  await m.reply(`${eg}INICIANDO SPAM EN *${groupList.length}* GRUPOS`)
+  await delay(10000)
+  
+  for (let group of groupList) {
+    await delay(10000)
+    if (group.id !== 0) conn.sendMessage(group.id, pesan.trim(), 'chat')
   }
-
-  global.db.data.users[m.sender].lastrob = new Date();
+  
+  global.db.data.users[m.sender].lastrob = new Date() * 1
 }
 
-handler.help = ['spamgrupos <mensaje>|<cantidad>'];
-handler.tags = ['General'];
-handler.command = /^spam(grupos)?$/i;
-handler.group = false;
-handler.premium = false;
-handler.register = true;
-handler.level = 16;
-handler.limit = 60;
+handler.help = ['spamgrupos <texto>|<cantidad>']
+handler.tags = ['General']
+handler.command = /^spam(grupos)?$/i
+handler.group = false
+handler.premium = false
+handler.register = true
+handler.level = 16
+handler.limit = 60
 
-export default handler;
+export default handler
 
-const delay = time => new Promise(res => setTimeout(res, time));
+const delay = time => new Promise(res => setTimeout(res, time))
 
 function msToTime(duration) {
-  // Código para convertir milisegundos a formato de tiempo legible
-  // ...
+  var milliseconds = parseInt((duration % 1000) / 100),
+      seconds = Math.floor((duration / 1000) % 60),
+      minutes = Math.floor((duration / (1000 * 60)) % 60),
+      hours = Math.floor((duration / (1000 * 60 * 60)) % 24)
+  
+  hours = (hours < 10) ? "0" + hours : hours
+  minutes = (minutes < 10) ? "0" + minutes : minutes
+  seconds = (seconds < 10) ? "0" + seconds : seconds
+  
+  return hours + " Hora(s) " + minutes + " Minuto(s) " + seconds + " Segundo(s)"
 }
